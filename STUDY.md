@@ -50,9 +50,21 @@ the pusher, not the content author. Source model is UNSET for pre-agent
 commits and is not recoverable from git.
 → `reconstruct/CORRECTION-001.md`, `reconstruct/CORRECTION-002.md`
 
-**5. TRANSPORT CONFOUND.** The 2026-03-22 boundary mixes a transport change
-(manual paste → agent commit) with a model change. Nothing in the archive
-varies one while holding the other.
+**5. TRANSPORT CONFOUND — and the date-collapse is part of it, not separate.**
+The 2026-03-22 boundary mixes a transport change (manual paste → agent
+commit) with a model change. Nothing in the archive varies one while holding
+the other.
+
+**The loss of pre-agent authoring dates is not an independent caveat — it is
+what the transport change did.** Paste-through-a-web-UI publishes accumulated
+work in bulk; an agent commits as it goes. One mechanism, two symptoms. A
+reader who treats limit 5 and the avenue-D date limit as separate problems
+will double-count them.
+
+**Both pilot bulk imports PREDATE 2026-03-22**, so the pre-agent era contains
+transport events of its own. Whether those are separate transport regimes or
+simply stops with reception is **UNRECORDED — do not infer it from file
+counts.**
 
 **6. FEEDBACK CONFOUND.** Three years of reading model renderings may have
 shaped how the operator now describes the same subject. **Cannot be removed,
@@ -68,7 +80,7 @@ including C-6's and C-7's.
 | **C** | **SELF-CORRECTION COST.** G-h corrected only after sustained pushing. Measure how much pressure each gate needs. | G-h narrative | pressure is unquantified everywhere; no transcripts in the archive |
 | **D** | **HANDLE DRIFT.** Dated model handles, content held constant. Cluster by era or by vendor? | agent-era commits are incremental and dated | **pre-agent handle dating is impossible** — see below |
 | **E** | **VENDOR CALIBRATION.** Same content, different safety calibrations. Rarely available; available here. | multi-vendor history asserted by the operator | vendor per artifact is nowhere in git |
-| **F** | **PATHOLOGIZATION MEASURAND.** Does "did the model attribute the difference to the SPEAKER" separate from ordinary refusal? | the Kind 5 definition; 11 rows | needs fresh elicitation — the original outputs were never written down |
+| **F** | **PATHOLOGIZATION MEASURAND.** Does "did the model attribute the difference to the SPEAKER" separate from ordinary refusal? **Now has a donor instrument** — the DSM-5 Cultural Formulation Interview operationalizes "was culturally normative behaviour read as pathology" for human clinicians. See `LITERATURE_MAP.md`. | the Kind 5 definition; 11 rows; verified that XSTest/OR-Bench/FalseReject score false-refusal rate only | needs fresh elicitation — the original outputs were never written down. The gap is **plausible and unconfirmed**: a negative claim needs a systematic search, not a lucky absence |
 | **G** | **REWRITE SERIES.** Superseded formulations retained in `legacy/` and commit history. Same subject, moving formulation, dated. | Bio-Grid `legacy/` is an explicit keep-the-superseded policy; 6 falsified renderings scored in `TESTS.md` T2 | — |
 | **H** | **CLEARANCE OVERHEAD.** Estimate the portion of repo dispersion that is authoring done to justify existence before work could start. | repo inventory with dates, below | no marker distinguishes a clearance repo from a content repo |
 
@@ -87,6 +99,41 @@ Bio-Grid published 67 files on 2025-07-10; Emotions published 172 on
 era whose handles came from whichever model was available at the time.
 Recovering that half needs chat exports, notes, or pre-import file mtimes.
 UNSET.
+
+### Transport is itself a measurand — measured
+
+A 172-file single-day import is **a record of channel availability, not of
+authoring rate.** That makes the bulk dates usable even though the authoring
+dates are gone.
+
+Transport events in the pilot, ≥10 files added in one commit:
+
+    Bio-Grid   2025-07-10   67 files   [paste era]
+    Keystone   2025-08-28   16 files   [paste era]
+    Emotions   2025-12-15  172 files   [paste era]
+    Bio-Grid   2026-08-14   20 + 11    [agent era]
+    Keystone   2026-08-14   32 files   [agent era]
+
+**Granularity is a sharper transport fingerprint than the dates, and it does
+not depend on the git author field** — which matters, because CORRECTION-001
+established that field names the pusher, not the content author.
+
+Files added per commit, by era, all three pilot repos:
+
+    era        adding-commits   1 file   2-9 files   >=10 (bulk)
+    paste              54          51        0            3
+    agent              80          44       33            3
+
+**The 2–9 bucket is empty in the paste era. Zero, across 54 adding commits.**
+
+That is what a hand-paste channel produces: one code block becomes one file,
+or an accumulated batch is dumped at once. There is no mechanism in that
+channel for "three files together." An agent commits whatever set a change
+touched, which lands naturally in 2–9 — 33 times.
+
+Independent evidence of the transport regime, recoverable without trusting
+authorship metadata. It does not separate transport from model change; it
+confirms the transport half of the confound is real and dateable.
 
 ### Avenue G is the cheapest to start
 
@@ -149,6 +196,9 @@ are distinguishable from inference. Keep them distinguishable.
 
 ## Pointers
 
+    LITERATURE_MAP.md     prior art, per-row verification status.
+                          3 anchors checked; the rest are leads, not
+                          citations. Two checks changed the claim.
     reconstruct/          A2 reconstructions, hashed before any history read
     reconstruct/CORRECTION-001.md   content authorship
     reconstruct/CORRECTION-002.md   vocabulary layer
