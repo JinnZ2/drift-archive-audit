@@ -358,6 +358,12 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    COUPLING.md           attribute frame vs coupling frame, scored by
+                          ARITY. Every term here for a PARTY is arity-1;
+                          every term for a MEASUREMENT is arity-2+. The
+                          residual keeps landing where the word cannot
+                          hold it. Carries one UNSET question for the
+                          operator.
     PHYSICS-GROUND.md     is physics-as-terminal-ground a cultural
                           artifact or a post-hoc selection? Tested; does
                           not cleanly separate. Post-hoc INVENTION
