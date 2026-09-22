@@ -70,7 +70,9 @@ closes that.
 | `"18436"` | 4 hits — CSVs, `seed_output_pairs.json`, `metrics.json` | same. RATED. |
 | `"7029"` | 17 hits — CSVs, equation files, sims | same. RATED. |
 | `olfactometry` | 0 | RATED by control 1 (word class). **Absent.** |
-| `audiogram` / `audiometric` / `psychophysics` | **query was an OR chain** | **DISCARDED, not reported.** OR chains silently fail here — that is how instance 5 was found. **NOT YET RUN.** |
+| `audiogram` | 1 — a municipal-law case study | incidental. RATED absent as a thread. |
+| `audiometric` · `audiometry` | 0 | RATED absent (word-class control: `vibrotactile`, `psychophysics`). |
+| **`psychophysics`** | **9 — `tool-off-metrology` ×3, `Simulators` ×6** | **PRESENT. Not absent. See below.** |
 
 **A subtlety worth keeping:** for the numeric terms, the searches *returned
 hits*. Coincidental ones, but hits — which **proves the string was
@@ -78,10 +80,59 @@ findable.** Those negatives were never uncontrolled; they were
 **positive-for-string, negative-for-context.** Only `olfactometry` was a true
 zero needing an external control.
 
-### TT-4 verdict
+### TT-4 verdict — REVISED after running the corrected queries
 
-**The standards thread is absent account-wide** — rated, for every term
-actually run. Three verified-to-search-level findings (EN 13725 as existence
+**The ISO/EN STANDARDS thread is absent account-wide.** That part stands.
+
+**But the PROBLEM those standards address is already worked in the corpus,
+in different vocabulary**, and running `psychophysics` as a single term
+instead of inside a broken OR chain is what surfaced it:
+
+    tool-off-metrology/unnamed-instruments.md:110-113
+
+      "trained perceptual capacity documented ethnographically but never
+       run through a psychophysics instrument -- so it has no 'threshold'
+       number, AND THE ABSENCE READS AS IMPOSSIBILITY."
+
+**That is the missing cell, named, in a repo already cloned.** And the last
+clause is `ABSENCE.md`'s mechanism — absence indistinguishable from
+never-having-happened — applied to trained perceptual capacity, arrived at
+independently.
+
+    tool-off-metrology/experiments.md:286
+
+      "The psychophysics is settled. What is missing is the skill, and the
+       gap-log question underneath it: IS THERE ANY INSTRUMENT THAT SAYS
+       WHO HAS LOST THIS CHANNEL BEFORE THE WORK GOES WRONG?"
+
+**That is the second-order question** — detect channel loss *before*
+failure — which is the exemption / positive-control structure from
+`COUPLING.md`, posed in the corpus before this session derived it.
+
+### And that is another surface-token instance — mine
+
+    I searched for the STANDARDS VOCABULARY (EN 13725, ISO 13091, ISO
+    18436, olfactometry) and reported the cell empty.
+
+    the PROBLEM was present the whole time, in the operator's vocabulary,
+    in a repo on disk.
+
+**Caught by `psychophysics` returning 9 where the OR chain returned 0** — a
+quantity, again, and only because the broken query had to be re-run for an
+unrelated reason.
+
+**Revised status of the "missing cell":**
+
+    no ISO/EN standard for the human vibratory channel as machine-condition
+    instrument                                      PLAUSIBLE, UNCONFIRMED
+
+    nobody has worked the problem                   FALSE. Withdrawn.
+                                                    It is worked in
+                                                    tool-off-metrology.
+
+    the two have never met                          the disciplinary seam,
+                                                    now with both sides
+                                                    located Three verified-to-search-level findings (EN 13725 as existence
 proof, the three-mode taxonomy, ISO 13091's receptor-class decomposition)
 exist only in the transcript and in `CALIBRATION.md`.
 

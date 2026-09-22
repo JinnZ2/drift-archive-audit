@@ -29,6 +29,31 @@ formulations, `gate_log.md`, `SPEAKER_GATES.md`.
 for observation.** That is its main methodological value and cannot be
 reconstructed after the fact.
 
+## THE BINDING CONSTRAINT — declared, not rediscovered
+
+**Five independent tasks in this programme have terminated on the same
+requirement.** That is a magnitude, not five blockers.
+
+    F4 instrument vs channel      needs a party who holds the sense
+    cache-dependency sweep        needs a cold reader
+    unasserted load               needs premise reconstruction by another
+    arm 3 registration            needs a registrar holding the speaker's
+                                  sense
+    error-count interpretation    needs an outside party to find what was
+                                  missed
+
+**The programme's binding constraint is not access, compute, or corpus
+reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
+
+Stated here as a **declared constraint** so it is not discovered a sixth
+time. Any avenue below that bottoms out on annotation, sense-holding or
+cold reading is hitting this, and should be marked as such rather than
+written up as a fresh limitation.
+
+**Corollary, and it is uncomfortable:** every remedy this work order
+proposes for an inside-party defect routes through the same scarce
+resource. Compute and access are abundant here; the constraint is not.
+
 ## SCOPE LIMITS — read before any row
 
 **1. SELECTED SENDER.** One sender, able to operate both frames: non-WEIRD

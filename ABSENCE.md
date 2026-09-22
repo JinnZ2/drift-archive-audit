@@ -120,6 +120,36 @@ absence it is testing for.
 
 ---
 
+## A NEIGHBOURING MECHANISM, kept separate — DISCARDED, not never-recorded
+
+`JinnZ2/Noise-as-Information-Sensor` (root 2025-07-16, pre-agent era):
+
+> Traditional instrumentation treats fluctuation as something to be
+> **filtered out**. This project asks what is in the part that gets
+> **discarded**.
+
+**This is the inverse of the register above, and must not be merged into
+it.**
+
+    THIS REGISTER    the trace was NEVER CREATED. Nothing to recover.
+    DISCARDING       the trace EXISTED and was classified as non-signal.
+                     Recoverable in principle -- if the filter is moved.
+
+Both produce an absence in the record. **Only one is irreversible.** A
+register that merges them would report a recoverable loss as a permanent
+one, which is the more consequential error of the two.
+
+### And that repo instantiates the error-count reframe independently
+
+> *"Of 12 documented claims tested in round 1, **one survived**. The
+> failures are recorded there rather than quietly patched, and several are
+> still live."*
+
+**1 of 12, retained, not patched.** That is the second-order channel
+running — the failures are the readings, not a verdict on the instrument —
+and it is dated to a pre-agent-era repo. See `COUPLING.md`, *the error
+count is not a report card.*
+
 ## WHAT THE REGISTER IS FOR
 
 These four are not four caveats. **They are one hole, and it is the hole
