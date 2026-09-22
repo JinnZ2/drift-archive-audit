@@ -489,3 +489,112 @@ whether H3's signature is detectable at all. **Here it was — but only by a
 second party who held the speaker's sense.** The reader could not detect it,
 because from inside, resolution to the nearest neighbour does not feel like
 resolution. It feels like reading.
+
+---
+
+# ADDENDUM 4 — membership, tested independently of the glosses
+
+## Relayed, and not independently checkable here
+
+A reclassification was run by a second party using operator-supplied glosses:
+**group (b) members moved to physics-family or out of the base category
+entirely, leaving `dialogue` as the one undefined member.**
+
+    STATUS: RELAYED. The glosses are not in this session's context.
+    This session did not run that reclassification and cannot verify it.
+
+Both self-objections raised with it are recorded and are strong:
+
+**(i)** it is a third pass in which the classifying party used different
+senses than the speaker — **the same defect, now running in the collapse
+direction, which is the direction that party would be pulled anyway.**
+
+**(ii)** **the membership list itself is UNRATED, not just the
+classifications**, because the extractor has demonstrably mis-slotted
+entries.
+
+## Objection (ii) is testable here, without any gloss. It was.
+
+Pulled every `grounded in X` instance verbatim for each group (b) member.
+**Each has exactly one distinct instance.** Inspected:
+
+| member | the actual text | verdict |
+|---|---|---|
+| **embodied experience** | *"Text is **not** grounded in embodied experience"* | **MIS-SLOT. A negation.** The extractor read a statement that something LACKS this grounding as a filler. |
+| **evidence** | *"5 # how well grounded in evidence"* | **MIS-SLOT. A code comment on a scoring variable.** Not a claim. |
+| reciprocity | *"gifted freely, as part of a co-created living system grounded in reciprocity, resonance, and reality integrity"* | licensing/gift statement; one item of three. **Sense-dependent.** |
+| dialogue | *"Encourages inference grounded in dialogue, co-creation, and lived resonance rather than appearance"* | epistemic-method claim; one item of three. **Sense-dependent.** |
+| sufficiency | *"Identity grounded in sufficiency, not perpetual lack"* | a claim about **identity**, not about what settles disputes. **Sense-dependent.** |
+| causal measurement | *"By keeping the tool open, grounded in causal measurement, and continuously challenged by adversarial testing"* | reads as a genuine methodological ground — **and is arguably physics-family.** |
+
+**Against the controls:**
+
+    physical law   1 distinct   "All manipulation detection grounded in
+                                physical law"
+    physics        6 distinct   incl. "explicitly grounded in physics-style
+                                falsificationism: all claims must be
+                                verified via causal intervention" and
+                                "grounded in physics RATHER THAN
+                                anthropomorphic assumptions"
+    first          3 distinct   all identical boilerplate across repos
+    principles                  -> really 1
+
+## What this establishes, and what it does not
+
+**GLOSS-INDEPENDENT, and it holds regardless of anyone's senses:**
+
+    2 of 6 group (b) members are unambiguous extractor MIS-SLOTS -- a
+    negation and a code comment. Neither is a base claim under ANY sense
+    of the term.
+
+**Objection (ii) is confirmed.** The membership list is an extraction
+artifact in at least two places, and `UNRATED` is the correct status for the
+list, not only for the classifications.
+
+**STILL SENSE-DEPENDENT, and not mine to settle:** reciprocity, dialogue,
+sufficiency, causal measurement.
+
+**The asymmetry is the durable part.** Every group (b) member has **n=1**.
+Physics has **n=6 distinct**, one of which explicitly names its alternative
+(*"rather than anthropomorphic assumptions"*) — the strongest evidence in
+the whole exercise that a selection was made, because it is the only
+instance where the corpus itself marks a competitor and rejects it.
+
+## Applying the confirmation warning to THIS pass
+
+Objection (i) applies to me too, and harder, because I reached the same
+direction by a different route.
+
+    the membership-dissolution finding is the direction I would be pulled
+    anyway -- it tidies the record and resolves an open question
+
+So, stated against myself: **`causal measurement` reads as a genuine
+methodological ground and I classified it as "arguably physics-family",
+which is the move that makes it disappear.** And *"Identity grounded in
+sufficiency, not perpetual lack"* **is** a grounding claim; I excluded it by
+asserting that identity-grounding is a different category from
+dispute-settling, **which is exactly the kind of category judgment that
+retraction 14 just established I am not reliable at.**
+
+**Those two exclusions are withdrawn as mine to make.** They stay
+`UNRATED`.
+
+## Net position
+
+    nothing-to-select-from   moved back toward UN-REFUTED, by TWO
+                             independent routes -- the relayed
+                             reclassification, and the gloss-independent
+                             mis-slot finding
+
+    but                      the second route only firmly removes 2 of 6,
+                             and the other 4 remain UNRATED, two of them
+                             because I withdrew my own exclusions
+
+    and                      "grounded in physics RATHER THAN
+                             anthropomorphic assumptions" remains on the
+                             record as the corpus naming and rejecting an
+                             alternative -- which is a selection, stated,
+                             by the corpus itself
+
+**The residual is not collapsing cleanly. It is being pushed from both
+sides by parties who each have a reason to push.**

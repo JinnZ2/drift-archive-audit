@@ -314,5 +314,17 @@ one that argues for handing scoring outward.
     did not catch** — consistent with `PREDICTION-quantity.md`, and again
     not a test of it.
 
+15. **Two exclusions withdrawn as mine to make.** In testing group (b)
+    membership I classified `causal measurement` as "arguably
+    physics-family" and excluded `sufficiency` on the grounds that
+    identity-grounding is a different category from dispute-settling.
+    **Both are category judgments of exactly the kind retraction 14
+    established I am not reliable at**, and both run in the direction that
+    tidies the record. Withdrawn; both stay `UNRATED`.
+
+    The gloss-independent part of that pass stands: `embodied experience`
+    (a negation) and `evidence` (a code comment) are unambiguous extractor
+    mis-slots under any sense of the terms.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
