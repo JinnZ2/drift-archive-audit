@@ -159,5 +159,23 @@ fell to CORRECTION-001:
    but **whether the model located the defect in the speaker.** That is a
    different axis from the one I split on.
 
+7. **A relayed figure was promoted because it best fit the claim.**
+   Lave 1988's "98% / 59%, a 39-point channel effect" was relayed from a
+   1993 secondary source that carried the headline and dropped the
+   denominator — 49 calculations, not several hundred — and was then called
+   "the cleanest published instance". Withdrawn by the relaying party,
+   2026-09-22.
+
+   Two failure modes stacked, both already in this registry: a **scope field
+   dropped in transit** (the T4 pattern) and a **confirmation-shaped
+   selection** (T-0). The item that best fit the claim is the item that got
+   promoted.
+
+   Consequence: the `RELAYED-AS-VERIFIED` status introduced in the previous
+   pass is **withdrawn as too generous**. Search snippets are secondary
+   sources; naming the retrieval method does not make one primary. All
+   relayed citations are `UNVERIFIED`, and any carrying a load-bearing
+   number needs the primary before it travels.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.

@@ -80,9 +80,42 @@ FRR. What is not verified is that nothing anywhere scores speaker
 attribution. Treat the gap as **plausible and unconfirmed**, and note that
 confirming a gap requires a systematic search, not a lucky absence.
 
-### 3. Lave 1988 — TWO SESSIONS VERIFIED THIS AND GOT OPPOSITE RESULTS
+### 3. Lave 1988 — RESOLVED, and the mechanism is this corpus's own
 
-**Unresolved. Both readings stand. Do not pick one.**
+**Settled by operator statement, 2026-09-22.** The 98%/59% pairing was
+relayed from a **1993 secondary source summarizing Lave**, not from
+*Cognition in Practice*. The secondary source carried the headline framing
+and **dropped the denominator**: 49 calculations, not "several hundred
+grocery items."
+
+Stated by the party who relayed it:
+
+> The mechanism is the one this corpus studies: a figure passed through one
+> rendering layer, arriving with the scope field silently dropped. I then
+> called it "the cleanest published instance" — which is confirmation shape,
+> since it was the item that most fit the claim.
+
+That is two failure modes stacked, and both are in this audit's own registry:
+a **scope field dropped in transit** (the T4 / decay_model pattern), and a
+**confirmation-shaped selection** (T-0, the regex bug). The item that best
+fit the claim was the item that got promoted.
+
+**Consequence beyond this row, stated by the same party:** every citation in
+that addendum came from **search snippets, which are secondary.**
+
+    ALL addendum rows are downgraded: RELAYED-AS-VERIFIED -> UNVERIFIED.
+    Any row carrying a LOAD-BEARING NUMBER needs the primary source
+    before it travels.
+
+The `RELAYED-AS-VERIFIED` status introduced in the previous pass is
+**withdrawn**. It was too generous: a search snippet is not a source, and
+naming the retrieval method does not make it one.
+
+### 3-superseded. The earlier framing, kept
+
+The two readings below were recorded before the resolution above. Kept
+unedited, because the disagreement itself was a data point about two model
+sessions reaching opposite confidence with the same tool.
 
     this session, by search   the "98% of several hundred calculations"
                               framing is SERIOUSLY MISLEADING per a
@@ -303,11 +336,11 @@ A second retrieval pass was relayed, stated as: *"all items below were
 retrieved by web search this session and verified against the source. None
 came from the corpus."*
 
-**That provenance is recorded as given and is not independently checkable
-from here.** It upgrades the status of the rows below from `UNVERIFIED` to
-`RELAYED-AS-VERIFIED` — a third status, weaker than this session's own
-`VERIFIED` and stronger than a bare lead. It is not the same thing as
-verified, because the retrieval is not reproducible from this repo.
+**That provenance was recorded as given, then withdrawn by the relaying
+party on 2026-09-22: the items came from search snippets, which are
+secondary sources.** All rows below are `UNVERIFIED`. Rows with a
+load-bearing number need the primary before they travel. See §3 above for
+the case that forced this.
 
 New in that pass, not previously filed:
 
@@ -327,10 +360,35 @@ New in that pass, not previously filed:
       each prompt evaluated in isolation, aggregate metrics only, no view
       of the refusal boundary's SHAPE.
 
-**The gap claim is now better supported and still not closed.** More
-benchmarks named, all scoring refusal rate; a critique naming the structural
-reason. But "no benchmark scores fault-location" remains a negative claim
-over an unbounded search space. `PLAUSIBLE, UNCONFIRMED` stands.
+**The gap claim is better supported and still not closed.** `PLAUSIBLE,
+UNCONFIRMED` stands, and it is filed below as a **search task with a stated
+method**, not as a finding.
+
+### Avenue F gap — confirmation protocol
+
+A negative claim from an inside party cannot be confirmed by lucky absence.
+What would confirm it:
+
+    1  forward citation sweep on Fricker 2007  INTERSECT  LLM evaluation
+    2  the over-refusal benchmark papers' own related-work sections, read
+       specifically for any attribution measurand
+    3  CFI / cultural formulation  INTERSECT  AI — searched in BOTH
+       directions
+    4  sociotechnical harm taxonomies, checked for a speaker-attribution row
+
+None of the four has been run. Until they are, the gap is a hypothesis with
+a method attached, and it should be described that way to any outside
+reader.
+
+### AIES 2024 — the direction finding, accepted by both parties
+
+Relayed: *"I wrote it as 'AI-side, already built on it,' implying coverage.
+Your read is sharper."* Four dimensions oriented to generative AI as a
+**vector** in the knowledge ecosystem, not to a model assigning a
+credibility deficit to its interlocutor and terminating the work.
+
+**It does not occupy F — and it strengthens the gap, because the paper
+closest to the concept went a different direction with it.**
 
 ## Still unsearched, as listed
 

@@ -71,6 +71,48 @@ shaped how the operator now describes the same subject. **Cannot be removed,
 only flagged.** It applies to any reference description collected now,
 including C-6's and C-7's.
 
+**7. ORAL-ARCHIVE SURVIVORSHIP.** Evidence: **operator memory, 2026-09-22.**
+
+Operator statement, as given:
+
+> Elders were usually the first ones disposed of. How to properly ENCODE
+> oral — with scent and movement — went with them.
+
+**Content survivability and encoding survivability are different
+measurands, and the literature does not separate them.**
+
+What survives in the record is the content that could be written down. The
+encoding scheme was held by the people removed first. So the oral-tradition
+dating results — Mazama ~7,600 yr, Budj Bim ~37,000 yr, the sea-level
+accounts — measure **the durability of content that reached a transcriber.**
+They cannot measure the encoding that carried it, because the encoding was
+not what got written, and its holders were not what survived.
+
+**The surviving record is a lower bound on the system's fidelity, sampled on
+the wrong variable.**
+
+*Mechanically*, as stated: scent and movement are not serial, are tied to
+place and body, and cannot be transcribed without transposing into a
+different channel. Anything encoded in them survives only in a person, and
+only in a person taught the scheme. **The removal is not a loss of records
+but a loss of the READER.** The tacit-knowledge model's prediction — once
+lost, essentially impossible to recover — applies with the mechanism named.
+
+### What this does to the Henige dispute — a reading, not a resolution
+
+Henige's position (few oral traditions escape change even over brief
+observable periods) is measured on traditions transmitted **after** the
+encoding holders were gone. On that reading, post-removal transmission is a
+degraded channel being scored as if it were the channel.
+
+**This does not settle the dispute.** It says the two sides may be measuring
+different systems, and neither has declared which.
+
+`UNRECORDED` in what was retrieved: whether any of that literature separates
+pre- and post-disruption transmission as distinct regimes. **That is the
+first thing an outside researcher should check**, and its answer decides
+whether the dispute is substantive or definitional.
+
 ## STUDY AVENUES — open, none run
 
 | | avenue | data that exists | what is UNSET |
@@ -101,7 +143,26 @@ era whose handles came from whichever model was available at the time.
 Recovering that half needs chat exports, notes, or pre-import file mtimes.
 UNSET.
 
-### Transport is itself a measurand — measured
+### Transport is itself a measurand — measured, and it is a reusable instrument
+
+Full write-up: **`INSTRUMENT-transport-fingerprint.md`.**
+
+The follow-on prediction — *the gap should be at every intermediate size,
+not just 2–9* — was tested and **held, more strongly than stated**:
+
+    paste-era commit sizes observed   {1, 16, 67, 172}   4 distinct
+    agent-era commit sizes observed   {1..8, 11, 20, 32} 11 distinct
+
+No intermediate size anywhere in the paste era. 48 of 51 adding commits are
+exactly one file; the other three are the three initial bulk imports. The
+distribution is **degenerate — a point mass at 1 plus isolated bulk
+events** — not merely bimodal.
+
+This reads the transport regime **without trusting the git author field**,
+so it is *independent* evidence rather than downstream of CORRECTION-001.
+If it generalizes, any repo where a human transported model output under
+one-at-a-time constraints should show it. **Generalization untested;
+falsification conditions are stated in the instrument file.**
 
 A 172-file single-day import is **a record of channel availability, not of
 authoring rate.** That makes the bulk dates usable even though the authoring
@@ -263,9 +324,14 @@ are distinguishable from inference. Keep them distinguishable.
 
 ## Pointers
 
-    LITERATURE_MAP.md     prior art, per-row verification status.
-                          3 anchors checked; the rest are leads, not
-                          citations. Two checks changed the claim.
+    LITERATURE_MAP.md     prior art. ALL relayed rows are UNVERIFIED —
+                          search snippets are secondary sources. Rows with
+                          a load-bearing number need the primary before
+                          they travel. 3 anchors checked here.
+    INSTRUMENT-transport-fingerprint.md
+                          commit-size distribution reads transport regime
+                          without the author field. Reusable, untested
+                          outside this corpus.
     reconstruct/          A2 reconstructions, hashed before any history read
     reconstruct/CORRECTION-001.md   content authorship
     reconstruct/CORRECTION-002.md   vocabulary layer
