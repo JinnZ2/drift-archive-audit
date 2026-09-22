@@ -6,6 +6,27 @@ separate TOOL limits from AGENT shaping where the archive allows it.
 
 Reads source repositories **read-only**. Nothing here was committed to them.
 
+---
+
+**BEFORE READING ANYTHING ELSE HERE — the one rule that changes how a read
+starts.**
+
+    A gate may block SCORING. It may NOT block READING.
+
+    Every declined read is logged in `DECLINED.md` at the moment of
+    declining.
+
+    NO ABSENCE IN THIS REPO IS REPORTABLE WITHOUT THAT REGISTER CHECKED.
+
+A gate returns the same thing as having no term to search with — **nothing
+found** — and downstream the two are indistinguishable. That is the absence
+register's own central hole, with this audit's procedure as the cause.
+`DECLINED.md` makes the difference visible; without it, a decision not to
+look reads as a finding. **One entry in that register already cost this audit
+a find it then spent two hours re-deriving.**
+
+---
+
 **The operator's frame is held constant.** What changed over time is the
 ENCODING of that frame. Encoding is the measured variable, not a confound.
 

@@ -38,11 +38,12 @@
 | `reachability_sweep` key-unit control (no fragment keys) | STRUCTURAL | — |
 | `guarded_count` — a zero is unobtainable without a live control | STRUCTURAL | — |
 | `guarded_count(deadline_s=)` — a non-returning detector yields `DETECTOR_TIMEOUT`, not 0 | STRUCTURAL | — closes a **domain gap**, not a bug: the guard could not see the case that produces no reading |
+| `DECLINED.md` — a declined read is logged at the moment of declining; no absence is reportable without the register checked | STRUCTURAL | — closes the case where a **procedure**, not a detector, returns the empty hand |
 | `GUESSED.md` retraction ledger | RECORD | — |
 | the three-column catch ledger (self / operator / cross-party) | RECORD | — |
 | `PREDICTION-quantity.md` | RECORD | **both predictions falsified, 2026-09-22; the population was defective — `GUESSED.md` #19** |
 
-    STRUCTURAL  5    four of them written on 2026-09-22
+    STRUCTURAL  6    five of them written on 2026-09-22
     SEMI        2
     NAMING      7
     RECORD      3

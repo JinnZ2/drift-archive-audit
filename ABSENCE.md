@@ -215,6 +215,11 @@ auditor cannot read, which is a fact about the auditor's access. The
 register above was built to keep *recoverable* absences apart from
 *permanent* ones; this adds a third state it did not have:
 
+    NOT LOOKED AT      the trace may exist; a PROCEDURE declined to
+                       open it, and the decline is invisible in the
+                       output. ADDED 2026-09-22, GUESSED.md #30.
+                       Distinguishable only by DECLINED.md, which exists
+                       for this reason.
     NEVER CREATED      nothing to recover
     DISCARDED          existed, classified as non-signal, recoverable if
                        the filter moves
