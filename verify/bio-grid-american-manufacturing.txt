@@ -1,0 +1,34 @@
+# verify/bio-grid-american-manufacturing
+# One line per reconstructed item. Operator fields are BLANK by design.
+# Mark each: YES / PARTLY / NO   (leave blank if you do not want to answer)
+# Nothing in this audit is scored against an unmarked line.
+
+TARGET
+the measurand is whether a network with no central authority keeps functioning while its components are unreliable, compromised or lying | operator:
+the quantity aimed at is the BOUND - how much decay and forced re-discovery must be imposed for the aggregate to stay usable | operator:
+the energy grid is the substrate the question is posed on, not the question | operator:
+the same relation set is asserted over power, over sensor data, and over knowledge - the substrate is interchangeable | operator:
+
+RELATIONS
+decay bounds false-path propagation: short memory is what stops a manipulated signal becoming structure | operator:
+redundancy replaces authority: independent rediscovery is the price of having no arbiter | operator:
+repairable is NOT trusted - physical recovery and standing are separate quantities | operator:
+trust is a time-series property, not an attribute | operator:
+under stress the signalling channel degrades before the physical one | operator:
+
+ENCODING
+docs/trust_model.md is the whole frame stated once | operator:
+parameters.json + Resilience-profiles are the frame DEMONSTRATED, not described | operator:
+the hex and base64 blobs are PIECE_ONLY - tokens without relations | operator:
+README rendering A ($85B / 275k / 340% / 99.95%) does not carry the target | operator:
+README rendering B ("a speculative infrastructure framework... a thought experiment gone operational") does carry it | operator:
+
+UNRESOLVED-1  (the phi split)
+1.0008 and 1.618 are two constants for two different couplings, not a transcription error | operator:
+the hex encoding preserved a distinction the prose encoding collapsed into one noun | operator:
+"BioGrid base tuning constant" naming ONE constant is the point where the two couplings merged | operator:
+
+OPEN
+self-healing interval: base64 says 2 minutes, both hex blobs say 20 min - which is the target? | operator:
+data/biogrid_specs.json and data/compressed_hex_codes.txt are named in the root README and are not in the root tree - did they exist? | operator:
+the work predates the first commit (2025-07-10) by how long? | operator:
