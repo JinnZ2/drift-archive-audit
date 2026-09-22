@@ -68,10 +68,28 @@ It did not back them. `replication_regions` is still one of the four numbers
 typed by hand — and now it has a case where the number is 3, the regions are
 unnamed, and an independent region exists uncited.
 
-**REPORTED, NOT FIXED.** This audit is read-only on source repos and nothing
-here is committed to `Keystone-Codex`. Whether to add a `replication_basis`
-field, and what `terra_preta`'s three regions actually are, is that repo's
-call.
+**DISPOSITION CHANGED — `proposal-for-Keystone-Codex/`.** First filed as
+*reported, not fixed*. That is the wrong disposition for a defect fixable by
+one type change: *"reported"* and *"here is the patch and its measured cost"*
+are different things to hand someone.
+
+Staged, not applied; the audit stays read-only and nothing is committed to
+`Keystone-Codex`. Measured against the live corpus:
+
+    entries with metrics               42
+    rely on replication (rep >= 2)     37
+    carrying any basis                  0
+    -> NOT_EVALUABLE                   37   (88%)
+    -> FAIL                             0
+
+**Every changed verdict moves `PASS -> NOT_EVALUABLE`. None moves to `FAIL`.**
+Nothing says an entry misses the bar; it says the bar was never applied.
+`NOT_EVALUABLE` is the `DETECTOR_BLIND` move at the level of a rule set —
+a missing measurement must not be usable as a value.
+
+Whether to take it, what `terra_preta`'s three regions actually are, and
+whether 88% is acceptable during a transition are that repo's calls. The
+number is supplied so they can be made with it rather than around it.
 
 ## 2. The audit did not find this, and the reason is a scope statement
 
@@ -114,7 +132,13 @@ this session's, not stated in the source.**
                  verdict
 
 **The confirming half is the inferred half.** It is not admissible as support
-for a frame this pair already believes. Recorded as `UNRATED`, and the
+for a frame this pair already believes.
+
+**CONFIRMED CROSS-PARTY, 2026-09-22:** *"The trap you stated is correctly
+stated. The confirming half of Row 4 is my join, it stays UNRATED, and I'd
+have let it through."* Recorded because the catch ran **toward** the party
+that made the join and **against** the frame both parties hold — which is the
+direction this record has documented itself failing to go, four times. Recorded as `UNRATED`, and the
 distinction is kept because collapsing it is how a frame gets confirmed by
 its own restatement.
 
@@ -139,6 +163,54 @@ level up, in the literature rather than in a rendering. **Flagged and not
 adopted: seventh tidy correspondence from this pair, measured survival 0 in
 5.**
 
+### SELF-FLAG, operator, 2026-09-22 — and the check it asked for
+
+> The undeclared-scope generalization is mine and I want it more than the
+> evidence supports. What's different about it: two of three instances are
+> sourced from outside this programme, which none of the previous six had.
+> That changes its evidence class, not its survival odds — 0 in 5 stands, and
+> the prior six also looked solid at flagging time. **Treat the external
+> sourcing as the one thing worth checking, not as a reason to promote it.**
+
+**Checked. The external sourcing is weaker than it looks, and the three
+instances are not three instances of one thing.**
+
+    WALS             the inclusion criterion is DECLARED -- on the WALS
+                     chapter page, and again as scope limit 2 of the
+                     received file. Nothing was undeclared. The failure is
+                     in TRANSIT: the criterion does not travel with the
+                     Africa line, which sits 150 lines away from it.
+
+    African soil     the nutrient-focus and the misrecognition ARE sourced.
+                     But "a scope limitation PRODUCED the classification
+                     verdict" is the received file's own scope limit 3 --
+                     DERIVED, this session's, not stated in the source.
+                     The half that instantiates the generalization is the
+                     inferred half. Same trap as §3.
+
+    this programme   genuinely undeclared until GUESSED.md #18. The only
+                     one of the three that is an unqualified instance --
+                     and it is the internal one.
+
+    RESULT   of the two externally-sourced instances, ZERO are sourced
+             cases of an UNDECLARED scope producing a reading. One is
+             declared-and-lost-in-transit; the other's producing-join is
+             inferred.
+
+**So the evidence class did not change in the way the flag supposed.** The
+external sourcing is real for the *facts* — WALS's criterion, the nutrient
+focus — and absent for the *mechanism*, which is what the generalization is
+about.
+
+**This does not kill the pattern.** Declared-and-lost-in-transit is arguably
+a more interesting failure than undeclared, and it may be the better
+generalization. **But it is a different one**, and it has n=1 sourced, so it
+starts where everything else starts.
+
+**Status: unchanged. 0 in 5 stands and this is not promoted.** The flag was
+the right call; running the check it asked for is what made the merge
+visible.
+
 ## 5. A possible escape from the binding constraint — untested
 
 `STUDY.md` declares the binding constraint: five tasks terminate on **a
@@ -158,6 +230,65 @@ different resource, and it is abundant where sense-holders are scarce.
 **Not offered as a solution.** Offered as the one documented case of a
 constraint of this family being cleared, with the mechanism recorded, so that
 it can be tested rather than hoped at.
+
+### THE CRITERION — supplied 2026-09-22, which converts "might" into a test
+
+> In Row 4 the borrowed category was about the object — anthropogenic soil —
+> not about what a speaker meant. That's why a second discipline could supply
+> it without holding anyone's senses.
+
+    OBJECT-SIDE    the missing thing is a CATEGORY FOR A THING IN THE
+                   WORLD. A second discipline can supply it. Substitution
+                   WORKS.
+    SPEAKER-SIDE   the missing thing is WHAT A SPEAKER MEANS BY A TERM.
+                   No discipline holds it. Substitution FAILS.
+
+**REGISTERED PREDICTION, 2026-09-22, n = 0:**
+
+    A frame-holder from a second discipline can clear an object-side
+    constraint and cannot clear a speaker-side one.
+
+    FALSIFIER: one speaker-side constraint cleared by a borrowed category.
+
+Run against the six on the binding-constraint list:
+
+| constraint | side | reachable by a borrowed category? |
+|---|---|---|
+| error-count interpretation | **object** — error classes | **YES** |
+| arm-3 neighbour registration | **speaker**, by construction | no |
+| F4 instrument vs channel | **speaker** — annotation of intent | no |
+| unasserted load | **speaker** — annotation of intent | no |
+| the spiral's measurand | **speaker** — what the term names | no |
+| cache-dependency sufficiency | **neither, cleanly** — see below | UNRATED |
+
+**The sixth row is not forced.** *Does a definition let a reader without the
+shared context continue* is about a **reader's** comprehension: not a category
+for a thing in the world, and not what a speaker means. **The criterion does
+not classify it**, and that is reported rather than resolved — a criterion
+that covers four of six cleanly and leaves one genuinely outside is more
+useful stated that way than stretched to cover it.
+
+**One reachable, four not, one unclassifiable.** That is the prediction's
+content: the escape route exists and reaches **one sixth** of what is blocked.
+
+### SCOPE NOTE, applied AT REGISTRATION rather than after — first time
+
+`GUESSED.md` #19 was a generalisation over *an inside party*, computed on a
+sample of one party, selected by the property under test. **The same check is
+owed to this prediction before it accrues any confirmations, not after one
+falsifies it.**
+
+    stated over    constraints of this family, generally
+    test set       six constraints, ONE programme, ONE speaker, all
+                   surfaced by the same pair
+    therefore      confirmation across the six is NOT independent evidence
+                   of generality. It is one programme agreeing with itself.
+    what would be  an object-side constraint cleared by a borrowed category
+                   in a programme neither party is in
+
+**This is `REMEDIES.md` item 5 — run the check at the moment the requirement
+is issued — executed for the first time.** It cost one paragraph. The gap it
+addresses cost two falsified predictions in a day.
 
 ## 6. The convergence instrument has now returned three different values
 

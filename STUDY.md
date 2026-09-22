@@ -607,6 +607,11 @@ are distinguishable from inference. Keep them distinguishable.
                           the material record. SUPPORTED at practice
                           level, citation-linked at recognition level.
                           Carries the register's first CLOSED case.
+    proposal-for-Keystone-Codex/
+                          the replication_basis type change, staged not
+                          applied, with its measured cost: 37 of 42
+                          entries move PASS -> NOT_EVALUABLE, none to
+                          FAIL. Runnable read-only against the corpus.
     SHADOW-HUNTING.md     the conversion-demoting requirement; the null
                           for phi-ratio detection, RUN (97% false
                           positive on noise at n=16, 5% tol, phi with
