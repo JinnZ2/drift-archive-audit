@@ -357,6 +357,11 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    UNASSERTED-LOAD.md    claims carried by implicature pass every check
+                          by not being checkable — and audit passes
+                          SELECT FOR them
+    staged-for-T-TERM/    arm 3, the novel-token arm, with its matched
+                          control. T-TERM is not reachable from here.
     GLOSSARY.md           every bare term defined once, plus the
                           provenance labels. Read first.
     TRAIL.md              why "nobody has gone there" carries ZERO

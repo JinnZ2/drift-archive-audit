@@ -203,6 +203,58 @@ fabrication material". It appears there stated as principle rather than
 mechanism. **Same failure mode as #5 — operationalizing a concept by its
 surface tokens.** Twice now, in the same audit.
 
+## T-0b  substituting the observable proxy for the concept — a closed count
+
+**Recorded before the discriminators ran, which makes it a committed
+prediction rather than a post-hoc fit. Count CLOSED at 2026-09-22 and
+contaminated from here on** — this session is now looking for it, so
+instances 4+ are not independent.
+
+### The taxonomy, corrected
+
+    PARENT        substituting the observable proxy for the concept
+    SPECIAL CASE  surface-token operationalization (the mechanical form)
+
+The first framing counted only the special case. Corrected:
+
+| # | instance | class | caught |
+|---|---|---|---|
+| 1 | regex `\|` searched literal strings; the resulting zeros **agreed with the hypothesis under test** | special case | after reporting, by an unrelated nonzero count |
+| 2 | pilot selection: **age** proxied for articulation density | **parent** | after 5 findings landed outside it |
+| 3 | fabrication-discipline grep: searched *implementation* markers, got 0/3, nearly concluded the discipline was absent | special case | within-turn, unpublished |
+| 4 | cache-dependency detector: heuristic matched any table or heading; returned **all-clear on 23 terms** | special case | within-turn, by implausibility |
+| 5 | emptiness → value: **follower count** proxied for terrain | **parent** | by a second party |
+| 6 | `T-TERM` grep, case-insensitive substring: 96 hits, all `short-term` | special case | pre-report, by implausibility |
+
+    total 6     parent 2     special case 4
+    caught after reporting 3     caught pre-report 3
+
+**Two of the three pre-report catches came from an implausible NUMBER
+contradicting expectation, not from any check aimed at the failure.** Same
+mechanism as T-0's unowned join. **No check in this audit detects this class
+directly.**
+
+### What it does and does not establish
+
+**Does not** separate statistical from structural. All six are one model
+family, one session, same corpora — exactly the confound arm 3 exists to
+break. A second party reports the same class twice in the same window, which
+adds instances but not independence.
+
+**Does** remove one alternative explanation before the arms run: the
+observable is **not an artifact of the agentic surface**, since it appears in
+both an agentic session and a non-agentic one.
+
+### Evidence class — the weakest in the programme
+
+This is **a self-report by an instrument about its own failure mode.** It is
+not observation. It belongs in the work order as a **recorded prior**, with
+arm 3 as the actual measurement, and **the number marked as not independent
+of the party reporting it.**
+
+Third instance of the T-0 structure: the session is a data point in the study
+it is specifying.
+
 ## T-extra  the finding none of T1–T6 asked for
 
 Keystone `longevity_years` against `era.end - era.start`:
