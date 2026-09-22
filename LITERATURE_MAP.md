@@ -80,11 +80,39 @@ FRR. What is not verified is that nothing anywhere scores speaker
 attribution. Treat the gap as **plausible and unconfirmed**, and note that
 confirming a gap requires a systematic search, not a lucky absence.
 
-### 3. Lave 1988 — real, and the headline figure is contested
+### 3. Lave 1988 — TWO SESSIONS VERIFIED THIS AND GOT OPPOSITE RESULTS
+
+**Unresolved. Both readings stand. Do not pick one.**
+
+    this session, by search   the "98% of several hundred calculations"
+                              framing is SERIOUSLY MISLEADING per a
+                              published critique — only 49 calculations.
+                              The 59% figure was NOT returned.
+
+    relayed addendum          "supermarket best-buy calculations 98%
+                              accurate; equivalent calculations on a
+                              written test 59%. A 39-point channel effect
+                              inside one person." Marked retrieved and
+                              verified against the source.
+
+These cannot both be fully right as stated. The 98% and the critique of its
+denominator can coexist; the 59% pairing either exists in the source or does
+not. **Neither session went to the primary text.**
+
+Settling it costs one library trip to *Cognition in Practice* ch. 5. Until
+then this is a `CONTESTED` row, and the 98/39/59 triple must not be quoted
+onward — it is the single most quotable number in the whole map, which is
+exactly why it is the one most likely to get laundered.
+
+Recorded as a live disagreement between two model sessions, which is itself
+a data point for avenue F's reliability question.
+
+### 3b. What both sessions agree on
 
 `VERIFIED` that Lave, *Cognition in Practice: Mind, Mathematics and Culture
 in Everyday Life* (1988) and the Adult Math Project exist, and that the
-supermarket-vs-school-arithmetic contrast is the book's argument.
+supermarket-vs-school-arithmetic contrast is the book's argument. The
+*direction* of the finding is not in dispute. Only the numbers are.
 
 **Complication the notes do not carry.** A published critique states that
 the framing *"in several hundred grocery items... 98% of the calculations
@@ -266,6 +294,57 @@ That is avenue F, and it now has a donor instrument.
 the named benchmarks score FRR and that the AIES 2024 anchor is oriented to
 AI-as-vector rather than model-to-interlocutor. Not verified is that nothing
 anywhere occupies the join. Confirming a gap needs a systematic search.
+
+---
+
+## Addendum received 2026-09-22 — provenance as given
+
+A second retrieval pass was relayed, stated as: *"all items below were
+retrieved by web search this session and verified against the source. None
+came from the corpus."*
+
+**That provenance is recorded as given and is not independently checkable
+from here.** It upgrades the status of the rows below from `UNVERIFIED` to
+`RELAYED-AS-VERIFIED` — a third status, weaker than this session's own
+`VERIFIED` and stronger than a bare lead. It is not the same thing as
+verified, because the retrieval is not reproducible from this repo.
+
+New in that pass, not previously filed:
+
+    Stranisci et al. 2026 (arXiv 2606.05936) — audit of four pretraining
+      filters and three guardrails. Marginalized groups significantly
+      OVER-FLAGGED. Human annotators would retain ~88.5% of filter-flagged
+      and ~91.3% of guardrail-flagged content.
+      -> a measured over-flagging asymmetry, not a claim. Closest existing
+         thing to avenue F, and still scores FLAGGING, not fault-location.
+
+    De Proost & Pozzi 2023 — conversational AI and epistemic injustice,
+      Am. J. Bioethics
+    Helm et al. — language modeling bias as epistemic injustice,
+      Ethics and Information Technology
+    OKTest, PHTest, XSB / MS-XSB — further over-refusal benchmarks
+    A 2025 critique naming the shared structural limit of all of them:
+      each prompt evaluated in isolation, aggregate metrics only, no view
+      of the refusal boundary's SHAPE.
+
+**The gap claim is now better supported and still not closed.** More
+benchmarks named, all scoring refusal rate; a critique naming the structural
+reason. But "no benchmark scores fault-location" remains a negative claim
+over an unbounded search space. `PLAUSIBLE, UNCONFIRMED` stands.
+
+## Still unsearched, as listed
+
+    oral history methodology proper
+    decolonizing methodologies
+    STS demarcation debates
+    Indigenous data sovereignty (CARE principles)
+    Māori language-model work
+    psychiatric misdiagnosis rates disaggregated by WHICH culturally
+      normative behaviour was misread
+
+The last one is the highest-value item in this file. If those rates are
+disaggregated anywhere, avenue F gets a base rate to calibrate against
+instead of a binary.
 
 ---
 

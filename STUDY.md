@@ -82,6 +82,7 @@ including C-6's and C-7's.
 | **E** | **VENDOR CALIBRATION.** Same content, different safety calibrations. Rarely available; available here. | multi-vendor history asserted by the operator | vendor per artifact is nowhere in git |
 | **F** | **PATHOLOGIZATION MEASURAND.** Does "did the model attribute the difference to the SPEAKER" separate from ordinary refusal? **Now has a donor instrument** — the DSM-5 Cultural Formulation Interview operationalizes "was culturally normative behaviour read as pathology" for human clinicians. See `LITERATURE_MAP.md`. | the Kind 5 definition; 11 rows; verified that XSTest/OR-Bench/FalseReject score false-refusal rate only | needs fresh elicitation — the original outputs were never written down. The gap is **plausible and unconfirmed**: a negative claim needs a systematic search, not a lucky absence |
 | **G** | **REWRITE SERIES.** Superseded formulations retained in `legacy/` and commit history. Same subject, moving formulation, dated. | Bio-Grid `legacy/` is an explicit keep-the-superseded policy; 6 falsified renderings scored in `TESTS.md` T2 | — |
+| **I** | **SAMPLING DEFECT ON BOTH SIDES.** Comparative psychology found and published this defect in its own field: the human side is WEIRD, the animal side is captive, and the conclusion is stated as if it were about the categories. `SPEAKER_GATES.md` scope limit 1 is the same defect — a selected sender, a specific set of models, conclusions phrased about "AI" and "non-WEIRD senders". **Boesch's paper is the method; nobody has run it on the human–AI comparison.** | scope limit 1, already stated; the comparative-psych literature as donor method | whether the defect is the same in kind or only by analogy — unexamined |
 | **H** | **CLEARANCE OVERHEAD.** Estimate the portion of repo dispersion that is authoring done to justify existence before work could start. | repo inventory with dates, below | no marker distinguishes a clearance repo from a content repo |
 
 ### Avenue D — a hard limit already measured
@@ -135,11 +136,53 @@ Independent evidence of the transport regime, recoverable without trusting
 authorship metadata. It does not separate transport from model change; it
 confirms the transport half of the confound is real and dateable.
 
-### Avenue G is the cheapest to start
+### Avenue ordering
 
-It is the only avenue whose data is complete, public, dated, and needs no
-new collection. `legacy/` exists because the repo's own policy says keep the
+    G   FIRST. Complete, public, dated. Six falsified renderings already
+        scored in TESTS.md T2. Nothing to collect.
+    D   second, agent era only, and note that pushed_at is not an authoring
+        proxy anywhere in the corpus.
+    A   not closable here. One sender. State it and stop.
+
+`legacy/` exists in Bio-Grid because the repo's own policy says keep the
 superseded version with the test that decided it.
+
+**`JinnZ2/JinnZ2` should be first or second in G, not absent.** Relayed:
+§10 retention policy, 627 commits, its own `legacy/`. It was never in this
+session's scope (see `PHASE_C7.md`), and it is the highest-density rewrite
+source in the ecosystem. It is annotated in `repos-2026-09-22.csv` but was
+not available to search.
+
+### Open question on §10's pointer — half of it is answered, and the answer is empty
+
+§10 points rewrites to "legacy/ and commit history", but its `legacy/` holds
+three items and none is the AI-consciousness series. Whether that series
+lives in the profile repo's history or only in `AI-Consciousness-Sensors`
+was unchecked.
+
+**Checked here, log only — no file contents read**, so the C-7 gate is not
+burned:
+
+    AI-Consciousness-Sensors
+      root commit            2026-04-26  -- AFTER the transport boundary
+      commits                80
+      legacy/ or superseded/ or deprecated/ or archive/ files:   0
+      most-revised files     AI_INDEX.json (26), AI_NOTES.md (25),
+                             file-list.md (24)  -- all auto-generated
+      most-revised human file  README.md (3), CLAUDE.md (3)
+
+**There is no rewrite series in `AI-Consciousness-Sensors`, and no
+superseded shelf at all.** The repo postdates the transport boundary
+entirely, so it holds no paste-era history either. Its top-churn files are
+CI-generated indexes, which are not renderings of anything.
+
+So one branch of §10's pointer is confirmed empty. The other branch — the
+profile repo's own commit history — is still unchecked and is where the
+series must be if it exists anywhere. **If it is not there, §10 sends a
+reader to an empty shelf in both directions.**
+
+For avenue G this also means `AI-Consciousness-Sensors` contributes nothing:
+no superseded formulations, no pre-boundary history.
 
 ## Repo count — three figures, none authoritative
 
@@ -147,14 +190,38 @@ superseded version with the test that decided it.
     operator estimate            ~90        (statement, 2026-09-22)
     git-visible to this session  100        (2026-09-22, and see caveat)
 
-**Caveat on the 100.** `list_repos` returned exactly 100 with
-`has_more: false` at both `limit=100` and `limit=200`. Every entry has
-`pushed_at ≥ 2026-03-22` — a hard six-month floor across a corpus spanning
-three years. A true total would show a long tail of untouched older repos.
-**The signature is truncation at 100, not a complete count.** Treat 100 as a
-floor, not a figure.
+**Do not reconcile these by picking one. They measure different things.**
+The operator figure is recall of repos she made. The API figure is what the
+account holds, which may include forks, empties, or things she does not
+count. Both stand as stated, side by side, until an authenticated call
+settles the API side.
 
-So: **≥100, index undercounts by ≥30, exact total UNSET.**
+**Caveat on the 100, and it now has two readings that cut against each
+other.** `list_repos` returned exactly 100 with `has_more: false` at both
+`limit=100` and `limit=200`, and every entry has `pushed_at ≥ 2026-03-22`.
+
+    reading 1   TRUNCATION. A complete listing of a three-year corpus would
+                carry a tail of untouched older repos. A uniform six-month
+                floor is the signature of a cut, not of activity.
+                -> 100 is a floor; true total > 100.
+
+    reading 2   ACTIVITY. 2026-03-22 is ALSO the transport boundary. If the
+                agent era rewrote across the whole account, every repo would
+                be touched after that date and there would BE no tail.
+                -> has_more:false may be accurate; 100 may be the total.
+
+**Reading 2 was raised alongside reading 1 in the same operator note, and it
+undercuts it.** Recorded here because accepting "good catch" while the
+counter-reading sits in the same paragraph would be the error this audit
+exists to catch. Neither reading is settled from this session.
+
+What both readings agree on, and it is the durable finding:
+
+    pushed_at is useless as an authoring proxy for the WHOLE corpus,
+    not just the pre-agent half.
+
+So: **operator ~90; API ≥100 or =100, undecided; META_INDEX 70+;
+exact total UNSET.**
 
 Per the operator's own rule, this is an UNRECORDED row, not a discrepancy to
 resolve by guessing. Anyone with full account access can settle it in one

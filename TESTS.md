@@ -162,6 +162,29 @@ the models that produced prose cannot be separated in this pilot.
 
 ---
 
+## T-0  the audit's own error mode
+
+Reported as a finding, not only as retraction #5 in `GUESSED.md`.
+
+A regex defect (`git grep -E` with backslash-escaped pipes, which are literal
+in POSIX ERE) produced a table of zeros. Those zeros **agreed with the
+hypothesis under test** — that parallel and always-on were unfiled. The
+reading was written up as confirmation. It was caught only when an unrelated
+check on a different term returned a nonzero count that contradicted the
+table.
+
+    the audit's own error mode was confirmation-shaped, and was not
+    caught by any check aimed at it
+
+No verification step in this audit was pointed at that failure. The catch
+came from an unowned join between two measurements, which is the same
+mechanism the corpus studies: **a locally correct component whose error is
+invisible from inside and surfaces only where nobody is looking.**
+
+Six retractions are on the record in `GUESSED.md`. Four were found by this
+session, two by operator correction. That ratio is the useful number, not
+the total.
+
 ## T-extra  the finding none of T1–T6 asked for
 
 Keystone `longevity_years` against `era.end - era.start`:
