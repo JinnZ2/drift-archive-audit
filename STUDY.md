@@ -358,6 +358,10 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    IMPEDANCE.md          the constraint-stack instrument. L1-L5 with
+                          L5 as the measured variable, three outcome arms,
+                          leakiness as the transferring quantity. One row
+                          drafted (Wegener). Today-side NOT looked at.
     UNASSERTED-LOAD.md    claims carried by implicature pass every check
                           by not being checkable — and audit passes
                           SELECT FOR them
