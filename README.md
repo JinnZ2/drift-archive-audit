@@ -42,6 +42,10 @@ deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
     PHASE_C6.md            repeat description of a PHYSICAL referent —
                            the only arm with an outside reference.
                            BLOCKED on one operator answer.
+    STUDY.md               work order for OUTSIDE researchers. Neither
+                           the operator nor the model can score this
+                           corpus; both are authors. 8 avenues, none run.
+    repos-2026-09-22.csv   dated repo snapshot (>=100, count UNSET)
     reconstruct/CORRECTION-001.md   authorship: content is model output
     reconstruct/CORRECTION-002.md   vocabulary: handles are model handles
     staged-for-JinnZ2-profile-repo/ SPEAKER_GATES.md + the gate_log
