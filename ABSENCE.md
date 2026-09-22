@@ -158,6 +158,28 @@ running — the failures are the readings, not a verdict on the instrument —
 and it is dated to a pre-agent-era repo. See `COUPLING.md`, *the error
 count is not a report card.*
 
+## THE FIRST CLOSED CASE — added 2026-09-22
+
+Every entry above is an absence still in force, so the mechanism is inferred
+from the gap's shape. **`DARK-EARTHS.md` row 4 is one that closed**, and it
+supplies the three arms this register has never had:
+
+    HELD SHUT BY   a nutrient-focused measurand with no column for carbon
+                   enrichment; a natural/anthropogenic binary applied AT
+                   INTAKE; observations recorded in one discipline and
+                   never joined to another
+    MOVED BY       a category supplied by a different continent's
+                   literature -- a frame-holder, not a sense-holder
+    COST           at minimum, 1990 to the Fairhead & Leach chapter
+
+The soils were in use, visible, economically important and named in local
+vocabulary. **The absence was in the category, not in the world.**
+
+**Caveat kept attached:** the reading that a scope limitation *produced* the
+classification is the received file's own scope limit 3 — DERIVED, not
+sourced. The sourced part is the misrecognition and the attention gap. See
+`DARK-EARTHS-CONSEQUENCES.md` §3.
+
 ## WHAT THE REGISTER IS FOR
 
 These four are not four caveats. **They are one hole, and it is the hole

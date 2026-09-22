@@ -586,6 +586,16 @@ are distinguishable from inference. Keep them distinguishable.
                           what it does here: refutes GUESSED #20, adds a
                           second corpus-thinness mechanism, and marks the
                           Africa line UNRATED as an unguarded zero
+    DARK-EARTHS.md        RECEIVED, filed verbatim. Convergence run 3,
+                          the material record. SUPPORTED at practice
+                          level, citation-linked at recognition level.
+                          Carries the register's first CLOSED case.
+    DARK-EARTHS-CONSEQUENCES.md
+                          it lands on the pilot: terra_preta scores
+                          replication on an unbacked integer while the
+                          one documented independent instance sits
+                          uncited and West Africa is recorded in the
+                          three entries terra_preta unlocks
     CONTENT-LIST-avenue-A.md
                           the eleven-subject transmission set, parties
                           removed. What a second sender actually needs.
