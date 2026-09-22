@@ -334,6 +334,11 @@ are distinguishable from inference. Keep them distinguishable.
                           experiment not run.
     instrument/           runnable F1-F4 scorer, stdlib only, with its own
                           two construction flaws documented
+    CROSSCHECK-ai-human-audit-protocol.md
+                          the blocked deferral-enum check, answered; a
+                          second gate-kind-6 instance; the pathologization
+                          measurand dated 2025-10-13; and the pilot
+                          selection rule's bias
     RETENTION.md          gate kind 6 (retention), the measured
                           rediscovery, and C-6b — a repeat trial that
                           already ran unintentionally

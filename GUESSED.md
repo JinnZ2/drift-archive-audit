@@ -177,5 +177,15 @@ fell to CORRECTION-001:
    relayed citations are `UNVERIFIED`, and any carrying a load-bearing
    number needs the primary before it travels.
 
+8. **The pilot selection rule had a predictable bias, and I chose it.**
+   I offered the pilot options ordered by repo age; the operator selected
+   the three oldest of four available. Age is a defensible proxy for
+   "earliest aimed-at target", which is what Phase A needed — **and it also
+   selects for repos that predate the framework's own articulation.** Five
+   findings have now landed in unselected repos (see
+   `CROSSCHECK-ai-human-audit-protocol.md`). The rule guaranteed the miss.
+   Not a retraction of a claim; a retraction of a **method choice**, which
+   is the harder kind to notice.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
