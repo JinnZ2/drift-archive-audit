@@ -345,6 +345,45 @@ one that argues for handing scoring outward.
     note below — this catch and two others in the same turn are candidate
     falsifiers of `PREDICTION-quantity.md`.**
 
+17. **Dead end kept as a live outcome, one level below a definition that
+    had already been corrected twice.** `TRAIL.md` accepted that the
+    three-band trail taxonomy scored *records, not trails* — and then wrote
+    "it is the same reading for a dead end and for a trail to a resource
+    nobody has reached yet," which concedes that both exist. Under the
+    stated definition (*a path toward a resource*) a path toward nothing is
+    not a trail with a poor outcome; it is not a trail. **Dead end is the
+    name a searcher gives a return they were not looking for.**
+
+    Third survival of the survivorship error in one subject: caught at the
+    sample (scope limit 7), caught at the definition (X-2), still running in
+    the **outcome set** underneath both. Each correction landed one level
+    above where the error was still working.
+
+    Caught cross-party, no quantity. **Consistent with the prediction the
+    row below falsifies**, and with #14/#15: the clause ran in the direction
+    that keeps a tidy two-case contrast.
+
+    See `DEFICIT-LOCATION.md` — three other appearances of the same move,
+    plus a measured instance in this programme's own conduct.
+
+18. **Zero positive controls demanded of any instrument on the institutional
+    side of the line.** Not a claim this session made and then withdrew — a
+    gap in its conduct, found by exact grep and recorded because the
+    standing rule it violates is this repo's own:
+
+        POSITIVE CONTROL BEFORE TRUSTING ANY PATTERN-MATCHED ZERO
+
+    Four controls run, all on corpus-side detectors. EN 13725, the QST
+    panels, the DSM-5 CFI and XSTest/OR-Bench/FalseReject were all admitted
+    uninspected — EN 13725 as an existence proof for a certified human
+    sensory channel, while **its panel screening is the mode 3 exclusion
+    the argument is about.** Half a standard was read.
+
+    Named by the operator, measured here. **Not an accusation and the rigor
+    was not wasted** — both parties applied it and the instruments are
+    better for it. The finding is the *location of the line*, which neither
+    party drew.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

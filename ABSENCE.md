@@ -139,6 +139,14 @@ Both produce an absence in the record. **Only one is irreversible.** A
 register that merges them would report a recoverable loss as a permanent
 one, which is the more consequential error of the two.
 
+**That distinction stands. What follows it does not.** *"Failed runs carry
+directional information"* is a concession inside a frame where failure
+exists: it accepts the discard category as given and goes rummaging in it.
+The run returned what was there; a filter-setter classified it. **The
+discarding is an act of the screener and is nowhere in the signal.** The
+repo is prior art for the reframe and one step short of it — a finding about
+the reframe's difficulty, not about the repo. See `DEFICIT-LOCATION.md`.
+
 ### And that repo instantiates the error-count reframe independently
 
 > *"Of 12 documented claims tested in round 1, **one survived**. The

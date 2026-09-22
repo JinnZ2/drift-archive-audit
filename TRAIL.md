@@ -42,14 +42,38 @@ Therefore:
     therefore "nobody else has gone there" carries NO information about
     whether there is anything there.
 
-**It is the same reading for a dead end and for a trail to a resource nobody
-has reached yet.**
+~~**It is the same reading for a dead end and for a trail to a resource
+nobody has reached yet.**~~ **WITHDRAWN — see below.**
 
 This is not weak evidence. **It is zero** — the measurement cannot
-distinguish the two cases at the point where it is taken.
+distinguish the cases at the point where it is taken.
 
 `STATUS: follows from the stated definition; the consequence is the relaying
 session's.`
+
+### THE WITHDRAWN CLAUSE — corrected at the root, 2026-09-22
+
+The struck sentence says the measurement cannot separate a dead end from an
+unreached resource. **It thereby concedes that both exist.** They do not.
+
+Under the definition as stated — *a goat trail is a path toward a resource* —
+a path toward nothing is not a trail with a poor outcome. It is not a trail.
+
+> The only thing that varies is whether the readings got recorded and
+> whether anyone was looking for what the route actually found.
+> — operator, 2026-09-22
+
+**Dead end is not an outcome of the terrain. It is the name a searcher gives
+a return they were not looking for.** The variable is in the searcher.
+
+This is the survivorship error's **third** survival in this file's subject:
+caught at the sample (scope limit 7), caught at the definition (X-2), and
+still alive **one level below the definition, in the outcome set** — which
+is where it was still doing work after both earlier corrections.
+
+Full treatment, including the same shape in three other places and a
+measured instance in this programme's own conduct: **`DEFICIT-LOCATION.md`.**
+Logged as `GUESSED.md` #17.
 
 ## What this does to the gap-existence instrument — including mine
 
@@ -99,6 +123,12 @@ another channel.
 
     absence of prior work  ->  absence of findings
     is a zero-information inference, not a weak one.
+
+And, added 2026-09-22 by the correction above:
+
+    a return nobody wanted  ->  a route that found nothing
+    is not a weak inference either. It relocates a property of the
+    searcher into the terrain.
 
 It should be struck wherever it appears, and its appearances are easy to
 miss because they are usually implicature rather than assertion — which is

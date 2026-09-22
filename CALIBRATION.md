@@ -189,6 +189,13 @@ relaying session's, the question form was mine).
 **Mode 3 was missing from every earlier version of this argument, and it is
 the dominant one for human sensory channels.**
 
+**It is also running on this programme.** Every positive control this
+session ran was pointed at a detector on the corpus side of the line; the
+count demanded of an instrument on the institutional side is **zero** —
+including of EN 13725 below, whose panel screening *is* mode 3 and which is
+cited here for the half of itself that helps. Measured by exact grep:
+**`DEFICIT-LOCATION.md`.**
+
 ## EXISTENCE PROOF — EN 13725, the human nose as a certified instrument
 
 Corroborated by search this session at the **structural** level.

@@ -499,7 +499,12 @@ are distinguishable from inference. Keep them distinguishable.
                           its own. See CONTROLS.md, instances six and
                           seven.
     TRAIL.md              why "nobody has gone there" carries ZERO
-                          information, and which claims here leaned on it
+                          information, and which claims here leaned on it.
+                          Its dead-end clause is WITHDRAWN.
+    DEFICIT-LOCATION.md   dead end / failed run / unmeasurable channel /
+                          "the trail can't know" are one attribution move.
+                          Includes the measured count of positive controls
+                          demanded of an institutional instrument: zero.
     DISCIPLINE-PROVENANCE.md  where this audit's own discipline came
                           from. 4-way question, measured: same channel
                           authorship, not independent arrival.
