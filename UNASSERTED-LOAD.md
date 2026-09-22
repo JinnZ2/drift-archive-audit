@@ -36,6 +36,33 @@ then work is proposed into it, and the reader supplies the connective.
 **It survived several passes explicitly hunting laundered claims**, because
 every one of those passes was looking for a stated thing.
 
+## A second worked instance — and it CLOSED, which is the useful part
+
+`staged-for-T-TERM/ARM3-novel-token.md`, open item 4.
+
+**The premise that two of three T-TERM arms depend on carried weight with no
+assertion behind it** until 2026-09-22. The rationale for the physics base
+existed only as a fragment — *"because if we can show—"* — with the rest
+never stated. Meanwhile the design was built on it.
+
+**Detected by:** reconstructing what the arms require and finding the step
+nobody wrote down. Exactly the detector shape below, run by hand, once.
+
+**Closed by:** the operator stating the rationale, 2026-09-22. It turned out
+to be a **validity condition**, not the scoring convenience this session had
+silently substituted for it — so the unasserted premise was not only
+unasserted, **the placeholder standing in for it was the wrong kind of
+claim.**
+
+Two things this instance establishes that the first one did not:
+
+1. **Unasserted load is findable by hand** on a design small enough to hold
+   in view. The detector is not hypothetical.
+2. **When it closes, the real premise can be stronger than the placeholder,
+   not weaker.** The failure mode is not "the argument was secretly bad" —
+   it is "nobody could check which argument was operating." Those have
+   different remedies and only the second one is general.
+
 ## Detector shape — an argument check, not a token check
 
     for each CONCLUSION in the document:

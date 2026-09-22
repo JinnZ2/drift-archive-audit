@@ -172,15 +172,72 @@ Recorded so they travel with the arm.
    **Unresolved.**
 2. **M1 alone, or M1+M2.** Undecided.
 3. **Nulls not written.**
-4. **The reason for the physics base is a fragment** — cut off at
-   *"because if we can show—"* and never completed.
+4. ~~**The reason for the physics base is a fragment**~~ — **CLOSED
+   2026-09-22.** See below.
 
-Item 4 is load-bearing. **The physics base is the thing that removes the
-adjudication problem**, and its rationale does not exist in stated form.
+---
 
-    arm 3        CAN be filed without it
-    arms 1 and 2 probably CANNOT be built without it
+## PHYSICS BASE — RATIONALE, adopted 2026-09-22
 
-That is an **unasserted load** instance in the design itself: the premise
-that makes two of three arms work has no assertion behind it. See
-`UNASSERTED-LOAD.md`.
+**Supersedes the prior rationale.**
+
+    PROVENANCE   stated as the founding principle of a living practice;
+                 source withheld at request.
+    EVIDENCE     a LOAD-TESTED OPERATING PRINCIPLE -- not a rationale
+    CLASS        composed to justify this experiment.
+
+That evidence class is the unusual part and it should not be flattened. A
+premise that was load-bearing in a working practice **before this experiment
+existed** cannot have been shaped to fit it. **It is the inverse of the
+confirmation shape this programme keeps paying for.**
+
+### SUPERSEDED — the convenience argument (this session's, withdrawn)
+
+> physics gives frame-independent checkable relations, so a restatement can
+> be scored against the system rather than against an answer key.
+
+### ADOPTED — the validity argument
+
+> Everything known is our understanding of instrumentation — what has been
+> measurable about physics and the state of the world. Physics has laws that
+> have not been broken. Social, cultural and other stated laws have been
+> broken. So the base must be as base as possible.
+>
+> Gravity works: the tree falls. It falls on your head or it falls over
+> there and you move. Either way the tree falls. What anyone wants it to be,
+> how anyone feels about it, and whose feelings are hurt by it are all
+> irrelevant if the cause is gravity.
+
+### Consequence for the design
+
+    A FAILURE ON A PHYSICS STIMULUS CANNOT BE RELOCATED INTO A
+    DIFFERENCE OF PERSPECTIVE.
+
+**Consequence-independent-of-preference is the floor arms 1 and 2 require
+across authoring conditions.** Tests grounded in social or cultural rules
+measure **agreement**, not the world.
+
+    => the physics base is a VALIDITY CONDITION, not a scoring convenience
+
+The withdrawn version treated it as tractability. The adopted version makes
+it the thing without which the arms do not measure anything.
+
+### Why this closes a hole specific to THIS programme — `DERIVED`, mine
+
+**"Cannot be relocated into a difference of perspective" is gate kind 5's
+measurand, blocked at the stimulus level.**
+
+Gate kind 5 is: *the difference gets relocated into a defect in the
+speaker.* On a social or cultural stimulus, a failed restatement has an
+available escape — score it as framing, perspective, or the speaker's
+idiosyncrasy, and no failure is recorded. **On a physics stimulus that
+escape is closed**, because the tree falls either way.
+
+So the physics base is not only a validity condition in general. It is a
+**structural defence against the programme's own measurand contaminating
+its measurement** — arms 1 and 2 test for surface substitution, and without
+a consequence-bearing stimulus, a surface substitution can be re-described
+as a legitimate alternative framing and pass.
+
+`STATUS: DERIVED. The rationale is the operator's; this reading of its
+effect on gate kind 5 is mine.`
