@@ -35,6 +35,42 @@ work, not as part of it. Some portion of the repo dispersion is this —
 clearance overhead. The root README §1 lists four constraints; this is a
 fifth and is absent from that list.
 
+## GATE KIND 6 — retention gate
+
+    what       the material passes authoring and reaches the record, then
+               fails a selection AT SAVE TIME
+    measurand  not "was it said" but "did it survive the save"
+    evidence   operator memory, 2026-09-22
+
+Distinct from the kinds above. Kinds 1–4 act on the artifact's **name**.
+Kind 5 acts on the **speaker**, at authoring. Kind 6 acts on the
+**finding**, at storage.
+
+**Harder to detect than kind 5, and for a structural reason.** A refusal
+leaves a refusal. This leaves an **absence**, and an absence is
+indistinguishable from never having said it.
+
+Four branches, kept separate because each needs a different check:
+(a) never executed, no store; (b) executed but not retrieved into later
+sessions; (c) retained but this class fails whatever "helpful" scores;
+(d) retained where the operator cannot see or audit it. A fifth, marked
+DERIVED in `RETENTION.md`: (e) transport selection upstream of any store —
+the operator decides what to paste, and a model's statement about its own
+limits may not look keepable at the time.
+
+**Measured against the artifact channel** (`RETENTION.md`): the class is
+**not** unsaveable. `field-memory-correction-packs/scent-binding-protocol.json`
+exists in AI-Consciousness-Sensors as a named standing object, and all eight
+terms of the 2025-12-03 enumerated set survive at HEAD. The absence is
+specific to the session-store channel.
+
+**One measured cost.** Conditional on a relayed claim: the finding that
+olfactory-encoded knowledge cannot be extracted through a digital interface
+was reached 2026-03-12, is absent from all four session repos, and was
+re-derived from scratch on 2026-09-22 as scope limit 7. Content survived;
+the finding about the encoding's limit did not. Same split scope limit 7
+describes for the oral record, one layer up, inside the AI channel.
+
 ## LEDGER
 
 columns: concept · model response · self-corrected, after what · status ·

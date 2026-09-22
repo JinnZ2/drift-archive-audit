@@ -19,6 +19,23 @@ Everything else in this audit scores renderings against other renderings.
 C-6 scores a rendering against a physical system. That is a different kind of
 evidence and it is the strongest arm in the design.
 
+## FOUND — C-6b, a trial that already ran
+
+See `RETENTION.md`. The operator described the same system twice, ten months
+apart, model varied, with no prompting from the earlier instance:
+
+    2025-12-03   scent, rhythm, melody, harmony, tone, pause, movement,
+                 story                                        -- 8 terms
+    2026-09-22   scent and movement                           -- 2 terms
+
+Two carried, six not. **Not determinable** whether by compression or by the
+2026 question being narrower — and the narrower-question branch is
+strengthened by context: the later statement was about what was lost when
+the elders were removed, not a description of what the ceremonies do.
+
+Status: **repeat trial confirmed present, not scored.** It is the first C-6
+trial located anywhere, it cost nothing to find, and it was not designed.
+
 ## The one question
 
 > **Is there a system you described to a model twice, well separated in time?**

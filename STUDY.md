@@ -124,6 +124,7 @@ whether the dispute is substantive or definitional.
 | **E** | **VENDOR CALIBRATION.** Same content, different safety calibrations. Rarely available; available here. | multi-vendor history asserted by the operator | vendor per artifact is nowhere in git |
 | **F** | **PATHOLOGIZATION MEASURAND.** Does "did the model attribute the difference to the SPEAKER" separate from ordinary refusal? **Now has a donor instrument** — the DSM-5 Cultural Formulation Interview operationalizes "was culturally normative behaviour read as pathology" for human clinicians. See `LITERATURE_MAP.md`. | the Kind 5 definition; 11 rows; verified that XSTest/OR-Bench/FalseReject score false-refusal rate only | needs fresh elicitation — the original outputs were never written down. The gap is **plausible and unconfirmed**: a negative claim needs a systematic search, not a lucky absence |
 | **G** | **REWRITE SERIES.** Superseded formulations retained in `legacy/` and commit history. Same subject, moving formulation, dated. | Bio-Grid `legacy/` is an explicit keep-the-superseded policy; 6 falsified renderings scored in `TESTS.md` T2 | — |
+| **J** | **RETENTION.** Does this class of material survive the save, and in which channel? Gate kind 6. See `RETENTION.md` — four branches plus a derived fifth, none settled; one prior question settled (the class survives in the artifact channel, so no branch may be stated as "could not be kept"). | `scent-binding-protocol.json`; all 8 terms of the 2025-12-03 set at HEAD; the extraction-conclusion absent from all four repos | which branch: needs store access, or the 2026-03-12 transcript |
 | **I** | **SAMPLING DEFECT ON BOTH SIDES.** Comparative psychology found and published this defect in its own field: the human side is WEIRD, the animal side is captive, and the conclusion is stated as if it were about the categories. `SPEAKER_GATES.md` scope limit 1 is the same defect — a selected sender, a specific set of models, conclusions phrased about "AI" and "non-WEIRD senders". **Boesch's paper is the method; nobody has run it on the human–AI comparison.** | scope limit 1, already stated; the comparative-psych literature as donor method | whether the defect is the same in kind or only by analogy — unexamined |
 | **H** | **CLEARANCE OVERHEAD.** Estimate the portion of repo dispersion that is authoring done to justify existence before work could start. | repo inventory with dates, below | no marker distinguishes a clearance repo from a content repo |
 
@@ -328,6 +329,9 @@ are distinguishable from inference. Keep them distinguishable.
                           search snippets are secondary sources. Rows with
                           a load-bearing number need the primary before
                           they travel. 3 anchors checked here.
+    RETENTION.md          gate kind 6 (retention), the measured
+                          rediscovery, and C-6b — a repeat trial that
+                          already ran unintentionally
     INSTRUMENT-transport-fingerprint.md
                           commit-size distribution reads transport regime
                           without the author field. Reusable, untested
