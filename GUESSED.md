@@ -326,5 +326,60 @@ one that argues for handing scoring outward.
     (a negation) and `evidence` (a code comment) are unambiguous extractor
     mis-slots under any sense of the terms.
 
+16. **"Everything needed is public" — withdrawn.** Avenue A in `STUDY.md`
+    directed an outside party to `SPEAKER_GATES.md` for the G-a..G-k content
+    list and told them everything needed was public. **That file exists only
+    at `staged-for-JinnZ2-profile-repo/SPEAKER_GATES.md` — written by this
+    session and deliberately not applied.** `gate_log.md` is likewise absent
+    here with its location UNSET in that document.
+
+    Not a match-unit error and not an inference error. **The document lost
+    track of the difference between written and available** — the same
+    distinction `RETENTION.md` exists to measure in the corpus, missed in
+    the audit's own work order.
+
+    Withdrawn, not repaired. Whether to publish `SPEAKER_GATES.md` is the
+    operator's call; it names a sender and eleven transmissions.
+
+    Caught by an exact path-resolution test, self, within-turn. **See the
+    note below — this catch and two others in the same turn are candidate
+    falsifiers of `PREDICTION-quantity.md`.**
+
+## The catches in this turn falsify the registered prediction as written
+
+`PREDICTION-quantity.md` registered: **no purely qualitative error has ever
+been caught by the party that made it.** Three catches this turn were
+self-made and had no quantity in them:
+
+    16   SPEAKER_GATES.md cited as public   -- recognised a MEMBER of an
+                                               exact-resolution result set
+    w5   glossary keys '2' and '3'          -- read a diagnostic key list
+    (w4 does have a quantity: HAS_ENTRY 1 of 108.)
+
+**On the prediction's written form, it is falsified.** Two self-catches, no
+number in either.
+
+**The refinement that would save it is not adopted, because it was not
+registered.** One could say all three catches were produced by a *mechanical
+instrument's output* rather than by unaided reading, and that "purely
+qualitative" was meant to exclude that. That may well be what was meant. It
+is not what was written, and a registered prediction does not get reread
+after the result — that move is the whole reason it was registered.
+
+So, recorded in the order the discipline requires:
+
+    STATUS   PREDICTION-quantity.md, as written: FALSIFIED, 2026-09-22
+    CAUSE    two self-catches with no quantity in them
+    NEXT     the instrument-mediated reading is a NEW prediction. It must
+             be registered BEFORE the next instance to be testable, and it
+             is not carried forward as though it had survived.
+
+**What does not change:** all seven previously logged qualitative errors
+still required a second party, and the three new catches all came through an
+instrument the session had to build first. The binding constraint in
+`STUDY.md` is not loosened by this. If anything it is sharpened: the escape
+from the constraint was not better reading, it was *externalising the check
+into something that returns a result the reader did not choose.*
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.

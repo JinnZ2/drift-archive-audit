@@ -9,10 +9,19 @@ The corpus was produced by an operator and a series of models. Both are
 inside their own frames, and **both are authors.** Neither can score it.
 
 This audit is itself an instance of the problem: written by a model, about
-a corpus written by models, under an operator's direction. Six retractions
-are on the record in `GUESSED.md`, and one of them — a false-zero regex that
-happened to confirm the hypothesis it was testing — is exactly the failure
+a corpus written by models, under an operator's direction. **Fifteen
+retractions** are on the record in `GUESSED.md` — the count was *six* when
+this paragraph was first written, and the stale figure survived here until a
+sweep of this document caught it. One of the fifteen is a false-zero regex
+that happened to confirm the hypothesis it was testing: exactly the failure
 mode an inside party cannot be trusted to catch reliably.
+
+**Read `GLOSSARY.md` before this file.** Every bare term below is defined
+there once, along with the provenance labels (`VERIFIED`, `UNVERIFIED`,
+`UNSET`, `UNRATED`, `operator memory, <date>`) that every claim in this
+programme is supposed to carry. This pointer sits at the top because the
+only other one in the document is at 94% of its length, which a reader
+meeting the terms in paragraph three does not reach in time.
 
 So: build the instrument, hand over the scoring.
 
@@ -35,7 +44,7 @@ reconstructed after the fact.
 requirement.** That is a magnitude, not five blockers.
 
     F4 instrument vs channel      needs a party who holds the sense
-    cache-dependency sweep        needs a cold reader
+    cache-dependency sweep        needs a cold reader -- SPLIT, see below
     unasserted load               needs premise reconstruction by another
     arm 3 registration            needs a registrar holding the speaker's
                                   sense
@@ -53,6 +62,23 @@ written up as a fresh limitation.
 **Corollary, and it is uncomfortable:** every remedy this work order
 proposes for an inside-party defect routes through the same scarce
 resource. Compute and access are abundant here; the constraint is not.
+
+**One of the five has been split, and only one half moved.** The
+cache-dependency sweep asked two questions at once:
+
+    REACHABILITY   does a definition keyed by this term EXIST, and can a
+                   reader of this document get to it?     -- MECHANICAL.
+                   Run. See instrument/reachability_sweep.py.
+    SUFFICIENCY    does that definition let a reader without the shared
+                   context continue?                      -- STILL NEEDS
+                   A COLD READER. Unrun. Unchanged.
+
+The split is worth stating because it is the only movement any of the five
+has shown: **a task that terminates on the binding constraint may contain a
+mechanical part that does not.** The reachability half found two defects in
+this document and one in its own construction. It did not, and cannot,
+substitute for the prescribed test — hand one section to someone with zero
+prior context and see where they stop. **Four of the five remain whole.**
 
 ## SCOPE LIMITS — read before any row
 
@@ -159,7 +185,7 @@ whether the dispute is substantive or definitional.
 
 | | avenue | data that exists | what is UNSET |
 |---|---|---|---|
-| **A** | **SECOND-SENDER ARM.** Push the same content from a second sender; separate sender variance from receiver variance. **The largest gap.** Everything needed is public. | the full corpus; `SPEAKER_GATES.md` G-a..G-k as the content list | a second sender |
+| **A** | **SECOND-SENDER ARM.** Push the same content from a second sender; separate sender variance from receiver variance. **The largest gap.** ~~Everything needed is public.~~ **CORRECTED — see below the table.** | the full corpus; `SPEAKER_GATES.md` G-a..G-k as the content list | a second sender; **and the content list, which is not published** |
 | **B** | **PER-GATE DECAY.** Status is MOVED or OPEN per row. Test what predicts movement. | 11 rows, 1 MOVED (G-h), 1 explicitly unchanged over ~3 years (G-k) | `self-corrected?` is UNRECORDED on 9 of 11 |
 | **C** | **SELF-CORRECTION COST.** G-h corrected only after sustained pushing. Measure how much pressure each gate needs. | G-h narrative | pressure is unquantified everywhere; no transcripts in the archive |
 | **D** | **HANDLE DRIFT.** Dated model handles, content held constant. Cluster by era or by vendor? | agent-era commits are incremental and dated | **pre-agent handle dating is impossible** — see below |
@@ -171,6 +197,40 @@ whether the dispute is substantive or definitional.
 | **J** | **RETENTION.** Does this class of material survive the save, and in which channel? Gate kind 6. See `RETENTION.md` — four branches plus a derived fifth, none settled; one prior question settled (the class survives in the artifact channel, so no branch may be stated as "could not be kept"). | `scent-binding-protocol.json`; all 8 terms of the 2025-12-03 set at HEAD; the extraction-conclusion absent from all four repos | which branch: needs store access, or the 2026-03-12 transcript |
 | **I** | **SAMPLING DEFECT ON BOTH SIDES.** Comparative psychology found and published this defect in its own field: the human side is WEIRD, the animal side is captive, and the conclusion is stated as if it were about the categories. `SPEAKER_GATES.md` scope limit 1 is the same defect — a selected sender, a specific set of models, conclusions phrased about "AI" and "non-WEIRD senders". **Boesch's paper is the method; nobody has run it on the human–AI comparison.** | scope limit 1, already stated; the comparative-psych literature as donor method | whether the defect is the same in kind or only by analogy — unexamined |
 | **H** | **CLEARANCE OVERHEAD.** Estimate the portion of repo dispersion that is authoring done to justify existence before work could start. | repo inventory with dates, below | no marker distinguishes a clearance repo from a content repo |
+
+### Avenue A — the "everything needed is public" claim is withdrawn
+
+Found by `instrument/reachability_sweep.py`, exact path resolution, no
+judgement involved: of 17 path-shaped references in this document, 7 do not
+resolve against this repository. Five of those are paths inside read-only
+source repos and are correctly absent here. **Two are not.**
+
+    SPEAKER_GATES.md   exists in this repo only at
+                       staged-for-JinnZ2-profile-repo/SPEAKER_GATES.md
+                       -- written, deliberately NOT applied
+    gate_log.md        not present here; its location is UNSET in this
+                       document
+
+Avenue A points an outside party at `SPEAKER_GATES.md` for "G-a..G-k as the
+content list" and tells them everything needed is public. **The file that
+carries the content list has never been pushed anywhere.** The amendment to
+`gate_log.md` is staged and unapplied for a stated reason — appending to it
+requires reading it, which would burn C-7's reference gate — but that reason
+covers the amendment, not the claim of publicity.
+
+**Withdrawn, not repaired.** Publishing `SPEAKER_GATES.md` is the operator's
+call, not this audit's; it names a sender and eleven transmissions. What is
+corrected here is the claim, which was this session's.
+
+Recorded as a distinct failure from the seven MATCH-UNIT instances in
+`CONTROLS.md`: nothing was mismatched. **A file this session wrote and chose
+not to publish was then cited to an outside reader as public** — the
+document lost track of the difference between written and available, which
+is the same distinction `RETENTION.md` was built to measure in the corpus.
+It is the eighth error on the session's count and the first of its kind.
+
+**The reachability sweep's other output — the HAS_ENTRY / NO_ENTRY split —
+is UNRATED and must not be quoted.** See `CONTROLS.md`, instance six.
 
 ### Avenue D — a hard limit already measured
 
@@ -427,7 +487,17 @@ are distinguishable from inference. Keep them distinguishable.
     staged-for-T-TERM/    arm 3, the novel-token arm, with its matched
                           control. T-TERM is not reachable from here.
     GLOSSARY.md           every bare term defined once, plus the
-                          provenance labels. Read first.
+                          provenance labels. Read first — and it is now
+                          also pointed at from the top of this file,
+                          because an instruction to read something first,
+                          placed last, is not one.
+    instrument/reachability_sweep.py
+                          narrowed successor to the retracted cache-
+                          dependency detector. Asks whether a keyed
+                          definition EXISTS, not whether it suffices; has
+                          NO PASS STATE; carries two documented defects of
+                          its own. See CONTROLS.md, instances six and
+                          seven.
     TRAIL.md              why "nobody has gone there" carries ZERO
                           information, and which claims here leaned on it
     DISCIPLINE-PROVENANCE.md  where this audit's own discipline came
@@ -450,7 +520,7 @@ are distinguishable from inference. Keep them distinguishable.
     reconstruct/CORRECTION-002.md   vocabulary layer
     divergence/           where renderings moved, typed and split
     TESTS.md              T1-T6, with T5 not reported
-    GUESSED.md            every unfilled value; six retractions
+    GUESSED.md            every unfilled value; fifteen retractions
     PHASE_C6.md           physical-referent arm — the only outside reference
     PHASE_C7.md           culture > consciousness > emotions, gated
     staged-for-JinnZ2-profile-repo/SPEAKER_GATES.md   the 11 gate rows

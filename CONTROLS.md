@@ -221,3 +221,70 @@ No negative is reportable without naming the term that proved the detector
 could see something. **This programme has run exactly three positive
 controls: one by accident (`vibrotactile`), two on purpose (`terra_preta`,
 `ISO 12944`), all within one day of noticing the problem.**
+
+### SIXTH INSTANCE — and it is this session's, in the instrument built to
+### replace the detector that produced instance four
+
+`instrument/reachability_sweep.py` is the narrowed successor to the retracted
+cache-dependency detector (`GUESSED.md` #10). It was written specifically to
+avoid #10's failure: it asks *does a definition keyed by this term exist*
+(mechanical) rather than *is this term defined well enough* (a comprehension
+judgement), and it was given no PASS state so that it cannot emit an
+all-clear.
+
+**It hit MATCH-UNIT MISMATCH on its first run anyway.**
+
+    extractor's unit   a whole backtick span, or a whole ALL-CAPS run
+    glossary's unit    a bare term
+
+    `reconstruct/CORRECTION-001.md`   never matches key  CORRECTION-001
+    TRANSPORT CONFOUND               never matches key  TRANSPORT×MODEL
+
+    first run on STUDY.md:  HAS_ENTRY = 1 of 108
+
+    verified present in STUDY.md as substrings, extracted by neither
+    channel:  C-6  C-6b  C-7  CORRECTION-001  CORRECTION-002  G-a  G-k
+              rendering
+
+**Caught by quantity, for the fourth time.** 1 of 108 is not a believable
+reachability rate for a work order written by the same party that wrote the
+glossary. Nothing about the reasoning was wrong; the unit was.
+
+**Not repaired.** A substring fallback would lift HAS_ENTRY to a number that
+looks right and means nothing — and substring fallback is precisely what
+produced the `T-TERM` error. The split is marked `UNRATED` in the
+instrument's own output instead, so the number cannot be quoted as a rate.
+
+### SEVENTH — same class, one level up, caught before it fired
+
+The same instrument's glossary-key splitter divided compound keys on their
+separators. `CALIBRATION MODE 1/2/3` yielded the keys `2` and `3`, which
+would have classified any token `2` as `HAS_ENTRY` — **a false-positive
+generator inside the detector built to avoid a false all-clear.**
+
+    splitter's unit   a separator
+    key's unit        a term
+
+It did not fire only because the candidate extractor happens to require four
+characters on its caps channel. **A latent defect, not an avoided one.**
+
+Status: **CAUGHT_BEFORE_FIRING**. Recorded as its own status because the
+three preceding entries in this file were all caught *after* producing a
+result, and a defect stopped before it produces one is not evidence that the
+class is being handled — it is one draw that landed differently.
+
+The fix removes non-term fragments; a standing control aborts the run if any
+key shorter than two characters or purely numeric ever reappears.
+
+### What this does to the class count
+
+Six instances this session plus one from the corpus's own falsification log.
+**The rate is not falling.** Two of the seven occurred inside instruments
+written *after* the class was named and *in order to avoid it*, which is the
+measurement: naming the failure mode did not stop it. Only quantity did —
+four times out of six.
+
+**Consequence for the programme, stated and not softened:** an inside party
+who has named this class, documented it, and is actively watching for it
+still walks into it at roughly the same rate. That is an argument for the
+binding constraint in `STUDY.md`, not against it.

@@ -44,6 +44,9 @@ axes: **was a quantity involved in the catch**, and **who caught it.**
 | w1 | fabrication grep 0/3 | YES — 0 where the discipline was known present | self, within-turn |
 | w2 | `T-TERM` grep, 96 hits | YES — 96 is implausible for a rare design name | self, within-turn |
 | w3 | OR chain, 0 vs 3 | YES — a single-term query contradicted the chain | self, within-turn |
+| 16 | `SPEAKER_GATES.md` cited as public | **no** — recognised a member of an exact-resolution result set | self, within-turn |
+| w4 | reachability sweep, MATCH-UNIT | YES — HAS_ENTRY 1 of 108 is not a believable rate | self, within-turn |
+| w5 | glossary keys `2`, `3` | **no** — read a diagnostic key list | self, within-turn |
 
 ## Result — the prediction SURVIVED, and the split is clean
 
@@ -58,6 +61,40 @@ axes: **was a quantity involved in the catch**, and **who caught it.**
 **Not one purely qualitative error was caught by the party that made it.**
 Every single one required a second party. And every self-catch, without
 exception, had a number in it.
+
+---
+
+## FALSIFIED — 2026-09-22, by 16 and w5
+
+**The result above stood for the fifteen rows it was computed on. It does
+not survive rows 16 and w5.** Both are self-catches. Neither has a quantity
+in it.
+
+    SELF-CAUGHT, no quantity    2   <- the falsifier. Found.
+
+Row 16 recognised that a named file was one this session had written and not
+published; w5 read two junk entries out of a printed key list. No count
+drove either.
+
+**What the two have in common, and it is not a quantity:** both came out of
+a *mechanical instrument's printed output* rather than out of reading prose.
+The instrument returned a set the reader did not choose the membership of,
+and the reader recognised a member.
+
+**That is a candidate third category, and it is NOT adopted here.** It is a
+post-hoc reading of a result, which is the exact move this file was written
+to forbid. To be testable it has to be registered first:
+
+    NEW PREDICTION, registered 2026-09-22, untested:
+    An inside party will not catch a qualitative error of its own except
+    through the output of an instrument it did not hand-tune for the
+    occasion.
+    FALSIFIER: one self-caught qualitative error found by reading alone.
+    n so far: 0. It has not yet had a chance to fail.
+
+**The original prediction is not rewritten and not deleted.** It is marked
+falsified with the date and the rows that did it. The successor starts at
+n = 0 and inherits nothing.
 
 I searched specifically for a counterexample, because confirmation is this
 programme's documented failure mode. **There is none on the record.**
