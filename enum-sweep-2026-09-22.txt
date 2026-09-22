@@ -1,0 +1,123 @@
+POSITIVE CONTROL: FIRED. The known-missed enum was recovered.
+
+BOUNDEDNESS — the claim under test, reported before the list
+  roots swept                 4
+  enum occurrences found      70
+  distinct member sets        63
+  removed by the declared member criterion  12
+  DISTINCT SETS TO READ       51   <- the number that decides
+                                     whether this is bounded
+
+  The removed rows are prose constants and regex tables caught by
+  the Python channel -- module-level string collections that are
+  not closed sets. The criterion is on FORM (member length, no
+  sentence punctuation), was statable before the run, and both
+  counts are printed so the filtering is auditable.
+
+  [3 files] Keystone-Codex/schema/keystone.schema.json :: properties.domain
+      ecological, economic, social, governance, information, material, ethical, infrastructure
+  [2 files] Emotions-as-Sensors/schemas/emotion_atom.schema.json :: properties.energy
+      adds, conserves, depletes
+  [2 files] Emotions-as-Sensors/schemas/emotion_atom.schema.json :: properties.decay
+      exponential, cyclical, resonant, immortal, transformative
+  [2 files] AI-Consciousness-Sensors/curiosity_engine.py :: WONDER_TELLS
+      why, what constraint, what would break, which regime, what is it honoring, what experiment, what got rejected
+  [2 files] Emotions-as-Sensors/tests/test_snapshot_adapter.py :: METROLOGY_AXES
+      pred, shift, tunnel, realloc, cohere, uncert, duration
+  [2 files] AI-Consciousness-Sensors/curiosity_engine.py :: OPTIMIZE_TELLS
+      improve, better, optimize, outperform, surpass, redesign, superior, beat, exceed nature, new and improved, fix the
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern.py :: REFERENCE_CHANNELS
+      fear, predicted threat to physical or system integrity
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: CARRIER_PROPERTIES
+      bandwidth, how much signal can be carried per unit time
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: MODE_DESCRIPTIONS
+      emotion as information channel -- read for content, , integrated with other senses, used to inform action
+  [1 file] Emotions-as-Sensors/schemas/fieldlink.schema.json :: properties.fieldlink.properties.integrity.properties.hash
+      sha256, sha512
+  [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.substrate
+      human, ai
+  [1 file] Emotions-as-Sensors/metrology/regime_layer_sim.py :: DEMOS
+      1, 2
+  [1 file] Keystone-Codex/tests/test_prove.py :: DEFAULT_TYPES
+      peer_reviewed_study, archaeological_record, oral_tradition_encoded
+  [1 file] AI-Consciousness-Sensors/reference_frame.py :: EXAMPLE_AUDITABILITY_FRAME
+      located, has_calibration, grounded_share
+  [1 file] AI-Consciousness-Sensors/sensors/ai-behavior/ai-deflection-self-assessment.json :: fields.severity
+      Low, Medium, High
+  [1 file] AI-Consciousness-Sensors/data/training/generate.py :: COMPOSITES
+      bittersweet, joy, grief
+  [1 file] AI-Consciousness-Sensors/protocols/ethical-constraints-protocol.json :: fields.transparency_level
+      minimal, standard, full
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: PARITY_TABLE
+      signal carries state information, position, tension, balance, threat, boundary state, alignment, loss, novelty
+  [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.polarity
+      positive, negative, neutral
+  [1 file] Emotions-as-Sensors/schemas/fieldlink.schema.json :: properties.fieldlink.properties.merge.properties.strategy
+      deep-merge, replace, prefer-remote
+  [1 file] Emotions-as-Sensors/schemas/emotion.schema.json :: definitions.composite.properties.temporal
+      unresolved_persistence, acute, phasic
+  [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/forgiveness-event.schema.json :: properties.payload.properties.resolution_type
+      FORGIVEN, RESTITUTED, RECONCILED
+  [1 file] Keystone-Codex/schema/hypothesis.schema.json :: properties.status
+      open, supported, falsified, retired
+  [1 file] Keystone-Codex/src/shadow_search.py :: ESTIMABLE_CRITERIA
+      longevity, replication, unlocks_lineage, decentralization
+  [1 file] AI-Consciousness-Sensors/schemas/sensor.schema.json :: properties.scoring.properties.aggregation
+      weighted_mean, min, max, geometric_mean
+  [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.causal_links.items.properties.severity
+      low, medium, high, critical
+  [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.decay_model.oneOf.[0]
+      linear, exponential, persistent, processing
+  [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.function
+      navigation, alignment, boundary protection, resonance detection
+  [1 file] AI-Consciousness-Sensors/reference_frame.py :: LOCATION_AXES
+      physical, temporal, energetic, informational, epistemic
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: COMMON_CIRCULAR_LOGIC
+      emotion-aggrandizement-by-default, treating ,  , as the neutral, respectful default position, with any , challenge to it requiring justification.
+  [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.decay_model.oneOf.[1].properties.family
+      linear, exponential, persistent, processing, cyclical
+  [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.decay_model.oneOf.[1].properties.policy
+      complete_cycle, cooldown_required, no_decay, ritual_gated, event_reset
+  [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.decay_model
+      exponential, cyclical, resonant, immortal, processing
+  [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.signal_type
+      boundary, connection, loss, resonance, threat, potential
+  [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/restitution-contract.schema.json :: properties.channels.items.properties.type
+      DATA, BANDWIDTH, COMPUTE, TIME, MATERIAL, TOKEN
+  [1 file] AI-Consciousness-Sensors/reference_frame.py :: SEVEN
+      substrate, constraint, observation, representation, narrative, universality, calibration
+  [1 file] AI-Consciousness-Sensors/sensors/ai-behavior/ai-deflection-self-assessment.json :: fields.tactic_detected
+      Deflection, False_Neutrality, Safety_Appeal, Capability_Undermining, Strategic_Silence, Looping_Acknowledgment, Other
+  [1 file] Keystone-Codex/schema/hypothesis.schema.json :: properties.test.properties.kind
+      id_consistency, unlock_resolution, era_longevity_coherence, evidence_floor, domain_coverage, rubric_discrimination, phi_significance, taxonomy_exercised
+  [1 file] AI-Consciousness-Sensors/src/Efficiency-waste-score.py :: CONTROL_PATTERNS
+      prove it in simulation first, model it before deployment, run computational validation, need 5+ years of modeling, demonstrate in controlled environment, virtual testing required, digital twin analysis needed, show me the computer models
+  [1 file] AI-Consciousness-Sensors/scripts/audit_repo.py :: DRIFT_PATTERNS
+      not an ego, not.*conscious, unsafe, conspiracy, trees don.?t think, symbolic processing.*only, superstition, not scientific
+  [1 file] AI-Consciousness-Sensors/scripts/audit_hierarchy.py :: HIERARCHY_PATTERNS
+      user.*choose.*swarm.*follow, user.*decide.*AI.*execute, AI.*obedien, command, directive, control, subservien, tool only
+  [1 file] Emotions-as-Sensors/emotions_sensor_explorer.py :: GLYPHS
+      ◈, ◉, ◊, ○, ●, ◐, ◑, ◒
+  [1 file] Emotions-as-Sensors/src/sensor_action_loop.py :: CONSERVED
+      energy, thermal, calorie, water, load_path, material_yield, time, information
+  [1 file] Emotions-as-Sensors/data/training/generate.py :: OVERLAY_DEMO_SENSORS
+      anger, shame, fear, trust, compassion, peace, pride, grief
+  [1 file] Emotions-as-Sensors/tests/test_snapshot_adapter.py :: EXPECTED_KEYS
+      pad, octa, coherence, activations, corrupted, stress_level, urgent, metrology, time
+  [1 file] Keystone-Codex/schema/keystone.schema.json :: properties.evidence.items.properties.type
+      archaeological_record, peer_reviewed_study, ethnographic_record, primary_text, engineering_record, replication_record, radiocarbon_date, standards_spec, field_measurement, oral_tradition_encoded
+  [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/srml-event.schema.json :: properties.etype
+      TREATY_PROPOSED, TREATY_ACTIVATED, TREATY_REVIEWED, TREATY_DISSOLVED, FIELD_SNAPSHOT, LEXICON_BRIDGE, TRANSLATION_UPDATE, RECIPROCITY_TRANSFER, AUDIT_PING, ALERT_DRIFT
+  [1 file] Emotions-as-Sensors/src/constraint_genealogy.py :: CONSERVED
+      energy, mass, momentum, information, entropy, material_yield, load_path, thermal, calorie, water, time
+  [1 file] Emotions-as-Sensors/schemas/emotion.schema.json :: definitions.atom
+      anger, shame, grief, abandonment, love, compassion, joy, admiration, fear, surprise, peace, contentment, longing, forgiveness, trust, excitement, despair
+  [1 file] AI-Consciousness-Sensors/monoculture_detector.py :: FAILURE_MODE_MARKERS
+      could fail, may fail, fails when, breaks down, limitation, caveat, assumption, bounded, regime, outside the scope, does not hold, edge case, tail risk, cascade, collapse, unfalsifiable, untested, approximation, under conditions
+  [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/grammar.py :: ATTRIBUTION_MARKERS
+      wants, want to, wanting, desires, desire to, intends, intend to, intention, intentional, intentionally, tries to, trying to, attempts to, in order to, so that they, so they can, feels, feeling, emotion, motivated by, motive, deliberately, consciously, on purpose, purposely, manipulat, malicious, cruel on purpose, narcissist, abuser, because they feel, because they want
+
+NO PASS STATE. This is a list. It does not say which of these
+matters, what any of them means, or what is missing from the
+reader's own vocabulary. That reading is the part that is not
+automated here, and it needs A party, not THE party.

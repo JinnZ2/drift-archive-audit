@@ -288,3 +288,33 @@ four times out of six.
 who has named this class, documented it, and is actively watching for it
 still walks into it at roughly the same rate. That is an argument for the
 binding constraint in `STUDY.md`, not against it.
+
+
+### EIGHTH — a failure mode this class had not shown: cost, not correctness
+
+`instrument/enum_sweep.py`, first version. The Python channel used a
+nested-quantifier regex:
+
+    ((?:\s*["\'][^"\']+["\']\s*,?\s*)+)
+
+**It backtracked catastrophically on a long non-matching line and hung the run
+past 120 seconds.** Replaced with a linear two-stage scan; the dead pattern is
+kept in the source with a comment.
+
+**The pattern was not wrong. It never finished.**
+
+    DIALECT      the engine parses the pattern differently than written
+    GRANULARITY  the matcher's unit is not the author's unit
+    COST         the pattern is correct and does not terminate
+
+**A detector that never finishes returns nothing, and nothing is
+indistinguishable from an absence.** A timeout manufactures a false zero by a
+route `guarded_count` does not cover — no reading is produced, so there is
+nothing to guard.
+
+**Third time this class has recurred inside an instrument built after it was
+named.** This one was the instrument built to make FIND cheap.
+
+`COST` is recorded as an observed failure mode, **not promoted to a third
+sub-form**: n=1, and promoting a sub-form at n=1 is the drift direction
+`SPEC-SHEET.md` §2 predicts.

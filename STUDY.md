@@ -76,6 +76,10 @@ reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
              party fluent in BOTH vocabularies.
              ** SCARCEST OF THE THREE. Strict subset of DEFINE's
                 population. Failure mode is SILENT. **
+             ** PARTIALLY CONVERTED 2026-09-22: for enums, FIND is now
+                "read 51 lines" -- reader-side, substitutable. See
+                ENUM-SWEEP.md. The conversion covers closed sets only;
+                everything else still needs both vocabularies. **
 
 **Four of this audit's derivations were instruments already in the corpus,
 and none was found by search** — each followed the operator supplying the
@@ -665,6 +669,12 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    ENUM-SWEEP.md         FIND converted into a reading task. Control
+                          FIRED; 51 distinct enums across 4 repos, which
+                          is a few minutes of reading. The list is handed
+                          over UNREAD for significance, deliberately.
+    enum-sweep-2026-09-22.txt   the artifact itself
+    instrument/enum_sweep.py    bounded, control-gated, no PASS state
     SPEC-SHEET.md         this session as an instrument, MODE 1:
                           response profile, drift direction, what it
                           cannot report about itself, and a traceability
