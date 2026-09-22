@@ -26,6 +26,11 @@ their hashes still verify — see `reconstruct/CORRECTION-001.md`.
 
 Not expanded past the pilot. Waiting on verification.
 
+`AI-Consciousness-Sensors` was in scope and not selected — still unsearched.
+`JinnZ2/JinnZ2` (the profile README, and the declared parent frame of
+Emotions-as-Sensors) was never in scope. It is reachable now and is
+deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
+
 ## Layout
 
     ledger/commits.jsonl   A2 hashes, written BEFORE any history was read
@@ -37,6 +42,9 @@ Not expanded past the pilot. Waiting on verification.
     PHASE_C6.md            repeat description of a PHYSICAL referent —
                            the only arm with an outside reference.
                            BLOCKED on one operator answer.
+    PHASE_C7.md            culture > consciousness > emotions, scored
+                           against an unmediated reference.
+                           GATED on the operator's reference description.
     PHASE_D.md             channel probe — BLOCKED on the verify forms
     TESTS.md               T1-T6
     GUESSED.md             every value not filled in, and two retractions

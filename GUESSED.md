@@ -122,5 +122,18 @@ fell to CORRECTION-001:
    CORRECTION-001, so it carries no information. Survives only as evidence
    of incomplete transport editing.
 
+5. **A broken regex produced a table of false zeros** (C-7, parallel/
+   always-on). `git grep -E "a\|b\|c"` was used with backslash-escaped
+   pipes; in POSIX extended regex `\|` is a LITERAL pipe, not alternation,
+   so every multi-term row searched for the literal string and returned 0.
+   The first reading — "parallel and always-on are encoded nowhere" — was
+   wrong and would have confirmed the hypothesis it was testing. Corrected
+   in `PHASE_C7.md`; the corrected result inverts it.
+
+   Worth keeping visible: a measurement error that happens to agree with the
+   claim under test is the failure mode this whole audit is about. It got
+   caught only because an unrelated check (`affective`) returned a nonzero
+   count that contradicted the table.
+
 No A2 file was edited after hashing, including for CORRECTION-001. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
