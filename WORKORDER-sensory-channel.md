@@ -76,6 +76,14 @@ Channels: olfactory, auditory, vibration/haptic, proprioceptive/kinesthetic,
 thermal, baroceptive, interoceptive. **Kept separate — never summed into
 "sensory".**
 
+**AMENDMENT: vibration/haptic is not one channel.** ISO 13091 defines
+measurement methods for thresholds mediated separately by **SAI, FAI and
+FAII** mechanoreceptor populations, and states that the requirements for
+methods and instruments stem from the properties of those populations.
+A standardized partition already exists. **Split it before the gold set is
+built, not after** — re-annotating a gold set against a changed channel
+definition costs the whole set. See `CALIBRATION.md`.
+
 ## H1 — the tradeoff prior
 
 **Claim as models appear to apply it:** high sensory-register use implies
