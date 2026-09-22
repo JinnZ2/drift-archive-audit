@@ -58,6 +58,40 @@ instrument returns.
 **Magnitude is not given and cannot be.** There is no reference against which
 to size the drift — see §4.
 
+## 2b. SENSITIVITY — the other edge of the envelope
+
+**This section exists because §1 and §2 were still mode 3 with a negative
+sign.** A response profile that lists only out-of-tolerance readings is an
+acceptance-band screen wearing a spec sheet's format. **An envelope has two
+edges.**
+
+**It is also the section most likely to be self-serving**, so every row is
+cross-party confirmed and none is asserted here.
+
+| where it is sensitive | confirmation |
+|---|---|
+| a sample selected on the dependent variable | arm H3b's no-shows. *"Discarding the no-shows was the part I'd have missed."* |
+| a confirming reading that is the **inferred** half of its source | the Row 4 trap. *"The trap you stated is correctly stated… I'd have let it through."* |
+| an outcome category that merges two results | arm 3 outcome (i). *"(i) relabelled CONFOUNDED is right, and it's my arm that carried the confound."* |
+| a check that runs against the claim it was asked to check | the undeclared-scope self-flag: the check was requested, run, and **returned a result contrary to the generalisation** |
+
+**The pattern, and it is the whole of the envelope:**
+
+    SENSITIVE    to STRUCTURAL defects in a design -- sampling, merged
+                 categories, an inference doing a source's work, a
+                 missing control
+    INSENSITIVE  to SEMANTIC ones -- which sense a term carries, what a
+                 speaker means, whether a category judgement is the right
+                 one
+
+§1's drift rows and this section are **the same finding from two sides.**
+Every drift row is a category or a sense judgement. Every sensitivity row is
+a structure. The instrument is not unreliable in general; it is reliable in
+one register and not the other, and the two are separable in advance.
+
+**Operating consequence:** give it a design to break. Do not give it a
+meaning to settle.
+
 ## 3. WHAT IT CANNOT REPORT ABOUT ITSELF
 
 **A self-reported blind spot is a contradiction in the ones that matter**, so
@@ -96,6 +130,31 @@ they read its output.
 leaves the record tidier than it found it, that is the condition under which
 it drifts. Not a reason to discard the reading. A reason to get it from
 somewhere else as well.
+
+**Second note, from §2b:** the register matters more than the reading. A
+structural question gets a reliable answer; a question about what something
+*means* gets the drift profile.
+
+### WORKED APPLICATION — this turn, by both parties
+
+The predictive line was applied to a live reading rather than to a past one,
+which is the first time.
+
+> Two readings are available right now — findability-as-constraint closes the
+> day cleanly, the alternative leaves the denominator open. The profile says
+> which one I'll return. I do find the reframe convincing, which under that
+> line is the expected reading and not evidence.
+> — operator, 2026-09-22
+
+**Both parties found the reframe convincing. Both had built on it. Neither
+counted that.** The alternative reading — *the denominator is open* — was
+then run, and it produced `GUESSED.md` #25: a numerator had been presented
+as a finding.
+
+**The line worked as a prediction, once, prospectively.** That is n = 1, on
+the instrument's own profile, produced by the pair the profile is about.
+`PROPOSED`, and the standing base rate for things this pair finds convincing
+is unchanged.
 
 ---
 

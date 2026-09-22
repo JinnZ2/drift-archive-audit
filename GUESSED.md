@@ -505,6 +505,26 @@ one that argues for handing scoring outward.
     and a spec sheet is derived from readings, not substituted for them.
     What was missing was the derived artifact: **`SPEC-SHEET.md`**.
 
+25. **A numerator presented as a finding.** `FINDABILITY.md` argued *four of
+    this audit's derivations already existed in the corpus, therefore the
+    constraint is findability.* **"Four of four" is four found-to-pre-exist
+    out of four found-to-pre-exist** — a tautology wearing a fraction. The
+    denominator, all derivations this audit made, was never assessed.
+
+    Crude floor: order 30–40, putting 4 at roughly 10%. The correct
+    denominator is smaller — many constructs are about the audit's own
+    apparatus and could not have pre-existed — so the true rate is higher,
+    and **computing it needs a category filter this session is on record as
+    applying unreliably.** Rate stays `UNRATED`.
+
+    **The four instances stand; the rate does not exist.** The startup
+    `CLAUDE.md` instance in particular needs no denominator to be what it is.
+
+    Caught cross-party — *"the alternative leaves the denominator open"* —
+    and it is the second appearance of the same operation in one turn, the
+    other being the count the operator declined to reconcile *because
+    reconciling it now would be fitting a denominator to a result.*
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

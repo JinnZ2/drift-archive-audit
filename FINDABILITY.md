@@ -108,6 +108,50 @@ explicit subject is a corpus and which had read-only access to it throughout.
 was the same party in all four — which is the `GUESSED.md` #19 population
 defect, flagged here at statement time rather than after a falsification.
 
+## THE DENOMINATOR WAS NEVER COUNTED — GUESSED.md #25
+
+**"Four of four" is not a rate.** It is *four found-to-pre-exist out of four
+found-to-pre-exist* — a tautology wearing a fraction. The quantity that
+would support *the constraint is findability* is
+
+    derivations that already existed in the corpus
+    ------------------------------------------------
+    ALL derivations this audit made
+
+and the denominator has never been assessed.
+
+**Crude floor, counted mechanically:** 24 keyed constructs in `GLOSSARY.md`,
+4 instruments, roughly 14 further named classes and states coined here.
+**Order 30–40 derivations, with overlap.** Against that, 4 is of order 10%,
+not a constraint.
+
+**But that denominator is also wrong**, in the other direction: many of those
+constructs are about the audit's own apparatus — `A1–A6`, `CORRECTION-001`,
+`TRANSPORT×MODEL` — and **could not have pre-existed in the corpus.** The
+correct denominator is *derivations for which a corpus instrument could
+plausibly have existed*, which is smaller, so the rate is higher than 10%.
+
+**Filtering that set is a category judgement**, which is the operation
+`GUESSED.md` #14 and #15 established this session performs unreliably and in
+a predictable direction. **So it is not performed here.**
+
+    numerator        4, exact
+    crude floor      ~30-40 derivations -> order 10%
+    correct denom.   smaller than the floor, unknown, needs a filter this
+                     session should not apply
+    RATE             UNRATED
+
+**The reframe is not withdrawn.** What is withdrawn is presenting a numerator
+as if it were a finding. The four instances stand as four instances,
+including the one that was in the startup `CLAUDE.md`, and that instance does
+not need a rate to be what it is.
+
+**Second appearance of the same operation this turn.** The other is the tidy-
+correspondence count, where reconciling the populations after seeing the
+result was declined for exactly this reason — *fitting a denominator to a
+result.* Here the denominator was simply never set; there it would have been
+set afterwards. **Same operation, two sides of it.**
+
 ## The one check that is cheap and has not been run
 
 Before the next instrument is built in this programme:

@@ -74,13 +74,47 @@ reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
              instrument that ALREADY EXISTS, across a vocabulary
              boundary, for a party with no term to search with. Needs a
              party fluent in BOTH vocabularies.
+             ** SCARCEST OF THE THREE. Strict subset of DEFINE's
+                population. Failure mode is SILENT. **
 
 **Four of this audit's derivations were instruments already in the corpus,
 and none was found by search** — each followed the operator supplying the
 term or the pointer. One of the four was in the `CLAUDE.md` handed to this
 session at startup. **They were recorded as findings, not as constraint
-hits**, which is why the list read as six when the constraint has been
-operating on at least ten.
+hits.**
+
+### FIND IS DECLARED A CONSTRAINT — and it is the scarcest of the three
+
+Stated so it stops being *the thing that happens to work.*
+
+**Scarcer than sense-holding by construction, not by estimate.** A FIND party
+must hold the speaker's senses **and** enough of the naming-vocabulary to know
+what the audit would fail to search for. So:
+
+    parties who can FIND   ⊆   parties who can DEFINE
+
+A strict subset. Every additional requirement is on top of the one already
+declared binding.
+
+**Its failure mode is silent, and that is what makes it worse than the
+others.**
+
+    CHECK or DEFINE unavailable   -> a VISIBLE block. The task stops and
+                                     says so. Five such blocks are on this
+                                     list because they announced
+                                     themselves.
+    FIND unavailable              -> NO block. The audit simply does not
+                                     find the instrument, and reports a
+                                     GAP instead.
+
+**An unfound instrument is indistinguishable from an absent one.** That is
+`TRAIL.md`'s zero-information inference and `ABSENCE.md`'s central hole, now
+operating on the constraint list itself — which is exactly why four
+occurrences were logged as findings and none as a constraint hit.
+
+**Consequence if the finder becomes unavailable:** nothing announces it. The
+programme keeps producing instruments and reporting gaps, at an unchanged
+rate, with no signal that it has stopped finding what already exists.
 
 **The sixth splits the constraint into two jobs that were being counted as
 one.** Five of the six need the second party to **check** something. The
