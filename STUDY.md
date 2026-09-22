@@ -631,6 +631,11 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    SPEC-SHEET.md         this session as an instrument, MODE 1:
+                          response profile, drift direction, what it
+                          cannot report about itself, and a traceability
+                          line that is stated and unmet. No pass/fail.
+                          Read this before reading anything it produced.
     FINDABILITY.md        the constraint was never instrument design.
                           4 of 4 derivations already existed in the
                           corpus; 0 found by search. The third job.

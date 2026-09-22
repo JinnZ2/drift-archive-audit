@@ -19,6 +19,14 @@ That is the whole of it. What varies is only the object it gets recorded in.
 | **"the trail can't know from inside"** | the trail | it knows what it found; reception is the unknown |
 | **"unverified, therefore weaker"** | the claim | the assessor cannot read the channel it is recorded in |
 
+| **"an error count"** | the returner | a route returned a reading nobody wanted |
+
+**Row six added 2026-09-22, and it was running inside this file's own
+bookkeeping all day.** `GUESSED.md` is an error ledger, its entries are
+retractions, `TESTS.md` T-0 is *the audit's own error mode*. Named
+cross-party; `GUESSED.md` #24. The derived mode-1 artifact is
+`SPEC-SHEET.md`; the ledger stays as the raw reading log.
+
 **Row five added 2026-09-22 (X-3, `UNSATISFIABLE-REQUIREMENT.md`). ADDING A
 ROW DOES NOT STRENGTHEN THE UNIFICATION HELD BELOW.** Confirming instances
 accumulated against a generalisation nobody has tried to falsify are worth

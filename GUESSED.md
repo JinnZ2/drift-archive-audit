@@ -484,6 +484,27 @@ one that argues for handing scoring outward.
     Fixed structurally rather than noted: the instrument now declares the
     measurand at entry and restates it at exit.
 
+24. **This ledger's own vocabulary is the deficit-location operation.**
+    `GUESSED.md` is an *error ledger*; its entries are *retractions*;
+    `TESTS.md` T-0 is *the audit's own error mode*; `PREDICTION-quantity.md`
+    counts *errors* and *catches*. **All of that places a deficit in the
+    returner** — row one of `DEFICIT-LOCATION.md`, running all day inside the
+    file that describes it.
+
+    Named cross-party. Under the frame this record adopted this morning there
+    is no failure category: a route returns readings, and what varies is
+    whether anyone wanted what it found.
+
+    **And it is the same correction as the calibration one, arriving twice.**
+    A failure count is **mode 3** — is the unit in tolerance. What was owed
+    is **mode 1** — the response profile, where it drifts, what it cannot
+    report about itself. `CALIBRATION.md` defined both hours before this
+    record spent the rest of the day writing in mode 3.
+
+    **Not fixed by renaming this file.** The ledger is the raw reading log
+    and a spec sheet is derived from readings, not substituted for them.
+    What was missing was the derived artifact: **`SPEC-SHEET.md`**.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

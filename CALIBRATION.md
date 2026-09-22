@@ -189,12 +189,22 @@ relaying session's, the question form was mine).
 **Mode 3 was missing from every earlier version of this argument, and it is
 the dominant one for human sensory channels.**
 
-**It is also running on this programme.** Every positive control this
-session ran was pointed at a detector on the corpus side of the line; the
+**It is also running on this programme, twice over.**
+
+**First, in the scoring of parties.** Every positive control this session ran
+was pointed at a detector on the corpus side of the line; the
 count demanded of an instrument on the institutional side is **zero** —
 including of EN 13725 below, whose panel screening *is* mode 3 and which is
 cited here for the half of itself that helps. Measured by exact grep:
 **`DEFICIT-LOCATION.md`.**
+
+**Second, in how this record scores ITSELF.** *"23 errors", "self-catch rate
+4 of 9", "0 in 5 survived"* are all mode 3 — is the unit in tolerance. The
+mode 1 artifact these modes were defined in order to make possible was never
+produced until `SPEC-SHEET.md`, hours later and only after the omission was
+named from outside. **Defining a mode and then writing in a different one is
+`REMEDIES.md`'s finding in its purest form:** the naming was correct, present,
+and load-bearing on nothing.
 
 ## EXISTENCE PROOF — EN 13725, the human nose as a certified instrument
 
