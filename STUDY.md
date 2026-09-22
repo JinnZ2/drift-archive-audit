@@ -358,6 +358,11 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    PREDICTION-quantity.md  a falsifiable prediction about the SHAPE of
+                          the uncaught set, tested against the record.
+                          Survived: 8 self-catches, all with a quantity;
+                          7 qualitative errors, all caught by someone
+                          else. Zero counterexamples.
     CONTROLS.md           positive controls, and the status change that
                           moves several negative results here to UNRATED.
                           A negative from an uncontrolled detector is
