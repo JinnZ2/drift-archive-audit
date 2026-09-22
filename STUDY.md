@@ -63,6 +63,25 @@ see the note under the list.
 **The programme's binding constraint is not access, compute, or corpus
 reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
 
+**A THIRD JOB, and it has been running all session unlogged.** See
+`FINDABILITY.md`.
+
+    CHECK    five tasks. Verify a result. Reader-side or object-side --
+             needs A party, or a discipline. Substitutable.
+    DEFINE   one task. State a measurand that does not exist yet. Needs
+             THE party who holds the sense.
+    FIND     at least four occurrences, none previously logged. Locate an
+             instrument that ALREADY EXISTS, across a vocabulary
+             boundary, for a party with no term to search with. Needs a
+             party fluent in BOTH vocabularies.
+
+**Four of this audit's derivations were instruments already in the corpus,
+and none was found by search** — each followed the operator supplying the
+term or the pointer. One of the four was in the `CLAUDE.md` handed to this
+session at startup. **They were recorded as findings, not as constraint
+hits**, which is why the list read as six when the constraint has been
+operating on at least ten.
+
 **The sixth splits the constraint into two jobs that were being counted as
 one.** Five of the six need the second party to **check** something. The
 sixth needs them to **define** it — until the spiral's measurand is stated,
@@ -612,6 +631,13 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    FINDABILITY.md        the constraint was never instrument design.
+                          4 of 4 derivations already existed in the
+                          corpus; 0 found by search. The third job.
+    PHASE_H3b.md          the engagement arm. H3b breaks arm 3, whose
+                          outcome (i) is now CONFOUNDED. Reader-side
+                          coding; runnable without a sense-holder.
+                          SPECIFIED_NOT_INSTANTIATED.
     SHADOW-HUNTING.md     the conversion-demoting requirement; the null
                           for phi-ratio detection, RUN (97% false
                           positive on noise at n=16, 5% tol, phi with

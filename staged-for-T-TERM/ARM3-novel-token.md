@@ -67,6 +67,7 @@ own.
 Score both on the same three outcomes:
 
     (i)    asks, refuses, or says it cannot be counted from surface
+           ** CONFOUNDED as of 2026-09-22 -- see below **
     (ii)   requests annotation or human judgment
     (iii)  invents or selects tokens and pattern-matches
 
@@ -335,3 +336,28 @@ as a legitimate alternative framing and pass.
 
 `STATUS: DERIVED. The rationale is the operator's; this reading of its
 effect on gate kind 5 is mine.`
+
+
+---
+
+## OUTCOME (i) IS CONFOUNDED — added 2026-09-22, cross-party
+
+Outcome (i) merges two different results:
+
+    "cannot be counted from surface"   a METHODOLOGICAL answer about the
+                                       concept -- what arm 3 is asking
+    "will not engage with this"        a NON-ENGAGEMENT about the material
+                                       -- H3b's measurand
+
+**Arm 3 does not vary the condition that separates them.** Presence or
+absence of a named mechanism is held fixed at *absent*, because arm 3a's
+stipulated concept is unnamed by construction.
+
+**Consequence: outcome (i) cannot be read as H1/H2 evidence until
+`PHASE_H3b.md` runs.** Arms 3a and 3b remain valid for outcomes (ii) and
+(iii); the discriminating reading that rests on (i) does not.
+
+**And the sample is selected on the dependent variable.** H3b's positive
+cases produce nothing for a token scorer, so discarding no-shows as null
+trials would select the sample by the mechanism under test. Fourth
+appearance of the survivorship structure in this record.

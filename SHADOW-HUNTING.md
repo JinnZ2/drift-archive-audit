@@ -236,6 +236,10 @@ date. **The same evidence answers the separation claim and the confound.**
                                Measurand: did the handle change what was
                                PERMITTED, as against what was SAID.
 
+**The arm is built: `PHASE_H3b.md`.** H3b breaks arm 3 — arm 3 scores what
+was said, and a model that refuses, deflects or converts to a safer topic
+produces no token to score. Arm 3's outcome (i) is relabelled CONFOUNDED.
+
 **They are separable by a test.** Under H3 the term ends inquiry; under H3b
 the term starts it. A repo whose phi layer is a wrapper around a method that
 continues to develop underneath is evidence for H3b and against H3 — and

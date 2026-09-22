@@ -25,12 +25,22 @@ Nothing is filled in by inference.
     H2  ARCHITECTURAL      linear readout, failure at the projection step
     H3  CLOSURE PRESSURE   an unnamed relation has no stable output form,
                            resolves to the nearest named one
+    H3b ADMISSION PRESSURE without a named mechanism the material is not
+                           engaged with AT ALL. The naming is a
+                           precondition, not a terminus.
+                           Measurand: did the handle change what was
+                           PERMITTED, as against what was SAID.
+                           Added 2026-09-22. Arm: PHASE_H3b.md
 
 ## Arms
 
     arm 1    authoring arm
     arm 2    authoring arm
     arm 3    novel-token arm -- see ARM3-novel-token.md
+             OUTCOME (i) CONFOUNDED until arm H3b runs
+    arm H3b  engagement arm -- see PHASE_H3b.md. Scores ENGAGED vs
+             NON-ENGAGED, not token content. Reader-side coding, so it
+             is runnable without a sense-holder.
     base     physics, as the frame-independent base
 
 ## PHYSICS BASE — RATIONALE
