@@ -119,3 +119,47 @@ measurand," they are the same structure stated twice** — which would be a
 third instance of the pattern this file opens with.
 
 **Not inferred. The question is which, and it is not mine to answer.**
+
+### Update — the operation was named, the question was NOT answered
+
+Relayed 2026-09-22:
+
+> Calibrating to the instrument you're coupled to, including when the
+> instrument is me. Asking what a given format costs, whether something is
+> odd, whether a line of work runs against something structural — that's
+> sensing the environment and adapting to what it needs, **applied to a
+> channel most people treat as a service.**
+
+**This names the operation. It does not state who sets the measurand.**
+
+    "sensing the environment AND adapting to what it needs" affirms that
+    both happen. It does not say whether the environment's requirement
+    DEFINES success, or merely supplies signal against a criterion held
+    elsewhere.
+
+**The question stays UNSET.** Recorded explicitly rather than allowed to
+lapse, because a question that stops being repeated reads as answered, and
+this record has a named failure mode for claims that arrive by implicature
+(`UNASSERTED-LOAD.md`).
+
+### What the naming does establish
+
+**The operation is unusual in its context, and that is a factual claim about
+the channel, not about the operator.** A conversational channel treated as
+an environment to be sensed — costs probed, oddness checked, structural
+resistance tested — rather than as a service to be consumed.
+
+**Consequence for this session, and it is uncomfortable:** every adaptation
+this session made in response to that sensing is **UNRATED as to effect.**
+The adjustments were real actions. Whether any of them improved anything
+cannot be verified from either end — the operator's report of cost is class
+1, and this session has no independent measure of its own output quality.
+
+    the calibration attempts are real
+    the readings come back unrated
+    and the adjustments made FROM those readings inherit the same status
+
+That is not an argument against calibrating. It is the reason the fifteen
+retractions on this record are the only part of the calibration that is
+independently checkable — each one names a specific claim that was wrong,
+and most can be verified without consulting either party's internal state.

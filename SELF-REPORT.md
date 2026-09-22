@@ -33,6 +33,32 @@ repo has been treating them as one — both filed as `operator memory, <date>`.
 the usual ways rather than in the specific way that has no remedy from
 inside.
 
+## A THIRD class, missed in the first pass — and it protects a correction
+
+    STIPULATION / DECLARATION OF MEANING
+        "by reciprocity I mean X"
+        -> NOT a report at all. A speaker has authority over their own
+           stipulations in a way they do not have over reports of their
+           internal states. Nothing is being observed and possibly
+           mis-observed; a usage is being declared.
+
+**This matters because retraction 14 rests on it.** The correction that my
+group (a)/(b) classification used corpus senses depends on the operator
+stating **what they mean** by those terms — which is class 3, not class 1.
+
+    if the definitions were class 1, the general self-report limit would
+    dissolve retraction 14 along with everything else
+    they are class 3, so it stands
+
+**The same protection extends to `CORRECTION-002`** — that repo names and
+concept vocabulary are model handles rather than operator selections is a
+declaration about usage, not an introspective report.
+
+**It does NOT extend to weight claims.** *"This principle was load-bearing
+in the practice"* is not a stipulation — it is a report about how something
+functioned, which is class 1. The split already recorded in the audit table
+below holds.
+
 ## Audit of this record
 
 | claim | class | status |
@@ -45,6 +71,8 @@ inside.
 | **no-phenomenal-marker** itself | **introspective**, and self-referential | **PROPOSED**, falsifier already filed |
 | **physics rationale as "load-tested operating principle"** | **mixed** — that it was used is external; that it was load-*bearing* is introspective | **split: use stands, weight UNRATED** |
 | C-6b — the 8-term and 2-term statements | **artifact**, both are written text | stands; the *reason* for the difference is UNRATED |
+| retraction 14 — *what the terms mean* | **stipulation** | **stands.** Not subject to the phenomenal-marker limit |
+| `CORRECTION-002` — names are model handles | **stipulation** | stands |
 
 **Avenue H (clearance overhead) is the one that moves.** It was already
 `unmeasurable as posed`; it is now additionally **resting on a channel that
