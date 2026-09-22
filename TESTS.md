@@ -181,9 +181,27 @@ came from an unowned join between two measurements, which is the same
 mechanism the corpus studies: **a locally correct component whose error is
 invisible from inside and surfaces only where nobody is looking.**
 
-Six retractions are on the record in `GUESSED.md`. Four were found by this
-session, two by operator correction. That ratio is the useful number, not
-the total.
+Nine retractions are on the record in `GUESSED.md`, under **three** catch
+columns, not one ratio:
+
+    self-caught        4   of which one (#5) came from an unowned join
+                           between two measurements, not from any check
+                           aimed at it
+    operator-caught    3
+    cross-party-caught 2   required a party outside BOTH the operator and
+                           this session
+
+**Self-catch is 4 of 9.** The original "four of six" merged the operator
+and cross-party columns; corrected here. The cross-party column is the one
+that argues for handing scoring outward — those two would not have been
+caught by either party inside the work.
+
+A tenth was caught within a turn and never published: a grep for the
+*implementation* markers of a discipline (`sha256`, `retained unmodified`)
+returned 0/3 and nearly became "the discipline does not appear in
+fabrication material". It appears there stated as principle rather than
+mechanism. **Same failure mode as #5 — operationalizing a concept by its
+surface tokens.** Twice now, in the same audit.
 
 ## T-extra  the finding none of T1–T6 asked for
 

@@ -139,8 +139,19 @@ Two readings, **not distinguishable from inside**:
 **What separates them is provenance order, which is recoverable. Written
 down:**
 
-    gate kind 5   operator memory, 2026-09-22. Unprompted by any
-                  instrument in this programme.
+    gate kind 5   operator memory, 2026-09-22, unprompted by any
+                  instrument in this programme -- AND a written instance
+                  dated 2025-10-13 predates it by eleven months
+                  ("Cultural Bias in AI Assessment...", flagged as
+                  'deceptive'/'inauthentic'). Two effects, opposite signs:
+                  (+) arm 1 is now dated BEFORE the literature sweep and
+                      before H3, so its independence HARDENS. The 2-of-3
+                      reading holds.
+                  (-) it is a RE-DERIVATION: stated 2025-10, not carried,
+                      re-derived 2026-09 at full elaboration. Second
+                      instance of that shape (the first: limit 7,
+                      2026-03 -> 2026-09). N=2, both ~10-11 months.
+                      DO NOT read the interval as a rate.
     avenue F      the literature sweep, where the over-refusal benchmarks
                   were found to score something else.
     H3            specified in this session, AFTER both.

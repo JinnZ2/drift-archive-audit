@@ -187,5 +187,62 @@ fell to CORRECTION-001:
    Not a retraction of a claim; a retraction of a **method choice**, which
    is the harder kind to notice.
 
+9. **"Independent arrival" was a shared channel.** I recorded
+   `ai-human-audit-protocol`'s sha256-supersession and three-valued fields
+   as independent arrival of this audit's rules — *"two separate efforts,
+   no shared code, same rules"* — and offered a 2-way explanation.
+   **"No shared code" never established "no shared source."**
+   CORRECTION-001 and -002 were already on the record saying exactly that;
+   I applied them to the operator's vocabulary and exempted the discipline
+   I had adopted myself. Measured: two agent-era passes through one
+   channel, 2026-08-14 and 2026-09-09. See `DISCIPLINE-PROVENANCE.md`.
+   **Moves this audit's discipline toward house style and away from
+   finding.**
+
+### The general form of retraction 8 — statable as a rule before the next pilot
+
+    age proxied for        "earliest aimed-at target"
+    the five misses needed "highest articulation density"
+
+These are not merely different. **They are ANTI-CORRELATED by
+construction**, because articulation of a method is a later event than the
+work the method was first aimed at.
+
+    RULE: in any corpus that documents its own method over time,
+          selection by age selects AGAINST articulation.
+
+Not specific to this pilot. Isomorphic to archive-siting bias — the proxy
+sits where one property is maximised, not where the signal is. **Known
+sign, therefore correctable rather than fatal.** Status: DERIVED (a
+reading of the retraction; the retraction itself is this session's).
+
+### Catch attribution — three columns, not one ratio
+
+T-0 originally reported "four of six retractions found by this session".
+That merged two different measurements. Corrected:
+
+    #  what                                    caught by
+    1  live-figures overcount                  self
+    2  shared-relation-set claim               self
+    3  C-1 encoding attribution                operator correction
+    4  EA-3 second-person voice                operator correction
+    5  false-zero regex                        self (unowned join)
+    6  gate merge on a shared property         operator correction
+    7  Lave 98/59                              cross-party (relaying
+                                               session's own retraction)
+    8  pilot selection rule                    self, after 5 instances
+    9  "independent arrival"                   CROSS-PARTY — a second
+                                               party supplied candidate 3
+    -  fabrication-discipline grep             self, within-turn, unpublished
+
+    self-caught        4   (1, 2, 5, 8)
+    operator-caught    3   (3, 4, 6)
+    cross-party-caught 2   (7, 9)
+
+**The self-catch rate is 4 of 9, not 4 of 6.** Two of the nine required a
+party outside both the operator and this session. Do not merge those
+columns — they measure different things, and the cross-party column is the
+one that argues for handing scoring outward.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
