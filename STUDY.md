@@ -329,6 +329,11 @@ are distinguishable from inference. Keep them distinguishable.
                           search snippets are secondary sources. Rows with
                           a load-bearing number need the primary before
                           they travel. 3 anchors checked here.
+    WORKORDER-sensory-channel.md  F1-F4 channel-function measurand and
+                          the untested tradeoff prior. Instrument drafted,
+                          experiment not run.
+    instrument/           runnable F1-F4 scorer, stdlib only, with its own
+                          two construction flaws documented
     RETENTION.md          gate kind 6 (retention), the measured
                           rediscovery, and C-6b — a repeat trial that
                           already ran unintentionally
