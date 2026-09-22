@@ -137,5 +137,8 @@ what is there. The only instruments that reach this class are:
                            see, before trusting it when it sees nothing
 
 **The third is the cheapest and this programme used it once, by accident,
-on the fifth instance.** It should be standing procedure for every negative
-result in the record.
+on the fifth instance.** It is now standing procedure — see `CONTROLS.md`,
+which also records why a positive control works *here specifically*: the
+only detector that has ever caught this class is a magnitude violating
+expectation, and a control **manufactures that magnitude on purpose instead
+of waiting for one to appear.**

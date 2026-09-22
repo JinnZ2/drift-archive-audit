@@ -358,6 +358,10 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    CONTROLS.md           positive controls, and the status change that
+                          moves several negative results here to UNRATED.
+                          A negative from an uncontrolled detector is
+                          information about the detector, not the world.
     ABSENCE.md            ONE register entry: absence indistinguishable
                           from never-having-happened. Four instances
                           (deferral rate, gate kind 6,
