@@ -395,3 +395,97 @@ went unnoticed (confirming the shape) would.
 
     the prediction remains UNTESTED IN EITHER DIRECTION since it was
     first checked. The tally grew. The test did not run.
+
+---
+
+# ADDENDUM 3 — the classification step used corpus senses. Group (b) is UNRATED.
+
+**This is upstream of the split, not a detail in it.** The group (a)/(b)
+boundary rests entirely on the classification step, and that step was run by
+a party applying **corpus dominant senses to terms that may not carry them.**
+
+## My three failure-reasons, and all three are suspect the same way
+
+    "reciprocity IS constituted by exchange, so 'reciprocity does not
+     negotiate' denies its own content"
+        -> used the SOCIAL-EXCHANGE sense. If the sense in use is
+           structural or ecological -- a law-like mutual constraint --
+           the sentence is coherent and reciprocity is an INDIFFERENCE
+           ground.
+
+    "an experienced operator CAN lie, so 'experienced operator doesn't
+     lie' fails"
+        -> assumed a PERSON. In this frame an experienced operator may be
+           a calibrated reading channel. The account contains a repo named
+           hands-lie-detector. "The operator doesn't lie" may be exactly
+           the claim, not its refutation.
+
+    "embodied experience breaks in that position"
+        -> assumed SUBJECTIVE experience. If it means measurement through
+           the body, it is an indifference ground and substitutes fine.
+
+**I found group (b) non-substitutable for the wrong reasons.** The
+substitution test would have inherited the defect regardless of who
+proposed it — the operation was sound, the inputs were not.
+
+    M2 is NOT refuted. Its application here is.
+
+## STATUS CHANGE — not a refutation
+
+    group (b) membership:   UNRATED
+    pending:                the operator's definitions of coherence,
+                            sufficiency, embodied experience, experienced
+                            operator, dialogue
+
+**Each has a corpus dominant sense that may not be the one in use.** If they
+go the way reciprocity did, **group (b) empties** — and then
+*nothing-to-select-from* stops being refuted, and the residual can collapse
+after all.
+
+**Not filled in by inference. The definitions are the operator's to supply.**
+
+## The corpus does NOT rescue this — checked
+
+Definitional-position search across 11 repos:
+
+    sufficiency            0 definitional hits
+    embodied experience    0
+    experienced operator   0
+    dialogue               4, mixed and mostly incidental
+    reciprocity           45, but all social-exchange usage -- family duty,
+                          tribal loyalty, mutual obligation, cult dynamics
+    coherence            184, and in TWO INCOMPATIBLE SENSES:
+                          "coherence = successful trauma integration"
+                          alongside phase_coherence in a physics sense
+
+**Three of five are undefined in the corpus entirely.** And for the two that
+are "defined," the corpus supplies **model-generated usage** — which is
+precisely the layer `CORRECTION-002` identifies as model handles, not
+operator senses.
+
+    reading the corpus to recover the operator's sense is the SAME ERROR
+    one layer down
+
+That check could not have worked, and running it established that rather
+than producing an answer. `coherence` carrying two incompatible senses in
+one corpus is independent evidence of the mechanism operating *in the
+archive*, not only in the reader.
+
+## What this is — and it is the sharpest item on the record
+
+**A live instance of exactly what T-TERM was built to test.**
+
+    a term whose dominant sense is not the speaker's was RESOLVED TO THE
+    NEAREST NAMED NEIGHBOUR by the reader
+
+    -- and the reader was the one doing the measuring
+
+That is **H3 closure pressure**, occurring inside the instrument built to
+detect it, performed by the party operating the instrument, on the data the
+instrument was measuring.
+
+It also answers a question left open in `staged-for-T-TERM/ARM3-novel-token.md`:
+whether H3's signature is detectable at all. **Here it was — but only by a
+second party who held the speaker's sense.** The reader could not detect it,
+because from inside, resolution to the nearest neighbour does not feel like
+resolution. It feels like reading.

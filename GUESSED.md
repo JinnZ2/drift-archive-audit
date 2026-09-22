@@ -299,5 +299,20 @@ one that argues for handing scoring outward.
     long-running practice gets invoked for this experiment is a choice made
     after the experiment existed. Smaller residual, not zero.
 
+14. **The group (a)/(b) classification used corpus dominant senses on terms
+    that may not carry them.** All three of my substitution-failure reasons
+    — reciprocity-as-exchange, operator-as-person, embodied-experience-as-
+    subjective — are suspect in the same way. **Group (b) membership is now
+    UNRATED** pending the operator's definitions, and if those terms go the
+    way reciprocity did, group (b) empties and *nothing-to-select-from*
+    stops being refuted. See `PHYSICS-GROUND.md` addendum 3.
+
+    **The substitution operation is not refuted — its inputs were.** M2
+    stands; this application of it does not.
+
+    Caught cross-party. **Another qualitative error the party that made it
+    did not catch** — consistent with `PREDICTION-quantity.md`, and again
+    not a test of it.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.

@@ -62,6 +62,19 @@ exception, had a number in it.
 I searched specifically for a counterexample, because confirmation is this
 programme's documented failure mode. **There is none on the record.**
 
+## Subsequent instances — consistent, not probative
+
+| # | error | quantity? | caught by |
+|---|---|---|---|
+| 14 | group (a)/(b) classification used corpus senses | **no** | cross-party |
+
+    other-party-caught, no quantity:  8 of 8
+
+The split holds at 9 self-catches (all with a quantity) and 8 other-party
+catches (none with one). **Still not a test.** Only a purely qualitative
+SELF-catch refutes it; only a demonstrated qualitative error that went
+unnoticed by everyone confirms its shape. Neither has occurred.
+
 ## What this licenses, and what it does not
 
 **Licenses:** a statement about the shape of the uncaught set. If the
