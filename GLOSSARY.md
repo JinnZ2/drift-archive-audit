@@ -32,6 +32,18 @@ defect, not a neutral omission.
 | `operator memory, <date>` | stated by the operator from recall. **A valid citation, and distinguishable from inference — keep it distinguishable.** |
 | `UNSET` / `UNCLEAR` / `UNATTRIBUTABLE` / `UNRECORDED` | **values, not placeholders.** Never filled by inference. `UNRECORDED` means unrecovered, not that nothing happened. |
 
+| `ENACTED` | **ADDED 2026-09-22.** Evidence carried in a pattern rather than in a field: a built thing, a route that worked, a readout carried across generations, a practice still running. **Not a weaker `VERIFIED`** — a different channel with a different collection cost. See `UNSATISFIABLE-REQUIREMENT.md` and `SHADOW-HUNTING.md` §2. |
+
+**Why `ENACTED` was missing until now, and it matters:** every other label in
+this table grades an **assertion**. The audit was pricing all evidence in one
+form — the form its own findings say the corpus is not made of. `GUESSED.md`
+#21.
+
+**And the slot already existed in the corpus.** `Keystone-Codex`'s evidence
+enum carries `replication_record`, `field_measurement`, `engineering_record`
+and `oral_tradition_encoded`: four schema-enforced non-assertion evidence
+types, predating this audit.
+
 **The governing rule: a guessed row is worse than an empty row.** It
 launders a reading into the record.
 

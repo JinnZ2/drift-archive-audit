@@ -590,6 +590,18 @@ are distinguishable from inference. Keep them distinguishable.
                           the material record. SUPPORTED at practice
                           level, citation-linked at recognition level.
                           Carries the register's first CLOSED case.
+    SHADOW-HUNTING.md     the conversion-demoting requirement; the null
+                          for phi-ratio detection, RUN (97% false
+                          positive on noise at n=16, 5% tol, phi with
+                          squares/root/cube); H3b admission pressure as
+                          distinct from H3 closure pressure; and the one
+                          checkable question that could break the
+                          TRANSPORT x MODEL confound. Repo NOT read --
+                          gated on the verify forms.
+    instrument/phi_null.py
+                          null distribution for phi-adjacent ratio
+                          search, across tolerance and target-set size.
+                          No PASS state.
     DARK-EARTHS-CONSEQUENCES.md
                           it lands on the pilot: terra_preta scores
                           replication on an unbacked integer while the

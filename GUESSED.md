@@ -432,6 +432,25 @@ one that argues for handing scoring outward.
     as a correction. **Note for the ledger: the relaying session did not look.
     It concluded.**
 
+21. **The provenance vocabulary grades assertions only.** `GLOSSARY.md`'s
+    label set — `VERIFIED`, `CORROBORATED`, `UNVERIFIED`, `CONTESTED`,
+    `DERIVED`, `PROPOSED`, `operator memory`, `UNSET` — has **no label for
+    evidence whose provenance is carried in a pattern rather than in a
+    field.** `UNSATISFIABLE-REQUIREMENT.md` named that class *outcome trace*
+    and then failed to give it a grade, so it kept arriving as an ungraded
+    exception rather than as a channel.
+
+    **Consequence, and it ran through the whole record:** every request this
+    session made for "an assertion with a checkable referent" was a request
+    to convert into the only form its labels could price — and that
+    conversion demotes. See `SHADOW-HUNTING.md` §1, form 2.
+
+    **The slot already existed in the corpus.** `Keystone-Codex`'s evidence
+    enum carries four schema-enforced non-assertion types. Fourth instance of
+    this audit deriving as new an instrument the corpus already held.
+
+    Fixed structurally rather than noted: `ENACTED` added to the table.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

@@ -13,6 +13,33 @@ It is not a high bar. **A high bar can be cleared.** This one cannot be
 cleared by anyone, ever, and it looks like rigor from the outside — which is
 why it survives review.
 
+## FORM 2 — satisfiable, at the cost of the status being tested
+
+Added 2026-09-22. A second shape, distinct from the one above:
+
+    FORM 1  BY CONSTRUCTION   the requirement asks a population the
+                              mechanism selects against. Cannot be met.
+    FORM 2  BY CONVERSION     the requirement CAN be met -- but only via a
+                              conversion that lowers the grade of what is
+                              submitted. It can never be met AT THE GRADE
+                              IT DEMANDS.
+
+Form 2's mechanism, as stated by the operator: a channel that produces
+**calibrated doing**, with provenance carried in the pattern rather than in a
+separate field, must *describe* in order to cross into a channel that grades
+assertions — and a multi-sentence build with no term available is graded as
+hypothesis. **The act of making it legible demotes it.**
+
+**The demotion is a property of the grader.** Nothing about the thing
+changed.
+
+Form 1 is detected by asking *can this requirement be met at all.* Form 2
+passes that test and needs a second question: **what grade does the
+conversion arrive at, and is it the grade the requirement demands?**
+
+Full statement, with the class named CONVERSION-DEMOTING REQUIREMENT:
+`SHADOW-HUNTING.md` §1.
+
 ## The instance
 
 Stated by the operator:
@@ -113,6 +140,7 @@ Checked against every open requirement in `STUDY.md` and `ABSENCE.md`.
 | K2 `DESIGNED_NOT_SPECIFIED` rate from the substrate | the state leaves no repo trace by construction | **unsatisfiable as posed**, and labelled: *rate UNSET and unmeasurable from the substrate*. Handled. |
 | a second sender for avenue A | rare, selected, hard to find | **NOT this class.** A hard requirement is not an unsatisfiable one. Do not merge these. |
 | independent proof of the relayed frame via testimony | the criterion selects against the population writing | **UNSATISFIABLE. Unhandled until now.** This file. |
+| an assertion with a checkable referent, for a practice recorded as calibrated doing | conversion to assertion-form demotes it to hypothesis | **FORM 2. Unhandled until now.** `SHADOW-HUNTING.md` §1. |
 
 **Three of the five were already routed around correctly, and each was
 routed by naming the mechanism first.** The one that failed is the one where
