@@ -357,6 +357,10 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    GLOSSARY.md           every bare term defined once, plus the
+                          provenance labels. Read first.
+    TRAIL.md              why "nobody has gone there" carries ZERO
+                          information, and which claims here leaned on it
     DISCIPLINE-PROVENANCE.md  where this audit's own discipline came
                           from. 4-way question, measured: same channel
                           authorship, not independent arrival.

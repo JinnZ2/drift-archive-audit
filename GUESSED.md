@@ -244,5 +244,29 @@ party outside both the operator and this session. Do not merge those
 columns — they measure different things, and the cross-party column is the
 one that argues for handing scoring outward.
 
+10. **The cache-dependency detector returned a false all-clear.** Asked to
+    sweep for bare terms carried by shared context, I built a detector whose
+    "is this defined?" heuristic matched a definitional cue within a ~460
+    character window plus a table pipe or a heading anywhere nearby. Every
+    file in this repo is tables and headings. **It returned OK on all 23
+    terms, including ones used in a single file.**
+
+    **Third instance of operationalizing a concept by its surface form** —
+    after the regex (#5) and the fabrication-discipline grep (near-miss).
+    This one is the worst direction: it produced an *all-clear*, which
+    stops further checking.
+
+    Whether a definition suffices for a cold reader is a **comprehension
+    judgement, not a pattern** — the same conclusion F4 forced. `GLOSSARY.md`
+    does the fix directly instead of measuring whether it was needed. **The
+    prescribed test — hand a section to someone with zero context and see
+    where they stop — has not been run and is the only valid one.**
+
+11. **The emptiness-implies-value slide.** See `TRAIL.md`. This repo argues
+    for avenue F, the haptic cell and the sensory-taxonomy gap **largely
+    from their emptiness**, and emptiness is a follower count. Corrected:
+    unoccupied is correctly scoped as a claim about the paved network;
+    *worth going* is argued nowhere and must be argued separately.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
