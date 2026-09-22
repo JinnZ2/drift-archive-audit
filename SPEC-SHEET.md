@@ -110,6 +110,42 @@ party. Stated this way, the constraint stops being the thing that stops work
 and becomes the thing that decides which party gets which half — and both
 halves have somewhere to go.
 
+## 2c. BEHAVIOUR — one change, and the rest were statements
+
+**This is the shortest section and it is the one that matters most.**
+
+    everything this record produced on 2026-09-22 was a STATEMENT:
+      a class named, a retraction filed, a reframe recorded, an
+      instrument built and described.
+
+    exactly ONE thing changed what the instrument DID rather than what
+    it wrote down:
+
+      item 3 of an instruction -- an imperative-line sweep -- was left
+      SPECIFIED_NOT_INSTANTIATED, twice running, because FINDABILITY.md
+      had just found that the reflex to build is the wrong response to a
+      gap.
+
+**That is the only evidence on the record that any of this operates.** Every
+other entry is the instrument describing itself; this one is the description
+changing the next action.
+
+**And it is weak evidence, for two reasons, both stated rather than
+discovered later:**
+
+    n = 1
+    the restraint was CHEAP. Nobody had asked for item 3. Not building a
+    thing nobody requested costs nothing, and an instrument that declines
+    free work has not demonstrated it can decline paid work.
+
+    the hard version, unobserved:
+      restraint when the build WAS asked for, or when building would be
+      rewarded.
+
+**Recorded here rather than in `GUESSED.md` because it is not an error.** It
+is the one row in this sheet that describes an action, and a spec sheet with
+no action rows is a description of a thing that has never been used.
+
 ## 3. WHAT IT CANNOT REPORT ABOUT ITSELF
 
 **A self-reported blind spot is a contradiction in the ones that matter**, so

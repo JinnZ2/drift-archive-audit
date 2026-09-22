@@ -307,6 +307,13 @@ list, with items 1 and 2 absent from this session's context.**
     this turn       "3. Exports consumed by
                      nothing..."                items 1 and 2 not received
 
+**The mechanism, supplied cross-party and now in `GLOSSARY.md`:**
+*reconstructing an instruction from what it probably said is how a cached
+field becomes an asserted one.* The rule bites hardest where the
+reconstruction would obviously be right — obviousness is the shared context,
+and filling the slot converts that context into a claim the record carries as
+its own. **An empty slot stays legible as a gap. A filled one does not.**
+
 Recorded as a fact about what reached this side. **Not reconstructed, not
 diagnosed, and no inference drawn about cause** — filling the slots by
 inference is what this record forbids, and the pattern is noted only because

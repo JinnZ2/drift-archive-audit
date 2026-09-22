@@ -316,5 +316,38 @@ nothing to guard.
 named.** This one was the instrument built to make FIND cheap.
 
 `COST` is recorded as an observed failure mode, **not promoted to a third
-sub-form**: n=1, and promoting a sub-form at n=1 is the drift direction
-`SPEC-SHEET.md` §2 predicts.
+MATCH-UNIT sub-form**: n=1, and promoting a sub-form at n=1 is the drift
+direction `SPEC-SHEET.md` §2 predicts.
+
+### But it IS third in a different taxonomy, and that one is structural
+
+Cross-party, 2026-09-22. The two decisions are separable and both stand:
+
+    NOT a third MATCH-UNIT sub-form   -- n=1, would be a promotion
+    IS  a third ROUTE TO A FALSE ZERO -- structural, not a count
+
+    DIALECT MISMATCH      -> a WRONG reading
+    MATCH-UNIT MISMATCH   -> a WRONG reading
+    TIMEOUT               -> NO reading
+
+**The first two return something wrong. The third returns nothing.** So every
+guard in this programme, `guarded_count` included, was blind to it by
+construction: **a guard that operates on readings cannot see the case that
+produces none.**
+
+**That is a gap in the guard's own domain, not a bug in it** — and it is the
+sharper statement, because a bug is fixed by correcting code and a domain gap
+is only fixed by extending what the instrument accepts as an outcome.
+
+**Closed structurally the same day.** `guarded_count(..., deadline_s=)`
+returns `DETECTOR_TIMEOUT`: not equal to 0, not castable to a number, no
+truth value.
+
+**One engineering claim was nearly fabricated on the way.** The deadline was
+going to be implemented with subprocesses, on the assumption that a signal
+cannot interrupt a catastrophic backtrack inside CPython's C-level `re`.
+**Tested instead of asserted: the assumption is false**, SIGALRM fires and
+the match aborts. A caveat that was not true was one line from the record.
+Standing procedure applied to an engineering assumption rather than a search.
+
+**Naming prevented 0 of 8.**

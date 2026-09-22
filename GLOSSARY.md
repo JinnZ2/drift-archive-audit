@@ -47,6 +47,17 @@ types, predating this audit.
 **The governing rule: a guessed row is worse than an empty row.** It
 launders a reading into the record.
 
+**And the mechanism, stated 2026-09-22:** *reconstructing an instruction from
+what it probably said is how a cached field becomes an asserted one.* That is
+why the rule bites hardest on the cases where the reconstruction would
+obviously be right — the shared context is what makes it obvious, and filling
+the slot converts that context into a claim the record then carries as its
+own. **An empty slot stays legible as a gap. A filled one does not.**
+
+Worked instance: an instruction arrived on 2026-09-22 with item 2 of a
+numbered list absent from this session's context. It is recorded as an empty
+slot in `ENUM-SWEEP.md` and was not reconstructed.
+
 ## Audit structure
 
 | term | definition |

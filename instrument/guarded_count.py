@@ -22,6 +22,25 @@ cannot obtain a result without one.
     guarded_count(q, ctrl)   -> the only way in. ctrl is positional and
                                 required.
 
+THREE ROUTES TO A FALSE ZERO, and the third was added 2026-09-22:
+
+    DIALECT MISMATCH     the engine parses the pattern differently than
+                         written                    -> a WRONG reading
+    MATCH-UNIT MISMATCH  the matcher's unit is not the author's unit
+                                                    -> a WRONG reading
+    TIMEOUT              the detector does not return at all
+                                                    -> NO reading
+
+**The third is structurally different and it was a gap in this guard's own
+domain rather than a bug in it.** Everything above operates on a reading. A
+non-terminating detector produces none, so there is nothing to intercept, and
+a zero reported downstream is indistinguishable from a measured absence.
+
+`deadline_s` closes it: a counter that does not return inside its budget
+yields DETECTOR_TIMEOUT, which like DETECTOR_BLIND is not equal to 0, cannot
+be cast to a number, and has no truth value. Observed once, in this
+programme's own enum sweep.
+
 If the control returns zero, the detector is proven blind and the query's
 zero is NOT REPORTED AS ZERO -- it is returned as DETECTOR_BLIND, which is a
 different value and does not compare equal to 0.
@@ -29,7 +48,39 @@ different value and does not compare equal to 0.
 CC0. Stdlib only.
 """
 
+import signal
 import subprocess
+
+
+class DetectorTimeout(Exception):
+    """The counter did not return inside its budget."""
+
+
+def _run_with_deadline(fn, arg, deadline_s):
+    """Call fn(arg) under a wall-clock budget. None means no budget.
+
+    SIGALRM, deliberately. The first design here assumed a signal could not
+    interrupt a catastrophic backtrack inside CPython's C-level `re`, and was
+    about to document that as a limitation. **It was tested instead of
+    asserted, and the assumption was false** -- SIGALRM fires and the match
+    aborts. A fabricated technical caveat was one line from the record.
+
+    Real limits, stated: POSIX only, main thread only, and a C extension that
+    never reaches a signal check can still block past the deadline.
+    """
+    if deadline_s is None:
+        return fn(arg)
+
+    def _fire(_sig, _frm):
+        raise DetectorTimeout()
+
+    previous = signal.signal(signal.SIGALRM, _fire)
+    signal.setitimer(signal.ITIMER_REAL, deadline_s)
+    try:
+        return fn(arg)
+    finally:
+        signal.setitimer(signal.ITIMER_REAL, 0)
+        signal.signal(signal.SIGALRM, previous)
 
 
 class Reading:
@@ -50,6 +101,9 @@ class Reading:
         self.control_hits = control_hits
 
     def __repr__(self):
+        if self.status == 'DETECTOR_TIMEOUT':
+            return ('<DETECTOR_TIMEOUT  query=%r  the detector did not '
+                    'return. No reading exists to guard.>' % (self.query,))
         if self.status == 'DETECTOR_BLIND':
             return ('<DETECTOR_BLIND  query=%r  control=%r returned 0 -- the '
                     'query result is NOT a finding>' % (self.query, self.control))
@@ -59,6 +113,13 @@ class Reading:
         return '<%d  query=%r>' % (self.value, self.query)
 
     def __int__(self):
+        if self.status == 'DETECTOR_TIMEOUT':
+            raise ValueError(
+                'refusing to convert a DETECTOR_TIMEOUT reading to a number. '
+                'The query %r did not return inside its budget, so nothing '
+                'was measured. A timeout is the THIRD route to a false '
+                'zero and the only one that produces no reading at all.'
+                % (self.query,))
         if self.status == 'DETECTOR_BLIND':
             raise ValueError(
                 'refusing to convert a DETECTOR_BLIND reading to a number. '
@@ -71,11 +132,15 @@ class Reading:
         # A blind reading equals nothing, including itself-as-zero. This is
         # the whole point: `if result == 0:` must not silently take the
         # branch that treats blindness as absence.
-        if self.status == 'DETECTOR_BLIND':
+        if self.status in ('DETECTOR_BLIND', 'DETECTOR_TIMEOUT'):
             return False
         return isinstance(other, int) and other == self.value
 
     def __bool__(self):
+        if self.status == 'DETECTOR_TIMEOUT':
+            raise ValueError(
+                'refusing a truth value for a DETECTOR_TIMEOUT reading '
+                '(query %r). Non-termination is not falsity.' % (self.query,))
         if self.status == 'DETECTOR_BLIND':
             raise ValueError(
                 'refusing a truth value for a DETECTOR_BLIND reading (query '
@@ -88,7 +153,7 @@ class Reading:
         return self.status == 'ZERO_GUARDED'
 
 
-def guarded_count(query, positive_control, counter):
+def guarded_count(query, positive_control, counter, deadline_s=None):
     """Run `query`, but only after `positive_control` proves `counter` can see.
 
     query             the pattern whose count is wanted
@@ -103,10 +168,18 @@ def guarded_count(query, positive_control, counter):
         raise ValueError(
             'a positive control must be a pattern distinct from the query '
             'and asserted present. Got %r.' % (positive_control,))
-    control_hits = counter(positive_control)
+    try:
+        control_hits = _run_with_deadline(counter, positive_control, deadline_s)
+    except DetectorTimeout:
+        return Reading(None, 'DETECTOR_TIMEOUT', positive_control,
+                       positive_control, None)
     if control_hits == 0:
         return Reading(None, 'DETECTOR_BLIND', query, positive_control, 0)
-    hits = counter(query)
+    try:
+        hits = _run_with_deadline(counter, query, deadline_s)
+    except DetectorTimeout:
+        return Reading(None, 'DETECTOR_TIMEOUT', query, positive_control,
+                       control_hits)
     status = 'ZERO_GUARDED' if hits == 0 else 'COUNT'
     return Reading(hits, status, query, positive_control, control_hits)
 
@@ -159,6 +232,22 @@ def _selftest():
         # failed control -- the detector's trustworthiness is not a function
         # of whether this particular query happened to fire.
         print('FAIL: failed control was rescued by a nonzero query'); ok = False
+
+    # The third route: a counter that does not return.
+    def slow(_p):
+        pat = __import__('re').compile(r'(?:\s*"[^"]+"\s*,?\s*)+$')
+        return 1 if pat.match('"a", ' * 26 + 'X') else 0
+
+    t = guarded_count('beta', 'alpha', slow, deadline_s=0.5)
+    if t.status != 'DETECTOR_TIMEOUT' or t.is_finding() or t == 0:
+        print('FAIL: a non-returning counter produced a usable value'); ok = False
+    for op, name in ((int, 'int()'), (bool, 'bool()')):
+        try:
+            op(t)
+            print('FAIL: %s on a timeout reading did not refuse' % name)
+            ok = False
+        except ValueError:
+            pass
 
     print('selftest OK' if ok else 'selftest FAILED')
     return 0 if ok else 1

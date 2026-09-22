@@ -37,11 +37,12 @@
 | `reachability_sweep` aborts on any of four control failures | STRUCTURAL | — |
 | `reachability_sweep` key-unit control (no fragment keys) | STRUCTURAL | — |
 | `guarded_count` — a zero is unobtainable without a live control | STRUCTURAL | — |
+| `guarded_count(deadline_s=)` — a non-returning detector yields `DETECTOR_TIMEOUT`, not 0 | STRUCTURAL | — closes a **domain gap**, not a bug: the guard could not see the case that produces no reading |
 | `GUESSED.md` retraction ledger | RECORD | — |
 | the three-column catch ledger (self / operator / cross-party) | RECORD | — |
 | `PREDICTION-quantity.md` | RECORD | **both predictions falsified, 2026-09-22; the population was defective — `GUESSED.md` #19** |
 
-    STRUCTURAL  4    three of them written on 2026-09-22
+    STRUCTURAL  5    four of them written on 2026-09-22
     SEMI        2
     NAMING      7
     RECORD      3
@@ -52,7 +53,7 @@
 
 Of the seven logged instances of MATCH-UNIT MISMATCH (`CONTROLS.md`):
 
-    prevented by the rule that names the class        0 of 7
+    prevented by the rule that names the class        0 of 8
     caught by a structural mechanism                  1 of 7   (C10, by the
                                                       corpus's own
                                                       falsification suite --
