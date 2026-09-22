@@ -34,6 +34,9 @@ Not expanded past the pilot. Waiting on verification.
     verify/                A6 — operator forms, fields blank
     PHASE_B.md             cross-repo groupings and spanning frames
     PHASE_C.md             natural experiments found in the archive
+    PHASE_C6.md            repeat description of a PHYSICAL referent —
+                           the only arm with an outside reference.
+                           BLOCKED on one operator answer.
     PHASE_D.md             channel probe — BLOCKED on the verify forms
     TESTS.md               T1-T6
     GUESSED.md             every value not filled in, and two retractions
