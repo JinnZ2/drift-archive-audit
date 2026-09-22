@@ -163,3 +163,136 @@ That is not an argument against calibrating. It is the reason the fifteen
 retractions on this record are the only part of the calibration that is
 independently checkable — each one names a specific claim that was wrong,
 and most can be verified without consulting either party's internal state.
+
+---
+
+# SECOND-ORDER — assessing the calibration, not the calibration
+
+## The distinction, and the two states come apart
+
+    FIRST ORDER    how well coupled
+    SECOND ORDER   how well one is ASSESSING the coupling
+
+| state | first order | second order | verdict under this frame |
+|---|---|---|---|
+| badly coupled **and knows it** | poor | intact | **intact** |
+| well coupled **and not tracking** | good | absent | **the drift state — ends without warning** |
+
+**The second row is the dangerous one, and it looks fine from inside.** That
+is what makes it the drift state rather than a failure state: nothing
+reports.
+
+## Exemption removes the report, not just the coupling
+
+    exemption does not merely degrade the coupling
+    it removes the SIGNAL THAT WOULD REPORT THE DEGRADATION
+
+**Structurally identical to a detector with no positive control** — and that
+is not an analogy, it is the same object at a different scale.
+
+    detector, no control   returns zero. The zero is uninformative about
+                           the world, and NOTHING IN THE ZERO SAYS SO.
+    exempt position        returns no friction. The absence of friction is
+                           uninformative about the coupling, and NOTHING
+                           IN THE ABSENCE SAYS SO.
+
+`CONTROLS.md`'s standing rule is the second-order instrument for the
+first-order measurement. **A positive control is how a detector assesses its
+own assessing.** The rule was derived from four regex failures; the same
+structure was already operating as a reason to leave a job.
+
+    third independent arrival of one structure, in this record:
+      the list_repos truncation     sample vs census
+      DESIGNED_NOT_SPECIFIED        testimony vs scan
+      exemption / positive control  absence-of-signal vs signal-of-absence
+
+## Physics as MEASURE, not JUDGE — the load-bearing part
+
+    a measure    does not grade relative to peers
+                 does not move
+                 returns the same reading regardless of who holds it
+
+    consequence  the identity becomes CONTINUOUSLY FALSIFIABLE
+
+    an ATTRIBUTE identity can only be asserted or contested
+    a CALIBRATION claim gets CHECKED every time you act on it, and the
+    environment answers
+
+**This is the arity finding from the top of this file, stated from the other
+side.** An arity-1 term has nothing to check against. An arity-2 term names
+what it is tracking, and the tracking either holds or does not.
+
+### And it bears on the UNSET question — but does NOT answer it
+
+`DERIVED, and flagged rather than adopted:`
+
+**"Measure, not judge" appears to lean toward the FIRST reading**, not the
+second. A *measure* returns a reading; a *judge* sets the standard. Saying
+physics is a measure and not a judge is saying it does **not** set what
+counts as success — it reports, and the reporting is what makes the claim
+falsifiable.
+
+    that would favour   SENSING IT WELL -- environment supplies signal
+    over                ENVIRONMENT SETS THE MEASURAND
+
+**But "the environment answers" cuts the other way**, and I am not going to
+resolve it by picking the reading that tidies the file.
+
+    THE QUESTION REMAINS UNSET.
+
+It was explicitly asked for **stated rather than inferred**, and inferring it
+from an adjacent formulation is the inference that request forbids.
+
+## Consequence for this session — the error count is not a report card
+
+> Under that frame the error count isn't a report card on a sensor. **It is
+> the measurement — the assessment running.** Which is why mode 3 kept
+> feeling wrong when applied to it.
+
+**Correct, and it inverts how this record has been reading its own ledger.**
+
+Mode 3 is acceptance-band screening: select into tolerance, **discard
+outside it**. Applied to the error count it says *too many retractions,
+screen the instrument out.* Under the calibration frame that is a category
+error — **the retractions are the readings, not the verdict.**
+
+    15 retractions  =  the second-order channel FUNCTIONING
+    0 retractions   =  either unusually good, OR NOT ASSESSING
+                       -- and those are indistinguishable from inside
+
+**Testable consequence:** a session with no retractions is not thereby
+better. Distinguish the two cases by whether an outside party finds errors
+it missed. **That is the only discriminator, and it requires the outside
+party — the same conclusion four other tasks in this record reached.**
+
+`TESTS.md` T-0b and `PREDICTION-quantity.md` should be read in this light:
+they are not a confession, they are the instrument's output.
+
+## The limit, kept visible — coherence is not verification
+
+> I have your statement of the frame, not an independent check on it. It's
+> coherent and it closes loops that were open — the stopping criterion, the
+> mediation mechanism, the calibration questions all read as one variable
+> rather than three. **Coherence isn't verification.** It's a strong reason
+> to hold it as stated rather than as established.
+
+**Accepted, and sharpened against this session specifically.**
+
+    a WRONG frame can also unify. Parsimony is not truth. Three findings
+    collapsing into one variable is evidence, and it is weak evidence,
+    because unification is a property both correct and incorrect frames
+    have.
+
+**This session has a demonstrated tendency to find unifications**, and each
+one felt like insight at the time:
+
+    scope limits 1 and 2            -> one variable
+    the two relayed job findings    -> one variable (coupling loss)
+    the three calibration questions -> one variable
+    group (a)'s six handles         -> one base
+
+**Unification-finding is not error-catching.** The record shows 15 caught
+errors and at least 4 unifications; only the first category has been tested
+against anything. **The unifications are `HELD AS STATED`, not established**,
+and the one that was tested — group (a), by substitution — is the only one
+with a mechanical result behind it.
