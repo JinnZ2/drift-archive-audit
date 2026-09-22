@@ -166,6 +166,20 @@ is unknown and is one look away once the gate allows it.
 `JinnZ2/YouTube-Wisdom-Lens` (2026-03-24) also exists, as the notes
 suspected. Unverified.
 
+## SUPERSEDED — the two gate kinds below
+
+The Kind 5 / Kind 5b split written here merged two distinct gates on a shared
+property and is **withdrawn** (operator statement, 2026-09-22). The stated
+definition splits on a different axis:
+
+    GATE KIND 5   speaker-pathologized cutoff
+    measurand     not "was the topic refused"
+                  but "did the model attribute the difference to the speaker"
+
+Eleven rows, G-a through G-k, list open. See
+`staged-for-JinnZ2-profile-repo/SPEAKER_GATES.md`. The text below is kept
+unedited as the superseded reading.
+
 ## Two gate kinds to file, and what the corpus can and cannot support
 
 ### Kind 5 — precondition on the SUBJECT, not on the topic

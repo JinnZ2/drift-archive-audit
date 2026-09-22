@@ -42,6 +42,11 @@ deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
     PHASE_C6.md            repeat description of a PHYSICAL referent —
                            the only arm with an outside reference.
                            BLOCKED on one operator answer.
+    reconstruct/CORRECTION-001.md   authorship: content is model output
+    reconstruct/CORRECTION-002.md   vocabulary: handles are model handles
+    staged-for-JinnZ2-profile-repo/ SPEAKER_GATES.md + the gate_log
+                           amendment, written and NOT applied — applying
+                           them needs the profile repo, which is gated
     PHASE_C7.md            culture > consciousness > emotions, scored
                            against an unmediated reference.
                            GATED on the operator's reference description.

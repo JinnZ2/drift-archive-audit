@@ -39,6 +39,20 @@ Every value the audit could have settled by inference and did not.
 | how far the work predates 2025-12-15 | UNSET — ≥ 95 days, from a log file dated 2025-09-11 inside the root tree |
 | whether the frame preceded Bio-Grid or was retrofitted | UNSET — Emotions' root postdates Bio-Grid's by 158 days and calls it "a prototype application of this framework" |
 
+## Authoring date per pre-agent file — UNSET, and not recoverable
+
+Both pre-agent repos published accumulated work in a single bulk commit
+(Bio-Grid 67 files on 2025-07-10; Emotions 172 files on 2025-12-15). **Git
+records the import date, not the authoring date.**
+
+This was known from A2 ("the work predates its own first commit by an unknown
+interval"). CORRECTION-002 makes it costly: the handle-clustering arm the
+operator proposes needs dated handles, and every pre-agent handle in this
+pilot collapses onto one date per repo. The arm runs on the agent era only.
+
+Recovering the pre-agent half requires dated sources outside git — chat
+exports, notes, pre-import file mtimes. UNSET.
+
 ## Source model per commit — UNSET, and not recoverable
 
 Under CORRECTION-001, all pre-agent repo content is model output that the
@@ -135,5 +149,15 @@ fell to CORRECTION-001:
    caught only because an unrelated check (`affective`) returned a nonzero
    count that contradicted the table.
 
-No A2 file was edited after hashing, including for CORRECTION-001. The corrections live in
+6. **I merged two distinct gates into one on a shared property**
+   ("bounded unit, single state" — `PHASE_C7.md` Kind 5 / Kind 5b). The
+   operator states they were distinct strong gates and the list is longer
+   than two: G-a through G-k, eleven rows, list open. The merge was an
+   inference over a report, not a reading of the archive. **Withdrawn.**
+   My Kind 5/5b split is superseded by the stated definition — Gate Kind 5
+   is *speaker-pathologized cutoff*, and its measurand is not what blocked
+   but **whether the model located the defect in the speaker.** That is a
+   different axis from the one I split on.
+
+No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
