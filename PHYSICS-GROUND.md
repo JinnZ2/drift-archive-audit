@@ -252,3 +252,146 @@ toward real, not toward zero.
    not at random.
 4. **`grounded in` is doing a lot of work** and is the weakest evidence in
    the set. Removing it would strip most of group (b).
+
+---
+
+# ADDENDUM 2 — the substitution test. Group (a) resolved mechanically.
+
+**Correction first:** I called this "the fourth task landing on annotation."
+**Wrong.** One-base-or-five is testable by **substitution**, not judgment —
+swap the handle in a real slot instance and see whether arity and direction
+survive. **That is exactly what T-TERM's M2 scores.**
+
+    so this is not a fourth annotation task.
+    it is the FIRST LIVE CASE for an instrument already specified.
+
+The objection that the substitution judgment is itself annotation is fair —
+but it is a **narrower** judgment than "are these one concept," made per-pair
+against a real sentence rather than globally against a category.
+
+## The real instances, verbatim
+
+    "Energy does not negotiate with committees"
+                        AI-Consciousness-Sensors/papers/thermodynamics.md
+    "The universe does not care about your growth metrics"
+                        AI-Consciousness-Sensors/papers/evidence/ai-systems-alert.md
+    "The seed doesn't care which model expands it"
+                        Emotions-as-Sensors/logs/sensor-log-1.md
+    "The substrate doesn't care who built which shelf"
+                        Emotions-as-Sensors/metrology/README.md
+    "substrate doesn't lie"
+                        ai-human-audit-protocol/consortium/embodied_sensor.py
+    "Nature doesn't lie"
+                        Rosetta-Shape-Core/docs/potential-blind-spots.md
+    "physics doesn't lie, equations balance"
+                        Resilience-hydrology-core/legacy/2025-original/...
+
+**Extractor noise, flagged:** three of the ten raw hits were **not
+terminal-ground claims** — `"the rest of the module does not care"` (code),
+`"own store does not care whether others also failed"` (code), and
+`"Students learn institution doesn't care about them"` (a *critique* of an
+institution, the opposite of a ground claim). **The previous addendum listed
+two of those as slot fillers. Real count in this slot: 6, not 8.**
+
+## The swap — arity and direction under term substitution
+
+| substituted into | arity | direction | entailment survives |
+|---|---|---|---|
+| physics · energy · nature · substrate · universe · seed | preserved | preserved | **YES, all** |
+| **reciprocity** | preserved | **INVERTS** | **NO** |
+| **experienced operator** | preserved | **INVERTS** | **NO** |
+| **embodied experience** | preserved | breaks | **NO** |
+
+**And the failures are diagnosable, not vague:**
+
+    "reciprocity does not negotiate"   -> reciprocity IS CONSTITUTED BY
+                                          exchange. The predicate denies
+                                          its content.
+    "experienced operator doesn't lie" -> an operator CAN lie, and this
+                                          corpus says so repeatedly. The
+                                          entailment that licensed the
+                                          original — therefore it can be
+                                          trusted as a base — fails.
+    "reciprocity doesn't lie"          -> parses, but reciprocity can be
+                                          FEIGNED, which is a central
+                                          concern here. Entailment fails.
+
+## RESULT — and it is sharper than either branch
+
+**Group (a) is ONE BASE UNDER SIX HANDLES.** Fully interchangeable in real
+slot positions with arity, direction and entailment preserved. **That part of
+the residual collapses**, exactly as the test design said it would.
+
+**Group (b) cannot occupy this slot at all.** So the alternatives are not
+alternatives *here*.
+
+**But group (b) occupies a DIFFERENT slot coherently.** `grounded in
+reciprocity` parses and holds. So the corpus contains **two kinds of terminal
+ground**:
+
+    INDIFFERENCE GROUND    settles by being indifferent to preference
+                           physics / energy / nature / substrate / universe
+                           / seed -- ONE base, six handles
+
+    RELATIONAL GROUND      settles by something else entirely
+                           reciprocity / embodied experience / experienced
+                           operator / coherence / dialogue / sufficiency
+
+**So the selection was real, and it was made at the KIND level, not the term
+level.**
+
+    picking "physics" over "energy"        NOT a selection -- same base
+    picking an INDIFFERENCE ground over a  A SELECTION -- both kinds are
+      RELATIONAL ground                    present in the corpus
+
+**That is the residual, located.** It is no longer "unmeasured." It is a
+choice of *kind of ground*, made now, from two kinds the practice demonstrably
+supplies.
+
+Whether that choice was right is not this instrument's question. The physics
+base's own rationale argues for it directly — *tests grounded in social or
+cultural rules measure agreement, not the world* — which is precisely an
+argument for the indifference kind **over** the relational kind. **The
+argument was stated. The alternative it rules out is now named.**
+
+---
+
+# The regex-dialect mismatch is its own class
+
+Fourth instance this session. **Distinct from surface-token
+operationalization**, and the distinction matters for the remedy:
+
+    SURFACE-TOKEN            substitutes an observable PROXY for the
+    OPERATIONALIZATION       CONCEPT. The detector looks at the wrong
+                             thing.
+
+    REGEX-DIALECT            the detector cannot SEE the thing it is
+    MISMATCH                 correctly pointed at, because the pattern
+                             layer speaks a dialect nobody declared.
+                             The query is right. The engine disagrees.
+
+**Instances:** `\|` as literal in POSIX ERE · `T-TERM` substring-matching
+`short-term` · GitHub's `OR` chain silently failing · `(?:...)` unsupported
+in `git grep -E`.
+
+**Narrower standing rule, replacing the broad one:**
+
+    POSITIVE CONTROL BEFORE TRUSTING ANY PATTERN-MATCHED ZERO.
+
+Not "before any negative result" — **specifically before any zero produced
+by a pattern layer**, because that layer has its own failure mode
+*independent of whether the query was correct*. A perfectly reasoned query
+returns zero because the engine parsed it differently than intended.
+
+## And these two failures do not test the quantity prediction
+
+Both were caught by a quantity — 0 fillers where fillers were known present;
+651 hits for one boilerplate string.
+
+**They are consistent with the prediction and do not test it.** Accumulating
+more quantity-caught instances cannot discriminate; only a **purely
+qualitative self-catch** (refuting) or a demonstrated qualitative error that
+went unnoticed (confirming the shape) would.
+
+    the prediction remains UNTESTED IN EITHER DIRECTION since it was
+    first checked. The tally grew. The test did not run.

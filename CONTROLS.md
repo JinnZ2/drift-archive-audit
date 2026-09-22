@@ -120,6 +120,19 @@ The second is checkable in an afternoon. The first took four decades.
     every negative result in this record carries a CONTROL TERM and its
     result, or it is marked UNRATED.
 
+**Narrowed 2026-09-22 — the sharper version of the same rule:**
+
+    POSITIVE CONTROL BEFORE TRUSTING ANY PATTERN-MATCHED ZERO.
+
+Not merely "before any negative." **Specifically before any zero produced by
+a pattern layer**, because REGEX-DIALECT MISMATCH is a failure mode of the
+engine that is *independent of whether the query was correct*. Four
+instances this session: `\|` literal in POSIX ERE; `T-TERM` substring-
+matching `short-term`; GitHub `OR` chains silently failing; `(?:...)`
+unsupported in `git grep -E`. **In every one the reasoning was sound and the
+engine disagreed.** See `PHYSICS-GROUND.md` addendum 2 for why this is a
+distinct class from surface-token operationalization.
+
 No negative is reportable without naming the term that proved the detector
 could see something. **This programme has run exactly three positive
 controls: one by accident (`vibrotactile`), two on purpose (`terra_preta`,
