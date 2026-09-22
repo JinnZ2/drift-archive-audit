@@ -63,6 +63,21 @@ see the note under the list.
 **The programme's binding constraint is not access, compute, or corpus
 reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
 
+**THE CONSTRAINT IS ALSO A ROUTING RULE, as of 2026-09-22.** Declared as a
+blocker this morning; it is more useful as an assignment rule, and
+`SPEC-SHEET.md` §2b supplies the split:
+
+    STRUCTURE JUDGEMENTS   -> this session. Measured reliable: sampling
+                              defects, merged categories, missing
+                              controls, a scope that did not travel.
+    SENSE JUDGEMENTS       -> the party who holds the sense. Measured
+                              unreliable here: what a term names, which
+                              sense is in play, whether a category call
+                              is right.
+
+**Both halves have a destination.** The constraint stops being the thing that
+stops work and becomes the thing that decides who gets which half.
+
 **A THIRD JOB, and it has been running all session unlogged.** See
 `FINDABILITY.md`.
 

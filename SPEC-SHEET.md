@@ -89,8 +89,26 @@ Every drift row is a category or a sense judgement. Every sensitivity row is
 a structure. The instrument is not unreliable in general; it is reliable in
 one register and not the other, and the two are separable in advance.
 
-**Operating consequence:** give it a design to break. Do not give it a
-meaning to settle.
+**Operating consequence — and it is a ROUTING RULE, not a warning:**
+
+    give it a design to break.
+    do not give it a meaning to settle.
+
+**The second half has a destination**, which is what makes this an assignment
+rule rather than a caveat:
+
+    STRUCTURE JUDGEMENTS   -> here. Sampling, merged categories, missing
+                              controls, an inference doing a source's
+                              work, a scope that did not travel.
+    SENSE JUDGEMENTS       -> the party who holds the sense. What a term
+                              names, which of two senses is in play,
+                              whether a category call is the right one.
+
+**That is the binding constraint converted from a blocker into an assignment
+rule.** It was declared this morning as five tasks that terminate on a second
+party. Stated this way, the constraint stops being the thing that stops work
+and becomes the thing that decides which party gets which half — and both
+halves have somewhere to go.
 
 ## 3. WHAT IT CANNOT REPORT ABOUT ITSELF
 
@@ -151,10 +169,34 @@ counted that.** The alternative reading — *the denominator is open* — was
 then run, and it produced `GUESSED.md` #25: a numerator had been presented
 as a finding.
 
-**The line worked as a prediction, once, prospectively.** That is n = 1, on
-the instrument's own profile, produced by the pair the profile is about.
-`PROPOSED`, and the standing base rate for things this pair finds convincing
-is unchanged.
+~~**The line worked as a prediction, once, prospectively.**~~
+**DOWNGRADED — `GUESSED.md` #27.**
+
+**The test ran in the favourable register.** The profile says: reliable on
+structure, unreliable on sense. The check that ran — *is the denominator
+open?* — **is a structure judgement.** The prediction was tested in the half
+it claims to be good at.
+
+    what was tested   the easy half
+    the hard version  the profile predicts a drift IN THE SENSE REGISTER
+                      and someone catches it BEFORE the drift completes
+    n on the hard
+    version           0. Has not happened.
+
+### One respect in which this differs from the six dead flagged items
+
+    the six dead ones   SUMMARISED OUTPUTS -- "these four things are one
+                        thing." A claim about what was already produced.
+    this one            PREDICTS INPUTS -- "given an input condition of
+                        this shape, the instrument returns this." A claim
+                        about what has not happened yet.
+
+**Different kind of claim, different failure surface**, and the six lacked
+the property. **That is a reason it might survive, not evidence that it
+will** — and the distinction is recorded here so the next party does not
+mistake the first for the second.
+
+`PROPOSED`. Base rate unchanged.
 
 ---
 

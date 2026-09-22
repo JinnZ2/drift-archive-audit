@@ -42,9 +42,26 @@ import os
 import re
 import sys
 
-# The control: an enum containing these members must be recovered.
-CONTROL_MEMBERS = {'field_measurement', 'oral_tradition_encoded',
-                   'replication_record', 'engineering_record'}
+# TWO controls, and the second exists because the first was not enough.
+#
+# CONTROL A is a JSON Schema enum. It fired, and the sweep was reported as
+# working and bounded on the strength of it.
+#
+# CONTROL B is the SAME CONCEPT IN A DIFFERENT ENCODING: a Python
+# `class X(Enum)` with `MEMBER = "value"` members. The first version of this
+# file could not see that form at all -- it missed all 11 Enum classes in
+# Logic-Ferret, including SilenceCategory, a four-member taxonomy of why
+# evidence goes silent.
+#
+# THE REFINED RULE, and it is the finding:
+#
+#   A positive control proves the detector can see THE THING IT WAS POINTED
+#   AT. It does not prove the detector can see A DIFFERENT ENCODING of the
+#   same thing. Control on every encoding the concept takes, not on one
+#   instance of it.
+CONTROL_A = {'field_measurement', 'oral_tradition_encoded',
+             'replication_record', 'engineering_record'}
+CONTROL_B = {'selection', 'measurement', 'temporal', 'causal'}
 
 SKIP_DIRS = {'.git', 'node_modules', '__pycache__', '.venv', 'venv',
              '.pytest_cache', 'dist', 'build'}
@@ -58,6 +75,10 @@ SKIP_DIRS = {'.git', 'node_modules', '__pycache__', '.venv', 'venv',
 # this time failing on cost rather than on correctness, in the instrument
 # built to make FIND cheap.
 PY_OPEN = re.compile(r'^([A-Z][A-Z0-9_]{2,})\s*=\s*([\(\[\{])', re.MULTILINE)
+# class X(Enum): -- the encoding CONTROL_B exists to catch.
+PY_ENUM_CLASS = re.compile(r'^class\s+(\w+)\s*\(\s*[\w.]*Enum\s*\)\s*:',
+                           re.MULTILINE)
+PY_ENUM_MEMBER = re.compile(r'^\s+[A-Z][A-Z0-9_]*\s*=\s*["\']([^"\']{1,200})["\']')
 PY_LITERAL_OPEN = re.compile(r'Literal\[')
 STR_ITEM = re.compile(r'["\']([^"\']{1,200})["\']')
 CLOSERS = {'(': ')', '[': ']', '{': '}'}
@@ -103,6 +124,16 @@ def python_enums(path, text, out):
             out.append((path, m.group(1), items))
         elif len(items) >= 2 and ':' not in body:
             out.append((path, m.group(1), items))
+    for m in PY_ENUM_CLASS.finditer(text):
+        body, items = text[m.end():m.end() + MAX_BODY], []
+        for line in body.splitlines()[1:]:
+            if line.strip() and not line[:1].isspace():
+                break          # dedent: the class body ended
+            mm = PY_ENUM_MEMBER.match(line)
+            if mm:
+                items.append(mm.group(1))
+        if len(items) >= 2:
+            out.append((path, 'class %s(Enum)' % m.group(1), tuple(items)))
     for m in PY_LITERAL_OPEN.finditer(text):
         body = _body_after(text, m.end(), ']')
         if body is None:
@@ -149,9 +180,9 @@ def is_enum_like(members):
     return True
 
 
-def control_fires(found):
+def control_fires(found, required):
     for _, _, members in found:
-        if CONTROL_MEMBERS.issubset(set(members)):
+        if required.issubset(set(members)):
             return True
     return False
 
@@ -162,16 +193,33 @@ def main(argv):
         '/home/user/AI-Consciousness-Sensors',
         '/home/user/Emotions-as-Sensors',
         '/home/user/Bio-Grid-American-Manufacturing-',
+        # READ-ONLY CONTROL FIXTURES. Not pilot repos, not scored, no A2
+        # reconstruction exists for either. They are here because control B
+        # lives in one of them.
+        '/home/user/jinnz2/logic-ferret',
+        '/home/user/jinnz2/Noise-as-Information-Sensor',
     ]
     found = sweep(roots)
 
-    if not control_fires(found):
-        print('CONTROL FAILED. The evidence-type enum was not recovered.')
-        print('Required members: %s' % sorted(CONTROL_MEMBERS))
+    ok = True
+    for name, required, what in (
+            ('A', CONTROL_A, 'JSON Schema enum (Keystone evidence types)'),
+            ('B', CONTROL_B, 'Python class(Enum) (Logic-Ferret '
+                             'SilenceCategory)')):
+        if control_fires(found, required):
+            print('CONTROL %s: FIRED   %s' % (name, what))
+        else:
+            print('CONTROL %s: FAILED  %s' % (name, what))
+            print('           required members: %s' % sorted(required))
+            ok = False
+    if not ok:
+        print()
         print('ABORTED — no list printed. A sweep that cannot recover a')
-        print('known instance says nothing by returning few.')
+        print('known instance says nothing by returning few. Note that')
+        print('control A alone passing is what let the first version of')
+        print('this file report a bounded result while blind to an entire')
+        print('encoding.')
         return 2
-    print('POSITIVE CONTROL: FIRED. The known-missed enum was recovered.')
     print()
 
     # Deduplicate by member set: the same enum restated in two files is one

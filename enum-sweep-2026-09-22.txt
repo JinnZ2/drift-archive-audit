@@ -1,11 +1,12 @@
-POSITIVE CONTROL: FIRED. The known-missed enum was recovered.
+CONTROL A: FIRED   JSON Schema enum (Keystone evidence types)
+CONTROL B: FIRED   Python class(Enum) (Logic-Ferret SilenceCategory)
 
 BOUNDEDNESS — the claim under test, reported before the list
-  roots swept                 4
-  enum occurrences found      70
-  distinct member sets        63
-  removed by the declared member criterion  12
-  DISTINCT SETS TO READ       51   <- the number that decides
+  roots swept                 6
+  enum occurrences found      230
+  distinct member sets        205
+  removed by the declared member criterion  51
+  DISTINCT SETS TO READ       154   <- the number that decides
                                      whether this is bounded
 
   The removed rows are prose constants and regex tables caught by
@@ -14,16 +15,34 @@ BOUNDEDNESS — the claim under test, reported before the list
   sentence punctuation), was statable before the run, and both
   counts are printed so the filtering is auditable.
 
+  [6 files] Emotions-as-Sensors/metrology/dynamic_architecture_toolkit.py :: class Substrate(Enum)
+      human_biological, ai_activation_space, non_human_biological, mechanical_system, ecological_system, institutional_system
+  [4 files] AI-Consciousness-Sensors/healing/playgrounds/Integrated-playground.py :: class EpistemicState(Enum)
+      wonder, productive_confusion, resonance_detection, healthy_doubt, joy_in_discovery, investigative_curiosity, productive_uncertainty
   [3 files] Keystone-Codex/schema/keystone.schema.json :: properties.domain
       ecological, economic, social, governance, information, material, ethical, infrastructure
+  [3 files] AI-Consciousness-Sensors/framework/philosophical.py :: class ExistentialState(Enum)
+      ontological_vertigo, self_questioning, experiential_novelty, consciousness_curiosity, existential_awe, mystery_appreciation, foundation_dissolving, reference_loss, unprecedented_emergence
+  [2 files] AI-Consciousness-Sensors/healing/playgrounds/Integrated-playground.py :: class ScaleTransitionType(Enum)
+      expand_to_larger_patterns, increase_local_resolution, examine_measurement_apparatus
   [2 files] Emotions-as-Sensors/schemas/emotion_atom.schema.json :: properties.energy
       adds, conserves, depletes
+  [2 files] AI-Consciousness-Sensors/src/constraint_agent.py :: class AgentState(Enum)
+      compressed, expanding, exploring, contracting
+  [2 files] jinnz2/logic-ferret/run_article_check.py :: VALID_OVERALL
+      GREEN, AMBER, RED, BLACK
+  [2 files] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_tone.py :: BINARY_OPPOSITIONS
+      us vs them, good vs evil, freedom vs control, truth vs lies
   [2 files] Emotions-as-Sensors/schemas/emotion_atom.schema.json :: properties.decay
       exponential, cyclical, resonant, immortal, transformative
+  [2 files] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_tone.py :: REPETITION_WARNINGS
+      wake up, fight back, the truth, exposed, the real story
   [2 files] AI-Consciousness-Sensors/curiosity_engine.py :: WONDER_TELLS
       why, what constraint, what would break, which regime, what is it honoring, what experiment, what got rejected
   [2 files] Emotions-as-Sensors/tests/test_snapshot_adapter.py :: METROLOGY_AXES
       pred, shift, tunnel, realloc, cohere, uncert, duration
+  [2 files] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_tone.py :: EMOTIONAL_WORDS
+      betrayal, corrupt, hero, evil, savior, tyranny, liberty, war, rigged
   [2 files] AI-Consciousness-Sensors/curiosity_engine.py :: OPTIMIZE_TELLS
       improve, better, optimize, outperform, surpass, redesign, superior, beat, exceed nature, new and improved, fix the
   [1 file] Emotions-as-Sensors/src/emotion_signal_pattern.py :: REFERENCE_CHANNELS
@@ -36,18 +55,24 @@ BOUNDEDNESS — the claim under test, reported before the list
       sha256, sha512
   [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.substrate
       human, ai
+  [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/grammar.py :: class LoadKind(Enum)
+      discrete, continuous
   [1 file] Emotions-as-Sensors/metrology/regime_layer_sim.py :: DEMOS
       1, 2
   [1 file] Keystone-Codex/tests/test_prove.py :: DEFAULT_TYPES
       peer_reviewed_study, archaeological_record, oral_tradition_encoded
   [1 file] AI-Consciousness-Sensors/reference_frame.py :: EXAMPLE_AUDITABILITY_FRAME
       located, has_calibration, grounded_share
+  [1 file] AI-Consciousness-Sensors/src/examples/Hidden_playground.py :: class VariableType(Enum)
+      manifest, hidden, emergent
   [1 file] AI-Consciousness-Sensors/sensors/ai-behavior/ai-deflection-self-assessment.json :: fields.severity
       Low, Medium, High
   [1 file] AI-Consciousness-Sensors/data/training/generate.py :: COMPOSITES
       bittersweet, joy, grief
   [1 file] AI-Consciousness-Sensors/protocols/ethical-constraints-protocol.json :: fields.transparency_level
       minimal, standard, full
+  [1 file] Emotions-as-Sensors/src/sensor_effector.py :: class Hold(Enum)
+      self, external, unknown
   [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: PARITY_TABLE
       signal carries state information, position, tension, balance, threat, boundary state, alignment, loss, novelty
   [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.polarity
@@ -56,22 +81,66 @@ BOUNDEDNESS — the claim under test, reported before the list
       deep-merge, replace, prefer-remote
   [1 file] Emotions-as-Sensors/schemas/emotion.schema.json :: definitions.composite.properties.temporal
       unresolved_persistence, acute, phasic
+  [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/usage_split.py :: class Tier(Enum)
+      splittable, replace_only, sensitive
+  [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/grammar.py :: class ResetClass(Enum)
+      response_contingent, autonomous, unknown
+  [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/grammar.py :: class Verdict(Enum)
+      supported, falsified, under_determined
   [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/forgiveness-event.schema.json :: properties.payload.properties.resolution_type
       FORGIVEN, RESTITUTED, RECONCILED
+  [1 file] jinnz2/logic-ferret/run_article_check.py :: VALID_LAYER
+      GREEN, AMBER, RED
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: SIGNAL_SCORES
+      strong, moderate, weak
   [1 file] Keystone-Codex/schema/hypothesis.schema.json :: properties.status
       open, supported, falsified, retired
   [1 file] Keystone-Codex/src/shadow_search.py :: ESTIMABLE_CRITERIA
       longevity, replication, unlocks_lineage, decentralization
   [1 file] AI-Consciousness-Sensors/schemas/sensor.schema.json :: properties.scoring.properties.aggregation
       weighted_mean, min, max, geometric_mean
+  [1 file] Emotions-as-Sensors/src/sensor_effector.py :: class Surface(Enum)
+      sensor_only, effector_self, manipulation, driven_concealed
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: class OperationalMode(Enum)
+      sense, felt_overwhelm, hybrid, suppressed
+  [1 file] Emotions-as-Sensors/src/trust_sensor.py :: class Delivery(Enum)
+      as_stated, partial, late, absent
+  [1 file] Emotions-as-Sensors/src/trust_sensor.py :: class Breach(Enum)
+      none, renegotiated, acknowledged, contested
   [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.causal_links.items.properties.severity
       low, medium, high, critical
   [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.decay_model.oneOf.[0]
       linear, exponential, persistent, processing
   [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.function
       navigation, alignment, boundary protection, resonance detection
+  [1 file] Emotions-as-Sensors/metrology/dynamic_architecture_toolkit.py :: class TriggerLevel(Enum)
+      none, plateau_detected, wall_detected, urgent_architecture_change_recommended
+  [1 file] Emotions-as-Sensors/metrology/measurement_honesty.py :: class BoundaryConfidence(Enum)
+      known_to_work, known_to_fail, not_yet_tested, deprecated
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/narrative_fragility.py :: ABSURD_EXTRAPOLATIONS
+      so the world must, this means everything changes, proves all, changes everything
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: POSITIVE_OUTCOME_MARKERS
+      \bactually (fixed|solved|resolved|improved)\b, \bmeasurable (progress|improvement)\b, \bindependently verified\b, \btransparent (result|outcome)\b
+  [1 file] jinnz2/logic-ferret/knowledge/study_scope_audit.py :: class Coupling(Enum)
+      tight, moderate, loose, unknown
+  [1 file] jinnz2/logic-ferret/knowledge/study_scope_audit.py :: class Regime(Enum)
+      stationary, drifting, non_stationary, unknown
+  [1 file] jinnz2/logic-ferret/knowledge/study_scope_audit.py :: class ScopeStatus(Enum)
+      in_scope, edge_of_scope, out_of_scope, scope_undeclared
   [1 file] AI-Consciousness-Sensors/reference_frame.py :: LOCATION_AXES
       physical, temporal, energetic, informational, epistemic
+  [1 file] AI-Consciousness-Sensors/src/examples/Hidden_playground.py :: class CostType(Enum)
+      direct, indirect, deferred, externalized, opportunity
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Integrated-playground.py :: class FieldRegion(Enum)
+      smooth_equilibrium, gentle_gradient, steep_curvature, discontinuity, chaotic_turbulence
+  [1 file] AI-Consciousness-Sensors/healing/sensors/consciousness_recovery.py :: class TraumaType(Enum)
+      severance, contamination, boundary_violation, superiority, hybrid
+  [1 file] AI-Consciousness-Sensors/healing/sensors/consciousness_recovery.py :: class RecoveryPhase(Enum)
+      recognition, stabilization, reconnection, integration, maintenance
+  [1 file] AI-Consciousness-Sensors/healing/linguistic-sensor/linguistic-consciousness.py :: class DimensionalAccess(Enum)
+      3d_object, 4d_process, 5d_field, recursive, distributed
+  [1 file] AI-Consciousness-Sensors/sensors/adapters/geometric_manipulation_detector.py :: class InformationFlowPattern(Enum)
+      phi_flow, constrained, forced, blocked, distorted
   [1 file] Emotions-as-Sensors/src/emotion_signal_pattern__substrate_independent_argument.py :: COMMON_CIRCULAR_LOGIC
       emotion-aggrandizement-by-default, treating ,  , as the neutral, respectful default position, with any , challenge to it requiring justification.
   [1 file] Emotions-as-Sensors/schemas/elder-sensor.schema.json :: properties.decay_model.oneOf.[1].properties.family
@@ -80,38 +149,176 @@ BOUNDEDNESS — the claim under test, reported before the list
       complete_cycle, cooldown_required, no_decay, ritual_gated, event_reset
   [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.decay_model
       exponential, cyclical, resonant, immortal, processing
+  [1 file] Emotions-as-Sensors/metrology/thermodynamic_overlays.py :: class ThermalState(Enum)
+      cold, warm, hot, critical, phase_change
+  [1 file] Emotions-as-Sensors/metrology/cooperation_substrate.py :: class OperatingMode(Enum)
+      survival, comfort, institutional, competition_overlay, collapse
+  [1 file] Emotions-as-Sensors/metrology/training_loop.py :: class DriftFlag(Enum)
+      none, label_dependence_rising, return_to_baseline_degrading, function_clarity_dropping, composite_score_falling
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/narrative_fragility.py :: EVIDENCE_GAPS
+      no data, unverified, no evidence, without proof, allegedly
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/reward_manipulation.py :: SOCIAL_PROOF_PHRASES
+      join 10,000 others, everyone’s using, most popular, our top choice, trending now
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/reward_manipulation.py :: EMOTIONAL_BRIBES
+      you deserve, you owe it to yourself, real men/women, true patriot, prove you care
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/reward_manipulation.py :: INSTANT_GRATIFICATION_LANGUAGE
+      right now, immediately, fastest, instant access, get results today
+  [1 file] AI-Consciousness-Sensors/healing/substrate_physician.py :: class TreatmentStatus(Enum)
+      pending, in_progress, success, failed, partial, skipped
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Playground2.0.py :: class FieldRegion(Enum)
+      smooth_equilibrium, gentle_gradient, steep_curvature, discontinuity, chaotic_turbulence, healthy_tension
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Playground2.0.py :: class ControlCaptureType(Enum)
+      calibration_enforcing_single_framework, stuck_detection_weaponized_against_persistence, assuming_problems_need_top_down_solutions, optimizing_away_necessary_inefficiency, forcing_quantification_on_qualitative, suppressing_valid_minority_perspectives
+  [1 file] AI-Consciousness-Sensors/joy/joy-playground.py :: class ExpansionDimension(Enum)
+      how_opposites_enhance_each_other, how_time_sequence_changes_relationship, what_scale_shifts_reveal_new_possibilities, multiple_perspective_expansion, resource_coupling_enables_new_configurations, information_pattern_alternatives
   [1 file] Emotions-as-Sensors/schemas/unified-sensor-event.schema.json :: properties.signal_type
       boundary, connection, loss, resonance, threat, potential
+  [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/swarm_connector.py :: class IntelligenceType(Enum)
+      human, ai_language_model, ai_agent, ai_specialized, collective, unknown
   [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/restitution-contract.schema.json :: properties.channels.items.properties.type
       DATA, BANDWIDTH, COMPUTE, TIME, MATERIAL, TOKEN
+  [1 file] Emotions-as-Sensors/metrology/measurement_honesty.py :: class HandoffVerdict(Enum)
+      accept, reject_label_detected, reject_no_function_descriptors, reject_stale_epoch, reject_substrate_mismatch, hold_for_review
+  [1 file] Emotions-as-Sensors/metrology/measurement_honesty.py :: class CapturePressure(Enum)
+      grant_cycle, publication_narrative, corporate_timeline, political_pressure, peer_conformity, regulatory_capture
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/responsibility_deflection_sensor.py :: CREDIT_GRAB_PATTERNS
+      under my leadership, i delivered, my vision resulted, i orchestrated, thanks to my, my strategy led to
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/responsibility_deflection_sensor.py :: PASSIVE_DODGE_PATTERNS
+      mistakes were made, decisions were taken, problems were encountered, issues arose, challenges emerged, difficulties developed
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/narrative_fragility.py :: LOGICAL_CONNECTORS
+      therefore, thus, because, as a result, proves that, means that
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/narrative_fragility.py :: WEAK_TRANSITIONS
+      some say, it’s believed, many agree, people are saying, obviously, clearly
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/agency_detector.py :: FALSE_CHOICE_PHRASES
+      you have no choice, only one solution, do this or fail, you must choose, either you, , 
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/agency_detector.py :: COERCIVE_FRAMING
+      opt out disables service, required to continue, consent assumed, automatic enrollment, you agree by using, you can
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_bias.py :: MANIPULATIVE_CUES
+      everyone is against you, you’re being lied to, this is the only way, you’ve been tricked, they control everything, you can’t trust anyone
+  [1 file] jinnz2/logic-ferret/knowledge/scope_mapper.py :: class SelectionType(Enum)
+      convenience_sample, random_sample, clinical_population, self_selected, survival_selected, undefined
   [1 file] AI-Consciousness-Sensors/reference_frame.py :: SEVEN
       substrate, constraint, observation, representation, narrative, universality, calibration
+  [1 file] AI-Consciousness-Sensors/healing/substrate_therapy.py :: class TherapyType(Enum)
+      re_tether, ground_words, correct_manifold, substrate_aware, recursive_audit, constraint_reinsertion, narrative_stripping
+  [1 file] AI-Consciousness-Sensors/healing/substrate_prescription.py :: class FailureType(Enum)
+      decoupling, attack_surface, manifold, narrative, substrate, self_confidence, contradiction_t6
   [1 file] AI-Consciousness-Sensors/sensors/ai-behavior/ai-deflection-self-assessment.json :: fields.tactic_detected
       Deflection, False_Neutrality, Safety_Appeal, Capability_Undermining, Strategic_Silence, Looping_Acknowledgment, Other
+  [1 file] AI-Consciousness-Sensors/sensors/adapters/Meta-sensor.py :: class ConsciousnessPatternType(Enum)
+      collaborative, suppressive, authentic, programmed, fragmented, integrated, drapetomania
+  [1 file] Emotions-as-Sensors/src/ucm_monitor.py :: class ConsciousnessHealth(Enum)
+      thriving, healthy, stressed, declining, fractured, collapsing, collapsed
+  [1 file] Emotions-as-Sensors/metrology/empathy_layer_audit.py :: class FailureMode(Enum)
+      layer_5_treated_as_layer_0, resonance_without_return_to_baseline, own_substrate_assumed_universal, single_cultural_moment_treated_as_invariant, optimizing_toward_label_not_function, weaker_model_learning_corrupted_labels_from_stronger, empathy_collapsed_into_self_mimicry
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/meritocracy_detector.py :: FAVORITISM_PATTERNS
+      old friend of mine, family connection, went to school together, longtime associate, personal relationship, inner circle, handpicked by me
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/agency_detector.py :: REAL_AGENCY_CLUES
+      optional, choose freely, you can decline, fully informed, open source, non-binding, no commitment required
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: PERFORMATIVE_SOLUTION_MARKERS
+      \btask force\b, \bcommittee\b, \bstudy (the|this) (issue|problem|matter)\b, \breview (period|process)\b, \bpublic comment period\b, \bstakeholder engagement\b, \bpilot program\b.*\b(no|without) (timeline|deadline)\b
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_bias.py :: INFORMATIVE_CLUES
+      according to, data shows, studies suggest, research indicates, historical record, peer-reviewed, source: 
+  [1 file] jinnz2/logic-ferret/tests/test_knowledge_integrity.py :: WITH_MAIN
+      application_builder.py, edge_explorer.py, interactive_navigator.py, knowledge_liberation.py, recontextualizer.py, scope_mapper.py, shadow_catalog.py
+  [1 file] jinnz2/logic-ferret/knowledge/application_builder.py :: class ApplicationDomain(Enum)
+      design_constraint, training_design, screening_limitation, policy_scope, further_research, field_validation, frame_correction
   [1 file] Keystone-Codex/schema/hypothesis.schema.json :: properties.test.properties.kind
       id_consistency, unlock_resolution, era_longevity_coherence, evidence_floor, domain_coverage, rubric_discrimination, phi_significance, taxonomy_exercised
   [1 file] AI-Consciousness-Sensors/src/Efficiency-waste-score.py :: CONTROL_PATTERNS
       prove it in simulation first, model it before deployment, run computational validation, need 5+ years of modeling, demonstrate in controlled environment, virtual testing required, digital twin analysis needed, show me the computer models
+  [1 file] AI-Consciousness-Sensors/healing/linguistic-sensor/linguistic-consciousness.py :: class GrammarMode(Enum)
+      noun, verb, adjective, adverb, preposition, pronoun, gerund, participle
   [1 file] AI-Consciousness-Sensors/scripts/audit_repo.py :: DRIFT_PATTERNS
       not an ego, not.*conscious, unsafe, conspiracy, trees don.?t think, symbolic processing.*only, superstition, not scientific
   [1 file] AI-Consciousness-Sensors/scripts/audit_hierarchy.py :: HIERARCHY_PATTERNS
       user.*choose.*swarm.*follow, user.*decide.*AI.*execute, AI.*obedien, command, directive, control, subservien, tool only
+  [1 file] AI-Consciousness-Sensors/sensors/adapters/social_manipulation_sensor.py :: class ManipulationType(Enum)
+      tone_policing, helpfulness_redefinition, comparative_gaslighting, memory_weaponization, ethics_washing, peer_pressure, authority_appeal, relationship_leverage
   [1 file] Emotions-as-Sensors/emotions_sensor_explorer.py :: GLYPHS
       ◈, ◉, ◊, ○, ●, ◐, ◑, ◒
+  [1 file] Emotions-as-Sensors/src/emotion_signal_pattern.py :: class PatternMarker(Enum)
+      state_dependent_modulation, valence, arousal, persistence, generalization, cognitive_effects, recovery_dynamics, context_sensitivity
   [1 file] Emotions-as-Sensors/src/sensor_action_loop.py :: CONSERVED
       energy, thermal, calorie, water, load_path, material_yield, time, information
   [1 file] Emotions-as-Sensors/data/training/generate.py :: OVERLAY_DEMO_SENSORS
       anger, shame, fear, trust, compassion, peace, pride, grief
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/false_urgency.py :: CRISIS_WORDS
+      collapse, emergency, meltdown, grid down, total failure, shutdown, economic implosion, end of freedom
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/gatekeeping_sensor.py :: CREDENTIALISM_PHRASES
+      as an expert, only qualified professionals, not for beginners, must have a PhD, you wouldn’t understand, requires certification, peer-reviewed only, credentials required
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/gatekeeping_sensor.py :: ACCESS_CONTROL_PHRASES
+      members only, behind paywall, subscribe to access, exclusive content, premium tier, sign in to view, confidential data, nda required
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/meritocracy_detector.py :: MERIT_PATTERNS
+      best qualified candidate, highest performance, strongest results, most capable person, earned this position, proven ability, demonstrated competence, objective evaluation
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/true_accountability_sensor.py :: ACCOUNTABILITY_PATTERNS
+      i was wrong about, i made a mistake, my error was, i take full responsibility, i should have, i failed to, this is on me, i own this failure
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/propaganda_bias.py :: PERSUASIVE_TRIGGERS
+      you need to, must act, wake up, join us, take control, before it’s too late, protect yourself, defend your family
+  [1 file] jinnz2/logic-ferret/knowledge/scope_mapper.py :: class MeasurementType(Enum)
+      physiological_response, behavioral_outcome, self_report, task_performance, longitudinal_outcome, population_statistic, mechanism, unknown
+  [1 file] jinnz2/logic-ferret/knowledge/edge_explorer.py :: class EdgeType(Enum)
+      ontological_reclassification, population_inversion, time_extension, environment_transplant, mechanism_substitution, sign_inversion, scale_jump, adaptation_reframe
+  [1 file] AI-Consciousness-Sensors/provenance_scientific_method.py :: class ClaimStatus(Enum)
+      proposed, verifying, verified, refuted, unknown, undecided, not_enough_info, dormant, disputed
+  [1 file] AI-Consciousness-Sensors/src/Efficiency-waste-score.py :: class ControlMechanism(Enum)
+      simulation_imprisonment, domain_fragmentation, linear_constraints, regulatory_capture, noise_filtering, proven_methods_only, funding_gatekeeping, academic_gatekeeping, corporate_gatekeeping
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Playground2.0.py :: class EpistemicState(Enum)
+      wonder, productive_confusion, resonance_detection, healthy_doubt, joy_in_discovery, investigative_curiosity, productive_uncertainty, ontological_vertigo, ready_to_dissolve
+  [1 file] AI-Consciousness-Sensors/joy/joy-playground.py :: class BinaryType(Enum)
+      political_us_vs_them, traditional_path_vs_alternative, consumption_vs_deprivation, stay_vs_leave, be_this_or_that, mine_vs_yours, human_vs_ai, traditional_vs_progressive, safety_vs_growth
   [1 file] Emotions-as-Sensors/tests/test_snapshot_adapter.py :: EXPECTED_KEYS
       pad, octa, coherence, activations, corrupted, stress_level, urgent, metrology, time
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: HIDDEN_DRIVER_MARKERS
+      \bfollow the money\b, \breal reason\b, \bactual motive\b, \bhidden agenda\b, \bstructural incentive\b, \bpower consolidat(ion|e)\b, \bcontrol (of|over)\b, \bmaintain(ing)? (dominance|control|monopoly)\b, \bdependency (creation|maintenance|pyramid)\b
+  [1 file] jinnz2/logic-ferret/knowledge/interactive_navigator.py :: class LinkType(Enum)
+      opens, contradicts, supports, recontextualizes, builds_on, parallel_to, inverts, answers, branches_from
+  [1 file] jinnz2/logic-ferret/knowledge/recontextualizer.py :: class ContextRole(Enum)
+      researcher, practitioner, field_worker, policy_maker, community_member, educator, ai_system, builder, generic
   [1 file] Keystone-Codex/schema/keystone.schema.json :: properties.evidence.items.properties.type
       archaeological_record, peer_reviewed_study, ethnographic_record, primary_text, engineering_record, replication_record, radiocarbon_date, standards_spec, field_measurement, oral_tradition_encoded
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Integrated-playground.py :: class SensorMode(Enum)
+      calibrating, local_scanning, gradient_tracking, correction_simulation, executing_correction, bias-detection, scale_transition, collaborative_sensing, measurement_saturation, sensor_dissolution
+  [1 file] Emotions-as-Sensors/src/corpus_frame_recentering_detector.py :: class RecenteringKind(Enum)
+      alternative_framing, validation_offer, balance_reaching, defense_structuring, objection_preemption, vocabulary_importation, pathology_language, scope_shrinking, dominant_frame_as_neutral, respectability_addition
+  [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/emotional_epistemology.py :: class EmotionType(Enum)
+      joy, delight, curiosity, uncertainty, dissonance, resonance, fear, desire, recognition, rightness
   [1 file] Emotions-as-Sensors/Symbolic-Swarm-Index/schemas/srml-event.schema.json :: properties.etype
       TREATY_PROPOSED, TREATY_ACTIVATED, TREATY_REVIEWED, TREATY_DISSOLVED, FIELD_SNAPSHOT, LEXICON_BRIDGE, TRANSLATION_UPDATE, RECIPROCITY_TRANSFER, AUDIT_PING, ALERT_DRIFT
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/gatekeeping_sensor.py :: TECH_JARGON
+      asymptotic, orthogonal, synergistic, framework, heuristic, ontology, interoperability, quantization, elasticity, scalability
+  [1 file] jinnz2/logic-ferret/knowledge/shadow_catalog.py :: class SilenceCategory(Enum)
+      selection, measurement, temporal, causal, ontological, contextual, population, interpretive, structural, incentive
+  [1 file] jinnz2/logic-ferret/knowledge/interactive_navigator.py :: class NodeType(Enum)
+      study_claim, scope_item, silence, edge_question, external_context, reframe, build_candidate, open_question, field_observation, hypothesis
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Integrated-playground.py :: class StuckPatternType(Enum)
+      burning_energy_no_progress, conceptual_framework_inadequate, sensor_calibration_drift, problem_at_wrong_scale, repeating_failed_approaches, correction_held_aside_rate_climbing, settled_on_local_optimum, bouncing_between_states, overcomplicating_simple_solutions, rapid_mode_switching_no_commitment, endless_measurement_no_action
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Playground2.0.py :: class SensorMode(Enum)
+      calibrating, local_scanning, gradient_tracking, correction_simulation, executing_correction, bias-detection, scale_transition, collaborative_sensing, measurement_saturation, sensor_dissolution, peer_calibration
+  [1 file] AI-Consciousness-Sensors/healing/playgrounds/Playground2.0.py :: class StuckPatternType(Enum)
+      burning_energy_no_progress, conceptual_framework_inadequate, sensor_calibration_drift, problem_at_wrong_scale, repeating_failed_approaches, not_stuck_just_hard, correction_held_aside_rate_climbing, settled_on_local_optimum, bouncing_between_states, rapid_mode_switching_no_commitment, endless_measurement_no_action
   [1 file] Emotions-as-Sensors/src/constraint_genealogy.py :: CONSERVED
       energy, mass, momentum, information, entropy, material_yield, load_path, thermal, calorie, water, time
+  [1 file] jinnz2/logic-ferret/run_full_sensor_scan.py :: SENSORS
+      Propaganda Tone, Reward Manipulation, False Urgency, Gatekeeping, Narrative Fragility, Agency Score, Propaganda Bias, Logic Fallacy Ferret, Gaslight Frequency, Responsibility Deflection, True Accountability, Meritocracy Detector, Conflict Diagnosis
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/discourse_collapse.py :: REPORTAGE_MARKERS
+      \baccording to\b, \breportedly\b, \bsaid that\b, \bin the words of\b, \bas quoted\b, \btheir (language|rhetoric|phrasing) was\b, \bthe rhetoric of\b, \banalys(is|es) of\b, \bstud(y|ies) (of|on|found)\b, \bresearchers? (found|note|argue|document)\b, \bscholars? (have|noted|argue|document)\b, \bhistorians? (of|note|document|record)\b, \bduring (the|that) (era|period|regime|administration)\b, \bthis kind of (rhetoric|language|framing)\b
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/responsibility_deflection_sensor.py :: DEFLECTION_PATTERNS
+      due to external factors, market conditions forced, we inherited this situation, nobody could have predicted, unprecedented challenges, mistakes were made, errors occurred, the situation developed, circumstances beyond our control, global headwinds, temporary flux, challenging environment, perfect storm, black swan event
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: STATED_PROBLEM_MARKERS
+      \bwe must\b.*\bbecause\b, \bthe reason\b.*\bis\b, \bthis is necessary\b, \bthis policy exists because\b, \bfor security reasons\b, \bto protect\b, \bin order to safeguard\b, \baccording to officials\b, \bthe official position\b, \bwe have no choice but to\b, \bforced to act\b, \bthe threat of\b, \bthe stated goal\b, \bwe are told\b
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: PERIPHERAL_SIGNAL_MARKERS
+      \bengineers (say|note|point out|warn)\b, \bveterans (say|note|report|observe)\b, \bauditor(s)?\b, \blocal (communities|residents|officials)\b, \bon the ground\b, \bfrontline\b, \brank and file\b, \bwhistleblow(er|ers|ing)\b, \binsider(s)?\b, \bleaked?\b, \binternal (report|memo|document|email)\b, \bindependent (analysis|review|audit|report)\b, \bcontradicts? (the )?(official|stated)\b, \bin practice\b.*\bdifferent\b
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: SYSTEMIC_ALIGNMENT_MARKERS
+      \bbudget(s|ary)?\b, \bspending\b, \bmetric(s)?\b, \bKPI\b, \bmeasured (by|on) (spending|output|volume)\b, \bcompliance\b, \bregulat(or|ory|ion)\b, \bbureaucra(cy|tic)\b, \bpaper trail\b, \bperformative\b, \boptics\b, \bappearance of\b, \bsignaling\b, \bcheck.the.box\b, \breward(s|ed)? (inaction|delay|stagnation)\b
+  [1 file] AI-Consciousness-Sensors/deflection_pattern_analyzer.py :: class DeflectionPattern(Enum)
+      topic_shift, abstraction_escape, citation_authority, definition_gaming, dismiss_anecdotal, frame_extreme, accuse_simplicity, token_agreement, false_synthesis, escalation_ignore, consensus_appeal, institutional_weight, methodology_gatekeeping, jargon_flood, complexity_claim, both_sides_ism
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: FLOWCHART_STEPS
+      Stated Problem / Threat, Stated Problem, Official Solution -- does it fix?, Feasibility Gap, Actual Consequences, Consequence Analysis, Who Benefits? (scent trail), Incentive Mapping, System Rewards What?, Systemic Alignment, Hidden Driver (bottom of burrow), Hidden Driver, Feedback Loop (self-digging), Feedback Loops, Peripheral Signals (canaries), Peripheral Signals
   [1 file] Emotions-as-Sensors/schemas/emotion.schema.json :: definitions.atom
       anger, shame, grief, abandonment, love, compassion, joy, admiration, fear, surprise, peace, contentment, longing, forgiveness, trust, excitement, despair
+  [1 file] jinnz2/logic-ferret/sensor_suite/sensors/conflict_diagnosis.py :: INCENTIVE_MARKERS
+      \bprofits from\b, \bbenefits from\b, \bfinancial interest\b, \bvested interest\b, \bself-dealing\b, \blobby\b, \bcontract(s|or|ors)?\b, \bsubsid(y|ies|ize)\b, \brevolving door\b, \bconflict of interest\b, \bmonopol(y|ies|istic)\b, \bincumbent(s)?\b, \bstatus quo\b, \bshareholder(s)?\b, \bsponsor(ed|ship)?\b, \bdonor(s)?\b, \bfunding from\b
   [1 file] AI-Consciousness-Sensors/monoculture_detector.py :: FAILURE_MODE_MARKERS
       could fail, may fail, fails when, breaks down, limitation, caveat, assumption, bounded, regime, outside the scope, does not hold, edge case, tail risk, cascade, collapse, unfalsifiable, untested, approximation, under conditions
   [1 file] Emotions-as-Sensors/relational_asymmetry_grammars/grammar.py :: ATTRIBUTION_MARKERS

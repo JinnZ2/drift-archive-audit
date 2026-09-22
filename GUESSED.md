@@ -525,6 +525,44 @@ one that argues for handing scoring outward.
     other being the count the operator declined to reconcile *because
     reconciling it now would be fitting a denominator to a result.*
 
+26. **A control fired and the sweep was still blind to an entire encoding.**
+    `ENUM-SWEEP.md` reported 51 distinct enums as the bounded set for four
+    repos, on the strength of a positive control that fired. **The control was
+    a JSON Schema enum. The sweep could not see a Python `class X(Enum)` at
+    all — 69 of them in those same four repos.** The reported list was missing
+    more than it contained.
+
+    **The standing rule needed a second clause and now has it:**
+
+        A positive control proves the detector can see THE THING IT WAS
+        POINTED AT. It does not prove it can see A DIFFERENT ENCODING of
+        the same thing.
+
+    Ninth MATCH-UNIT instance, granularity sub-form. **Not caught by
+    quantity** — 51 looked plausible — **and not caught by any property of the
+    sweep.** It surfaced only because the operator named a control fixture
+    that happened to live in the missing encoding.
+
+    Both controls are now required and the run aborts if either fails;
+    verified against the pilot roots alone, where B's fixture is absent and
+    the run correctly prints nothing.
+
+27. **The prospective test of the drift profile ran in the favourable
+    register.** `SPEC-SHEET.md` recorded the predictive line holding once,
+    prospectively, at n=1.
+
+    **Weaker than it reads.** The profile says this instrument is reliable on
+    structure and unreliable on sense. The check that ran — *is the
+    denominator open?* — **is a structure judgement.** The prediction was
+    tested in the register it claims to be good at, which is the easy half.
+
+        the hard version, and it has not happened:
+        the profile predicts a drift IN THE SENSE REGISTER and someone
+        catches it BEFORE the drift completes.   n = 0
+
+    Caught cross-party. Not a withdrawal of the profile — a correction to
+    what the single test established, which is less than was claimed for it.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever
