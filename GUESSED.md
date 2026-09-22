@@ -392,6 +392,24 @@ one that argues for handing scoring outward.
     existed in capitals in two files and was violated anyway; see
     `REMEDIES.md` for why that was predictable.
 
+19. **A prediction stated over "an inside party", computed on a sample of
+    one.** Every row in `PREDICTION-quantity.md` is an error made by *this
+    session*; the `caught by` column records who caught it. The operator's
+    own errors were never in the table — the cross-party retractions are
+    numbered separately. Both predictions were then phrased about *an inside
+    party* generally.
+
+    **A generalisation whose population was selected by the property under
+    test.** Third appearance of the survivorship structure, this time in a
+    prediction's population rather than in a taxonomy or an outcome set.
+
+    Surfaced by X-3, which falsified the successor prediction the same day it
+    was registered — and which, had the population been stated correctly,
+    would not have been a test case at all.
+
+    No third successor is registered. Fitting a third rule to the case that
+    broke the second is the move `REMEDIES.md` calls a second name.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

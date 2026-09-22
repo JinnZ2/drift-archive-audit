@@ -169,12 +169,42 @@ the event.
 what is there. The only instruments that reach this class are:
 
     testimony              someone says the thing happened
+                           -- AVAILABLE ONLY IF THE SAYING IS IN A CHANNEL
+                           THE AUDITOR READS. See the correction below.
     prospective            instrument BEFORE the event, not after
     instrumentation
     positive controls      prove the detector can see a thing it should
                            see, before trusting it when it sees nothing
+    outcome trace          a built thing, a route that worked, a readout
+                           carried across generations. ADDED 2026-09-22.
 
-**The third is the cheapest and this programme used it once, by accident,
+### CORRECTION 2026-09-22 — testimony is not always available, and not
+### because anyone declined
+
+The list above treated testimony as an instrument that is simply there for
+the asking. **For the class where the holders of an encoding were the first
+removed, it is not.** Asking for written testimony from a population the
+mechanism selects against writing is a requirement that cannot be met by
+construction — see `UNSATISFIABLE-REQUIREMENT.md`, cross-party retraction
+X-3.
+
+**Non-writing is not non-recording.** It is recording in a channel the
+auditor cannot read, which is a fact about the auditor's access. The
+register above was built to keep *recoverable* absences apart from
+*permanent* ones; this adds a third state it did not have:
+
+    NEVER CREATED      nothing to recover
+    DISCARDED          existed, classified as non-signal, recoverable if
+                       the filter moves
+    RECORDED           exists, in a channel this programme cannot read.
+    ELSEWHERE          Not an absence at all -- an access limit wearing
+                       one.
+
+**The fourth instrument, outcome trace, is what reaches the third state.**
+It is the one this programme has been costing as if it were a quality
+discount rather than a transport cost.
+
+**The third instrument is the cheapest and this programme used it once, by accident,
 on the fifth instance.** It is now standing procedure — see `CONTROLS.md`,
 which also records why a positive control works *here specifically*: the
 only detector that has ever caught this class is a magnitude violating

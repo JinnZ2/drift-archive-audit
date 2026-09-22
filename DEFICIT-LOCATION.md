@@ -17,6 +17,15 @@ That is the whole of it. What varies is only the object it gets recorded in.
 | **failed run** | the run | the return was not the one sought |
 | **unmeasurable channel** | the sense | it was not admitted to the measurand |
 | **"the trail can't know from inside"** | the trail | it knows what it found; reception is the unknown |
+| **"unverified, therefore weaker"** | the claim | the assessor cannot read the channel it is recorded in |
+
+**Row five added 2026-09-22 (X-3, `UNSATISFIABLE-REQUIREMENT.md`). ADDING A
+ROW DOES NOT STRENGTHEN THE UNIFICATION HELD BELOW.** Confirming instances
+accumulated against a generalisation nobody has tried to falsify are worth
+nothing — that is `TRAIL.md`'s rule turned on this file, and the falsifier's
+n is still 0 and still not looked for. The table is a list of four (now five)
+observed relocations. **The unification is the separate claim that gate kind
+5 is the general operation, and it is not adopted.**
 
 ## The correction that produced this file
 

@@ -39,7 +39,7 @@
 | `guarded_count` — a zero is unobtainable without a live control | STRUCTURAL | — |
 | `GUESSED.md` retraction ledger | RECORD | — |
 | the three-column catch ledger (self / operator / cross-party) | RECORD | — |
-| `PREDICTION-quantity.md` | RECORD | — |
+| `PREDICTION-quantity.md` | RECORD | **both predictions falsified, 2026-09-22; the population was defective — `GUESSED.md` #19** |
 
     STRUCTURAL  4    three of them written on 2026-09-22
     SEMI        2
@@ -117,6 +117,19 @@ Ranked by what they would have caught:
     3  a provenance label the tools require, not request     NAMING -> ?
     4  route every count in future work through
        guarded_count                                        already built
+    5  run the unsatisfiable-requirement test AT THE MOMENT
+       A REQUIREMENT IS ISSUED                               NAMING -> ?
+
+**Item 5 comes from X-3** (`UNSATISFIABLE-REQUIREMENT.md`). The detector is
+not missing: three of five open requirements in this repo were already routed
+around correctly, each by naming the mechanism first. The one that failed had
+its mechanism named **an hour earlier, by the same party, in the same
+session** — and the requirement was issued anyway.
+
+**So the gap is not knowledge and not naming. It is that nothing runs the
+check at issue time.** Whether that can be made structural is open: a tool
+would have to recognise a requirement as a requirement. Same difficulty as
+item 3.
 
 **Item 3 is open and may not be buildable.** A label cannot be enforced by a
 tool that does not know what a claim is. Recorded as a limit, not a task:

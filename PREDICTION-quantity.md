@@ -96,6 +96,76 @@ to forbid. To be testable it has to be registered first:
 falsified with the date and the rows that did it. The successor starts at
 n = 0 and inherits nothing.
 
+---
+
+## THE SUCCESSOR IS ALSO FALSIFIED — same day, first opportunity
+
+**X-3.** The operator caught a qualitative error of their own: that their
+independent-proof requirement was unsatisfiable by construction, because it
+asked for written verification from the population the criterion selects
+against writing. See `UNSATISFIABLE-REQUIREMENT.md`.
+
+    inside party?              yes -- STUDY.md: "both are authors.
+                               Neither can score it."
+    their OWN error?           yes -- "as I stated it"
+    instrument involved?       no
+    quantity involved?         no
+    found by?                  reading two of their own statements
+                               against each other
+
+**That is the registered falsifier exactly.** n = 1, hours after
+registration.
+
+    STATUS   successor prediction: FALSIFIED, 2026-09-22
+    CAUSE    X-3
+
+## And the registration itself was defective — GUESSED.md #19
+
+Worse than the falsification, and it is the relaying session's:
+
+**Every error in the table above is the relaying session's error.** The
+`caught by` column records *who caught the session's mistake*. The operator's
+own mistakes were never rows in it — X-1 and X-2 are numbered separately and
+are both cases of the session catching the operator, or the operator
+supplying what the session then used to catch itself.
+
+So the table is:
+
+    errors made by ONE inside party, sorted by who caught them
+
+and both predictions were stated about:
+
+    an inside party
+
+**A generalisation over inside parties, computed on a sample of one, whose
+membership was selected by the very property under test.** That is the
+survivorship structure, third appearance, this time in a prediction's
+population rather than in a taxonomy.
+
+Had the population been stated correctly — *the relaying session* — X-3 would
+not even be a test case, because the operator is not that party. The
+prediction would still be alive and would still say nothing about anyone
+else.
+
+## What is NOT registered next
+
+**No third successor.** Two predictions have been registered and falsified
+in one day, and the second was falsified by a case its own population was
+never built to include. Registering a third now would be fitting a rule to
+the last data point, which is the move `REMEDIES.md` calls a second name.
+
+What stands, and it needs no prediction:
+
+    16 errors on the session ledger, 3 cross-party retractions.
+    Catches split across parties, instruments, quantities and plain
+    reading, with no rule yet that survives contact with the next one.
+
+**That is the measurement.** The rate has not fallen; the catch mechanism
+does not stabilise; and each attempt to characterise the catch mechanism has
+been falsified by the next catch. See `COUPLING.md` — *the error count is
+not a report card* — and note that this now applies to the error count's own
+meta-analysis.
+
 I searched specifically for a counterexample, because confirmation is this
 programme's documented failure mode. **There is none on the record.**
 

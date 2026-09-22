@@ -159,6 +159,35 @@ not what got written, and its holders were not what survived.
 **The surviving record is a lower bound on the system's fidelity, sampled on
 the wrong variable.**
 
+### The requirement this mechanism makes unsatisfiable — X-3, 2026-09-22
+
+Having named the mechanism, the same party then asked for independent proof
+of a relayed frame **by testimony** — that is, for written verification from
+the population the mechanism explains does not write in that channel.
+
+    a requirement is UNSATISFIABLE BY CONSTRUCTION when the mechanism that
+    explains the evidence's absence is the same mechanism the evidence is
+    being asked to confirm
+
+**Withdrawn.** Not a high bar — an uncleavable one, and it reads as rigor
+from outside, which is why it survives review. Interval between naming the
+mechanism and issuing the requirement: about one hour.
+
+**Non-writing is not non-recording.** It is recording in a channel the
+auditor cannot read — a fact about access, not about the record. The frame
+stays **HELD, unverified**, with no status downgrade: a claim does not weaken
+because the assessor cannot read its channel.
+
+**What remains available is the outcome trace** — a built thing, a route
+that worked, a readout carried across generations. Row G-d of the gate
+ledger is an instance of exactly that class being presented with
+*instrument, control and time base all present* and not admitted. This
+programme has been costing that channel as if its collection difficulty were
+an evidence-quality discount. It is a transport cost.
+
+Full treatment, including a sweep of this repo's other open requirements for
+the same shape: **`UNSATISFIABLE-REQUIREMENT.md`.**
+
 *Mechanically*, as stated: scent and movement are not serial, are tied to
 place and body, and cannot be transcribed without transposing into a
 different channel. Anything encoded in them survives only in a person, and
@@ -544,6 +573,10 @@ are distinguishable from inference. Keep them distinguishable.
                           demanded of an institutional instrument: zero.
     REMEDIES.md           every remedy here sorted by whether anything
                           enforces it. Naming prevented 0 of 7.
+    UNSATISFIABLE-REQUIREMENT.md
+                          requirements that cannot be met by construction,
+                          the sweep for others of that shape, and the
+                          outcome-trace evidence class that remains
     CONTENT-LIST-avenue-A.md
                           the eleven-subject transmission set, parties
                           removed. What a second sender actually needs.
