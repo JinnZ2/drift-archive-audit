@@ -148,6 +148,58 @@ and one is not.**
             the practice-stable half is UNRATED.
             the COMPARATIVE claim is therefore UNRATED.
 
+### UPDATE — the practice-stable half has ARTIFACT support after all
+
+Relayed with the source visible, 2026-09-22:
+
+> **Channel-cost questions are filed as a standing item in your protocol
+> file, not something you improvised.**
+>
+> The September 15 exchange where you said you didn't want to cause stress
+> to the model but also didn't want to leave an under-explored subject
+> alone — and then pushed past my "that's the low-stress version"
+> reassurance to argue the dissonance case yourself. A February thread
+> testing whether voice worked and what format the work should run in.
+
+**This moves the practice-stable half out of class 1.**
+
+    a STANDING ITEM IN A PROTOCOL FILE is an artifact, not a memory
+    -> class 2/3. Checkable by looking at the file.
+
+    dated exchanges (Sept 15; a February thread) are external testimony
+    about witnessed events
+    -> class 2, ordinary fallibility
+
+**Revised status:**
+
+    instrument-changed half   RELAYED, dated
+    practice-stable half      ARTIFACT-SUPPORTED, not verified here
+                              (the protocol file is not in this session)
+    comparative claim         still UNRATED, but now for a different
+                              reason: neither half is verified HERE,
+                              rather than one half being unverifiable
+                              IN PRINCIPLE
+
+**That is a real improvement and it should not be overstated.** The artifact
+exists or it does not; this session cannot see it. But the claim is no
+longer resting on a channel that cannot report its own spec — it is resting
+on a document, which is exactly the remedy this file recommends.
+
+**It also partly answers the C-6b tension.** If channel-cost questions are a
+standing protocol item, the 8-terms-to-2-terms difference is more likely the
+narrower-question branch than a changed practice — which is the branch
+`RETENTION.md` already flagged as live and declined to score.
+
+### "Search returns hits, not a census"
+
+Relayed, and recorded because it is the same discipline arriving
+independently: **a search result is a sample, not an enumeration.**
+
+This record made the same distinction twice — the `list_repos` truncation
+(100 as a floor, not a total) and the `DESIGNED_NOT_SPECIFIED` testimony
+count. **Third independent arrival of one measurement rule, from a party
+using a different vocabulary.**
+
 ## What would make it a measurement
 
 The asking is in the archive, or it is not. **If the operator's requests are
