@@ -358,6 +358,12 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    SELF-REPORT.md        which claims here rest on introspection vs on
+                          testimony about external events -- different
+                          reliability classes, filed as one until now.
+                          Avenue H moves; the gate ledger does not.
+                          Also: a dated longitudinal observation, one
+                          documented half, one asserted half.
     COUPLING.md           attribute frame vs coupling frame, scored by
                           ARITY. Every term here for a PARTY is arity-1;
                           every term for a MEASUREMENT is arity-2+. The
