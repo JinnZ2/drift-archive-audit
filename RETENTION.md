@@ -165,6 +165,53 @@ from (c) by this measurement.**
 
 ---
 
+## DESIGNED_NOT_SPECIFIED — a predecessor state, found without looking
+
+`SPECIFIED_NOT_INSTANTIATED` (avenue K) has an earlier stage.
+
+    DESIGNED_NOT_SPECIFIED       design only. No spec, no schema, no
+                                 examples, no file. Exists in conversation.
+    SPECIFIED_NOT_INSTANTIATED   spec PRESENT, schema PRESENT, examples
+                                 PRESENT, data ABSENT.
+    instantiated                 data exists.
+
+**Instance 1:** `consortium/audit/blind_spot_log` — spec, schema and
+examples present, `.jsonl` absent.
+
+**Instance 2, found without looking for it:** **T-TERM.** A design with
+named mechanisms (H1 distributional, H2 architectural, H3 closure pressure),
+a stimulus pair, M1/M2, two authoring arms and a physics base — **never
+instantiated anywhere in the repo substrate.** 0 hits, case-sensitive,
+across every repo cloned here. The third arm staged in
+`staged-for-T-TERM/` has nowhere to go because **all three arms are in the
+same state.**
+
+### The detector cannot find this state, by construction
+
+Avenue K's tuple scan counts `(spec, schema, examples | data absent)`.
+**`DESIGNED_NOT_SPECIFIED` leaves no tuple — it leaves no repo trace at
+all.** That is what the state *is*.
+
+    SPECIFIED_NOT_INSTANTIATED   findable by anyone with a clone
+    DESIGNED_NOT_SPECIFIED       findable ONLY by a party who knows the
+                                 design exists
+
+**This inverts the usual problem.** Everywhere else in this audit, the fix
+for a limit is to hand scoring outward to someone outside both frames. Here
+an outside party has **strictly less** access than an inside one: they
+cannot count what leaves nothing. Only testimony reaches it.
+
+So avenue K gets a second row it can never populate mechanically, and the
+honest form of the count is:
+
+    SPECIFIED_NOT_INSTANTIATED   1 of 1 tuples, 8-repo sample.  n=1.
+    DESIGNED_NOT_SPECIFIED       2 known, both by testimony. Rate UNSET
+                                 and unmeasurable from the substrate.
+
+Both instances of the earlier state surfaced **because someone said so**,
+not because anything was scanned. Treat that as the collection method, not
+as a gap in the scan.
+
 ## C-6b — a repeat trial that already ran, unintentionally
 
 `PHASE_C6.md` was built to look for a system described twice, well separated

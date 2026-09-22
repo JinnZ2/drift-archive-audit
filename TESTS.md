@@ -229,10 +229,36 @@ The first framing counted only the special case. Corrected:
     total 6     parent 2     special case 4
     caught after reporting 3     caught pre-report 3
 
+    ^ 6 IS A FLOOR. ONE-SIDED. DIRECTION KNOWN.  (see immediately below --
+      this is part of the count, not a caveat appended to it)
+
 **Two of the three pre-report catches came from an implausible NUMBER
 contradicting expectation, not from any check aimed at the failure.** Same
 mechanism as T-0's unowned join. **No check in this audit detects this class
 directly.**
+
+### The only working detector has a hard scope limit, and it biases the count
+
+The audit's sole reliable detector for this class is
+**expectation-violation on a magnitude** — which nobody designed, which is
+in no checklist, and which requires:
+
+    a QUANTITY that can look implausible.
+
+A **qualitative** claim operationalized by surface tokens produces no
+arithmetic. **Nothing looks wrong.** Every catch to date is in the subset
+that happened to produce a number.
+
+**So the 6-instance count is sampled on the same variable that made the
+instances visible.** Instances producing no countable output are absent from
+it by the same mechanism that revealed the others.
+
+    6 is a FLOOR, the bias is ONE-SIDED, and the direction is KNOWN.
+
+This is not a caveat on the count. **It is a property of the count**, and it
+is stated inside it above rather than appended after it — because a caveat
+appended after a number is exactly the shape that gets dropped in transit
+(the Lave failure, `GUESSED.md` #7).
 
 ### What it does and does not establish
 
