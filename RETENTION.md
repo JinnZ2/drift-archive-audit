@@ -165,6 +165,10 @@ from (c) by this measurement.**
 
 ---
 
+> **This state is now one of four instances under a single named mechanism.
+> See `ABSENCE.md`.** The section below is kept as the state's own
+> definition and evidence.
+
 ## DESIGNED_NOT_SPECIFIED — a predecessor state, found without looking
 
 `SPECIFIED_NOT_INSTANTIATED` (avenue K) has an earlier stage.

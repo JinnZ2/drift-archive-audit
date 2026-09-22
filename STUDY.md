@@ -358,6 +358,15 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    ABSENCE.md            ONE register entry: absence indistinguishable
+                          from never-having-happened. Four instances
+                          (deferral rate, gate kind 6,
+                          DESIGNED_NOT_SPECIFIED, within-turn catches)
+                          under one named mechanism, because four
+                          scattered limits get dropped individually.
+    staged-for-T-TERM/T-TERM-design.md
+                          the design's FIRST instantiated file, created
+                          2026-09-22 after confirming none existed
     IMPEDANCE.md          the constraint-stack instrument. L1-L5 with
                           L5 as the measured variable, three outcome arms,
                           leakiness as the transferring quantity. One row

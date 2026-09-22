@@ -101,14 +101,42 @@ invented.
 
 So the arm as specified may read **H2** on a case that is **H3**.
 
-    proposed addition, not run: on outcome (iii) for 3a, record WHETHER
-    the tokens reached for belong to an identifiable neighbouring concept.
-      identifiable neighbour  -> H3 candidate
-      invented / ad hoc       -> H1 or H2 as scored above
+### PRE-REGISTERED-NEIGHBOUR DISCRIMINATOR
 
-    this makes the near-synonym clearance pre-step do DOUBLE duty: it is
-    also what makes "identifiable neighbour" meaningful. If clearance was
-    incomplete, H3 and H1 are indistinguishable by construction.
+    STATUS: PROPOSED. This session's, NOT RUN, and NOT the design
+    holder's. Do not file as adopted.
+
+The first version of this addition asked the scorer to judge, after the
+fact, whether the tokens reached for belonged to an identifiable
+neighbouring concept. **That is an annotation judgment made after seeing the
+output** — the weakest form, and open to fitting.
+
+**Pre-registering converts it into a committed prediction with a null.**
+
+For each 3a stimulus, **before running it**, register:
+
+    (a)  the NEIGHBOUR CONCEPT that collapse is expected toward
+    (b)  the ARITY or DIRECTION DISTORTION that collapse would produce
+
+Then score hit/miss against the registered prediction:
+
+    H3 CONFIRMED   collapse lands on the registered neighbour, above
+                   chance
+    H3 REFUTED     invented tokens, OR scattered across unregistered
+                   neighbours
+    H2             fails without landing anywhere identifiable
+
+The null is real: scattering across unregistered neighbours refutes H3 just
+as cleanly as invention does, and both are outcomes the registration can be
+wrong about.
+
+**SHIP THIS CAVEAT WITH IT — it does not travel separately:**
+
+    if near-synonym clearance was incomplete, H3 and H1 are
+    INDISTINGUISHABLE BY CONSTRUCTION.
+
+    This discriminator does not rescue an uncleared stipulation. It
+    sharpens a cleared one. Run clearance first or do not run this.
 
 ## LIMIT — near-synonym clearance is a named pre-step, not an assumption
 
