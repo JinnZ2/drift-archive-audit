@@ -615,6 +615,25 @@ one that argues for handing scoring outward.
     one class — *no term to search with*, and *pointer in hand, not
     followed*.
 
+31. **The `TRANSPORT×MODEL` closure was generalised from one repo.**
+    `SHADOW-HUNTING.md` §5 called the per-invocation model question *the
+    highest-value unblocked item on this record*, searched **one repo**,
+    found no per-invocation log, and closed it **negative**.
+
+    `JinnZ2/JinnZ2/cross_model_basin_test.py` runs a fixed probe set through
+    N models in matched conditions, scores per-model, and states its own
+    falsifier — *"no aggregation that hides which models descended."* With
+    `cross_model_schema.py`.
+
+    **The archive claim stands:** nothing in the commit record varies
+    transport while holding model, so the confound holds *as archive
+    evidence*. **What is withdrawn is closing the question.** The instrument
+    that separates model from transport prospectively exists in the declared
+    parent frame. It was never a missing instrument; it was an unopened repo.
+
+    Same shape as #30 and found the same way — by opening something that had
+    been logged as declined.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

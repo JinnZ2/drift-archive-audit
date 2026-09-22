@@ -174,6 +174,16 @@ rather than answered. **What would falsify it:** the same judgement arriving
 and being answered anyway, which is the drift profile's own prediction about
 what this instrument does with a question it can produce an answer to.
 
+**MOVED, n = 0 → n = 1, 2026-09-22.** `PARENT-FRAME.md` puts nine pairings —
+*does module X name the same thing as finding Y* — to the operator as
+proposals rather than resolving them. This instrument could have produced an
+answer for every row and the drift profile predicts it would have. It routed
+instead.
+
+**One use, one turn old, by the party the rule is about.** The rule was
+written this afternoon and applied this evening, which is the weakest
+possible independence. `PROPOSED`.
+
 ## 3. WHAT IT CANNOT REPORT ABOUT ITSELF
 
 **A self-reported blind spot is a contradiction in the ones that matter**, so

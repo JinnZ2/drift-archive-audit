@@ -24,9 +24,29 @@ not require the provenance field simply drops it.
 | what | declined when | reason given | outcome |
 |---|---|---|---|
 | **`JinnZ2/Shadow-Hunting`** | 2026-09-22, `SHADOW-HUNTING.md` §6 | pilot gate; the three `verify/*.txt` forms are blank | **READ LATER THE SAME DAY, after the operator supplied the URL. `scope_mapper.py` and `shadow_catalog.py` were inside — the scope-declaration instrument this audit re-derived twice, and a ten-member silence taxonomy where `ABSENCE.md` has three.** The decline cost the find |
-| **`AI-Consciousness-Sensors`** | at pilot selection | in scope, not selected | **still unsearched.** Recorded in `README.md` since the pilot was set; outcome unknown |
-| **`JinnZ2/JinnZ2`** | at pilot selection | profile README, declared parent frame | see `README.md`; outcome unknown |
+| **`AI-Consciousness-Sensors`** | at pilot selection | in scope, not selected | **READ 2026-09-22, one turn after this register was built.** Its `CLAUDE.md` had been in this session's system prompt since turn one, listing a dozen instruments by name. `PARENT-FRAME.md` |
+| **`JinnZ2/JinnZ2`** | at pilot selection | profile README, declared parent frame | **READ 2026-09-22.** Nine candidate pairings with things this audit derived today, including `cross_model_basin_test.py`, which withdraws the `TRANSPORT×MODEL` closure. `PARENT-FRAME.md`, `GUESSED.md` #31 |
+| **`JinnZ2/JinnZ2/gate_log.md`** | 2026-09-22, and **it stands** | **reading it burns C-7's reference gate** — the unmediated operator reference must be described and hashed *before* any old rendering is read | **DECLINED AND STAYS DECLINED.** The staged amendment in `staged-for-JinnZ2-profile-repo/` is written and unapplied for this reason |
 | **`JinnZ2/Logic-Ferret`** | — | **not declined.** Read as a control fixture when named | two counterexamples found; `LOGIC-FERRET.md` |
+
+## TWO KINDS OF DECLINE, and the register's job is to keep them apart
+
+    PROCEDURAL   a gate, a scope rule, a not-selected. Produces an empty
+                 hand for reasons unrelated to the material.
+                 -> Shadow-Hunting. It cost a find.
+                 -> AI-Consciousness-Sensors, JinnZ2/JinnZ2. Both read
+                    one turn after this register existed.
+
+    PRINCIPLED   reading the thing DESTROYS the measurement.
+                 -> gate_log.md. Reading it burns C-7's reference gate.
+                 -> This one is correct and stays.
+
+**Both look identical downstream — nothing found.** The register is the only
+thing that separates a decline that should be reversed from one that must
+not be.
+
+**Three of the four procedural declines here were reversed within a day of
+being logged.** The principled one has not moved and should not.
 
 ## The inconsistency this register exists to prevent
 

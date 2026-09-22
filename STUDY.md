@@ -684,6 +684,10 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    PARENT-FRAME.md       JinnZ2/JinnZ2 and AI-Consciousness-Sensors,
+                          read. Nine candidate pairings routed to the
+                          operator, not resolved here. Withdraws the
+                          TRANSPORT x MODEL closure.
     DECLINED.md           READ THIS BEFORE REPORTING ANY ABSENCE. A
                           gate may block scoring; it may not block
                           reading, and every declined read is logged

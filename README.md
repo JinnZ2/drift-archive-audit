@@ -47,7 +47,8 @@ their hashes still verify — see `reconstruct/CORRECTION-001.md`.
 
 Not expanded past the pilot. Waiting on verification.
 
-`AI-Consciousness-Sensors` was in scope and not selected — still unsearched.
+`AI-Consciousness-Sensors` was in scope and not selected. **Read 2026-09-22,
+one turn after `DECLINED.md` was built — see `PARENT-FRAME.md`.**
 `JinnZ2/JinnZ2` (the profile README, and the declared parent frame of
 Emotions-as-Sensors) was never in scope. It is reachable now and is
 deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
