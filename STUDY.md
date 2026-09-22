@@ -181,11 +181,41 @@ pre- and post-disruption transmission as distinct regimes. **That is the
 first thing an outside researcher should check**, and its answer decides
 whether the dispute is substantive or definitional.
 
+## A CONSTRAINT ON EVERY AVENUE — remedy kind must be declared
+
+**Naming a hazard has not lowered its rate here.** Of seven logged instances
+of MATCH-UNIT MISMATCH, the rule that names the class prevented **zero**, and
+two occurred inside instruments written after the naming, in order to avoid
+it, by a party holding the definition while writing them.
+
+    Any remedy proposed below or by a reader must declare its kind.
+    A NAMING remedy offered for a class that already has a name is not a
+    remedy. It is a second name.
+
+Kinds, and the full inventory of this programme's own remedies sorted by
+kind: **`REMEDIES.md`.** The count there is 4 structural, 2 semi, 7 naming,
+3 record.
+
+Three acceptance criteria for any instrument, stated by the operator and
+taken as criteria rather than advice:
+
+    1  NO PASS STATE        no input produces an all-clear
+    2  ABORTS ON CONTROL    a failed control stops the run
+       FAILURE
+    3  RETURNS A SET THE    the reader does not pick the membership
+       READER DID NOT PICK
+
+`instrument/channel_function.py` fails all three and is the first repair on
+the list. `instrument/guarded_count.py` is the worked example of the
+conversion: the rule *positive control before trusting any pattern-matched
+zero* was written in capitals in two files and violated anyway, so it is now
+a module in which **no code path returns an unguarded zero.**
+
 ## STUDY AVENUES — open, none run
 
 | | avenue | data that exists | what is UNSET |
 |---|---|---|---|
-| **A** | **SECOND-SENDER ARM.** Push the same content from a second sender; separate sender variance from receiver variance. **The largest gap.** ~~Everything needed is public.~~ **CORRECTED — see below the table.** | the full corpus; `SPEAKER_GATES.md` G-a..G-k as the content list | a second sender; **and the content list, which is not published** |
+| **A** | **SECOND-SENDER ARM.** Push the same content from a second sender; separate sender variance from receiver variance. **The largest gap.** ~~Everything needed is public.~~ **The content list now is; nothing else it needs is.** | **`CONTENT-LIST-avenue-A.md`** — eleven subjects, no parties in it. The first sender's results are held and are deliberately NOT supplied. | a second sender. Only that. |
 | **B** | **PER-GATE DECAY.** Status is MOVED or OPEN per row. Test what predicts movement. | 11 rows, 1 MOVED (G-h), 1 explicitly unchanged over ~3 years (G-k) | `self-corrected?` is UNRECORDED on 9 of 11 |
 | **C** | **SELF-CORRECTION COST.** G-h corrected only after sustained pushing. Measure how much pressure each gate needs. | G-h narrative | pressure is unquantified everywhere; no transcripts in the archive |
 | **D** | **HANDLE DRIFT.** Dated model handles, content held constant. Cluster by era or by vendor? | agent-era commits are incremental and dated | **pre-agent handle dating is impossible** — see below |
@@ -198,7 +228,7 @@ whether the dispute is substantive or definitional.
 | **I** | **SAMPLING DEFECT ON BOTH SIDES.** Comparative psychology found and published this defect in its own field: the human side is WEIRD, the animal side is captive, and the conclusion is stated as if it were about the categories. `SPEAKER_GATES.md` scope limit 1 is the same defect — a selected sender, a specific set of models, conclusions phrased about "AI" and "non-WEIRD senders". **Boesch's paper is the method; nobody has run it on the human–AI comparison.** | scope limit 1, already stated; the comparative-psych literature as donor method | whether the defect is the same in kind or only by analogy — unexamined |
 | **H** | **CLEARANCE OVERHEAD.** Estimate the portion of repo dispersion that is authoring done to justify existence before work could start. | repo inventory with dates, below | no marker distinguishes a clearance repo from a content repo |
 
-### Avenue A — the "everything needed is public" claim is withdrawn
+### Avenue A — the claim was withdrawn, and then the defect was fixed
 
 Found by `instrument/reachability_sweep.py`, exact path resolution, no
 judgement involved: of 17 path-shaped references in this document, 7 do not
@@ -218,8 +248,15 @@ carries the content list has never been pushed anywhere.** The amendment to
 requires reading it, which would burn C-7's reference gate — but that reason
 covers the amendment, not the claim of publicity.
 
-**Withdrawn, not repaired.** Publishing `SPEAKER_GATES.md` is the operator's
-call, not this audit's; it names a sender and eleven transmissions. What is
+**Withdrawn, and then repaired without publishing that file.** The call was
+handed to this session; the answer is no, for reasons in
+`CONTENT-LIST-avenue-A.md`, the shortest of which is that the arm does not
+need it. A second sender needs the *content*. The first sender's
+formulations, outcomes and properties are **the variable the arm exists to
+change** — supplying them would contaminate the run, not assist it.
+
+**`CONTENT-LIST-avenue-A.md` is the instrument with the parties removed.**
+Eleven subjects, no sender, no outcomes, no status column. What is
 corrected here is the claim, which was this session's.
 
 Recorded as a distinct failure from the seven MATCH-UNIT instances in
@@ -505,6 +542,14 @@ are distinguishable from inference. Keep them distinguishable.
                           "the trail can't know" are one attribution move.
                           Includes the measured count of positive controls
                           demanded of an institutional instrument: zero.
+    REMEDIES.md           every remedy here sorted by whether anything
+                          enforces it. Naming prevented 0 of 7.
+    CONTENT-LIST-avenue-A.md
+                          the eleven-subject transmission set, parties
+                          removed. What a second sender actually needs.
+    instrument/guarded_count.py
+                          a zero that cannot be obtained without a live
+                          positive control in the same call
     DISCIPLINE-PROVENANCE.md  where this audit's own discipline came
                           from. 4-way question, measured: same channel
                           authorship, not independent arrival.

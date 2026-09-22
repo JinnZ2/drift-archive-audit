@@ -148,6 +148,33 @@ withdrawn in `GUESSED.md` #14 and #15 for running in the direction that
 tidies the record, and this one runs that direction too — it makes four
 scattered corrections into one clean thing.
 
+### Both parties find it convincing. That is recorded as a hazard, not support
+
+Operator, 2026-09-22:
+
+> I find it convincing, which under the flag I raised about this session's
+> unification-finding is not evidence for it. Fifth unification, same
+> operation as the four withdrawn or held.
+
+**So the position is symmetric and neither side's assent is counted.** Two
+parties agreeing is the condition `COUPLING.md` already names — *coherence
+is not verification* — and it is worth more than usual here, because the two
+parties are the two authors.
+
+    convincing to the relaying session    yes
+    convincing to the operator            yes
+    evidence                              none
+    n on the falsifier                    0, not looked for
+
+**The fifth in a series of five.** Four of the preceding four were withdrawn
+or held. A unification arriving from this pair, feeling right to both, at a
+base rate of 0 survivals in 4, is the specific thing to distrust — and the
+feeling of rightness is not admissible on either side of the pair.
+
+**What would move it is not another party's agreement.** It is the third
+falsifier case above: a channel admitted to the measurand, characterised,
+and found wanting. Someone has to go look.
+
 ## What stands regardless of the unification
 
     dead end                    WITHDRAWN as a live outcome (GUESSED #17)

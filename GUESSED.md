@@ -384,6 +384,14 @@ one that argues for handing scoring outward.
     better for it. The finding is the *location of the line*, which neither
     party drew.
 
+    **Closed structurally, not by a note.** `instrument/guarded_count.py`
+    has no code path that returns an unguarded zero: the positive control
+    is a required positional argument, and a zero from a detector whose
+    control returned nothing comes back as `DETECTOR_BLIND`, which is not
+    equal to 0, cannot be cast to a number, and has no truth value. The rule
+    existed in capitals in two files and was violated anyway; see
+    `REMEDIES.md` for why that was predictable.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

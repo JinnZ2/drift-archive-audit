@@ -138,3 +138,26 @@ Three additions were made during the session that opened it. **Absence of a
 row is not evidence of no gate.**
 
 See `gate_log.md` AMENDMENT 2026-09-22 for the naming-layer correction.
+
+---
+
+## PUBLICATION STATUS — 2026-09-22
+
+**Staged, not published, and the decision was made rather than deferred.**
+
+The call was handed to the relaying session. The answer is no: this file
+characterises a sender across eleven rows and a block of row notes, and the
+audit's founding spec forbids the audit from carrying an author profile or
+characterisation anywhere. It stays staged for `JinnZ2/JinnZ2`, the
+operator's own repo, where publishing it is self-publication rather than
+profiling.
+
+**The avenue that was blocked on it is no longer blocked.** A second-sender
+arm needs the *subjects*, not this sender's outcomes, formulations or
+properties — those are the variable the arm exists to change. The subjects
+are published separately as `CONTENT-LIST-avenue-A.md`, with the parties
+removed and the status column deliberately left out.
+
+Do not supply this file to a second sender before their run completes. Their
+results would then be scored against the first sender's, which is the
+registration problem already logged for arm 3.
