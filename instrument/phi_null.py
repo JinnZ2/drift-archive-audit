@@ -1,6 +1,29 @@
 #!/usr/bin/env python3
 """Null distribution for phi-adjacent ratio detection.
 
+DECLARED MEASURAND -- read this before any number below.
+
+    THIS FILE NULLS:      presence of a ratio in a sequence.
+                          ARITY 1. "Sequence S contains a phi-adjacent
+                          ratio" is complete about S alone.
+
+    IT DOES NOT REACH:    whether a growth rate is sustainable under a
+                          given environment.
+                          ARITY 2. "This rate is sustainable under ___"
+                          is incomplete without the second argument, and
+                          no amount of ratio-counting supplies one.
+
+The second is the quantity the spiral names in the operator's use. It is
+NOT the quantity any ratio-presence detector measures, including the one
+this null characterises. **A floor computed here bears on the first and is
+SILENT on the second.** Do not carry a number out of this file into a
+sentence about the second.
+
+This is not a caveat added for politeness. It is the collision documented in
+COUPLING.md: a coupling-frame term resolving to the nearest named attribute,
+because the available vocabulary has arity 1. Here the collapse happened
+inside a tool rather than in prose.
+
 WHAT THIS TESTS AND WHAT IT DOES NOT.
 
   TESTS      how often a phi-ratio search finds a hit in data with NO
@@ -11,6 +34,8 @@ WHAT THIS TESTS AND WHAT IT DOES NOT.
              read. Nothing here says anything about the 16-storm result or
              the 82% figure; those belong to a detector this file has not
              seen.
+  DOES NOT   test, approximate, bound, or bear on sustainability of a rate
+             under an environment. See DECLARED MEASURAND.
 
 WHY IT EXISTS. A claim was made that phi-adjacent ratios are dense enough
 that a detector without a null will find them in almost any sequence. That
@@ -125,6 +150,15 @@ def main():
     print()
     print('  NO PASS STATE. This file does not certify or refute any')
     print('  result. It reports the floor a real finding has to clear.')
+    print()
+    print('  MEASURAND, restated at the exit so it travels with the')
+    print('  number -- the failure this programme keeps logging is a')
+    print('  reading leaving its instrument with the scope left behind:')
+    print()
+    print('    nulled here    PRESENCE OF A RATIO IN A SEQUENCE. arity 1.')
+    print('    NOT reached    SUSTAINABILITY OF A GROWTH RATE UNDER AN')
+    print('                   ENVIRONMENT. arity 2. Nothing above bounds')
+    print('                   it, and no tolerance setting would.')
 
 
 if __name__ == '__main__':

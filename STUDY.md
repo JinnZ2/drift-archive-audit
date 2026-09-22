@@ -40,8 +40,10 @@ reconstructed after the fact.
 
 ## THE BINDING CONSTRAINT — declared, not rediscovered
 
-**Five independent tasks in this programme have terminated on the same
-requirement.** That is a magnitude, not five blockers.
+**Six independent tasks in this programme have terminated on the same
+requirement.** That is a magnitude, not six blockers. It was five when this
+was declared; the sixth arrived the same day and is a different kind —
+see the note under the list.
 
     F4 instrument vs channel      needs a party who holds the sense
     cache-dependency sweep        needs a cold reader -- SPLIT, see below
@@ -50,9 +52,24 @@ requirement.** That is a magnitude, not five blockers.
                                   sense
     error-count interpretation    needs an outside party to find what was
                                   missed
+    the spiral's measurand        needs the holder of the sense to STATE
+                                  what the environment is and what
+                                  sustainability is measured against
+                                  -- added 2026-09-22, and it is the
+                                  first where the missing party is needed
+                                  to DEFINE the quantity, not to check a
+                                  result
 
 **The programme's binding constraint is not access, compute, or corpus
 reach. It is a SECOND PARTY WHO HOLDS THE SPEAKER'S SENSES.**
+
+**The sixth splits the constraint into two jobs that were being counted as
+one.** Five of the six need the second party to **check** something. The
+sixth needs them to **define** it — until the spiral's measurand is stated,
+there is nothing to check, no instrument to build, and no way to tell a
+correct null from an irrelevant one. A defining task cannot be substituted
+for by a frame-holder from another discipline (`DARK-EARTHS-CONSEQUENCES.md`
+§5); a borrowed category supplies a name, not a measurand.
 
 Stated here as a **declared constraint** so it is not discovered a sixth
 time. Any avenue below that bottoms out on annotation, sense-holding or

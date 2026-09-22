@@ -451,6 +451,39 @@ one that argues for handing scoring outward.
 
     Fixed structurally rather than noted: `ENACTED` added to the table.
 
+22. **A separation claim accepted in one sentence and built on for three
+    paragraphs.** `SHADOW-HUNTING.md` §5 recorded *"Accepted as a reframe"*
+    for the proposition that phi was not load-bearing for the method but was
+    load-bearing for admission.
+
+    **That is the positive claim, and the coupling is the default.** One
+    word, one layer, two authors, no marker distinguishing which sense is in
+    play at any invocation — entanglement is what the artifact shows and
+    needs no evidence. *The layer decomposes, and the wrapper can be
+    stripped without loss* is the claim that needs it.
+
+    Withdrawn to **RECORDED, NOT ADOPTED**. The separation was the operator's
+    to propose; the acceptance was this session's, and it ran in the
+    direction that makes the record clean — the same direction as #14, #15
+    and #17.
+
+23. **The null was reported as bearing on "the phi layer", which has two
+    senses in it.** `instrument/phi_null.py` nulls presence of a ratio in a
+    sequence — arity 1 — correctly. The quantity the spiral names in the
+    operator's use is sustainability of a growth rate under an environment —
+    arity 2. **No tolerance setting bridges that.**
+
+    The arithmetic stands and is not withdrawn. What is withdrawn is the
+    scope it was written up under.
+
+    Third instance of a term arriving with its corpus sense attached and the
+    speaker's sense left outside, after `reciprocity` and `coherence` — and
+    **the first where the collapse is inside a tool**, where the output
+    carries no trace of it. Caught cross-party, no quantity.
+
+    Fixed structurally rather than noted: the instrument now declares the
+    measurand at entry and restates it at exit.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

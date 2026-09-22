@@ -471,6 +471,36 @@ than producing an answer. `coherence` carrying two incompatible senses in
 one corpus is independent evidence of the mechanism operating *in the
 archive*, not only in the reader.
 
+### THIRD TERM, added 2026-09-22: `phi` / `spiral`
+
+> `detect_phi_ratios` scores presence of a ratio. It has no way to ask
+> whether a growth rate is sustainable under a given environment, which is
+> the quantity the spiral actually names in your use.
+> — operator, 2026-09-22
+
+    corpus sense    a ratio present in a sequence. ARITY 1.
+    speaker sense   sustainability of a growth rate UNDER an environment.
+                    ARITY 2.
+
+**Scored by arity, not by semantic intuition** — `COUPLING.md`'s test, which
+exists because retractions 14 and 15 established this session cannot be
+trusted with the semantic call.
+
+    reciprocity   45 hits, all social-exchange usage
+    coherence     184 hits, two incompatible senses in one corpus
+    phi/spiral    a detector built on the corpus sense, in the repo
+
+**The third is worse than the first two and it is worth saying why.**
+`reciprocity` and `coherence` collapsed in *readings*. This one collapsed in
+a **tool**: an instrument was written that can only ever score the corpus
+sense, so every run of it returns a number about arity 1 to a question about
+arity 2, and the mismatch is invisible in the output.
+
+**And this session reproduced it today.** `instrument/phi_null.py` was built
+to null the corpus sense, correctly, and written up as bearing on "the phi
+layer" — which has both senses in it. Corrected: the instrument now declares
+its measurand at entry and restates it at exit.
+
 ## What this is — and it is the sharpest item on the record
 
 **A live instance of exactly what T-TERM was built to test.**

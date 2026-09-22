@@ -63,6 +63,40 @@ term it uses to describe A MEASUREMENT is coupling frame.
 **That is H3 closure pressure, operating on the audit's own vocabulary, in
 exactly the place the residual keeps landing.**
 
+### WORKED INSTANCE — the collapse inside a tool, 2026-09-22
+
+Every prior instance of this mechanism in this file is a term collapsing in
+**prose**. `phi` / `spiral` collapsed in an **instrument**, which is a harder
+case because the output carries no trace of it.
+
+    operator's sense    sustainability of a growth rate UNDER an
+                        environment                      COUPLING, arity 2
+    detect_phi_ratios   presence of a ratio in a sequence
+                                                         ATTRIBUTE, arity 1
+
+**The relation resolved to the nearest named attribute, and then someone
+wrote code for the attribute.** After that the coupling is unrecoverable
+from any run: a ratio-presence detector has no slot for the environment the
+rate is sustainable *under*, so no tolerance, sample size or target set
+changes what it is measuring.
+
+**This session did it again the same day.** `instrument/phi_null.py` was
+built to null the ratio-presence sense — correctly — and reported as bearing
+on "the phi layer", which contains both senses. The tool now declares its
+measurand at entry and restates it at exit so the scope travels with the
+number.
+
+**And the operator's sense has never been stated here**, which is the point
+at which this stops being solvable from inside:
+
+    to build or score an instrument for the arity-2 sense, someone must
+    state the measurand -- what counts as the environment, and what
+    sustainability is measured against.
+
+That is a **sixth task on the binding constraint**, and it is the first one
+where the missing party is needed not to verify a result but to define what
+is being measured at all. See `STUDY.md`.
+
 ### The worked instance — scope limit 1
 
 `STUDY.md` scope limit 1 reads: *"One sender, able to operate both frames:

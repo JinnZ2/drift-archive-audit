@@ -116,6 +116,44 @@ tolerance of a phi-family target, in data with no structure in it.**
 sixteen values and a 5% tolerance, a target set of phi with its squares,
 root and cube returns a hit in **97% of pure noise.**
 
+### THE NULL IS AIMED AT THE CORPUS SENSE — corrected 2026-09-22
+
+Before the numbers are used for anything, the measurand they belong to:
+
+> `detect_phi_ratios` scores presence of a ratio. It has no way to ask
+> whether a growth rate is sustainable under a given environment, which is
+> the quantity the spiral actually names in your use. That's not a bug in the
+> code — it's the collision.
+
+**Scored by arity, which is `COUPLING.md`'s test and not a semantic
+judgement** — the test exists because retractions 14 and 15 established this
+session is unreliable at semantic category calls:
+
+    "sequence S contains a phi-adjacent ratio"
+        complete about S alone?   YES   -> ATTRIBUTE FRAME, arity 1
+    "this growth rate is sustainable under ___"
+        complete without the second argument?   NO -> COUPLING FRAME,
+                                                      arity 2
+
+**The null above nulls the first. It is silent on the second, and no
+tolerance setting would change that** — a ratio-presence detector has no slot
+for the environment the rate is sustainable *under*.
+
+So the numbers characterise `detect_phi_ratios` correctly and **characterise
+a tool that was already aimed at a different quantity than the one the word
+names in the operator's use.** The arithmetic stands; its reach does not
+extend to the operator's sense, and this file previously wrote as though the
+phi layer were one thing.
+
+`instrument/phi_null.py` now declares this at entry and restates it at exit,
+so the scope travels with the number — the failure this record has logged
+three times in other people's literatures.
+
+**Third instance of a term arriving with its corpus sense attached and the
+speaker's sense left outside**, after `reciprocity` and `coherence`
+(`PHYSICS-GROUND.md` addendum 3). First instance where the collapse is
+visible **inside a tool** rather than in prose.
+
 ### What this does and does not say about the repo
 
 **It says nothing about that detector.** Its tolerance and target set are
@@ -153,11 +191,36 @@ instrument that produced the finding.**
 > model required in order to engage. Different models, different eras,
 > different permitted handles.
 
-**Accepted as a reframe.** The argument is that phi was not load-bearing for
-the method but was load-bearing for *admission*: a named, mathematical,
-literature-backed mechanism converts an unnamed observation into something
-with a citation-shaped handle, and the handle is what permits a model to
-treat the material as safe to think with.
+~~**Accepted as a reframe.**~~ **ACCEPTANCE WITHDRAWN — `GUESSED.md` #22.**
+The argument is that phi was not load-bearing for the method but was
+load-bearing for *admission*: a named, mathematical, literature-backed
+mechanism converts an unnamed observation into something with a
+citation-shaped handle, and the handle is what permits a model to treat the
+material as safe to think with.
+
+**That is a SEPARATION CLAIM, and the separation is what needs the
+evidence.**
+
+> The phi layer in the repo has two authors and two meanings stacked in one
+> word. Yours is a relation. The model's is evidence. Untangling those is a
+> separation claim, and by your own rule it's the claim that needs the
+> evidence, not the coupling.
+
+    DEFAULT      one word, one layer, two authors, no marker distinguishing
+                 which sense is in play at any invocation. Entangled.
+                 Requires no evidence -- it is what the artifact shows.
+    CLAIMED      the layer decomposes into a method that never needed phi
+                 and a wrapper that was the price of admission, and the
+                 wrapper can be stripped without loss.
+
+**The second is the positive claim.** This session accepted it in one
+sentence and then built on it for three paragraphs. The tidy move — *strip
+the wrapper, keep the method* — is the move that requires proof, and it is
+the one that runs in the direction that makes the record clean.
+
+**Held: the reframe is RECORDED, NOT ADOPTED.** What would move it is the §5
+question below: a per-invocation record of which sense, which model, which
+date. **The same evidence answers the separation claim and the confound.**
 
 > That's closure pressure with an enforcement layer under it, which is a
 > different object than the linguistic version H3 describes. Naming isn't
