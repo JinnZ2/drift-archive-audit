@@ -131,8 +131,27 @@ check at issue time.** Whether that can be made structural is open: a tool
 would have to recognise a requirement as a requirement. Same difficulty as
 item 3.
 
-**Item 3 is open and may not be buildable.** A label cannot be enforced by a
-tool that does not know what a claim is. Recorded as a limit, not a task:
+~~**Item 3 is open and may not be buildable.** A label cannot be enforced by
+a tool that does not know what a claim is. Recorded as a limit, not a task:
 **some hazards have no structural form, and for those, naming is what there
-is.** The error is not naming — it is *counting a name as a fix and stopping
-there.*
+is.**~~ **WITHDRAWN 2026-09-22 — `GUESSED.md` #20.**
+
+**The argument is refuted by an existence proof and the generalisation never
+had support.** Obligatory evidential systems enforce a source-of-knowledge
+field at the level of the **utterance**: the grammar does not classify a
+claim, an unmarked assertion is simply ungrammatical. Same design as
+`guarded_count`'s required positional control — a required field, not a
+classifier — arrived at independently and deployed at the scale of whole
+languages. See `EVIDENTIALITY.md` row 5 and `EVIDENTIALITY-CONSEQUENCES.md`.
+
+    item 3   NAMING -> ?   becomes
+             NAMING -> A STRUCTURAL FORM EXISTS. THIS CHANNEL DOES NOT
+                       IMPLEMENT IT.
+
+*Some hazards have no structural form* was stated from one hard case with no
+search for a counterexample — **difficulty read as impossibility**, which is
+the emptiness-implies-value error with the sign flipped.
+
+The error is not naming — it is *counting a name as a fix and stopping
+there.* And, added by #20: it is also **counting a hard conversion as an
+impossible one and stopping there.**

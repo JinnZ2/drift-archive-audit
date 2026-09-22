@@ -200,6 +200,21 @@ register above was built to keep *recoverable* absences apart from
     ELSEWHERE          Not an absence at all -- an access limit wearing
                        one.
 
+**A SECOND MECHANISM for the same observable, added 2026-09-22.** Thin
+representation in an English corpus has two measured causes, not one:
+
+    MECHANISM 1   WRITEABILITY. A practice graded on doing produces
+                  little text. STUDY.md scope limit 7.
+    MECHANISM 2   CONTACT REMOVAL. The category is removed from the
+                  LANGUAGE by contact with a dominant language lacking
+                  it -- upstream of anyone deciding what to write.
+                  Two measured cases, Nivkh and Pomak.
+                  EVIDENTIALITY.md row 6.
+
+**Neither is evidence about how common the underlying reasoning is.** A
+register that reads corpus thinness as prevalence is reading the output of
+two removal mechanisms as a population estimate.
+
 **The fourth instrument, outcome trace, is what reaches the third state.**
 It is the one this programme has been costing as if it were a quality
 discount rather than a transport cost.

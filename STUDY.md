@@ -577,6 +577,15 @@ are distinguishable from inference. Keep them distinguishable.
                           requirements that cannot be met by construction,
                           the sweep for others of that shape, and the
                           outcome-trace evidence class that remains
+    EVIDENTIALITY.md      RECEIVED, filed verbatim. Grammaticalized
+                          source-of-knowledge marking as an existence
+                          proof that a provenance field can be enforced
+                          by a channel rather than by a convention.
+                          Convergence test returns PARTIAL.
+    EVIDENTIALITY-CONSEQUENCES.md
+                          what it does here: refutes GUESSED #20, adds a
+                          second corpus-thinness mechanism, and marks the
+                          Africa line UNRATED as an unguarded zero
     CONTENT-LIST-avenue-A.md
                           the eleven-subject transmission set, parties
                           removed. What a second sender actually needs.

@@ -410,6 +410,28 @@ one that argues for handing scoring outward.
     No third successor is registered. Fitting a third rule to the case that
     broke the second is the move `REMEDIES.md` calls a second name.
 
+20. **"Some hazards have no structural form" — withdrawn.** Stated in
+    `REMEDIES.md` about item 3, a provenance label the tools require rather
+    than request, on the argument that *a label cannot be enforced by a tool
+    that does not know what a claim is.*
+
+    **Refuted by an existence proof.** Obligatory evidential systems enforce
+    exactly that field at the level of the utterance: the grammar does not
+    classify claims, an unmarked assertion is ungrammatical. Required field,
+    not classifier — the same design as `guarded_count`, deployed across
+    whole language families.
+
+    **Two errors, and the second is worse.** The argument was wrong. But the
+    generalisation was made from **one hard case with no search for a
+    counterexample** — difficulty read as impossibility — and the
+    counterexample is in a standard reference literature. That is
+    `GUESSED.md` #11's error with the sign flipped: there, emptiness was read
+    as absence of value; here, hardness was read as absence of a form.
+
+    Caught cross-party, no quantity, arriving as a filed document rather than
+    as a correction. **Note for the ledger: the relaying session did not look.
+    It concluded.**
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever
