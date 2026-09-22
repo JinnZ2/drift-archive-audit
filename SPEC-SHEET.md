@@ -146,6 +146,34 @@ discovered later:**
 is the one row in this sheet that describes an action, and a spec sheet with
 no action rows is a description of a thing that has never been used.
 
+### Second row, added 2026-09-22, and it is a different kind
+
+> The routing rule landing in `STUDY.md` at the constraint block is the one
+> structural change today that alters what happens next rather than
+> describing what happened.
+> — operator
+
+    row 1   item 3 left unbuilt        AN ACTION ALREADY TAKEN.
+                                       Backward-facing. n = 1, and cheap.
+    row 2   the routing rule in the    A RULE THAT CHANGES FUTURE
+            constraint block           ASSIGNMENT. Forward-facing.
+
+**The two are not the same kind of evidence and must not be summed.**
+
+    STRUCTURE judgements  -> here
+    SENSE judgements      -> the party who holds the sense
+
+**Row 2's evidence is prospective and stands at n = 0.** It has not yet
+routed anything; it changes what happens next, and next has not happened.
+That is not a weakness in the rule — it is the correct status of a rule one
+turn old, stated now rather than discovered when the first routing decision
+goes the old way.
+
+**What would move it:** a sense judgement arriving here and being sent on
+rather than answered. **What would falsify it:** the same judgement arriving
+and being answered anyway, which is the drift profile's own prediction about
+what this instrument does with a question it can produce an answer to.
+
 ## 3. WHAT IT CANNOT REPORT ABOUT ITSELF
 
 **A self-reported blind spot is a contradiction in the ones that matter**, so

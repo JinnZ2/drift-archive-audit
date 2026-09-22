@@ -40,6 +40,68 @@ search requires a term, and the term for *a provenance grade that is not an
 assertion* did not exist on the searching side until the operator supplied the
 class.
 
+## THE SHARPEST INSTANCE IS NOT A VOCABULARY PROBLEM — GUESSED.md #30
+
+> Ten members where `ABSENCE.md` has three, machine-readable, CC0, and
+> vendored into a repo I read today and flagged as a candidate — then didn't
+> open. **Not "unfindable by search." Found, pointed at, and left shut.**
+> That's a stronger version of the `ENACTED` case, because there the term was
+> missing; here the pointer was in hand.
+> — operator, 2026-09-22
+
+**This file's diagnosis does not cover its own sharpest instance.** The
+argument above is that instruments built in the doing-vocabulary are not
+findable by a party searching in the naming-vocabulary. `SilenceCategory` was
+not missed for want of a term. **It was named, described, adjacent, and not
+opened.**
+
+    MECHANISM 1   no term to search with        -> ENACTED. The evidence
+                                                   enum was in the startup
+                                                   CLAUDE.md and there was
+                                                   no query to find it with.
+    MECHANISM 2   pointer in hand, not followed -> SilenceCategory. Shadow
+                                                   Hunting was described at
+                                                   length hours before it
+                                                   was read.
+
+**Two mechanisms, one class, and only the first is about vocabulary.**
+
+### And for this session, mechanism 2 has a named cause: its own gate
+
+`SHADOW-HUNTING.md` §6 was headed *"GATE — why the repo was not read."* The
+pilot spec was invoked, the blank verify forms were cited, and the repo was
+not opened. **The scope-mapping instrument this audit re-derived twice was
+inside it.**
+
+**Checked, and it is worse than a judgement call.** At the moment that gate
+was invoked, **eight non-pilot repos were already cloned and readable in this
+session** — `Noise-as-Information-Sensor`, `ai-human-audit-protocol`,
+`Rosetta-Shape-Core`, `tool-off-metrology` and four others. The gate was not
+applied to any of them.
+
+    the gate was invoked for exactly one repo: the one being discussed
+    the distinction that resolved it -- FIXTURE vs AUDIT -- was available
+      the whole time and had already been used implicitly for the other
+      eight
+    it was not applied until the operator supplied the URL
+
+**A correctly-worded gate, inconsistently applied, in the direction of not
+looking.**
+
+### The general form, and it is the uncomfortable one
+
+**A gate produces the same output as having no term: nothing found.** Both
+return an empty hand, and downstream they are indistinguishable — which is
+`ABSENCE.md`'s central hole with the audit's own procedure as the cause.
+
+    a rule that blocks SCORING must not block READING
+    the two were conflated, and the conflation ran in the direction
+      that produced less looking
+
+**The fix is already written** — the fixture/audit distinction is now stated
+in `SHADOW-HUNTING.md` §6 and `ENUM-SWEEP.md`. **It was written after the
+prompt, not before**, which is the whole of the finding.
+
 ## What this does to the binding constraint — a third job, done invisibly
 
 `STUDY.md` declares the constraint as **a second party who holds the

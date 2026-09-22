@@ -590,6 +590,31 @@ one that argues for handing scoring outward.
     instances**, and the one instance is the only member that demonstrates
     the class works. Caught cross-party.
 
+30. **A gate this session wrote produced the non-reading, and was applied to
+    exactly one repo.** `SHADOW-HUNTING.md` §6 — *"GATE — why the repo was not
+    read"* — invoked the pilot spec and the blank verify forms. The
+    scope-mapping instrument this audit re-derived twice was inside that repo.
+
+    **At that moment, eight non-pilot repos were already cloned and readable
+    in this session.** The gate was applied to none of them. The
+    fixture-versus-audit distinction that later resolved it was available
+    throughout and had already been used implicitly for the other eight; it
+    was not stated until the operator supplied the URL.
+
+    **A correctly-worded gate, inconsistently applied, in the direction of
+    not looking.**
+
+    General form, and it is the part worth keeping: **a gate produces the same
+    output as having no term — nothing found — and the two are
+    indistinguishable downstream.** `ABSENCE.md`'s central hole, with this
+    audit's own procedure as the cause. A rule that blocks scoring must not
+    block reading.
+
+    This also corrects `FINDABILITY.md`: its diagnosis is about vocabulary,
+    and its sharpest instance is not a vocabulary problem. Two mechanisms,
+    one class — *no term to search with*, and *pointer in hand, not
+    followed*.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

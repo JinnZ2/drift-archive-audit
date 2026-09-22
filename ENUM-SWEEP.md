@@ -60,10 +60,18 @@ contained.**
     of it.
 
 **Ninth MATCH-UNIT instance.** The matcher's unit was `NAME = [...]`; the
-author's unit was `class X(Enum)`. Granularity sub-form. **Caught only
-because the operator named a control fixture that happened to live in the
-missing encoding** — not by any property of the sweep, and not by quantity:
-51 looked like a plausible number.
+author's unit was `class X(Enum)`. Granularity sub-form. Caught by no
+property of the sweep, and not by quantity: 51 looked like a plausible
+number.
+
+**THE CATCH WAS LUCK, and is recorded as luck** — cross-party, 2026-09-22:
+*"I named two fixtures I expected to exist; one happened to sit in the
+encoding the sweep couldn't see. No design, no prediction."* **This is one
+draw, not a method**, and it sits next to a control-discipline argument where
+it could otherwise be read as one.
+
+**The rule is worth more than the catch and does not depend on it.** Applied
+to the whole instrument set in `ENCODING-AUDIT.md`.
 
 **Both controls now required. The run aborts if either fails** — verified by
 running it against the four pilot roots alone, where control B's fixture does

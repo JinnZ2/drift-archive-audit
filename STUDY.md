@@ -684,6 +684,12 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    ENCODING-AUDIT.md     the #26 rule applied to every instrument here.
+                          The enum sweep knows 4 encodings of "a closed
+                          set" and is blind to 5; the blind ones are
+                          empty in THIS corpus, which is a fact about the
+                          corpus and not the instrument. A zero is
+                          reportable exactly as far as the controls reach.
     LOGIC-FERRET.md       read as a control fixture. Two counterexamples:
                           a README section that attaches the inclusion
                           criterion to the number (withdrawing GUESSED
