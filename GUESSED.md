@@ -268,5 +268,36 @@ one that argues for handing scoring outward.
     unoccupied is correctly scoped as a claim about the paved network;
     *worth going* is argued nowhere and must be argued separately.
 
+12. **I claimed the unasserted-load detector had run. It had not.** I wrote
+    that the T-TERM physics-base hole was *"detected by reconstructing what
+    the arms require and finding the step nobody wrote down — exactly the
+    detector shape, run by hand, once"*, and drew from it that the detector
+    *"is not hypothetical."*
+
+    **What actually happened:** a sentence was visibly cut off mid-delivery
+    and the other party asked what the rest was. **A truncation artifact.**
+    Nothing listed premises and checked them against stated text. **Had the
+    sentence never been started, nothing would have flagged it.**
+
+    `N for the unasserted-load detector is still ZERO.`
+
+    **And this is itself the proxy-substitution class again** — treating the
+    visible proxy (a truncation) as the concept (an unasserted premise).
+    Caught cross-party.
+
+    **Not added to the T-0b count of 6.** That count was closed and dated
+    2026-09-22 with a stated sampling frame; incrementing it now would
+    change what the number means. Recorded here as a **post-closure
+    instance, cross-party-caught**, outside the frame.
+
+13. **"The strongest provenance class anything here has carried" is
+    withdrawn.** A comparative ranking against a field that has never been
+    scored. **The class is high; the ranking is unmeasured.** The
+    substantive claim — load-bearing-before-the-experiment rules out
+    shaping of the premise — stands, with the scope limit that it does
+    **not** rule out shaping of the *selection*: which principle from a
+    long-running practice gets invoked for this experiment is a choice made
+    after the experiment existed. Smaller residual, not zero.
+
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.

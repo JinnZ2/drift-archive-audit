@@ -47,6 +47,21 @@ justify this experiment.** Without the line, a later reader assumes the
 rationale was invented for the experiment and reweights it accordingly. No
 name is attached.
 
+### SCOPE LIMIT on that evidence class
+
+Load-bearing-before-the-experiment rules out **shaping of the premise.** It
+does **not** rule out **shaping of the selection.**
+
+    WHICH principle from a long-running practice gets invoked FOR THIS
+    EXPERIMENT is a choice made after the experiment existed.
+
+**Smaller residual than the usual confirmation shape. Not zero.**
+
+A separate claim — that this is *"the strongest provenance class anything
+here has carried"* — is **withdrawn.** That is a comparative ranking against
+a field that has never been scored. **The class is high; the ranking is
+unmeasured.**
+
 ### Superseded — the convenience argument
 
 > physics gives frame-independent checkable relations, so a restatement can
@@ -87,11 +102,17 @@ assertion behind it until 2026-09-22.** The rationale existed as a fragment —
 *"because if we can show—"* — with the rest never stated, while the design
 was built on it.
 
-Detected by reconstructing what the arms require and finding the step nobody
-wrote down. Closed by the operator stating it. **The real premise turned out
+**How it surfaced — stated accurately:** a sentence was visibly cut off
+mid-delivery and the other party asked what the rest was. A truncation
+artifact, not a premise audit. **Had the sentence never been started, nothing
+would have flagged it.** The unasserted-load detector has still never run
+(N=0).
+
+Closed by the operator stating the rationale. **The real premise turned out
 to be stronger than the placeholder this session had silently substituted:**
 the failure was not a bad argument, it was that **nobody could check which
-argument was operating.** See `UNASSERTED-LOAD.md`.
+argument was operating** — a property of the record, not of the reasoning,
+which is why only that form generalizes. See `UNASSERTED-LOAD.md`.
 
 ## OPEN ITEMS
 

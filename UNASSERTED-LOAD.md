@@ -45,8 +45,26 @@ assertion behind it** until 2026-09-22. The rationale for the physics base
 existed only as a fragment — *"because if we can show—"* — with the rest
 never stated. Meanwhile the design was built on it.
 
-**Detected by:** reconstructing what the arms require and finding the step
-nobody wrote down. Exactly the detector shape below, run by hand, once.
+**Detected by:** — **RETRACTED. The detector did not run.**
+
+What actually happened: **a sentence in the design was visibly cut off
+mid-delivery** — *"because if we can show—"* — and the other party asked
+what the rest of it was.
+
+That is a **truncation artifact**. A surface trace. **Nothing listed the
+premises required to reach each conclusion and checked them against the
+stated text**, which is what the detector below specifies.
+
+    had the sentence never been STARTED, no trace would have existed
+    and nothing would have flagged it
+
+So this is the same class as the pre-report catches in `TESTS.md` T-0b:
+**found by an artifact contradicting expectation, not by a designed check.**
+And it is itself a near-miss of surface-token operationalization — treating
+the **visible proxy** (a truncation) as **the concept** (an unasserted
+premise).
+
+    N for this detector is still ZERO.
 
 **Closed by:** the operator stating the rationale, 2026-09-22. It turned out
 to be a **validity condition**, not the scoring convenience this session had
@@ -54,14 +72,23 @@ silently substituted for it — so the unasserted premise was not only
 unasserted, **the placeholder standing in for it was the wrong kind of
 claim.**
 
-Two things this instance establishes that the first one did not:
+**What this instance establishes — one thing, not two:**
 
-1. **Unasserted load is findable by hand** on a design small enough to hold
-   in view. The detector is not hypothetical.
-2. **When it closes, the real premise can be stronger than the placeholder,
-   not weaker.** The failure mode is not "the argument was secretly bad" —
-   it is "nobody could check which argument was operating." Those have
-   different remedies and only the second one is general.
+~~1. Unasserted load is findable by hand; the detector is not
+hypothetical.~~ **WITHDRAWN.** The detector did not run. It remains
+hypothetical, N=0, and an instance found by truncation is not evidence that
+a premise audit works.
+
+**2. When it closes, the real premise can be STRONGER than the placeholder,
+not weaker.** The failure mode is not *"the argument was secretly bad"* — it
+is **"nobody could check which argument was operating."**
+
+    only the second generalizes, because it is a property of the RECORD
+    rather than of the reasoning
+
+**And that holds independent of how the instance surfaced.** The reframing
+survives the retraction of the detection claim; they are separable, and only
+the detection claim was load-bearing on how the instance was found.
 
 ## Detector shape — an argument check, not a token check
 
