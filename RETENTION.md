@@ -177,12 +177,69 @@ from (c) by this measurement.**
                                  examples, no file. Exists in conversation.
     SPECIFIED_NOT_INSTANTIATED   spec PRESENT, schema PRESENT, examples
                                  PRESENT, data ABSENT.
-    instantiated                 data exists.
+    INSTANTIATED_NOT_RUNNABLE    spec, schema, examples AND data all
+                                 present -- but the data does not parse,
+                                 so the workflow never ran.
+                                 Instance: PHANTOM_WORD_MAP.json did not
+                                 parse as JSON "for the whole of its
+                                 committed life" -- trailing comma, stray
+                                 brace -- fixed 2026-08-14, broken version
+                                 retained at legacy/.
+                                 DISTINCT from the state above: nothing is
+                                 missing. The artifact is complete and
+                                 inert.
+    instantiated                 data exists AND parses.
 
 **Instance 1:** `consortium/audit/blind_spot_log` — spec, schema and
 examples present, `.jsonl` absent.
 
-**Instance 2, found without looking for it:** **T-TERM.** A design with
+**Instance 2 — WITHDRAWN 2026-09-22. See below.**
+
+> ## T-TERM's DESIGNED_NOT_SPECIFIED VERDICT IS WITHDRAWN
+>
+> **The object was instantiated in the paste era.**
+>
+>     symbolic/phantom_detector.py     2025-09-25  JinnZ2
+>     symbolic/PHANTOM_WORD_MAP.json   2025-09-25  JinnZ2
+>     repo root                        2025-07-16  JinnZ2
+>
+> `PHANTOM_WORD_MAP.json` *"catalogs **sensed-but-unnamed concepts** that
+> repeatedly exert semantic pull across domains"*, with detectors for
+> *silence, metaphor drift, cross-domain word mismatches*, to *"surface
+> 'dark matter' in conversation and corpora so humans can name and test the
+> concepts."*
+>
+> **That is T-TERM's object, running in code, pre-agent-era, roughly a year
+> before the T-TERM design was discussed.**
+>
+>     "no file named T-TERM exists"        STILL TRUE
+>     "the design was never instantiated"  FALSE. Withdrawn.
+>
+> ### How the verdict was reached, and why it could not have worked
+>
+> The check searched `\bT-TERM\b`, `\bT_TERM\b`, `DISTRIBUTIONAL`,
+> `CLOSURE PRESSURE`, `stimulus pair`, `M1..M2`, `novel.token`,
+> `term-native`.
+>
+> **Name plus the design's own vocabulary. Never the FUNCTION.**
+>
+> A tool doing T-TERM's job under any other name was unreachable by that
+> query set — and **the defining property of T-TERM's subject is having no
+> name.**
+>
+>     a detector pointed at TOKENS, for a subject that is
+>     THINGS WITHOUT TOKENS
+>
+> The partial defence — that content-terms were searched, not only the name
+> — does not hold, because content-terms are still tokens *of that design's
+> vocabulary*. The search could only ever find the design restated in its
+> own words.
+>
+> **Sixth instance of substituting the observable proxy for the concept, and
+> the most self-undermining one on the record.** Caught cross-party; the
+> T-0b count stays closed and this sits outside its frame.
+
+**Instance 2 as originally written, superseded:** **T-TERM.** A design with
 named mechanisms (H1 distributional, H2 architectural, H3 closure pressure),
 a stimulus pair, M1/M2, two authoring arms and a physics base — **never
 instantiated anywhere in the repo substrate.** 0 hits, case-sensitive,

@@ -184,6 +184,39 @@ unsupported in `git grep -E`. **In every one the reasoning was sound and the
 engine disagreed.** See `PHYSICS-GROUND.md` addendum 2 for why this is a
 distinct class from surface-token operationalization.
 
+### REFINED — the class is MATCH-UNIT MISMATCH, with two sub-forms
+
+    DIALECT      the engine parses the pattern differently than written
+                 `\|` in POSIX ERE; `(?:...)` in git grep -E;
+                 GitHub OR chains
+    GRANULARITY  the matcher's UNIT is not the author's unit --
+                 substring where a token was meant
+                 `T-TERM` matching `short-term`
+
+**Unifying property: the matcher's unit of match is not the unit the author
+meant.** Both sub-forms produce a false result from correctly-reasoned
+intent.
+
+### FIFTH INSTANCE — and it is not this session's
+
+`Noise-as-Information-Sensor/docs/FALSIFICATION_LOG.md`, claim **C10**,
+already found and logged by that repo's own falsification process:
+
+    the silence detector tests `d in t.lower()` -- a raw substring match.
+    `"is"` fires inside ANALYSIS, NOISE, ANISOTROPY, MISREAD.
+
+    'This analysis is noisy.'  -> scored DEFINED via ['is']
+
+**The corpus's own instrument caught the same class this session kept
+hitting** — and it caught it in the detector built to find unnamed concepts,
+which is where it does the most damage. C11 and C12 are falsified alongside
+it: `jargon_mismatch` never reads its `phrase` parameter, and the detector
+does not reproduce its own documented example.
+
+**Three of the phantom detector's own checks fail.** Recorded because the
+tool is otherwise the strongest prior art in the account, and its failures
+are logged rather than patched — the same discipline this record runs on.
+
 No negative is reportable without naming the term that proved the detector
 could see something. **This programme has run exactly three positive
 controls: one by accident (`vibrotactile`), two on purpose (`terra_preta`,

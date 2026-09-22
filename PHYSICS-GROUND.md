@@ -626,3 +626,39 @@ retraction 14 just established I am not reliable at.**
 
 **The residual is not collapsing cleanly. It is being pushed from both
 sides by parties who each have a reason to push.**
+
+
+---
+
+# ADDENDUM 5 — the paste-era topic-distant check, partially run
+
+`Noise-as-Information-Sensor` is the closest candidate sampled so far:
+
+    root                     2025-07-16   PASTE ERA
+    phantom detector         2025-09-25   PASTE ERA, operator-pushed
+    domain                   quantum / biological / electromagnetic /
+                             planetary noise -- physical measurement,
+                             NOT measurement-methodology
+    distance from the        high. It is not an audit, evaluation or
+    measurement-repo cluster metrology repo.
+
+**Result: ZERO physics-as-terminal-ground language.** No `physics does not
+care`, no `grounded in physics`, no `laws of physics`, no `physical law`.
+
+### This is weak evidence and is recorded as weak
+
+Under the cultural-artifact prediction the construct should appear in
+topic-distant repos. It does not appear here.
+
+**But the domain may not invite it.** The terminal-ground *language* is used
+when physics is invoked as an **arbiter for something else**. In a repo that
+is already doing physics, there is nothing to arbitrate — you do not say
+*"physics doesn't care"* in a paper about noise spectra; you just measure.
+
+    absence here is consistent with BOTH readings
+    it does not move the residual in either direction
+
+**What it does establish:** the paste-era topic-distant sample now has one
+member, and that member is negative. **One negative from a domain that may
+not invite the construct is not a finding.** More paste-era members are
+needed, ideally from domains that would require an arbiter.
