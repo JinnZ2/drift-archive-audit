@@ -684,6 +684,12 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    LOGIC-FERRET.md       read as a control fixture. Two counterexamples:
+                          a README section that attaches the inclusion
+                          criterion to the number (withdrawing GUESSED
+                          #28's generalization), and SignatureMismatch,
+                          which raises on contract drift rather than
+                          reporting it. Sixth derived-as-new.
     ENUM-SWEEP.md         FIND converted into a reading task. Control
                           FIRED; 51 distinct enums across 4 repos, which
                           is a few minutes of reading. The list is handed

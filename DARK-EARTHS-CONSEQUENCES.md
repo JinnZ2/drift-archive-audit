@@ -211,6 +211,24 @@ starts where everything else starts.
 the right call; running the check it asked for is what made the merge
 visible.
 
+### AND THEN A POSITIVE COUNTEREXAMPLE — GUESSED.md #28
+
+`Logic-Ferret/README.md` has a section called **Honest limits** that attaches
+the inclusion criterion to the number, names the failure mode with worked
+examples from the shipped sample, and derives the design consequence:
+
+> A high score means "this text uses flagged vocabulary densely", which is
+> *evidence about* camouflage, not a verdict on it. … This is why the human
+> half exists, and why the comparison runs in that order.
+
+**Scope-travelling is therefore a VARIABLE, not a constant**, and an
+instrument in this corpus carries it better than anything this audit produced
+today. The generalization asserted something about instruments in general
+that is false of one sitting in the corpus it was asserted about.
+
+**Withdrawn as a generalization.** What survives is the three observed cases,
+each with its own structure, plus one counterexample. See `LOGIC-FERRET.md`.
+
 ## 5. A possible escape from the binding constraint — untested
 
 `STUDY.md` declares the binding constraint: five tasks terminate on **a

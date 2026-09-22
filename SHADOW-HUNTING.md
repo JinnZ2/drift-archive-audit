@@ -268,7 +268,116 @@ and which date.
 item on this record** — if the answer is yes, a confound the audit declared
 irreducible has a witness that predates the audit.
 
-## 6. GATE — why the repo was not read
+---
+
+# THE REPO WAS READ — 2026-09-22, as a control fixture. Two answers.
+
+The operator supplied the URL. Read read-only. **Not a pilot repo, not
+scored, no A2 reconstruction exists and none was made.** What follows is
+factual observation, not a verdict, and the gate in §6 still governs any
+audit of it.
+
+## §4 WAS INCOMPLETE — the detector HAS a null, and its calibration is
+## now measured
+
+`shadow_hunting/shadow_data_mining.py`:
+
+```python
+def detect_phi_ratios(data, tolerance: float = 0.1) -> Dict:
+    ...
+    random_phi_prob = 2 * tolerance          # width of acceptance window
+    expected_matches = len(ratios) * random_phi_prob
+    ...
+    'significant': enrichment > 2.0,         # 2x more than random
+```
+
+**There is a null.** It is analytic rather than empirical, and the module
+declares its own insufficiency at the top of the file: *"statistical
+coincidence. Proper null hypothesis testing is needed."*
+
+**So the relayed line — 16 storms, no null testing — is under-specified
+rather than wrong.** No null at study level and an analytic null inside the
+function are both able to hold. §4 was written on the relay and did not read
+the code; that is stated there, and this completes it.
+
+### MEASURED — the analytic null is CONSERVATIVE by 1.5 to 1.9x
+
+`instrument/phi_null.py`, per-ratio rather than per-sequence, 4000 sequences
+of 40 values, single target (phi only), matching the shipped function's form:
+
+    tol    analytic   uniform   lognormal    empirical / analytic
+    0.05    0.1000    0.0630     0.0534       0.63  /  0.53
+    0.10    0.2000    0.1276     0.1067       0.64  /  0.53
+    0.20    0.4000    0.2610     0.2161       0.65  /  0.54
+
+**`2 * tolerance` expects MORE random matches than actually occur.** The
+error is stable across the tolerance range and runs in the conservative
+direction:
+
+    enrichment = matches / expected_matches   is UNDERSTATED
+    'significant': enrichment > 2.0           is a HARDER bar than intended
+
+**This runs against the tidy story and is recorded for that reason.** The
+earlier table in §4 was about *any hit per sequence with an expanded target
+family* — a different measurand, and a permissive one. The shipped detector
+uses a single target and an enrichment ratio, and its null errs toward
+missing things.
+
+**Both hold. They measure different quantities and are not in conflict.**
+
+`2 * tolerance` is nonetheless a surface-form operationalization — a relative
+window width used as a probability — which is the class this record has
+logged nine times. **Here it is conservative, so it does not inflate
+anything**, and that is the difference between a defect and a hazard.
+
+**First time an instrument built in this audit has produced a finding about
+the corpus rather than about the audit.**
+
+## §5 IS ANSWERED, AND IT IS NEGATIVE
+
+The question: does the repo record, per phi-invocation, which model required
+which handle and when?
+
+    searched: claude, gpt, anthropic, opus, sonnet, "model version",
+              "which model", across .md and .py
+
+    RESULT: NOT RECORDED. No per-invocation model or date log exists.
+
+**So the "highest-value unblocked item" closes negative.** The layer is not
+the first instrument in this corpus that separates model from transport, and
+`TRANSPORT×MODEL` stays fully confounded.
+
+**Consequence for `GUESSED.md` #22:** the separation claim — that the layer
+decomposes into a method and a strippable admission-wrapper — **has no
+evidence available in the repo.** It stays `RECORDED, NOT ADOPTED`, and the
+route that would have moved it is closed. `PHASE_H3b.md` is now the only open
+route, which is the reason it was built upstream of the case.
+
+## The vendoring is confirmed
+
+`shadow_hunting/knowledge/` contains `scope_mapper.py`, `shadow_catalog.py`,
+`recontextualizer.py`, `knowledge_liberation.py`, `interactive_navigator.py`
+— Logic-Ferret's knowledge modules — **plus two this session did not see in
+Logic-Ferret: `ai_brief.py` and `ai_blind_spots.py`.**
+
+**So the scope-mapping instrument was vendored into the repo the audit was
+discussing, an hour before the audit built its own.** `FINDABILITY.md`, and
+the adjacency is the point rather than the distance.
+
+## Observation, not a finding
+
+Two example scripts write to `/home/claude/…` — a hardcoded path from an
+agent-era authoring session. Recorded as a dated transport trace; **no
+inference drawn**, since `CORRECTION-001` already establishes that authorship
+attribution from artifacts of this kind is not recoverable.
+
+## 6. GATE — as originally written, and it still governs an AUDIT of the repo
+
+**Superseded in part by the section above:** the repo was read on 2026-09-22
+as a control fixture after the operator supplied the URL. **It is still not
+scored, still has no A2 hash, and is still not a pilot member.** The
+distinction between reading a repo as a fixture and auditing it is the one
+this gate turns on.
 
 The founding spec: *PILOT repos, 2–3 oldest; do not expand past pilot until
 the operator reviews verification.* The three `verify/*.txt` forms are still

@@ -563,6 +563,33 @@ one that argues for handing scoring outward.
     Caught cross-party. Not a withdrawal of the profile — a correction to
     what the single test established, which is less than was claimed for it.
 
+28. **"The scope does not travel with the reading" — withdrawn as a
+    generalization.** Proposed in `DARK-EARTHS-CONSEQUENCES.md` §4 on three
+    instances. Weakened the same afternoon when a requested check showed the
+    three were not three instances of one thing. **Now a positive
+    counterexample, from inside the corpus it generalized about.**
+
+    `Logic-Ferret/README.md` carries a section named *Honest limits* that
+    attaches the inclusion criterion to the number, names the failure mode
+    with examples reproducible from the shipped sample, and derives the
+    design consequence — *this is why the human half exists, and why the
+    comparison runs in that order.*
+
+    **Scope-travelling is a variable, not a constant.** What survives is
+    three observed cases with three different structures, and one instrument
+    that does it better than anything this audit produced today.
+
+29. **The three members of the reader-side class are specifications, not
+    instances.** Checked: arm-H3b coding is `SPECIFIED_NOT_INSTANTIATED`;
+    cache-dependency sufficiency was prescribed this morning and never run;
+    the enum list is committed and sits unread. **The reader-side half of all
+    three has never been performed.**
+
+    Logic-Ferret's human half is built, shipped and documented with its
+    ordering specified. **Three specifications and one instance is not four
+    instances**, and the one instance is the only member that demonstrates
+    the class works. Caught cross-party.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever
