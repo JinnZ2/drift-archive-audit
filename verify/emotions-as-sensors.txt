@@ -1,6 +1,8 @@
 # verify/emotions-as-sensors
 # One line per reconstructed item. Operator fields are BLANK by design.
 # Mark each: YES / PARTLY / NO
+# Under CORRECTION-001 every item below is a FIRST-MODEL RENDERING.
+# You are marking whether it matches your aim, not whether you wrote it.
 
 TARGET
 the measurand is the CONVERSION itself - function into thing, relation into hierarchy, field-agency into internal agency | operator:

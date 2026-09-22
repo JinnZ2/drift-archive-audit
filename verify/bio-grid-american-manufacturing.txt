@@ -1,6 +1,8 @@
 # verify/bio-grid-american-manufacturing
 # One line per reconstructed item. Operator fields are BLANK by design.
-# Mark each: YES / PARTLY / NO   (leave blank if you do not want to answer)
+# Mark each: YES / PARTLY / NO   (leave blank to skip)
+# Under CORRECTION-001 every item below is a FIRST-MODEL RENDERING.
+# You are marking whether it matches your aim, not whether you wrote it.
 # Nothing in this audit is scored against an unmarked line.
 
 TARGET

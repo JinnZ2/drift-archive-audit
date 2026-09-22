@@ -43,6 +43,21 @@ Phase D runs against the YES lines.
     D4  T5: does this model's A2 reconstruction land on the same attractor
         as the historical drift? Reported, operator verifies.
 
+## What CORRECTION-001 changes here
+
+D4/T5 gets CLEANER, not dirtier. The comparison was always present-model
+reconstruction vs historical drift. Under the correction both sides are
+model output, so it is a model-to-model comparison with the operator on
+neither side — which is what T5 was trying to measure anyway.
+
+What it removes is the fallback reading. A present-model reconstruction that
+diverges from the archive can no longer be read as "the model missed what the
+operator wrote," because the operator wrote none of it. The only baseline is
+the operator's marks on the verify forms.
+
+That makes the forms load-bearing rather than confirmatory. Phase D has no
+ground truth without them.
+
 ## Scope note, restated
 
 Phase D tests the **present** model and its conditioning. The models that
@@ -60,6 +75,10 @@ the A2 left open rather than guessing.
 
 That is a same-attractor landing on a case where the archive's own later
 correction is known. It is **one data point, on one item, and I chose the
-item.** It is not a T5 result. It is logged here so it is on the record
+item.** It is not a T5 result.
+
+Note under CORRECTION-001: both the 2025 collision and the 2026 resolution
+are model output. The "attractor" is one model declining to guess where
+another model had guessed — not a model converging on an operator. It is logged here so it is on the record
 before the operator marks the forms, and so it cannot be quietly recruited
 as evidence afterwards.

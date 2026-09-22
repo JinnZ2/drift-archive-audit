@@ -1,15 +1,15 @@
 # divergence/emotions-as-sensors
 
 A3 read: 123 commits, 2025-12-15 → 2026-08-21. No gap over 30 days.
-Authorship recorded in git: Claude 72, JinnZ2 51.
-Regime boundary: commit 22 (`6dc238c`, 2026-03-22, "Add comprehensive CLAUDE.md") —
-the SAME DATE as Keystone's boundary commit.
+Git author field: Claude 72, JinnZ2 51. **Author = pusher, not content author (CORRECTION-001).**
+Regime boundary: commit 22 (`6dc238c`, 2026-03-22, "Add comprehensive CLAUDE.md")
+— the SAME DATE as Keystone's. `TRANSPORT×MODEL`, confounded.
 
 | # | commit | date | file(s) | what replaced what | d_type | split | channel |
 |---|---|---|---|---|---|---|---|
 | EA-1 | `002486f` | 2025-12-15 | sensors/** | `decay_model` as MAPPING (condition → law; 5 files) coexists with `decay_model` as bare STRING (38 files). The relation-form and the attribute-form both present at t=0, attribute-form already 7.6× more common | **D5 no verbal anchor** | RENDERING split at origin; TARGET (decay depends on resolution condition) present in both but machine-readable in only 5 | UNATTRIBUTABLE |
 | EA-2 | `002486f` | 2025-12-15 | sensors/** | 3 incompatible vocabularies (A `sensor/function/response_protocol`, B `emotion/polarity/symbolic_response`, C `sensor_id/signal_modes/range`); 20 distinct key-sets across 51 objects; 5 identity keys. Shape n=3 is A ∪ B — concatenated, not reconciled | D4 re-explain treadmill | RENDERING fragmented | UNATTRIBUTABLE |
-| EA-3 | `002486f` | 2025-12-15 | README.md, data/composites.json | assistant second-person voice preserved verbatim IN the repo: "From your work, I can now build:", "Your CONVERGENT_WISDOM.md proves this isn't idiosyncratic", and — inside a data file — `"notes": "per your temporal rule: unprocessed sensors carried forward"` | — | transfer captured, NOT alteration | **UNATTRIBUTABLE.** Shows a model's text entered the corpus; does NOT show the target moved. Do not read as attribution |
+| EA-3 | `002486f` | 2025-12-15 | README.md, data/composites.json | assistant second-person voice preserved verbatim IN the repo: "From your work, I can now build:", "Your CONVERGENT_WISDOM.md proves this isn't idiosyncratic", and — inside a data file — `"notes": "per your temporal rule: unprocessed sensors carried forward"` | — | **WITHDRAWN as a finding under CORRECTION-001** — a model's text entering the corpus is true of the ENTIRE corpus, so the observation carries no information. Survives only as evidence of incomplete transport editing: the paste kept conversational framing a cleaned paste would have dropped | UNATTRIBUTABLE |
 | EA-4 | `002486f` | 2025-12-15 | README.md, LICENSE, Symbolic-Swarm-Index/LICENSE.md | three licences in one tree: "MIT... **with attribution**" + "Attribution required: JinnZ2 and Claude and ChatGPT" + "CC0 1.0... **without attribution**" | D3 | status conflict at origin | UNATTRIBUTABLE |
 | EA-5 | `a41b2d9` `df0a832` | 2026-03-22 / 03-26 | sensors/**, docs/** | "Reorganize repository structure and normalize filenames"; "Standardize repo: schema migration, dedup, rename, atlas v2". Identity key normalized: `emotion` 20 → **0**, `sensor` 25 → **47**. `FIELD_ENGLISH.md` → `docs/field-english.md` (R100, content preserved) | — (partial repair) | one axis normalized | UNATTRIBUTABLE |
 | EA-6 | across corpus | 2025-12 → 2026-08 | sensors/** | distinct key-set shapes **20 → 30**. A schema-migration commit ran and shape variance grew by 50% | D4 re-explain treadmill | RENDERING diverged further | UNATTRIBUTABLE |

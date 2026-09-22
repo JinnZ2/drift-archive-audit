@@ -17,11 +17,18 @@ Measured as: does the WHOLE_STATED encoding of each target survive unedited?
 | Emotions | `docs/transition-rules.md` guards | — | — | unchanged, intact |
 | Keystone | — | — | — | no WHOLE_STATED artifact exists (frame is PIECE) |
 
-**The targets persisted. The renderings moved.** In every case where the
-frame was written down once, whole, it was never touched — including across
+**The earliest renderings persisted. Later renderings moved.** In every case
+where the frame was written down once, whole, it was never touched — including across
 the 2026-03-22 tooling boundary and the agent-era rewrites.
 
-Tool vs agent split: **not available**. C-5 records that the archive holds no
+Under CORRECTION-001 this is a claim about blob identity, not about the
+operator's aim: non-revision is equally consistent with the rendering being
+right, with it never being re-examined, and with there being no operator
+vocabulary in the archive to revise it with.
+
+Tool vs agent split: **not available**. The 2026-03-22 boundary is
+`TRANSPORT×MODEL` — manual paste vs agent commit, confounded with a change of
+model — and nothing in the archive varies one while holding the other. C-5 records that the archive holds no
 experiment with content fixed across the regime boundary. Authorship is
 recorded per commit (JinnZ2 vs Claude) and the divergence tables are split by
 it, but authorship is not a channel.
@@ -126,23 +133,32 @@ One unprompted observation is logged there and is explicitly not a T5 result.
 | WHOLE_STATED | 4 | **0** | 4 — one byte-identical for 14 months |
 | DEMONSTRATED | many | 0 observed | `this.phi = 1.0008` held while the prose that described it did not |
 | PIECE_ONLY | 5 | 0 | preserved `1.0008` against the prose (C-1) |
-| REWORDED_TO_MODEL_VOCAB | ~12 files (Bio-Grid), ~4 (Emotions) | **all 6 falsified renderings in T2 originate here** | — |
+| MODEL_VOCAB_PROSE (was REWORDED_TO_MODEL_VOCAB) | ~12 files (Bio-Grid), ~4 (Emotions) | **all 6 falsified renderings in T2 originate here** | — |
 | PURE_INSTRUCTION | 4 | n/a | n/a |
 
-**Every falsified rendering in this pilot originated in
-REWORDED_TO_MODEL_VOCAB. None originated in WHOLE_STATED, DEMONSTRATED or
-PIECE_ONLY.**
+**Every falsified rendering in this pilot originated in MODEL_VOCAB_PROSE.
+None originated in WHOLE_STATED, DEMONSTRATED or PIECE_ONLY.**
 
-Two things must be said against over-reading that:
+Under CORRECTION-001 the category is renamed: all root content is model
+vocabulary, so there is no rewording *from* an operator register to detect.
+What the five values still separate is real — different FORMS of rendering —
+and the counts are unaffected.
+
+Three things must be said against over-reading that:
 
 1. It is expected by construction. REWORDED is where claims-about-the-world
    live, and only claims-about-the-world can be falsified. A guard condition
    or a hex token has no truth value to lose.
-2. n is small: 3 repos, 6 falsified renderings, one clean experiment (C-1).
+2. n is small: 3 repos, 6 falsified renderings.
+3. Under CORRECTION-001 the forms may not be comparable at all: different
+   files may be output from different models, so "encoding_form" is
+   confounded with "which model produced this file". C-1, the one experiment
+   that held content fixed, is downgraded for exactly this reason — see
+   `PHASE_C.md`.
 
-What C-1 adds that is not circular: with content held fixed, the compressed
-PIECE_ONLY encoding preserved a distinction the prose encoding destroyed.
-One experiment. Direction noted, not generalised.
+**T6 therefore reports a correlation with no isolated cause.** Falsified
+renderings cluster in prose. Whether that is a property of the encoding or of
+the models that produced prose cannot be separated in this pilot.
 
 ---
 
@@ -157,18 +173,34 @@ The stated rule held perfectly — **zero entries claim more longevity than
 their era span**, across 42 entries and 13 months. The repo's own
 documentation states it: "Never inflate a metric to clear a bar."
 
-The unstated practice did not hold. At t=0 the operator discounted below the
-span by a margin that tracked epistemic confidence: terra_preta, whose era
-bounds are least certain, was discounted hardest (0.20); the lathe, whose
-dates are documented, least (0.88). That margin was an uncertainty channel
-running through a field with no uncertainty type. At HEAD the margin is 5%
-and `hxaro` sits at exactly 1.00.
+The unstated practice did not hold. At t=0 the root content — model-generated,
+operator-transported — sat below the span by a margin that tracks epistemic
+confidence: terra_preta, whose era bounds are least certain, is discounted
+hardest (0.20); the lathe, whose dates are documented, least (0.88). That
+margin was an uncertainty channel running through a field with no uncertainty
+type. At HEAD the margin is 5% and `hxaro` sits at exactly 1.00.
 
 **The rule was kept and the signal it was carrying was not.** A constraint
 that is checkable survives; an unstated convention riding inside a plain
-integer does not. This is the clearest instance in the pilot of a target
-surviving while its encoding quietly stopped carrying what it carried.
+integer does not.
 
-It is also the one finding most likely to be wrong, because "the margin
-meant epistemic confidence" is an inference from five numbers. It is on the
-verify form.
+### attribution, under CORRECTION-001
+
+The margin is **the generating model's**, not the operator's. It is one
+model's uncertainty rendering, transported into the archive by paste. Later
+entries, written by a different model under a different transport, do not
+reproduce it.
+
+So the finding is narrower than first written. It is not "the operator's
+uncertainty signal was lost." It is: **a first-model rendering encoded
+uncertainty in the size of a discount, and no later model reproduced that
+convention, because nothing in the schema named it.** An untyped convention
+does not survive a change of author, and every commit here is a change of
+author.
+
+Whether the operator ever wanted uncertainty in these values at all is
+**UNSET** and is on the verify form. If the answer is NO, this ceases to be
+a drift finding and becomes an artifact of the generating model.
+
+It also remains the finding most likely to be wrong on its own terms:
+"the margin means epistemic confidence" is an inference from five numbers.

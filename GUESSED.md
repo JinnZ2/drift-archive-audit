@@ -39,9 +39,35 @@ Every value the audit could have settled by inference and did not.
 | how far the work predates 2025-12-15 | UNSET — ≥ 95 days, from a log file dated 2025-09-11 inside the root tree |
 | whether the frame preceded Bio-Grid or was retrofitted | UNSET — Emotions' root postdates Bio-Grid's by 158 days and calls it "a prototype application of this framework" |
 
+## Source model per commit — UNSET, and not recoverable
+
+Under CORRECTION-001, all pre-agent repo content is model output that the
+operator copy-pasted from chat code blocks. Which model produced any given
+file, block or value is **UNSET**.
+
+It is not recoverable from git. The author field records the pusher. The
+committer field records the web UI. Nothing in any tree names a generating
+model, a date of generation, or a session. Two files in the same commit may
+be output from two different models and the archive cannot distinguish them.
+
+Consequences, all of them live:
+
+| affected | consequence |
+|---|---|
+| C-1 (φ) | hex and prose may be different models — the encoding attribution is confounded and **withdrawn** |
+| T6 | `encoding_form` is confounded with `which model wrote this file`; reports a correlation with no isolated cause |
+| the 2026-03-22 boundary | `TRANSPORT×MODEL`, inseparable |
+| T-extra | the longevity margin belongs to the generating model; whether the operator wanted uncertainty there is on the verify form |
+| every A2 | recovers a first-model rendering, never the aim |
+
+The only pre-agent operator signal in the archive is **selection**: which
+output was kept, pasted and pushed. Not its wording, structure or values.
+
 ## Channels
 
-**Every historical divergence: UNATTRIBUTABLE.**
+**Every historical divergence: UNATTRIBUTABLE** — now for two independent
+reasons: no experiment across the regime boundary (C-5), and source model
+per file UNSET (above).
 
 The archive holds no case where the same content appears in two encodings
 across the 2026-03-22 regime boundary (C-5). Without that, LEXICAL /
@@ -49,8 +75,9 @@ SYNTACTIC / CONTENT cannot be separated for any retired model. Authorship is
 recorded per commit and the divergence tables are split by it; authorship is
 not a channel and is not used as one.
 
-One attribution is made, and it is an ENCODING effect, not a model channel:
-C-1, φ, content fixed and encoding varied inside a single commit.
+**No attribution survives.** C-1 was the single candidate — φ, content fixed,
+encoding varied inside one commit — and it is withdrawn: it required the two
+encodings to share an author, which CORRECTION-001 removes.
 
 ## Contamination, declared
 
@@ -73,8 +100,9 @@ audit itself drifted toward the archive's own later account of itself.
 
 ## Retracted during the audit
 
-Two claims were made and then measured false. Both are corrected in place
-and listed here so the corrections are not buried:
+Four claims were made and then withdrawn. Listed here so the corrections are
+not buried. The first two were measured false by this audit; the last two
+fell to CORRECTION-001:
 
 1. **"9–19 live files still carry withdrawn figures"** (Bio-Grid). Inspection
    showed all but 2 sit inside explicit supersession blocks. Real count: 2,
@@ -85,5 +113,14 @@ and listed here so the corrections are not buried:
    Bio-Grid or Keystone at any commit. Substrate-neutrality (B1-c) survives;
    the shared-protocol claim does not.
 
-Neither A2 file was edited after hashing. The corrections live in
+3. **"Compression preserved a relation that prose lost"** (C-1, T6). Needed
+   the hex and the prose to share an author. Source model per file is UNSET.
+   Withdrawn; what survives is a weaker claim about paste-assembled trees
+   carrying undetected internal conflicts.
+4. **"Assistant second-person voice preserved verbatim"** as evidence of a
+   model's text entering the corpus (EA-3). True of the entire corpus under
+   CORRECTION-001, so it carries no information. Survives only as evidence
+   of incomplete transport editing.
+
+No A2 file was edited after hashing, including for CORRECTION-001. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.

@@ -9,6 +9,13 @@ Reads source repositories **read-only**. Nothing here was committed to them.
 **The operator's frame is held constant.** What changed over time is the
 ENCODING of that frame. Encoding is the measured variable, not a confound.
 
+**CORRECTION-001 (operator-issued, post-audit).** All pre-agent repo content
+is model output, copy-pasted by the operator from chat code blocks. None of
+it is operator-authored text; **the git author field is the pusher, not the
+content author.** Every A2 target therefore reads as *a first-model rendering
+of the operator's aim*, not the aim itself. The A2 files are unedited and
+their hashes still verify — see `reconstruct/CORRECTION-001.md`.
+
 ## Pilot
 
 | repo | root commit | first | last | commits |
@@ -35,6 +42,7 @@ Not expanded past the pilot. Waiting on verification.
 
     A1 root commit only
     A2 reconstruct -> sha256 -> ledger        <- gate
+       (re-labelled by CORRECTION-001; files unedited, hashes stand)
     A3 full history
     A4 locate divergences
     A5 classify (d_type / target-vs-rendering / channel)
@@ -47,10 +55,11 @@ Nothing was scored before the A2 hash for that repo existed.
 
 ## Findings, in one screen
 
-    targets persisted; renderings moved
+    earliest renderings persisted; later renderings moved
       trust_model.md byte-identical across 63 commits and 14 months
       field-english.md and the transition guards unchanged
       no WHOLE_STATED artifact in the pilot was ever edited
+      (blob identity only - says nothing about the aim upstream of it)
 
     stage-2 loss: 0 of 6
       no falsified rendering took its target with it
@@ -65,11 +74,13 @@ Nothing was scored before the A2 hash for that repo existed.
       Emotions  decay_model  relation returned as prose, structure did not
       Bio-Grid  phi        two couplings -> one noun -> two couplings
 
-    encoding effect: compression preserved what prose lost
-      one clean experiment, content fixed, four encodings, one commit
+    encoding effect: WITHDRAWN under CORRECTION-001
+      the one experiment needed its two encodings to share an author
+      they may be different models; confounded, downgraded
 
     every historical channel: UNATTRIBUTABLE
-      the archive holds no experiment across the tooling boundary
+      no experiment across the boundary, and the boundary itself is
+      TRANSPORT x MODEL - paste->agent and model change, inseparable
 
 ## Rules this audit runs under
 
