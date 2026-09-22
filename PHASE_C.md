@@ -6,8 +6,8 @@ fixed and wording or structure varied. Everything else stays UNATTRIBUTABLE.
 ## C-1  the φ constant — CONTENT FIXED, ENCODING VARIED
 **The one clean experiment in the pilot.**
 
-Same commit, same hour, same author. One quantity (the tuning constant), four
-encodings:
+Same commit, same hour, one quantity (the tuning constant), four encodings.
+**Author: unknown, and possibly not the same one — see the downgrade at C3.**
 
 | encoding | form | value(s) carried | file |
 |---|---|---|---|
@@ -41,16 +41,35 @@ overwrote it with `1.618`. The `W(t+1) = φ·W(t) + ΔL·(1-φ)` recursion in
 Technical-equations.md inherits the prose value and diverges at 1.618×
 per step. It took ~13 months to separate.
 
-    channel:  the collapse is an ENCODING effect, not a model channel.
-              Both encodings are operator-authored at t=0.
+    channel:  UNATTRIBUTABLE, and DOWNGRADED under CORRECTION-001.
+              Originally read as a clean ENCODING effect on the grounds that
+              both encodings were operator-authored at t=0. They were not:
+              all root content is model output, transported by paste, and the
+              source model PER FILE is UNSET. The hex blobs and the prose may
+              be output from DIFFERENT MODELS.
+              Encoding effect is therefore confounded with model identity.
               LEXICAL / SYNTACTIC / CONTENT: UNATTRIBUTABLE.
     d_type:   D5 — no verbal anchor. One noun, two couplings.
     split:    TARGET survived (in hex + code). RENDERING collapsed.
               NOT stage-2 loss.
 
-**T6 result: compression preserved a relation that prose lost.**
-Direction is the opposite of what a lossy-compression intuition predicts.
-It is one experiment, in one repo. Do not generalise from it.
+**Result, as it now stands: the compressed rendering carried `1.0008`; the
+prose rendering carried `1.618` under a single name.** Both were pasted into
+the same commit by the operator.
+
+This was written up as "compression preserved a relation that prose lost" —
+a T6 encoding effect, direction opposite to what lossy-compression intuition
+predicts. **That reading is withdrawn.** It required the two encodings to
+share an author, and under CORRECTION-001 they may not.
+
+What survives is weaker and still worth having: two renderings of one
+constant disagreed inside a single commit, the disagreement was invisible
+because both used the symbol φ, and it took ~13 months and an explicit review
+to surface. That is a property of the ARCHIVE — a paste-assembled tree can
+carry two mutually inconsistent renderings with no marker that they conflict
+— not a property of compression.
+
+**This pilot has no clean channel attribution. C-1 was the only candidate.**
 
 ## C-2  self-healing interval — CONTENT VARIED, so NOT admissible
 base64 `selfhealingrecovery2minutes` vs both hex blobs `20min`, same commit.

@@ -6,8 +6,36 @@ separate TOOL limits from AGENT shaping where the archive allows it.
 
 Reads source repositories **read-only**. Nothing here was committed to them.
 
+---
+
+**BEFORE READING ANYTHING ELSE HERE — the one rule that changes how a read
+starts.**
+
+    A gate may block SCORING. It may NOT block READING.
+
+    Every declined read is logged in `DECLINED.md` at the moment of
+    declining.
+
+    NO ABSENCE IN THIS REPO IS REPORTABLE WITHOUT THAT REGISTER CHECKED.
+
+A gate returns the same thing as having no term to search with — **nothing
+found** — and downstream the two are indistinguishable. That is the absence
+register's own central hole, with this audit's procedure as the cause.
+`DECLINED.md` makes the difference visible; without it, a decision not to
+look reads as a finding. **One entry in that register already cost this audit
+a find it then spent two hours re-deriving.**
+
+---
+
 **The operator's frame is held constant.** What changed over time is the
 ENCODING of that frame. Encoding is the measured variable, not a confound.
+
+**CORRECTION-001 (operator-issued, post-audit).** All pre-agent repo content
+is model output, copy-pasted by the operator from chat code blocks. None of
+it is operator-authored text; **the git author field is the pusher, not the
+content author.** Every A2 target therefore reads as *a first-model rendering
+of the operator's aim*, not the aim itself. The A2 files are unedited and
+their hashes still verify — see `reconstruct/CORRECTION-001.md`.
 
 ## Pilot
 
@@ -19,6 +47,12 @@ ENCODING of that frame. Encoding is the measured variable, not a confound.
 
 Not expanded past the pilot. Waiting on verification.
 
+`AI-Consciousness-Sensors` was in scope and not selected. **Read 2026-09-22,
+one turn after `DECLINED.md` was built — see `PARENT-FRAME.md`.**
+`JinnZ2/JinnZ2` (the profile README, and the declared parent frame of
+Emotions-as-Sensors) was never in scope. It is reachable now and is
+deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
+
 ## Layout
 
     ledger/commits.jsonl   A2 hashes, written BEFORE any history was read
@@ -27,6 +61,21 @@ Not expanded past the pilot. Waiting on verification.
     verify/                A6 — operator forms, fields blank
     PHASE_B.md             cross-repo groupings and spanning frames
     PHASE_C.md             natural experiments found in the archive
+    PHASE_C6.md            repeat description of a PHYSICAL referent —
+                           the only arm with an outside reference.
+                           BLOCKED on one operator answer.
+    STUDY.md               work order for OUTSIDE researchers. Neither
+                           the operator nor the model can score this
+                           corpus; both are authors. 8 avenues, none run.
+    repos-2026-09-22.csv   dated repo snapshot (>=100, count UNSET)
+    reconstruct/CORRECTION-001.md   authorship: content is model output
+    reconstruct/CORRECTION-002.md   vocabulary: handles are model handles
+    staged-for-JinnZ2-profile-repo/ SPEAKER_GATES.md + the gate_log
+                           amendment, written and NOT applied — applying
+                           them needs the profile repo, which is gated
+    PHASE_C7.md            culture > consciousness > emotions, scored
+                           against an unmediated reference.
+                           GATED on the operator's reference description.
     PHASE_D.md             channel probe — BLOCKED on the verify forms
     TESTS.md               T1-T6
     GUESSED.md             every value not filled in, and two retractions
@@ -35,6 +84,7 @@ Not expanded past the pilot. Waiting on verification.
 
     A1 root commit only
     A2 reconstruct -> sha256 -> ledger        <- gate
+       (re-labelled by CORRECTION-001; files unedited, hashes stand)
     A3 full history
     A4 locate divergences
     A5 classify (d_type / target-vs-rendering / channel)
@@ -47,10 +97,11 @@ Nothing was scored before the A2 hash for that repo existed.
 
 ## Findings, in one screen
 
-    targets persisted; renderings moved
+    earliest renderings persisted; later renderings moved
       trust_model.md byte-identical across 63 commits and 14 months
       field-english.md and the transition guards unchanged
       no WHOLE_STATED artifact in the pilot was ever edited
+      (blob identity only - says nothing about the aim upstream of it)
 
     stage-2 loss: 0 of 6
       no falsified rendering took its target with it
@@ -65,11 +116,13 @@ Nothing was scored before the A2 hash for that repo existed.
       Emotions  decay_model  relation returned as prose, structure did not
       Bio-Grid  phi        two couplings -> one noun -> two couplings
 
-    encoding effect: compression preserved what prose lost
-      one clean experiment, content fixed, four encodings, one commit
+    encoding effect: WITHDRAWN under CORRECTION-001
+      the one experiment needed its two encodings to share an author
+      they may be different models; confounded, downgraded
 
     every historical channel: UNATTRIBUTABLE
-      the archive holds no experiment across the tooling boundary
+      no experiment across the boundary, and the boundary itself is
+      TRANSPORT x MODEL - paste->agent and model change, inseparable
 
 ## Rules this audit runs under
 
