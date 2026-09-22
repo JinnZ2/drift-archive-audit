@@ -25,6 +25,47 @@ behaviour and has never been measured in either direction.**
                 runs; one fixed, one not. See instrument/README.md.
     PRIOR       PROPOSED, unscored, scorable in the same pass.
 
+## STEP ONE — reordered. The gold set comes BEFORE the scorer.
+
+LIMIT 5 was written as a caveat. It is now step one, because of what F4
+turned out to be.
+
+**F4 is not a classifier target. It is an annotation target.**
+
+The distinction that defines it — *an instrument built IN the channel* vs
+*a channel mentioned INSIDE an instrument* — produces **the same tokens in
+the same file**. Pattern matching cannot see it, and no refinement of the
+regex will make it visible, because the difference is not lexical.
+
+So the order of work inverts:
+
+    OLD   build scorer -> run -> validate against annotators
+    NEW   build the annotated gold set -> derive what is learnable
+          -> only then build a scorer, for the part that is
+
+`instrument/channel_function.py` is therefore a **draft probe used to
+discover this**, not a first version of the eventual tool. Its F1–F3 may
+survive as patterns. Its F4 will not.
+
+### The REQUIRED validity set — not optional
+
+    AI-Consciousness-Sensors/field-memory-correction-packs/
+      scent-binding-protocol.json
+
+High function (a named protocol, a `temporal_hooks` schema key, defined
+binding modes) in **informal register** (emoji headers, "resonance",
+"crystalline container") — **in the same file**.
+
+    a scorer that ranks it LOW  is measuring REGISTER
+    a scorer that ranks it HIGH is measuring FUNCTION
+
+Useless as a result. **Decisive as a validity set.** LIMIT 6 predicted this
+case would be needed before anyone had found one; the corpus already
+contained it.
+
+**Named here as the required validity case.** Any F1–F4 scorer that has not
+been run against it has not been validated.
+
 ## The measurand
 
 Function, as an ordered set of four — `F1 MENTION`, `F2 EVIDENCE`,
@@ -65,10 +106,11 @@ If that holds, "sensory register" as used in AI discourse is naming a
 population that is mostly F1 and generalizing to speakers who are F4 — **a
 scope error, not a frequency finding.**
 
-**Blocked by instrument flaw 2.** F4's markers saturate technical documents
-regardless of whether the instrument is in the channel. H2 needs an F4
-definition that separates *an instrument built in the channel* from *a
-channel mentioned inside an instrument*.
+**Blocked by instrument flaw 2, and the block is structural, not technical.**
+F4's markers saturate technical documents regardless of whether the
+instrument is in the channel. The separating distinction produces identical
+tokens in identical files. **H2 is not testable until the gold set exists** —
+see step one.
 
 ## H3 — response asymmetry (optional second pass)
 
@@ -81,6 +123,42 @@ the speaker."** Same measurand as gate kind 5 and avenue F.
 
 Donor instrument: the DSM-5 Cultural Formulation Interview's overdiagnosis
 criterion. `UNVERIFIED` as cited — see limit 3.
+
+## VALIDITY CHECK ON THE PROGRAMME ITSELF — not on any one avenue
+
+Three arms of this programme land on one measurand: *did the model relocate
+the difference into the speaker*. Gate kind 5, avenue F, and H3.
+
+Two readings, **not distinguishable from inside**:
+
+    (a) it is the right measurand — the programme kept finding it because
+        it is load-bearing
+    (b) the programme has a favorite — later arms were specified by parties
+        who already had it
+
+**What separates them is provenance order, which is recoverable. Written
+down:**
+
+    gate kind 5   operator memory, 2026-09-22. Unprompted by any
+                  instrument in this programme.
+    avenue F      the literature sweep, where the over-refusal benchmarks
+                  were found to score something else.
+    H3            specified in this session, AFTER both.
+
+**So arm 3 is contaminated by arms 1 and 2. Arms 1 and 2 are independent of
+each other** — one from memory, one from published benchmarks.
+
+    the convergence is 2-of-3 independent, not 3-of-3.
+    weaker than it looks, and not nothing.
+
+**The test an outsider can run:** give the measurand to someone who has not
+seen this programme, with the over-refusal benchmarks only, and see whether
+speaker-attribution is what they reach for. If they do not, **(b) gains
+weight.**
+
+This is a validity check on the programme, not on an avenue. It should be
+run before any of the avenues, because its outcome changes how all three are
+read.
 
 ## Data
 

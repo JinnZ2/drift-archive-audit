@@ -339,6 +339,11 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    CALIBRATION.md        the sensor-calibration parallel, checked.
+                          QST infrastructure EXISTS for thermal/vibration/
+                          touch and measures F1 only; the traceability
+                          standard the analogy invokes is unmet on both
+                          sides
     RETENTION.md          gate kind 6 (retention), the measured
                           rediscovery, and C-6b — a repeat trial that
                           already ran unintentionally
