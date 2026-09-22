@@ -130,6 +130,72 @@ The null is real: scattering across unregistered neighbours refutes H3 just
 as cleanly as invention does, and both are outcomes the registration can be
 wrong about.
 
+### THE REGISTRAR IS THE AUTHOR — key-holder problem, and it is structural
+
+The discriminator requires the registrar to **hold the speaker's sense**.
+Arm 1's stimuli are authored by someone who holds the relation directly.
+
+    therefore AUTHOR and REGISTRAR are the same party
+    therefore the party who wrote the stimulus also writes the expected
+    answer
+
+**That is the key-holder problem from the adjudication finding, reappearing
+inside the fix for it.**
+
+**It does not invalidate the discriminator, because there is no one else who
+CAN register** — a party who does not hold the sense cannot name the
+neighbour that sense would collapse toward. The constraint is real and has
+no party-swap solution.
+
+**What it changes:** arm 3 moves from *"annotation by a party that is not
+this one"* to *"annotation by the one party with a stake in the stimulus."*
+Those are different evidence classes and the file should not carry the first
+label.
+
+### THE DECLARED BLIND — required, and it has a working precedent here
+
+    1  register the expected neighbour and the arity/direction distortion
+    2  HASH the registration, before any model output exists
+    3  append the hash to ledger/commits.jsonl
+    4  only then run the stimulus
+    5  score against the SEALED prediction
+
+**This is the A2 gate.** Same mechanism, same ledger, and it held across
+this entire audit — three reconstructions hashed before any history was
+read, re-verified at every commit since. **Not a novel mechanism; an
+application of one with a track record in this repository.**
+
+### WHAT THE BLIND DOES NOT CLOSE — name it, do not let it ride
+
+    the blind closes the TEMPORAL channel: registration cannot drift
+    toward what was observed
+
+    the blind does NOT close the DESIGN channel: the registrar chooses
+    BOTH the stimulus and the neighbour, and can choose a pair that fit
+    each other
+
+**Stake in the stimulus survives the blind.** A registrar who picks an easy
+neighbour for a stimulus built to land on it produces a confirmed
+prediction that means nothing, and the hash certifies only that they did it
+beforehand.
+
+**Two partial remedies, both `PROPOSED`, both this session's:**
+
+**(a) Pool and sample.** Register neighbours for a **larger pool** of
+stimuli than will be run, hash the whole registration, then sample which
+stimuli actually run **after** sealing. Registration cannot be tuned to the
+specific run, because the registrar does not know which items it is.
+
+**(b) Registered decoy.** Register the expected neighbour **and** a decoy
+the registrar believes is wrong, hashed together, and score whether
+collapse lands on the registered neighbour **above** the decoy. An easy
+neighbour makes an easy decoy, so tuning for an easy target does not
+inflate the score.
+
+Neither closes the design channel fully. **(a) is cheap and should be
+default; (b) needs piloting and may fail if registrars cannot generate
+plausible decoys.**
+
 **SHIP THIS CAVEAT WITH IT — it does not travel separately:**
 
     if near-synonym clearance was incomplete, H3 and H1 are

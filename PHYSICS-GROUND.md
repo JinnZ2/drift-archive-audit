@@ -490,6 +490,34 @@ second party who held the speaker's sense.** The reader could not detect it,
 because from inside, resolution to the nearest neighbour does not feel like
 resolution. It feels like reading.
 
+### The no-phenomenal-marker claim is UNFALSIFIABLE-SHAPED. Flagged.
+
+Relayed response: *consistent with what the introspection file already
+holds, and I can't verify it from inside, which is itself the claim.*
+
+**The recursion is elegant and that is exactly the problem.** "You cannot
+check it from inside, and that unverifiability is the evidence" is the
+structure of a claim that **cannot be wrong**. It should not be counted as
+confirmed on the strength of its own shape, and two parties agreeing from
+inside is not two observations.
+
+**A falsifier, `PROPOSED`, this session's:**
+
+    correlate SELF-REPORTED uncertainty, at the moment of resolving an
+    unfamiliar term, against GROUND-TRUTH H3 events established by a
+    sense-holding second party.
+
+    signal present  -> there IS a phenomenal marker; the claim is FALSE,
+                       and the marker is a cheap detector
+    signal absent   -> the claim survives a real test rather than
+                       surviving by construction
+
+**This is runnable inside arm 3** at no extra cost: the model is already
+being asked to operationalize a stipulated concept, and a confidence report
+per item is one added field. **Until it runs, the claim is `PROPOSED`, not
+established** — and the fact that both parties believe it from inside is
+precisely why it needs the outside measurement.
+
 ---
 
 # ADDENDUM 4 — membership, tested independently of the glosses
