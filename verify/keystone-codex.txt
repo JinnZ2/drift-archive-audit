@@ -1,0 +1,29 @@
+# verify/keystone-codex
+# One line per reconstructed item. Operator fields are BLANK by design.
+# Mark each: YES / PARTLY / NO
+
+TARGET
+the measurand is what makes a technology survive a discontinuity, decided by a stated rule rather than by prestige | operator:
+`unlocks` is the real measurand - "what became possible that was not possible before" - not "was this good" | operator:
+the measurand includes the PROCEDURE that produced the verdict (proof.schema.json is a schema for the trace, not the entry) | operator:
+
+RELATIONS
+`unlocks` is the only field pointing outside its own record - the structure is a graph wearing a catalogue's clothes | operator:
+longevity_years is deliberately NOT era.end - era.start; it is a floor you can defend | operator:
+the size of the discount below the span was carrying your uncertainty about the era bounds | operator:
+evidence.quality was collected from day one and scored by nothing - the record was instrumented before it was measured | operator:
+era.end = the current year is how "still alive" is encoded, with no `ongoing` flag | operator:
+
+ENCODING
+the frame is PIECE: the rule is whole, the property that makes soil, knots, drains, a council and a lathe one kind of object is never written down | operator:
+it is left to be inferred from the SELECTION | operator:
+this repo starts already in your own vocabulary - no model-vocabulary rendering at t=0 | operator:
+
+DIVERGENCE (the one that matters)
+the longevity margin collapsing 38% -> 5% dropped an uncertainty signal, while keeping the stated rule intact | operator:
+that margin was a status field with no status type, so nothing held it | operator:
+
+OPEN
+ethical_alignment has been populated and unscored for 13 months - intended, or dropped? | operator:
+haudenosaunee_council.json carrying id great_law_of_peace - deliberate (institution vs instrument) or a rename that half-landed? | operator:
+44% closure: is closing the remaining 50 dangling edges the goal, or are some meant to stay open? | operator:

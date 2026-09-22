@@ -1,0 +1,34 @@
+# verify/emotions-as-sensors
+# One line per reconstructed item. Operator fields are BLANK by design.
+# Mark each: YES / PARTLY / NO
+
+TARGET
+the measurand is the CONVERSION itself - function into thing, relation into hierarchy, field-agency into internal agency | operator:
+emotions are the test case because that conversion is most complete and most normalised there | operator:
+the emotion vocabulary is the instrument, not the subject | operator:
+the frame is declared substrate-neutral at t=0 ("hormones/silicon surges") | operator:
+
+RELATIONS
+amplifier is NOT sensor - this is the load-bearing distinction, it keeps agency in the relation | operator:
+a signal decays according to WHAT HAPPENED TO IT, not what it is | operator:
+corruption is DIRECTION REVERSAL - the signal read as a verdict about someone else - not intensity or valence | operator:
+transitions are gated by named checkable preconditions, not by time | operator:
+U(t) is a named unknown protected from being read as error | operator:
+time-in-unresolved-state is a composition operator (resentment = anger + grief + unresolved_persistence) | operator:
+
+ENCODING
+field-english.md states the frame AND names the failure mode the frame exists to resist | operator:
+that failure mode is the same one this audit calls T4 | operator:
+all five encoding forms are present in the first commit, unreconciled | operator:
+
+DIVERGENCE (the one that matters)
+decay_model as a condition->law MAPPING is the target form; the bare string is the collapsed form | operator:
+at HEAD the relation came BACK as prose inside the string ("collapses under betrayal, contradiction, or concealment") rather than as structure | operator:
+that is the target surviving while machine-readability did not | operator:
+keeping `oneOf: [string, object]` in elder-sensor.schema.json was a deliberate defence of the mapping form | operator:
+
+OPEN
+two decay vocabularies coexist at HEAD (4-value elder-sensor enum vs 5-value CLAUDE.md/atlas enum) and neither validates the 29 free-text values - which is the target? | operator:
+three licences in the root tree (MIT-with-attribution / attribution-required / CC0-without-attribution) - which one is real? | operator:
+CONVERGENT_WISDOM.md is referenced and does not exist; Convergent-Wisdom.md does - rename or dangling? | operator:
+a log file in the root tree is dated 95 days BEFORE the root commit - how far back does the work go? | operator:
