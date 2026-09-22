@@ -358,6 +358,10 @@ are distinguishable from inference. Keep them distinguishable.
                           second gate-kind-6 instance; the pathologization
                           measurand dated 2025-10-13; and the pilot
                           selection rule's bias
+    PHYSICS-GROUND.md     is physics-as-terminal-ground a cultural
+                          artifact or a post-hoc selection? Tested; does
+                          not cleanly separate. Post-hoc INVENTION
+                          refuted; post-hoc SELECTION untouched.
     PREDICTION-quantity.md  a falsifiable prediction about the SHAPE of
                           the uncaught set, tested against the record.
                           Survived: 8 self-catches, all with a quantity;
