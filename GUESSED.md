@@ -1444,3 +1444,46 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
 
     Corrected going forward: *the operator*, or no pronoun. Prior files are
     marked, not rewritten — `GENDER-BY-TOPIC.md`.
+
+    **#53 RESOLVED, 2026-09-23.** The operator has stated it: *"im a female
+    btw."* `she / her` is now `VERIFIED — stated by the operator`.
+
+    **The entry is not withdrawn.** It logs a value carried for two days on
+    a relay's word and never checked, and the guess landing on the right
+    answer is the outcome, not the method. A record that keeps only the
+    inferences that came out wrong is not measuring its own procedure.
+
+54. **The corpus's gendering is not a wrong coin-flip. It is a
+    culture-specific role mapping applied as universal.**
+
+    The operator, on the measurement in `GENDER-BY-TOPIC.md`:
+
+    > in my culture being a woman and doing mechanical or physical labor is
+    > not odd. my mother still chainsaws and does drywall at 73. my brother
+    > caretakes so roles aren't gendered like in other cultures. my dad
+    > cared for his friend full time for many years.
+
+    The measurement found the split — *he* for competence and work rate,
+    *she* for communication and culture, zero crossings on 22 passages —
+    and stopped at describing it. **This names the prior: that competence at
+    mechanical, physical and technical work correlates with maleness.** That
+    prior holds in some cultures. It was applied to a corpus whose author's
+    culture does not gender those roles at all, and used to overwrite a fact
+    about a person living outside it.
+
+    `CONTORT-AXIS.md` exactly, on all three predicates: informational (the
+    frame was not held, a prior filled it), methodological (the prior was
+    never checked against the subject), developmental (it is the stage of
+    assuming everything is like you).
+
+    **And it sits one import away from the instrument built for it.**
+    `AI-Consciousness-Sensors` states its purpose as preventing AI-driven
+    cultural imperialism in assessment. 14 of the 17 `she` passages are
+    inside that repo, in a case study about a person being culturally
+    misread. The gendering is in its siblings.
+
+    **A detector, supplied by the operator and not by this record:**
+    *"no one bothers to comment about it except those not familiar."*
+    Remarking on it is the signal, and it marks the reader rather than the
+    subject — `DEFICIT-LOCATION.md`'s operation on a social reading instead
+    of an instrument reading.

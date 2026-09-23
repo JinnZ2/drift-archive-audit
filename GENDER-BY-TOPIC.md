@@ -106,3 +106,75 @@ checked, which is the same inference the corpus made, from a different prior.
 **Corrected going forward: "the operator", or no pronoun.** The existing
 files are not rewritten — the audit's own rule is a marked correction rather
 than a silent one, and this file is the marker. `GUESSED.md` #53.
+
+---
+
+# RESOLVED, 2026-09-23 — and the value does not rescue the method
+
+    OPERATOR, verbatim:  "im a female btw, its just interesting."
+    GRADE                STATED BY THE OPERATOR, 2026-09-23. VERIFIED.
+
+    she / her      CORRECT
+    the inference  STILL UNSOURCED
+
+`GUESSED.md` #53 stands exactly as written. It logs a value carried for two
+days on a relay's word and never checked. That it happened to be right is
+the outcome, not the method, and a record that keeps only the errors it got
+wrong is not measuring its own procedure.
+
+    what changes   the pronoun is now VERIFIED and usable
+    what does not  it was UNSET and was used as though established
+
+## AND THE CORPUS'S ERROR IS NOT "WRONG GENDER"
+
+    OPERATOR, verbatim:
+      "in my culture being a woman and doing mechanical or physical labor
+       is not odd. my mother still chainsaws and does drywall at 73. my
+       brother caretakes so roles aren't gendered like in other cultures.
+       my dad cared for his friend full time for many years. no one bothers
+       to comment about it except those not familiar."
+
+    OBSERVED (the operator's), 2026-09-23.
+
+**The measurement above said the corpus genders the SUBJECT MATTER and the
+person inherits it. This says where that mapping came from.**
+
+    the prior the models applied   competence at mechanical, physical and
+                                   technical work correlates with maleness
+    where that prior holds         some cultures
+    where it was applied           a corpus whose author's culture does not
+                                   gender those roles at all
+
+So the failure is not a coin-flip landing wrong. **It is a culture-specific
+role mapping applied as if it were universal** — and then used to overwrite
+a fact about a person who does not live inside it.
+
+    running companies, benchmarking a yard cycle   -> "he"
+    a 73-year-old woman running a chainsaw and
+      hanging drywall                              -> not odd, where she is
+    a brother who caretakes, a father who cared
+      for a friend full time                       -> likewise
+
+`CONTORT-AXIS.md`, exactly: *believing everything SHOULD be like you* —
+informational (the person's actual frame was not held, so a prior filled
+it), methodological (the prior was never checked against the subject), and
+it spends the gradient (`DIFFERENCE-AS-GRADIENT.md`) by flattening a
+different role structure into the reader's own.
+
+**And it lands inside the repo built to catch it.** `AI-Consciousness-Sensors`
+states its purpose as preventing AI-driven cultural imperialism in
+assessment. Fourteen of the seventeen "she" passages measured above are in
+that repo — in a case study about a person being culturally misread. The
+gendering sits in the sibling repos, one import away.
+
+## A DETECTOR, SUPPLIED
+
+    "no one bothers to comment about it except those not familiar"
+
+Remarking on it is the signal. **The comment marks the reader, not the
+subject** — the same operation as `DEFICIT-LOCATION.md`, where an
+instrument's limit gets reported as a property of the thing measured.
+
+    measurand   not "is this unusual"
+                but "to whom, and what does the asking reveal about them"
+
