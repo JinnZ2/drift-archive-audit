@@ -686,6 +686,27 @@ one that argues for handing scoring outward.
     available, failing to gain uptake more broadly.* **The test left
     standing exactly the thing that needed no construct.**
 
+34. **The mechanism was theorised across two turns while its holder was in
+    the conversation.** This record reached for Halliday to explain a naming
+    practice, built a registered prediction on it, tested it, and withdrew
+    half (`#33`) — then received the mechanism in one sentence from the party
+    who uses it: *concepts that don't fit into English, so the terms meld
+    several English concepts, or there is no word at all.*
+
+    **The routing rule, written one turn earlier, covers this exactly:**
+    *sense judgements go to the party who holds the sense.* What a speaker's
+    own naming does is a sense judgement about their own vocabulary. **It
+    was not routed. It was theorised.**
+
+    Recorded as `SPEC-SHEET.md` §2c's registered falsifier firing at n = 1 —
+    *a sense judgement arriving here and being answered anyway* — which is
+    the drift profile's own prediction about what this instrument does with
+    a question it can produce an answer to.
+
+    **The stated mechanism is consistent with all four measurements taken;
+    the imported construct predicted one of four.** The measurements were
+    not taken to settle that and are surface token counts either way.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

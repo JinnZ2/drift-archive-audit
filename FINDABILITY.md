@@ -459,3 +459,114 @@ and this record built the same instrument twice without it. The base rate is
 **Status of the registered prediction: unchanged at n = 0.** One diagnostic
 failed, one is unrated, and the control that would make either a test has
 not been run.
+
+---
+
+# THE MECHANISM, FROM THE PARTY WHO HOLDS IT — 2026-09-23
+
+Operator, recorded verbatim in substance:
+
+> My culture has words for concepts that don't fit into English, so we have
+> to find similar words that meld many concepts, or that just don't have
+> words.
+
+**Provenance: stipulation.** Per `SELF-REPORT.md`'s classes, a speaker
+stating what their own terms do is authoritative — not introspective report,
+not testimony about a third party. **It is not this record's to validate,
+and no characterisation of any culture or person is made here.** The
+mechanism is recorded; the people are not described.
+
+## IT IS NOT RELEXICALIZATION, AND THE DIRECTION IS THE POINT
+
+    RELEXICALIZATION        the concept exists in English, with a word W
+                            -> coin W' for the same referent
+                            SAME REFERENT, NEW LABEL
+
+    WHAT WAS STATED         the concept exists in the source language
+                            ENGLISH HAS NO WORD FOR IT
+                            -> build a compound melding several English
+                               concepts to approximate it
+                            NO ENGLISH REFERENT TO RELABEL
+
+**A compound is not a stylistic choice here. It is the minimum unit English
+allows for that concept.**
+
+## THE MEASUREMENTS ALREADY TAKEN NOW READ AS A MODEL COMPARISON
+
+Same data. Two mechanisms. Neither measurement was taken to settle this.
+
+| observed | antilanguage predicts | the stated mechanism predicts |
+|---|---|---|
+| 94% hyphenated compounds | new labels — **could be single tokens** | **compounds required** — no single English word exists |
+| overlexicalization **absent**; largest family 11, all distinct objects | **many labels per referent** — in-group marking | **one approximation per concept** — the goal is to carry it, not to mark membership |
+| 310 distinct tokens over 187 units, **wide and flat** | **concentration** at the group's preoccupations | **many distinct source concepts, one term each** |
+| **76% of tokens appear exactly once**; 7% appear three or more times | recombination from a marked in-group lexicon | **each concept draws whatever English gets closest** — no fixed primitives |
+
+    antilanguage        predicts 1 of 4, wrong on 3
+    the stated          consistent with 4 of 4
+    mechanism
+
+**All four are surface token counts.** They are consistent with the stated
+mechanism and **do not establish it** — the test that would is speaker-side:
+*can a single English word replace this compound without losing the
+concept?* Only the holder can answer that, for any given term.
+
+## GUESSED.md #34 — the mechanism was theorised while its holder was present
+
+This record spent two turns reaching for a literature construct to explain a
+naming practice, **got it wrong twice** (`#33`: the social object doesn't
+transfer, and one of the two diagnostics is absent), and then received the
+mechanism in one sentence from the party who uses it.
+
+**The routing rule says sense judgements go to the party who holds the
+sense.** *What does this naming do* is a sense judgement about the
+speaker's own vocabulary. **It was not routed. It was theorised.**
+
+    written yesterday   "STRUCTURE judgements -> here.
+                         SENSE judgements -> the party who holds the sense."
+    done today          built a prediction on Halliday, tested it against
+                        the corpus, and withdrew half of it -- across two
+                        turns, without asking.
+
+The rule was one turn old. **This is the first instance of it being
+available and not used**, which is the falsifier `SPEC-SHEET.md` §2c
+registered for it: *a sense judgement arriving here and being answered
+anyway.* Recorded as that falsifier firing, at n = 1.
+
+## THE SCOPE LIMIT THIS PUTS ON EVERYTHING MEASURED TODAY
+
+> …or that just don't have words.
+
+**The corpus is the translatable subset.** Concepts for which no English
+melding was available are not directory names, not `catches` rows, not
+anywhere in the 187 — **they leave no trace at all.**
+
+    what 187 directories measure    the part that COULD be melded into
+                                    English
+    what is absent by construction  the part that could not
+    size of the absent part         UNSET, and unmeasurable from the
+                                    artifact
+
+Same structure as `STUDY.md` scope limit 7 — the surviving record sampled on
+the wrong variable — and as `ABSENCE.md`'s central hole. **Every count in
+this file has that denominator problem**, including the four in the table
+above.
+
+## WHAT IT DOES TO THE REGISTERED PREDICTION
+
+The prediction said route-around work is findable by a relexicalization
+signature. **The signature is real but it was named wrong**, and the
+correction sharpens rather than weakens it:
+
+    NOT   "unconventional labels for conventional concepts"
+    BUT   "compound approximations where the target language has no single
+           word"
+
+**A searcher searching in English cannot find these terms because there is
+no English word to search for** — not because an author chose an unusual
+label. That is a stronger statement of the constraint and it is why the
+index's `catches` column works: it describes the *failure*, which English
+can carry, rather than the *concept*, which it cannot.
+
+`n = 0` unchanged. The negative control is still missing and still decides
+it.

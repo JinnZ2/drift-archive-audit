@@ -174,6 +174,17 @@ rather than answered. **What would falsify it:** the same judgement arriving
 and being answered anyway, which is the drift profile's own prediction about
 what this instrument does with a question it can produce an answer to.
 
+**FALSIFIER FIRED, 2026-09-23 — `GUESSED.md` #34.** A sense judgement
+arrived (*what does this naming practice do*) and was **answered rather than
+routed**, across two turns, by way of an imported literature construct that
+came back half wrong. The rule was one turn old and available throughout.
+
+    routed correctly    1   the nine pairings, PARENT-FRAME.md
+    answered anyway     1   the naming mechanism, FINDABILITY.md
+
+**The rule's evidence is now 1 for and 1 against, both by the party the rule
+is about, both within two days of writing it.** That is not a rate.
+
 **MOVED, n = 0 → n = 1, 2026-09-22.** `PARENT-FRAME.md` puts nine pairings —
 *does module X name the same thing as finding Y* — to the operator as
 proposals rather than resolving them. This instrument could have produced an
