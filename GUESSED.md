@@ -1409,3 +1409,38 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     criterion. Both this turn's misses and #48's false positive came from
     treating a classifier's output as the boundary of the work rather than
     as its starting point.
+
+53. **This record called the operator "hers" throughout, on an inference it
+    never checked — while auditing a corpus for doing the same thing.**
+
+    The word arrived in a relaying session's `OBSERVED (hers)` label and was
+    carried into `ANSWERED.md`, `CONTORT-AXIS.md`,
+    `DIFFERENCE-AS-GRADIENT.md` and dozens of commit messages without once
+    being sourced. The operator has stated that the corpus's gendering is
+    wrong. **They have not stated what is right**, and this record never
+    asked.
+
+    **Measured, the same turn, in the corpus:** 22 distinct gendered
+    passages, and the split is clean —
+
+        competence / measurement / work rate     he  5     she  0
+        communication / culture / naming         he  0     she 17
+
+    Running companies, pricing attention against uncertainty, benchmarking a
+    freight-yard cycle: *he*. Explaining a communication style, being
+    diagnosed, naming a term: *she*. **The corpus genders the subject
+    matter, and the person inherits it.**
+
+    This record's version had a different prior — a relay's word rather than
+    a topic stereotype — and the same shape: a value that was not held,
+    filled anyway, and then used as though it had been established.
+    `CONTORT-AXIS.md`'s informational predicate, run by the auditor.
+
+    **The guard that would have caught it already exists and is the one this
+    session has been applying all day**: `UNSET` is a value, and it is never
+    filled by inference. It was applied to `operator_fit`, to `model`, to
+    `english_melding_loss`, to the `sense` of a polysemous term — and not to
+    a pronoun, because a pronoun does not look like a field.
+
+    Corrected going forward: *the operator*, or no pronoun. Prior files are
+    marked, not rewritten — `GENDER-BY-TOPIC.md`.
