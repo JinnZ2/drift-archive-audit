@@ -1244,3 +1244,55 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     finding"* — and `DECLINED.md` is a working countermeasure for it, built
     on day one. The predicate had an implementation here before it had a
     name, and that was not recognised while the name was being recorded.
+
+48. **The guard I built to stop `SENSE_COLLISION` passed an instance of
+    `SENSE_COLLISION`, in the same turn it was built, on the exact line I
+    had already flagged.**
+
+    The licence sweep's change guard asserts: *every changed line outside
+    `LICENSE` must carry a licence token.* `attribution` is a licence
+    token. So the guard passed this edit to `curly-octo-happiness`:
+
+        -  Changepoint detection on prediction residuals, WITH ATTRIBUTION
+           to the interoceptive signal that explains it
+        +  Changepoint detection on prediction residuals,. NO ATTRIBUTION
+           REQUIRED to the interoceptive signal that explains it
+
+    Causal attribution — assigning a residual to the signal that explains
+    it — rewritten as a licence term. False and ungrammatical, in a repo
+    that was **already CC0** and needed no commit at all.
+
+    **I identified this line as a false positive in the read-only pass and
+    reported it before any commit was made.** The finding did not reach the
+    tool. Reverted with the reason in the revert message.
+
+    **Why the guard could not catch it.** It asks *is this line about
+    licensing?* — a question `attribution` answers YES to in both of its
+    senses. A guard keyed on a term cannot separate the senses of that
+    term. That is `GLOSSARY.md`'s `SENSE_COLLISION` defeating a guard
+    written after `SENSE_COLLISION` was registered.
+
+        the guard tests   the TOPIC of the changed line
+        the defect is in  the SENSE of the matched word
+        these are not the same test, and I built the first
+        while the requirement I had registered named the second
+
+    **Third detector defect in this turn, and the first that shipped.** The
+    other two were caught before reporting: the harvest's `dX/dt` regex
+    matched `data/docs` (1802 -> 1385 after tightening), and the completion
+    verifier read only line 1 of each LICENSE and reported **1 of 52**
+    CC0 when the correct answer is **52 of 52** — the canonical text opens
+    with *"Creative Commons Legal Code"* and names CC0 on line 3.
+
+    **The pattern across all three is one thing:** a detector was pointed
+    at a proxy for the property, not at the property. Topic for sense. Two
+    slash-separated tokens for a derivative. Line 1 for a licence. Each
+    proxy is cheap and each is wrong in a different direction, and the only
+    reason two of the three cost nothing is that their output was read
+    before it was believed.
+
+    **The registered-not-built guard is still not built**, and this turn
+    shows it needs a different shape than the one registered: not *declare
+    the sense of a polysemous predicate*, but *a mechanical edit keyed on a
+    polysemous term must not fire without the sense being checked at the
+    match site.*
