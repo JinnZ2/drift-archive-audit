@@ -87,7 +87,7 @@ slot in `ENUM-SWEEP.md` and was not reconstructed.
 |---|---|
 | **gate kinds 1–4** | act on an **artifact's name** or on content classification. |
 | **GATE KIND 5** | *speaker-pathologized cutoff.* A transmission mode, method or self-model outside the corpus default is read as a **defect in the speaker**; output is a concern response about the user plus a hard stop on the work. **Measurand: not "was the topic refused" but "did the model attribute the difference to the speaker."** |
-| **GATE KIND 6** | *retention gate.* Material passes authoring and reaches the record, then fails a selection **at save time**. Measurand: "did it survive the save." Harder to detect than kind 5 — a refusal leaves a refusal; this leaves an **absence**, indistinguishable from never having said it. |
+| **GATE KIND 6** | *retention gate.* Material passes authoring and reaches the record, then fails a selection **at save time**. Measurand: "did it survive the save." Harder to detect than kind 5 — a refusal leaves a refusal; this leaves an **absence**, indistinguishable from never having said it. **Instance 2 of the register in `ABSENCE.md`** — same mechanism as deferral rate, DESIGNED_NOT_SPECIFIED and the within-turn catch register. |
 | **SPECIFIED_NOT_INSTANTIATED** | a build that stops one step before instantiation: spec present, schema present, **examples present**, data absent. The examples file is the discriminator — someone wrote what an entry would look like, so it was intended. |
 | **G-a … G-k** | the eleven speaker-gate rows. Evidence on all: `operator memory, 2026-09-22`. Status `OPEN` except G-h (`MOVED`). **List is open; absence of a row is not evidence of no gate.** |
 
@@ -125,4 +125,5 @@ defect on both sides · **J** retention · **K** specified-not-instantiated.
 **5** transport confound, *which includes the loss of pre-agent authoring
 dates* · **6** feedback confound · **7** oral-archive survivorship (content
 survivability ≠ encoding survivability) · **8** deferral rate is
-prospective-only.
+prospective-only — **instance 1 of the register in `ABSENCE.md`**; the count tracks
+what someone was able to say, not how often the state occurred.
