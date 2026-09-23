@@ -610,3 +610,70 @@ to catch — and per `TRAIL.md` it argues nothing on its own. `UNRATED`.
     read:    README, BNRAM_STRICT.md, PVL.md
     unread:  every simulator folder, PROTOCOL, PREAMBLE, SYNTHESIS,
              grounding-layers/CLAIMS.md
+
+
+---
+
+# `dialogue` — candidates, 2026-09-23
+
+**Basis: model recall. Nothing retrieved, nothing checked. Fit `UNRATED`.**
+Under `tools/sourced.py`'s gate these are `UNRECORDED` until a retrieved
+source names a locator.
+
+Supplied sense, for reference only — **the candidates are measured against
+it, it is not measured against them**:
+
+> use of language as a tool to search for common understandings of concepts
+
+    inquiry dialogue        Walton & Krabbe, argumentation theory
+      covers  search, no position to defend -- one of six dialogue
+              TYPES, against persuasion / negotiation / eristic
+      misses  goal is proving or disproving a proposition, not
+              concept understanding
+
+    Bohm dialogue           David Bohm, On Dialogue
+      covers  common understanding as the goal, positions suspended;
+              explicitly contrasted with discussion (breaking apart,
+              winning)
+      misses  collective-thought framing; "tool" not central
+
+    grounding / common      Clark & Brennan; Stalnaker
+    ground
+      covers  "common", and it is operationalized
+      misses  scoped to what the exchange needs, not concepts as such
+
+    negotiation of meaning  second-language acquisition (Long)
+      covers  language as the adjustable tool, cross-background
+      misses  scoped to learners
+
+    elenchus / dialectic    Socratic
+      covers  concept search
+      misses  refutation structure; adversarial
+
+    ontology alignment      computer science
+      covers  joining concepts across frames
+      misses  not conversational
+
+**Relayed note, theirs, carried not adopted:** *inquiry dialogue is the one
+that names the distinction the corpus collapses — search vs persuasion as
+separate **TYPES**, not as tones of one activity.*
+
+## CORRECTION APPLIED TO AN EARLIER TABLE — operator-issued
+
+    hermeneutical injustice    STRONG -> PARTIAL
+
+> a miss that removes the intended use (measurement) is a different class
+> from a narrower referent. **I graded them the same.**
+
+**And the generalisation is the part to keep.** The `status` enum
+(MATCH / PARTIAL / NONE / UNCHECKED) measures **how much overlap**. It does
+not measure **what kind of miss**, and two kinds were being scored on one
+axis:
+
+    NARROWER_REFERENT     the term covers less of the same thing
+    REMOVES_INTENDED_USE  the term covers a different PURPOSE --
+                          the overlap is real and useless for the job
+
+**Proposed as a column, not imposed:** `miss_class`, same axis-separation
+argument as `source_kind`. Structure is this session's register; which class
+any given row falls in is not.

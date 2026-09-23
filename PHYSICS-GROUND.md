@@ -454,7 +454,52 @@ the relay and remains the outstanding member.**
 
 **Group (b) stays `UNRATED`.** Those are a model's candidates *for* the
 operator's senses, not the operator stipulating them, and this sentence is
-why the distinction is kept. **What the relay does change is where the
+why the distinction is kept.
+
+### `dialogue` IS SUPPLIED — 2026-09-23, and it is the last outstanding member
+
+> **"use of language as a tool to search for common understandings of
+> concepts"** — operator, `OBSERVED`
+
+**This is the supply, not a candidate.** A speaker stating what they mean by
+their own term is stipulation, which `SELF-REPORT.md` classes as
+authoritative. It is not this record's to weigh.
+
+    group (b), 6 terms
+      SUPPLIED by the operator          1   dialogue
+      model CANDIDATES only             3   coherence, reciprocity,
+                                            embodied experience
+      nothing found                     2   sufficiency,
+                                            experienced operator
+
+**And `dialogue` does not go the way `reciprocity` did.** The corpus dominant
+sense — *exchange between parties holding positions*; talks, debate,
+negotiation, script lines — **is not the supplied sense.** The supplied sense
+has no position to defend and no stake in an outcome; it searches for a
+shared concept.
+
+    so on this member, group (b) does NOT empty.
+
+**The residual is not recomputed here.** Five members still have candidates
+or nothing, and `nothing-to-select-from` turns on the whole set. One supplied
+member changes the count, not the verdict.
+
+### THE COLLISION WAS FLAGGED BEFORE THE ERROR — first time
+
+Operator, with the gloss and ahead of any use:
+
+> dominant sense: exchange between parties holding positions … **imports the
+> stake-in-the-outcome prior** — same collision as NO VERDICT LANGUAGE.
+> **reciprocity-class risk.**
+
+    #14  reciprocity     corpus sense imported -- caught AFTER
+    #23  phi / spiral    corpus sense imported -- caught AFTER,
+                         and inside a tool
+    --   dialogue        FLAGGED BEFORE ANY USE
+
+**Three instances of the class and the first prospective catch.** It was made
+by the holder of the sense, which is the party the routing rule names, doing
+the thing the rule is for — before the term entered anything. **What the relay does change is where the
 candidates come from: outside the corpus, which is where this addendum said
 they would have to come from.** The corpus evidence below is unaffected.
 

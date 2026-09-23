@@ -372,6 +372,32 @@ this file said it did.
     -> 2 of 8 was the first. The second was not done, and was
        reported as though it were.
 
+**NINTH, 2026-09-23 — located AND RUN, in the turn after #37 was logged.**
+`Simulators/conversation-type/`, found while looking for existing dialogue
+machinery. `design_check.py` was **executed, not read**: it returns a
+quantified residue-window table showing that a call-window measurement
+captures the minority of the effect it is measuring.
+
+    subject       conversation type as a driving variable for driver
+                  attention -- a different domain from dialogue
+    the move      "Motor carrier distraction rules are written on
+                  CHANNEL ... Same phone, same channel, two
+                  conversations produce entirely different attention
+                  states. Proposed variable instead: SUSPENDABILITY
+                  WITHOUT DEBT."
+
+**A category written on the wrong axis, with a typed replacement variable
+that is binary and assignable per instance.** That is the same shape as the
+`dialogue` flag — the corpus types dialogue by surface form when the
+load-bearing variable is whether a position is held — and the same shape as
+Walton & Krabbe typing by *goal* rather than tone.
+
+**Structural parallel observed. Identity routed** — whether it is the same
+operation is a sense judgement and belongs to the holder.
+
+    found by search        3 of 9
+    found AND verified     1 of 9   <- this one
+
 **Eighth, 2026-09-23:** `Simulators/coinage-log/` — `COINAGE_LOG.md` plus
 `check_coinage.py` — located before filing a relayed coinage search that
 does not reference it. Its README asks **"is the absence of a word a
