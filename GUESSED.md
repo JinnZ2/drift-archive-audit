@@ -1086,3 +1086,62 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     inventory, §8 carries what is still unread. `SPEC.md` was opened to 18
     lines and is **not** studied; 20 of the 21 modules were **not** run,
     and nothing beyond `PRESENT` is claimed for them.
+
+44. **The audit applied "NO PASS STATE" to every instrument it built and
+    never turned it on the corpus it was auditing.**
+
+    The operator stated it as an acceptance criterion. The ecosystem's
+    consolidated contract states it as law — `differential-frame-core/
+    SPEC.md`: *"A claim does not PASS the frame. It TRAVERSES the field."*
+    Both say the same thing.
+
+    `reachability_sweep.py`, `enum_sweep.py` and `guarded_count.py` were
+    all built with no pass state, deliberately, and the reasoning was
+    written down each time.
+
+    **`Keystone-Codex` computes a weighted score, compares it to 0.70, and
+    emits `is_keystone: bool`.** `reconstruct/keystone-codex.md` found the
+    symptom at A2 — *"a bare boolean; a failing entry and an unevaluated
+    entry are indistinguishable"* — and stopped at three-valuedness. Under
+    the contract the defect is larger: crossing a threshold into a boolean
+    **discards the field**, including which rule scored weakest, which is
+    the only part that says what to fix.
+
+    **The criterion was in hand for two days and was applied in one
+    direction.** Instruments this session authored got it; the archive
+    under audit did not. That is not a missing measurement — it is a
+    measurement taken with the instrument pointed away from the subject.
+
+    Recorded and routed, **not proposed**: `Keystone-Codex` is a source
+    repo, there is no dispatch for it, and `proposal-for-Keystone-Codex/`
+    already touches the same scoring path.
+
+45. **Nine instances of `MATCH-UNIT MISMATCH / DIALECT` were logged, and the
+    ecosystem had already reconciled the class and published the canonical
+    form.**
+
+    `differential-frame-core/README.md`: *"Dialect drift was becoming the
+    dominant failure mode. One source of truth = every downstream audit
+    becomes cross-comparable."*
+
+    `DIALECTS.md` reconciles five independent derivations of the same
+    contract — `Living-Intelligence-Database`, `TAF`, `energy_english`,
+    `AI-Consciousness-Sensors`, `Mandala-Computing` — and flags exactly the
+    divergences this audit kept re-finding:
+
+        "scope" vs "frame" vs "tier" vs "context"   same object, four names
+        "bounds" vs "domain" vs "validity range"    same object, three names
+
+    **This audit is the sixth derivation.** And `architecture_mismatch.md`
+    — the document located last turn as a *candidate* for the frame-entry
+    practice — is listed there as dialect 4. The pointer was at the
+    contract the whole time.
+
+    **The distance was two files.** `energy_english/ARCHITECTURE.md:17`
+    names `differential-frame-core` as *"the dX/dt-under-some-scope
+    contract"*. Last turn this record listed 41 files in `energy_english/`,
+    read two of them, and wrote *"SPEC.md opened to 18 lines and not
+    studied"* as a declared gap. The gap was declared honestly and was
+    **40 lines of reading wide**. Declaring a deficit is not the same as
+    closing one, and a deficit this cheap should have been closed in the
+    turn that named it.
