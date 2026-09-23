@@ -3,6 +3,26 @@
 # Mark each: YES / PARTLY / NO
 # Under CORRECTION-001 every item below is a FIRST-MODEL RENDERING.
 # You are marking whether it matches your aim, not whether you wrote it.
+#
+# rev 2, 2026-09-23 — item text UNCHANGED. What changed is the ADMISSIBLE
+# ANSWER SET. On any OPEN line, these are valid answers and are not evasions:
+#     NOT_OPERATOR_SET   the field was never an aim — no value was chosen
+#     NEITHER            both listed options are wrong
+#     BOTH               both held, at different times or in different places
+#     DON'T KNOW         asked and not recoverable from memory
+#     UNRECORDED         happened, not retained
+# 7 of the 10 OPEN items were written as a forced choice inside a set THIS
+# AUDIT picked. That is a defect in the form. The first item answered came
+# back from outside the set. See verify/ANSWERED.md.
+#
+# Answers are recorded in verify/ANSWERED.md with their provenance.
+# The operator fields below stay BLANK unless the operator marks them.
+#
+# rev 3, 2026-09-23 — THREE OPEN ITEMS NOW CARRY MARKS, and they were typed
+# by this session under operator dispatch, not by the operator directly.
+# The wording of each mark is the operator's, verbatim from that dispatch.
+# The 55 unmarked lines are untouched and stay blank by design.
+# Provenance for every mark: verify/ANSWERED.md.
 
 TARGET
 the measurand is the CONVERSION itself - function into thing, relation into hierarchy, field-agency into internal agency | operator:
@@ -31,6 +51,6 @@ keeping `oneOf: [string, object]` in elder-sensor.schema.json was a deliberate d
 
 OPEN
 two decay vocabularies coexist at HEAD (4-value elder-sensor enum vs 5-value CLAUDE.md/atlas enum) and neither validates the 29 free-text values - which is the target? | operator:
-three licences in the root tree (MIT-with-attribution / attribution-required / CC0-without-attribution) - which one is real? | operator:
+three licences in the root tree (MIT-with-attribution / attribution-required / CC0-without-attribution) - which one is real? | operator: TARGET = CC0 from root
 CONVERGENT_WISDOM.md is referenced and does not exist; Convergent-Wisdom.md does - rename or dangling? | operator:
 a log file in the root tree is dated 95 days BEFORE the root commit - how far back does the work go? | operator:

@@ -28,8 +28,23 @@ not require the provenance field simply drops it.
 | **`JinnZ2/JinnZ2`** | at pilot selection | profile README, declared parent frame | **READ 2026-09-22.** Nine candidate pairings with things this audit derived today, including `cross_model_basin_test.py`, which withdraws the `TRANSPORT×MODEL` closure. `PARENT-FRAME.md`, `GUESSED.md` #31 |
 | **`JinnZ2/JinnZ2/gate_log.md`** | 2026-09-22, and **it stands** | **reading it burns C-7's reference gate** — the unmediated operator reference must be described and hashed *before* any old rendering is read | **DECLINED AND STAYS DECLINED.** The staged amendment in `staged-for-JinnZ2-profile-repo/` is written and unapplied for this reason |
 | **`JinnZ2/Logic-Ferret`** | — | **not declined.** Read as a control fixture when named | two counterexamples found; `LOGIC-FERRET.md` |
+| **`JinnZ2/Simulators`** | — | **not declined.** Read 2026-09-23 when the operator asked whether it helps | **~200 directories.** `null-harness` generalises two instruments this session hand-rolled and its `CONSTANT_SILENT` verdict is `GUESSED.md` #26 exactly. Ten further name-level matches, **not read**. `SIMULATORS.md` |
+| **`Simulators/CATALOGUE.md`, `GAP_INDEX.md`, `instrument-index/`** | 2026-09-23 | not opened — the 187 directories were grepped by name instead | **OPENED THE NEXT TURN. `CATALOGUE.md` is not an index** (a Range Error Catalog, 12% incidental coverage, `GUESSED.md` #32). **`instrument-index/INSTRUMENT-INDEX.tsv` is** — 205 rows, 97%, keyed on a plain-language `catches` column. Four of this session's failures are rows in it. `SIMULATORS.md` |
+
+| **Halliday 1976, *Anti-Languages*** | 2026-09-23 | **not declined — UNREACHABLE.** Wiley, vdoc.pub and Wikipedia all `EGRESS_BLOCKED`; `curl` returns 403 at the tunnel, so it is the environment's network policy, not a tool limit | **OPEN and not closeable from here.** The construct stays at snippet level. `FINDABILITY.md`, `GUESSED.md` #33 |
+| **a conventional-corpus negative control** | 2026-09-23 | every repo reachable in this session is the same author's | **OPEN.** Without it the naming measures have no floor. `null-harness`'s `NO_DISCRIMINATION` case, unchecked. Base rate `UNSET` |
 
 ## TWO KINDS OF DECLINE, and the register's job is to keep them apart
+
+**A third kind arrived 2026-09-23: UNREACHABLE.** Not a gate, not a
+principle — an access boundary. It produces the same empty hand as the other
+two and is distinguishable only by being logged.
+
+    PROCEDURAL    a rule stopped the look        -> reversible
+    PRINCIPLED    looking destroys the measure   -> must not reverse
+    UNREACHABLE   the look was attempted and     -> reversible only from
+                  the environment refused           somewhere else
+
 
     PROCEDURAL   a gate, a scope rule, a not-selected. Produces an empty
                  hand for reasons unrelated to the material.

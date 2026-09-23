@@ -1,0 +1,591 @@
+# verify/ANSWERED — operator answers, one row per item, provenance kept split
+
+Answers arrive relayed. Three things travel together and are **never merged**
+into one row: what the operator said, what a relaying session inferred from
+it, and what this record then changed. Each gets its own line and its own
+grade.
+
+    the operator fields in verify/*.txt stay BLANK.
+    an answer is recorded HERE, with its grade. the form stays the index.
+
+---
+
+## BG-OPEN-1 — bio-grid, self-healing interval
+
+**The item, as the form asked it:**
+
+    self-healing interval: base64 says 2 minutes, both hex blobs say 20 min
+    - which is the target? | operator:
+
+**Operator, verbatim:**
+
+    "whatever the capabilities of the AI model at that time"
+
+    grade: operator memory, 2026-09-23. OBSERVED (hers).
+
+**Relaying session's reading, kept separate:**
+
+    interval is RENDERING, not TARGET                        DERIVED
+    2 min vs 20 min = two model renderings disagreeing,
+    no aim moved between them                                DERIVED
+    routing: TOOL-side (capability), not AGENT shaping       DERIVED
+    target field for the interval: NOT_OPERATOR_SET          DERIVED
+
+**What this record changes:**
+
+    BG-3 channel      UNATTRIBUTABLE -> TOOL_CANDIDATE
+    C-2 status        stays unresolved IN THE CORPUS; the QUESTION dissolves
+    new value         NOT_OPERATOR_SET, entered in GLOSSARY.md
+
+---
+
+## 1. THE QUESTION HAD A FALSE PRESUPPOSITION, AND IT WAS MINE
+
+`which is the target?` offers the set `{2 min, 20 min}`. The answer is
+outside it. The interval was **never a target field** — so the item is not
+answered, it is **dissolved**, and the defect is in the form.
+
+This is the audit's own rule, violated by an instrument the audit built:
+
+    UNSET, UNCLEAR and UNATTRIBUTABLE are valid, explicit values.
+
+The form offered no such value on this line. A two-valued question about a
+field that can be unset **pressures toward filling it**, which is the one
+thing the work order forbids outright.
+
+## 2. IT IS NOT ONE LINE — MEASURED
+
+Criterion, stated before running: an OPEN item is CLOSED-FORM if its text
+presents an explicit alternation the answer must fall inside — `which is` /
+`which one`, or `A, or B?`.
+
+    closed-form OPEN items:   7 of 10
+    open-form:                3 of 10   (two "how long / how far back",
+                                         one "did they exist?")
+
+    answered so far:          1
+    answers falling outside
+    the offered set:          1 of 1
+
+The criterion **undercounts**: `did they exist?` is a yes/no in substance and
+does not match the alternation pattern. The number stands as run; it is not
+re-derived after the result.
+
+## 3. THIS IS THE INVERSE OF THE ACCEPTANCE CRITERION
+
+The operator's third criterion for an instrument:
+
+    RETURNS A SET THE READER DIDN'T PICK.
+
+These forms do the opposite on 7 lines: they hand the operator a set **the
+audit picked**, and ask them to choose inside it. An instrument that can only
+return values its author enumerated cannot report that the author's
+enumeration was wrong — which is exactly what BG-OPEN-1 needed to report.
+
+## 4. THE REMEDY IS IN THE FORM, NOT IN THE WORDING
+
+Rewording seven questions is a naming remedy. The structural one is a
+standing answer set in the header, admissible on every OPEN line without the
+line having to offer it:
+
+    NOT_OPERATOR_SET   the field was never an aim — no value was chosen
+    NEITHER            both listed options are wrong
+    BOTH               both held, at different times or in different places
+    DON'T KNOW         asked and not recoverable from memory
+    UNRECORDED         happened, not retained
+
+`DON'T KNOW` already had a precedent inside the forms: `keystone-codex`'s
+DIVERGENCE line carries `YES / NO / DON'T KNOW` explicitly. One line of the
+three forms had the escape; the other 57 did not.
+
+    verify/*.txt header: rev 2, 2026-09-23. Item text UNCHANGED.
+    One item (BG-OPEN-1) was answered under rev 1. Its answer arrived from
+    outside the offered set anyway, which is how the defect surfaced.
+
+## 5. WHAT THE ANSWER SETTLES, AND WHAT IT DOES NOT
+
+    SETTLED    the interval was not operator-specified.
+               one of the two candidate sources for 2-vs-20 is removed.
+
+    NOT SETTLED
+               which model produced which value       UNSET
+                 (CORRECTION-001: source model per file is UNSET)
+               whether the gap is capability, sampling variance, or two
+                 different models                     UNSET
+               whether the corpus should now carry one value
+                 -> that is a repo decision, not an audit finding, and
+                    this audit commits nothing to source repos
+
+So `TOOL_CANDIDATE`, not `TOOL`. The operator's statement establishes the
+**absence of AGENT shaping** on this field. It does not establish a tool
+mechanism, and the two are not the same measurement.
+
+## 6. AN INDEPENDENT AGREEMENT, WORTH RECORDING BECAUSE IT WAS OUT OF SAMPLE
+
+`BG-3`'s split column has read **`RENDERING conflict`** since commit
+`d113f9d`, 2026-09-22 — written from the corpus, before any answer existed.
+The operator's answer, 2026-09-23, reaches the same classification from the
+other side.
+
+    A5 call:        RENDERING, not TARGET     (from the archive, 09-22)
+    operator:       not an aim at all         (from memory, 09-23)
+
+Two sources, no contact between them, same result. That is the first
+out-of-sample confirmation of an A5 classification in this audit. **n = 1**,
+and it is one line, not a rate.
+
+---
+
+## EA-OPEN-2 — emotions-as-sensors, three licences in the root tree
+
+**The item, as the form asked it:**
+
+    three licences in the root tree (MIT-with-attribution /
+    attribution-required / CC0-without-attribution) - which one is real?
+    | operator:
+
+**Operator:**
+
+    aim at root = CC0
+
+    grade: operator memory, 2026-09-23. OBSERVED (hers).
+
+**Relaying session's reading, kept separate:**
+
+    CC0 is TARGET; the other two are renderings that didn't match it   DERIVED
+    target held from root through today's "all CC0" — the aim never
+    moved, the renderings drifted around it                            DERIVED
+
+**Answer-set note:** this one landed **inside** the offered set. `BG-OPEN-1`
+did not. Running count: **2 answered, 1 outside the set.** The form defect in
+`GUESSED.md` #39 stands; it is not universal, and the rate is n = 2.
+
+## 1. INDEPENDENTLY CORROBORATED — the canonical slot never moved
+
+    Emotions-as-Sensors  LICENSE  blob at root  66b468e1f97e98096a7ce7103206990a39cd0c86
+                         LICENSE  blob at HEAD  66b468e1f97e98096a7ce7103206990a39cd0c86
+                         first line, both:      CC0 1.0 Universal Public Domain Dedication
+
+**Byte-identical across 123 commits.** `VERIFIED` by this session against the
+archive, and it was not asked for — it is the second `BG-7` shape in the
+pilot: the slot that carries the target is the one nothing touched.
+
+The operator's answer and the archive agree, and were produced without
+contact. **Second out-of-sample confirmation** (after `BG-3`). n = 2.
+
+## 2. THE DRIFT IS NOT AWAY FROM THE AIM — IT IS ACCRETION AROUND A STATIONARY ONE
+
+    site class                          root    HEAD    delta
+    canonical LICENSE = CC0              yes     yes    byte-identical
+    files carrying "CC0"                   9      48    +39
+    "no attribution required" /
+      "without attribution" statements     1       6     +5
+    bare-MIT project claims                4       4      0
+    "attribution required" /
+      "with attribution" claims            4       4      0
+
+    bare-MIT sites, root AND HEAD, same text, 14 months apart:
+        README.md:152   "released under the MIT License ... with attribution"
+        README.md:300   "Released under the MIT License."
+        sensors/README.md:100  "MIT License. Open-source, symbolic..."
+        src/ucm_monitor.py:14  "License: MIT (belongs to the commons)"
+                               (at root: ucm_monitor.py:14 — file moved, text did not)
+
+    attribution-required sites, all four in README.md, root AND HEAD:
+        :138 / :294  "Attribution required: Developed by JinnZ2 and
+                      Claude and ChatGPT"   (":281/:136" at root)
+        :152 / :301  "Free to use, adapt, and distribute with attribution."
+
+**The aim spread 5x. The contradicting renderings were never removed — not
+one, in 14 months.** The correction propagated by *addition*: 39 new files
+saying CC0, alongside four original sites still saying MIT, untouched.
+
+That is `BG-8`'s shape in a second repo — *"root files still byte-identical
+and still carrying a withdrawn figure with no marker in-file."* **D3-adjacent:
+a status field that was never applied to the original site.** Two repos, two
+domains, same mechanism. Recorded as a Phase B candidate, **not** a confirmed
+spanning frame: n = 2 and both were found by looking for them.
+
+## 3. THE CORPUS'S OWN REVIEW FOUND 2 OF 3 AND AIMED THE FIX AT A FILE WITH NOTHING IN IT
+
+`REVIEW.md` §1.2 is titled *"License contradiction — MIT vs CC0"*. It is
+already in the tree. Measured against the four sites:
+
+    REVIEW.md:40  names README.md and src/ucm_monitor.py       2 of 3 files
+    sensors/README.md:100                                      NOT NAMED
+    REVIEW.md:66  "Audit src/emotions_playground.py header
+                   for similar MIT strings"                    that file has
+                                                               NO MIT string
+
+So the conflict was found, written up, given a remedy — and the remedy has
+not been applied to any of the four sites, while one named target is empty
+and one real target is missing. **A correction can be present in the tree and
+still not reach the site.** Findability, inside the corpus, not this audit's.
+
+## 4. MY OWN COUNT WAS WRONG FIRST, AND THE CONTROL CAUGHT IT
+
+First pass counted files matching `with attribution|attribution required`:
+**1 at root, 5 at HEAD**, and was about to be reported as *"the contradicting
+rendering grew."*
+
+Three of those five say **"No attribution required"** — they AGREE with CC0.
+The regex counted agreement as contradiction. Correct figures are in §2:
+contradiction 4 → 4, agreement 1 → 6. The growth was on the target's side.
+
+    a count with no polarity control, run in the session that built
+    guarded_count.py for exactly this.
+
+Caught by reading the matched lines instead of the match count — which is the
+one habit the timeout finding turned into procedure. Logged: `GUESSED.md` #40.
+
+## 5. WHAT IS NOT SETTLED, AND IS NOT SETTLED HERE
+
+    Symbolic-Swarm-Index's own licence     ROUTED, NOT DECIDED
+
+`Symbolic-Swarm-Index/LICENSE.md` is a deliberate **MIT + CC0 "Gift
+Protocol"** with its own FAQ arguing the pairing on the merits; `CLAUDE.md`
+describes the directory as a self-contained subsystem with its own schemas,
+demos and docs. Eight of the twelve HEAD files mentioning MIT are describing
+*that* licence accurately.
+
+Two readings, both supported by the archive:
+
+    (a) "all CC0" covers the whole tree -> SSI's dual licence is a
+        rendering that does not match
+    (b) SSI is a separately-licensed subsystem, deliberately -> its
+        licence is its own target, and the tree has two aims, not one
+
+**Nothing here picks one.** This audit commits nothing to source repos, and
+choosing between (a) and (b) is settling a question by fiat. It is the one
+place the answer to `EA-OPEN-2` does not reach.
+
+    SSI scope: UNSET. Routed to the operator.
+
+---
+
+## KC-OPEN-1 — keystone-codex, `ethical_alignment` populated and unscored
+
+**The item, as the form asked it:**
+
+    ethical_alignment has been populated and unscored for 13 months -
+    intended, or dropped? | operator:
+
+**Operator:**
+
+    the field is a self-assessment record of a practice: entering another
+    culture's frame as close as possible, by thought-reasoning (not
+    feeling). NOT ethical alignment in the AI sense.
+    "meditation" and "experience" were both offered as names for it and
+    both are wrong.
+    see animal intelligence repo.
+
+    grade: operator memory, 2026-09-23. OBSERVED (hers).
+
+**Relaying session's reading, kept separate:**
+
+    unscored for 13 months -> MATCHES the aim (a record, not a score)  DERIVED
+    the field NAME -> rendering; the corpus sense was imported          DERIVED
+    miss_class of the name: WRONG_FRAME                                 DERIVED
+    target intact; the label drifted, the practice did not              DERIVED
+
+## 1. A THIRD ANSWER-SET OUTCOME, AND #39's COUNTER NEEDS THE BUCKET
+
+The offered set was `{intended, dropped}`. *Unscored matches the aim* is
+**inside** it — the binary was answerable. But the question asked about
+`ethical_alignment` **as if the name named the field**, and it does not. The
+set was fine; the referent was wrong.
+
+    BG-OPEN-1   answer outside the offered set
+    EA-OPEN-2   answer inside, question sound
+    KC-OPEN-1   answer inside, REFERENT MIS-SPECIFIED   <- new
+
+    running: 3 answered, 1 outside, 1 clean, 1 inside-but-mis-specified
+
+A form can offer a correct answer set to the wrong question. #39's remedy —
+a standing admissible answer set — does not touch this failure at all.
+
+## 2. THE NAME IS THE ONLY CARRIER OF SENSE IN THE SCHEMA — MEASURED
+
+    schema/keystone.schema.json, metrics.*  "description" present?
+        longevity_years                     NO
+        replication_regions                 NO
+        decentralization_score              NO
+        ethical_alignment                   NO
+
+**Four for four.** The schema types the field (`number`, 0–1) and says
+nothing about what it means. So when the name is a rendering, there is no
+second carrier to check it against — the import has nothing to contradict it.
+
+This is the `evidence.type` discipline's missing counterpart. That enum has a
+declared single source of truth and an H008 test that every value is used.
+**Field semantics have neither.**
+
+## 3. THREE RENDERINGS, ALL CONVERTING RECORD -> SCORE, ALL ON ONE DAY
+
+    root commit                                              2025-08-28
+
+    CLAUDE.md:128   "| metrics.ethical_alignment | float 0-1 |
+                     Optional ethical score |"               be471a3  2026-03-22
+    src/fieldlink_export.py:80
+                    "ethical_score": m.get("ethical_alignment")
+                                                             1906933  2026-03-22
+    .fieldlink.json:85
+                    "metrics.ethical_alignment":
+                        "protocol.ethical_score"             1906933  2026-03-22
+
+**206 days after root, in a single day, two of them in the same commit**
+(*"Redesign fieldlink as a substantial bridge to BioGrid2.0"*).
+
+The direction is uniform: **alignment -> score, record -> score.** Hers is
+*"NOT ethical alignment in the AI sense"* and *a record*. All three
+renderings moved the field the same way, and none of them is a measurement —
+no scorer consumes the value in any of the 13 months. `KC-10` measured that
+already; what it could not see is that the field being unscored was **the aim
+being honoured**, not a gap.
+
+## 4. THE RENDERING THAT LEAVES THE REPO IS THE ONE FURTHEST FROM THE AIM
+
+`.fieldlink.json` does not merely gloss the field — it **renames it across a
+repository boundary**, into `BioGrid2.0`'s `protocol.ethical_score`
+namespace. Downstream, the record's own name is gone.
+
+That is `Emotions-as-Sensors`' declared measurand, occurring in a third repo:
+*the CONVERSION itself — function into thing, relation into hierarchy.* Here:
+**record into score, at an export boundary.** Filed against `B2-2` (*"the
+record is a separate measurand from the thing"*) as an instance, **n = 1 for
+this direction**, not a frame.
+
+## 5. `miss_class` NEEDS A THIRD VALUE — REGISTERED, NOT ASSIGNED
+
+`LITERATURE_MAP.md` proposed the column with two values:
+
+    NARROWER_REFERENT      the term covers less of the same thing
+    REMOVES_INTENDED_USE   the term covers a different PURPOSE
+    WRONG_FRAME            <- ADDED 2026-09-23. the term is coherent and
+                              points into a DIFFERENT DOMAIN'S ontology.
+                              overlap is not partial, it is incidental.
+
+`ethical_alignment` read in the AI-alignment sense is not a narrower version
+of hers and does not merely remove the use — it lands in another field's
+vocabulary entirely and carries that field's assumptions with it.
+
+**Structure is this session's register; the assignment of this row is the
+relaying session's `DERIVED` and stays labelled as such.** Same split as
+`source_kind`.
+
+## 6. THE CANDIDATE TERMS — FIT UNRATED, AND IT IS NOT MINE TO RATE
+
+Four candidates arrived as `model_recall`, fit `UNRATED`. What this session
+can add is **structure only** — the axis each one is scoped on:
+
+    candidate                    scoped to        scoped by         verified here
+    cognitive empathy /          another mind     reasoning         CORROBORATED
+      perspective-taking                                            (not checked
+                                                                     against source)
+    Umwelt reconstruction        an organism's    description of    CORROBORATED
+      (von Uexkull)              perceptual world  sense organs
+    epoche / bracketing          your OWN frame   suspension        CORROBORATED
+      (Husserl)
+    participant observation      a culture        living there      CORROBORATED
+
+    hers needs:                  a CULTURE'S      reasoning, as a   --
+                                 frame            trained practice
+
+**No candidate is scoped on both axes.** Three match the method and miss the
+object; one matches the object and misses the method. That is a structural
+statement about the four, and it is **not** a judgment that none fits —
+whether the melding loss is acceptable is hers, per the routing rule.
+
+`CORROBORATED` throughout: these are training-knowledge readings of the
+terms, not checked against Uexkull or Husserl from here. `Halliday 1976` is
+already logged `UNREACHABLE`; the same limit applies.
+
+**Two names already rejected, recorded so they are not re-offered:**
+
+    "meditation"   flagged WRONG by the operator, 2026-09-23
+    "experience"   flagged WRONG by the operator, 2026-09-23
+
+Neither appears anywhere in this repo before now — they were offered in
+conversation and the rejection had no written home. It has one now.
+
+## 7. "SEE ANIMAL INTELLIGENCE REPO" — CANDIDATE LOCATED, FIT UNRATED
+
+No repository in the 100 returned by `list_repos` has `animal` in its name.
+The nearest match, located and read:
+
+    JinnZ2/Living-Intelligence-Database            VERIFIED present
+      schemas/animal.schema.json                   VERIFIED present
+      ontology/animal/  (bee, octopus, whale, ...) VERIFIED present
+      training/architecture_mismatch.md  153 lines VERIFIED present
+
+That document names a two-architecture distinction —
+
+    LANGUAGE-PRIMARY    language is the primary cognitive layer
+    SUBSTRATE-PRIMARY   spatial/physical/embodied cognition is primary;
+                        language is a secondary translation layer
+
+— and catalogues seven failure modes for a reader in the wrong one,
+including *"treating absence of documentation as absence of knowledge"*.
+
+It names a canonical upstream, and the upstream was checked rather than
+quoted:
+
+    JinnZ2/thermodynamic-accountability-framework/calibration/
+      architecture_mismatch.py                     VERIFIED present
+      convergent_ontology_mapper.py                VERIFIED present
+
+**Present is all that is claimed.** Whether either runs, and whether either
+does what its surrounding prose says, is NOT checked — `GUESSED.md` #37 is
+the standing reason that distinction is kept.
+
+**And whether this is the repo the operator meant is `UNRATED`.** It has
+animals and it has a frame-entry document; picking it on that resemblance is
+`GUESSED.md` #32 exactly. The candidate is named so the operator can confirm
+or redirect in one word.
+
+    the repo she meant                    UNRATED
+    whether architecture_mismatch.md IS
+      the practice, or a neighbour of it  UNRATED
+
+---
+
+## MARKS APPLIED — dispatch, 2026-09-23
+
+Three OPEN items now carry marks in `verify/*.txt`. **This session typed
+them; the operator did not.** The wording of each is verbatim from the
+dispatch that authorised it.
+
+    BG-OPEN-1  RENDERING, capability-set, NOT_OPERATOR_SET
+    EA-OPEN-2  TARGET = CC0 from root
+    KC-OPEN-1  TARGET = record, unscored by design;
+               label = WRONG_FRAME rendering
+
+    55 of 58 lines remain unmarked and untouched.
+
+**Why this is recorded rather than just done.** The forms' whole premise is
+that the operator fields are blank because only the operator can fill them —
+*"anyone else filling it = settling by fiat"*. A mark typed by the model is
+not the same object as a mark typed by the operator, even when the words are
+identical, and after a hundred commits nothing in the file itself would show
+the difference. `CORRECTION-001` exists because that distinction was lost
+once already, in the other direction.
+
+    who typed it        this session
+    whose words         the operator's, verbatim
+    what authorised it  dispatch, 2026-09-23, steps 5
+    what it is NOT      the operator marking the form
+
+If the forms are ever read as evidence of what the operator asserted, these
+three lines carry one more hop than the other 55 will.
+
+---
+
+## KC-OPEN-1 §6 — THE CANDIDATE GRADING IS VOID, AND THE CORPUS SAYS SO
+
+**2026-09-23.** The relaying session withdrew its own grading: *"all four
+candidates miss for the same cause — a locus requirement"* rested on
+**"senses" = biological receptor organs**, a sense used without being
+declared. The corpus default ran.
+
+**This record used the same undeclared sense**, one turn earlier, in §6
+above:
+
+    Umwelt reconstruction   scoped to  an organism's perceptual world
+                            scoped by  description of SENSE ORGANS
+
+and concluded *"No candidate is scoped on both axes."* That conclusion rests
+on the same word. **It is void with the rest, not re-graded.**
+
+    STATUS   §6's axis table and its conclusion: VOID, 2026-09-23
+    CAUSE    "senses" run in the corpus default, undeclared
+    NOT DONE re-grading under the other sense. Which sense the practice
+             runs on is the operator's, and a grading made to replace a
+             void one, by the party that made it void, is the same move
+             again.
+
+## THE TWO SENSES, AS SUPPLIED
+
+    BIOLOGICAL   receptor organs (eye, ear, skin, antenna, lateral line)
+                 feeding a perceiving subject.
+                 Uexkull's own frame: receptor -> Merkwelt,
+                                      effector -> Wirkwelt
+                 under this sense: crystal, plasma -> no senses -> MISS
+
+    PHYSICAL     any transduction of an environmental input into a change
+                 of the system's own state
+                     quartz    pressure -> voltage
+                     crystal   temperature -> lattice spacing
+                     plasma    field -> trajectory
+                     plant     light direction -> growth direction
+                 under this sense: every entity senses -> the miss shrinks
+
+## MEASURED — THE DATABASE ALREADY RUNS ON THE PHYSICAL SENSE
+
+`Living-Intelligence-Database`, 119 entities, read this time rather than
+inferred from the README.
+
+    entropy_profile.archetype, whole corpus
+        bridge   33
+        sensor   26     <---
+        engine   24
+        chassis  22
+        cycle    14
+
+    archetype = "sensor", BY ONTOLOGY
+        animal    17 of 40
+        plant      4 of 23
+        crystal    2 of 6     QUARTZ, TOUR
+        energy     1 of 15    RES_SENSOR
+        plasma     1 of 5     AURORA
+        temporal   1 of 6     ECHO
+
+    9 of the 26 sensors have no biological receptor organ.
+
+And the transduction is written into the record, not left implicit:
+
+    ontology/crystal/quartz.json
+      "description": "Piezoelectric mineral intelligence.
+                      Converts pressure to signal, ..."
+      "entropy_profile": { "archetype": "sensor" }
+      "attributes": { "piezoelectric_coefficient": { ... Cady 1946 ... } }
+
+**The artifact had already declared the sense, in a typed field, before the
+grading was made.** The corpus default was not merely undeclared — it was
+**contradicted by the corpus being graded**. A crystal is typed `sensor`
+there.
+
+    which sense the DATABASE runs on   PHYSICAL. measured, VERIFIED.
+    which sense the PRACTICE runs on   the operator's. UNSET, not inferred
+                                       from the database.
+
+## A GUARD FIRED, AND IT MATTERED
+
+A key-level scan of all 119 entities found **no** receptor/effector field and
+**no** directed input->state relation — every link type is symmetric
+(`synergy`, `resonance`, `energy_coupling`, `temporal_bridge`,
+`connected_to`). On that alone the honest report would have been *"the
+database does not encode transduction."*
+
+**That would have been a false zero.** A positive control run over the raw
+text — *piezoelectricity is real in quartz, so if the corpus encodes
+transduction anywhere it should appear* — returned 33 hits across 20
+entities, `QUARTZ` among them. The encoding is in `description`,
+`symbolic_code` and `archetype`, not in a relation type.
+
+    key-level scan        NOTHING FOUND    -> would have been reported
+    positive control      33 hits, 20 entities
+    verdict               DETECTOR_BLIND, not absence
+
+Same shape as `GUESSED.md` #26: the detector was pointed at one encoding of
+the thing and the corpus used another.
+
+## WHAT SURVIVES, AND WHAT THE TERM TABLE GOT RIGHT BY NOT SAYING
+
+`Keystone-Codex`'s `rules/term_table.json`, committed before this correction,
+carries the four candidates with `basis: model_recall`, `fit: UNRATED`, and
+`operator_fit: UNSET`. **No grading was written into it.** The void lands
+entirely in prose here and touches nothing in the source repo.
+
+That is not luck: `UNRATED` was entered because the fit was the operator's to
+give. The same discipline would have voided §6's table before it was written,
+had it been applied to the word rather than only to the verdict.

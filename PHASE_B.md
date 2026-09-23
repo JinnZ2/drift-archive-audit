@@ -62,6 +62,27 @@ Bio-Grid or Keystone at any commit. The substrate-neutrality claim (B1-c)
 survives; the claim that it travels as that specific four-part protocol does
 not. Retracted.
 
+### B1-e  CORRECTION PROPAGATES BY ADDITION, NEVER REACHING THE ORIGINAL SITE
+**CANDIDATE, n = 2, and both were found by looking for them.** Added 2026-09-23.
+
+    Bio-Grid   BG-8   2 root files byte-identical to 2025-07-10, still
+                      carrying a withdrawn figure, no marker in-file, while
+                      the withdrawal is written up in 5 other files
+    Emotions   EA-4   CC0-carrying files 9 -> 48; the 4 bare-MIT sites and
+                      the 4 attribution-required sites are 4 -> 4, same
+                      text, 14 months, while REVIEW.md names the conflict
+                      and prescribes the fix
+
+Same mechanism in two domains: the correction is **written**, propagates into
+new files, and the originating site is never edited. `D3-adjacent` in both —
+a status field that exists and was never applied where the claim lives.
+
+**Why it is a candidate and not a frame.** Both instances were surfaced by a
+search aimed at them. There is no denominator: how many corrections in these
+repos DID reach their original site has not been counted. Until it is, this
+is a shape seen twice, not a rate. `GUESSED.md` #25 is the standing reason
+that distinction is kept.
+
 ## B2  frames that exist ONLY across repos, never inside one
 
 **Not merged. Listed as spanning frames.**

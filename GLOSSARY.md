@@ -31,6 +31,8 @@ defect, not a neutral omission.
 | `PROPOSED` | a hypothesis with no number behind it |
 | `operator memory, <date>` | stated by the operator from recall. **A valid citation, and distinguishable from inference — keep it distinguishable.** |
 | `UNSET` / `UNCLEAR` / `UNATTRIBUTABLE` / `UNRECORDED` | **values, not placeholders.** Never filled by inference. `UNRECORDED` means unrecovered, not that nothing happened. |
+| `NOT_OPERATOR_SET` | **ADDED 2026-09-23.** A field that was never an aim — no value was chosen, so there is nothing for the archive to have drifted *from*. Narrower than `UNSET`: `UNSET` says the audit does not know the value, `NOT_OPERATOR_SET` says there was no value to know. Excludes AGENT shaping on that field; does **not** establish a TOOL mechanism. First use: `verify/ANSWERED.md` BG-OPEN-1. |
+| `SENSE_COLLISION` | **ADDED 2026-09-23.** A term is present in a DIFFERENT sense than the one being looked for, and is scored as the intended one. Distinct from `POLARITY` (#40), which reads a negation as the claim: here the word is not negated, it is a different word wearing the same spelling. Fourth route to a false reading, second that is a false POSITIVE. n = 2 — `GUESSED.md` #40 (`attribution`, causal vs credit) and #42 (`senses`, transduction vs receptor organ). **Not guarded.** |
 
 | `ENACTED` | **ADDED 2026-09-22.** Evidence carried in a pattern rather than in a field: a built thing, a route that worked, a readout carried across generations, a practice still running. **Not a weaker `VERIFIED`** — a different channel with a different collection cost. See `UNSATISFIABLE-REQUIREMENT.md` and `SHADOW-HUNTING.md` §2. |
 

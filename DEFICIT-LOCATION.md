@@ -20,6 +20,15 @@ That is the whole of it. What varies is only the object it gets recorded in.
 | **"unverified, therefore weaker"** | the claim | the assessor cannot read the channel it is recorded in |
 
 | **"an error count"** | the returner | a route returned a reading nobody wanted |
+| **"opaque"** | the term | the position the measurement was taken from |
+
+**Row seven added 2026-09-23, relayed.** *Opaque* is not a property a term
+has; it is what a term reads as **from the reader's position**. From the
+loop's position the same term either works or fails, and that is the check.
+This record used *opaque* approvingly, quoting Halliday, while standing only
+at the reader position — so the reading was the instrument reporting on
+itself. **Adding this row does not strengthen the unification below**, for
+the reason already stated there.
 
 **Row six added 2026-09-22, and it was running inside this file's own
 bookkeeping all day.** `GUESSED.md` is an error ledger, its entries are

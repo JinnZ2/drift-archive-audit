@@ -684,6 +684,32 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    DISPATCH-TERM-MAP-STEP0.md
+                          the TERM_MAP dispatch, stopped at step 0. Three
+                          calls the dispatch forbids making: term_table is
+                          a different key space, check_term_collision does
+                          not surface Dissonance (run: count 0), and there
+                          is no push access. Step 2 is already built as
+                          tools/sourced.py and stricter.
+    COINAGE-SEARCH-RECEIVED.md
+                          relayed coinage search, filed verbatim. The FIND
+                          check located Simulators/coinage-log/ with its
+                          own checker, which the relay does not reference.
+                          Candidates arrived for 5 of PHYSICS-GROUND's 6
+                          group (b) terms; dialogue outstanding; group (b)
+                          stays UNRATED because candidates are not the
+                          operator's supply.
+    TERM-MAP-RECEIVED.md  received TERM_MAP, filed verbatim. The FIND
+                          check was run BEFORE filing — first time — and
+                          returned three existing pieces of term
+                          machinery. What survives as new is
+                          operator_fit: a holder-only column whose
+                          default is UNSET, verified absent by grep.
+    SIMULATORS.md         JinnZ2/Simulators, read on request. null-harness
+                          is the general form of guarded_count and
+                          phi_null together, with an amplitude sweep and a
+                          CONSTANT_SILENT verdict that is GUESSED #26
+                          exactly. Ten further matches routed, not read.
     PARENT-FRAME.md       JinnZ2/JinnZ2 and AI-Consciousness-Sensors,
                           read. Nine candidate pairings routed to the
                           operator, not resolved here. Withdraws the
