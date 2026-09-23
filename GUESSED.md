@@ -1380,3 +1380,32 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     is prepared and not executed. On a classification that halved once, and
     one turn after #48 shipped from exactly this shape, running the
     deletion would be the same move a third time.
+
+52. **The CLASS A classifier missed three lines in one turn, and all three
+    were found by reading files while editing them.**
+
+        "Kavik, smaller frame, hands sized for the access geometry"
+        "the meditative practice Kavik described"
+        "Kavik pays attention -- that's why he can afford uncertainty"
+
+    Every one describes the person. None matched a key built from
+    person-nouns plus an is/was predicate, so all three sat in UNCLEAR while
+    54 rows sat in A.
+
+    **The floor was declared and the declaration did not make it true
+    enough.** `HARVEST.md` amendment 2 said *"54 is a floor with a known
+    direction of error"* — correct, and stated one turn before three
+    instances turned up. Naming a limit is not the same as acting as though
+    it holds: the ruling was executed against the 54, and the extra three
+    were caught only because editing a file means reading it.
+
+    **The residual is measured and left alone: 212 name-bearing rows across
+    15 repos.** Most are `[stated by Kavik]` provenance tags, which the
+    ruling keeps. Running a fourth mechanical pass over them is exactly the
+    move that produced #48, so it is not run.
+
+    **What this says about the whole classify-then-act shape:** a mechanical
+    classifier is useful for finding candidates and useless as a completion
+    criterion. Both this turn's misses and #48's false positive came from
+    treating a classifier's output as the boundary of the work rather than
+    as its starting point.

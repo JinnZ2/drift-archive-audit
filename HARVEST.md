@@ -3610,3 +3610,82 @@ about this turn:
 
     what is ready   a per-repo, per-line delete list, 54 rows
     what is needed  a go, or a correction to the classification
+
+---
+
+# AMENDMENT 3, 2026-09-23 — the CLASS A ruling, executed
+
+    OPERATOR RULING on the CLASS A list:
+      "In JinnZ2 folder is Fine… the others not good…
+       Even my gender is wrong."
+
+    KEPT       11 rows in the JinnZ2 profile repo — untouched.
+    ACTED      13 repos.
+
+## Treatment, per line kind
+
+    credit / provenance / byline   personal name -> JinnZ2
+                                   (the Shadow-Hunting precedent; co-credit
+                                   to Claude is provenance and is kept)
+    occupation / identity /
+      physical description         removed; the CONTENT it introduced stays
+    code identifiers               neutral label, no number or assertion
+                                   changed, tests re-run
+    pronouns the record guessed    removed, not replaced with a second guess
+
+## Repos changed
+
+    metabolic-accounting            6 bio lines + 38 identifiers; both test
+                                    files re-run and pass
+    AI-Consciousness-Sensors        2 background lines + 7 bylines
+    Seed-physics                   10 bylines (+ 10 stale "MIT License"
+                                    headers the licence sweep had left)
+    thermodynamic-accountability    3 identity lines + a function and a
+                                    practitioner id; validator re-run
+    Logic-Ferret                    2 lines the classifier missed
+    Mathematic-economics            2 bylines, 8 provenance lines, a
+                                    dataclass field, 2 guessed pronouns
+    Resilience-indigenous-worldwide 6 bylines
+    planetary-conservation          5 lines
+    earth-systems-physics           4 lines
+    TRDAP                           3 lines (+ a stale MIT header)
+    Geometric-to-Binary             1 byline
+    Sovereign-Octahedral-SOMS-      1 byline (+ a stale MIT header)
+
+## THE CLASSIFIER IS A FLOOR, AND IT MISSED THREE TIMES IN ONE TURN
+
+    thermodynamic-accountability   "Kavik, smaller frame, hands sized for
+                                    the access geometry"        -> UNCLEAR
+    Logic-Ferret                   "the meditative practice Kavik
+                                    described"                  -> UNCLEAR
+    Logic-Ferret / Mathematic-ec.  "Kavik pays attention -- that's why he
+                                    can afford uncertainty"     -> UNCLEAR
+
+All three describe the person. None matched a key built from person-nouns
+plus an is/was predicate. **CLASS A = 54 was a floor and is now known to
+have been one**; these were found by reading the files while editing them,
+not by the classifier.
+
+## RESIDUAL — measured, not cleaned
+
+Rows still carrying a personal name in repos not touched by this ruling:
+
+    98  Simulators                        1  chain-position-detectability
+    30  Component-failure-repurposing-db  1  Resilient-AI-Human-Collaboration-
+    23  Combine-Cognitive-Architecture-   1  Mandala-Computing
+    14  ai-human-audit-protocol           1  differential-frame-core
+    12  infrastructure-stability-model
+     8  Emotions-as-Sensors
+     7  Symbolic-sensor-suite
+     6  Inversion
+     4  Rosetta-Shape-Core
+     4  Polyhedral-Intelligence
+     2  Resilience
+    ----
+    212 rows across 15 repos
+
+Most are `[stated by Kavik]` provenance tags and `Kavik's rule` attributions
+— **provenance, which the ruling keeps** — but the same reading that found
+three misses above will find more here. **Not touched.** The ruling was on
+CLASS A, the classifier is a floor, and running a fourth mechanical pass over
+212 rows is the move that produced `GUESSED.md` #48.
