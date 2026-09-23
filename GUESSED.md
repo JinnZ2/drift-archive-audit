@@ -659,6 +659,33 @@ one that argues for handing scoring outward.
     reading its name — one command, not run until the operator asked a
     question that required it.
 
+33. **"MECHANISM: yes" for antilanguage, asserted without running either
+    diagnostic.** `FINDABILITY.md` recorded Halliday's construct as fitting
+    the mechanism while explicitly not fitting the social object. The second
+    half was flagged and stands. **The first was a reading of two snippet
+    definitions, not a test.**
+
+    Run on the corpus: **overlexicalization is ABSENT.** Halliday's
+    diagnostic is many terms for ONE referent — 41 for "police", 21 for
+    "bomb" in the reported Calcutta data. The largest family here is
+    `audit` at 11, and the eleven are **eleven distinct instruments, not
+    eleven words for one thing.** 310 distinct tokens across 187 units is a
+    wide flat vocabulary — the opposite shape from an antilanguage's
+    concentration, and the ordinary shape of a technical taxonomy.
+
+    Relexicalization stays `UNRATED`: 94% compounds is consistent with *new
+    words*, and *new words **for old*** needs a per-term check against
+    conventional vocabulary that was not run.
+
+    **And Halliday 1976 could not be read.** Wiley, vdoc.pub and Wikipedia
+    are all `EGRESS_BLOCKED`, and `curl` confirms the block is the
+    environment's network policy rather than a tool limitation — so the
+    construct stays at snippet level for anyone working from this record.
+
+    What survives is the clause that already fit: *a concept only locally
+    available, failing to gain uptake more broadly.* **The test left
+    standing exactly the thing that needed no construct.**
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

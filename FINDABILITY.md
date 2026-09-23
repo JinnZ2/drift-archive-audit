@@ -133,7 +133,7 @@ have meant something.
 
 | construct | what it names | fit |
 |---|---|---|
-| **Antilanguage** — Halliday 1976 | *relexicalization*: same grammar, different vocabulary. *Overlexicalization*: many terms for one referent, concentrated where the group's preoccupations are. **"An antilanguage can become opaque to outsiders."** | **MECHANISM: yes. SOCIAL OBJECT: no** — see below |
+| **Antilanguage** — Halliday 1976 | *relexicalization*: same grammar, different vocabulary. *Overlexicalization*: many terms for one referent, concentrated where the group's preoccupations are. **"An antilanguage can become opaque to outsiders."** | ~~MECHANISM: yes. SOCIAL OBJECT: no~~ **TESTED 2026-09-23 — one diagnostic is ABSENT. `GUESSED.md` #33, below.** |
 | **Hermeneutical injustice** — Fricker | *"a gap in collective interpretive resources puts someone at an unfair disadvantage in making sense of their social experiences"* | **partial** — here the resources are not missing, they are built and published |
 | **Contributory injustice** — Dotson | the marginalized person **possesses** the hermeneutical resources; a dominant group **willfully refuses** to take them up | **closest construct, wrong specification** — see below |
 
@@ -354,3 +354,108 @@ Before the next instrument is built in this programme:
 That cannot be done by the audit alone — by construction, since not having
 the vocabulary is the condition being described. **It is a FIND task, and it
 is the fourth entry on a list that had none.**
+
+
+---
+
+# TESTED — Halliday's diagnostics run against the corpus, 2026-09-23
+
+Operator instruction: *read Halliday 1976 and see — let's test.*
+
+## HALLIDAY 1976 IS UNREACHABLE FROM HERE
+
+    WebFetch  anthrosource.onlinelibrary.wiley.com   EGRESS_BLOCKED
+    WebFetch  vdoc.pub                               EGRESS_BLOCKED
+    WebFetch  en.wikipedia.org                       EGRESS_BLOCKED
+    curl      en.wikipedia.org   CONNECT tunnel failed, 403
+
+**Checked whether the block was tool-specific: it is not.** `curl` hits the
+same policy, so this is the environment's network egress policy and not a
+WebFetch limitation. **The primary source cannot be read in this session**,
+and the construct therefore stays at snippet level for anyone working from
+this record.
+
+`WebSearch` works, which is why snippets exist at all. **That asymmetry is
+the access limit, stated rather than worked around.**
+
+## THE TEST THAT COULD RUN — and it returns a NEGATIVE
+
+Halliday's two reported diagnostics, from the snippets:
+
+    RELEXICALIZATION    new words for old; same grammar, different
+                        vocabulary
+    OVERLEXICALIZATION  MANY TERMS FOR ONE REFERENT, concentrated where
+                        the group's preoccupations are.
+                        Benchmark from Mallik's Calcutta data, as
+                        reported: 41 words for "police", 21 for "bomb"
+
+### Overlexicalization: ABSENT
+
+    Simulators, 187 directories
+      distinct tokens (len > 2)            310
+      tokens appearing in >= 3 directories  22
+      directories touched by those          44%
+      LARGEST FAMILY                        audit, 11
+
+**And the largest family is not synonyms.** The eleven are
+
+    claim-audits · continuity-audit · effective-redundancy-audit ·
+    external-audit · falsifier-audit · frame-token-audit ·
+    household-scope-audit · neural-augmentation-audit ·
+    research-stability-audit · shape-spec-audit ·
+    thermal-sensor-degradation-audit
+
+**Eleven distinct objects, not eleven words for one thing.** Same for the
+six `gap` directories. Nothing in this corpus resembles 41 terms for one
+referent.
+
+### The profile is the OPPOSITE SHAPE
+
+    antilanguage        DEEP at few referents -- concentration
+    this corpus         WIDE and FLAT -- 310 distinct tokens across 187
+                        units, one term per concept, many concepts
+
+That is a technical taxonomy's profile, not an antilanguage's.
+
+### Relexicalization: UNVERIFIED, and it is the half that might hold
+
+94% hyphenated compounds is consistent with *new words*. Establishing *new
+words **for old*** requires checking, per term, whether a conventional term
+exists that the coinage displaced. **That was not done**, and it is the
+check that would decide the remaining half.
+
+## GUESSED.md #33 — "MECHANISM: yes" is withdrawn
+
+Yesterday's table recorded antilanguage as **MECHANISM: yes, SOCIAL OBJECT:
+no.** The social-object half was right and stands. **The mechanism half was
+asserted without running either diagnostic**, and one of the two now comes
+back absent.
+
+    antilanguage, corrected status
+      social object        NO      (unchanged, and it was flagged)
+      overlexicalization   ABSENT  (measured)
+      relexicalization     UNRATED (unverified; the deciding check)
+
+**What survives is what already fit best and needed none of this:** the
+uptake-failure clause — *a concept only locally available, failing to gain
+uptake more broadly.* It was the best fit before the test and is the only
+thing the test leaves standing.
+
+## THE NEGATIVE CONTROL IS STILL MISSING, AND IT IS THE WHOLE TEST
+
+The registered prediction's falsifier (b) — *a signature search returning
+predominantly non-route-around work* — **cannot be run here.** Every repo
+reachable in this session is the same author's, so there is no conventional
+corpus to measure a base rate against.
+
+    without it        "94% compounds" and "310 tokens / 187 units" are
+                      numbers with no floor under them
+    with it           they become FP/TP and the measure gets a verdict
+
+**That is `null-harness`'s `NO_DISCRIMINATION` case waiting to be checked**,
+and this record built the same instrument twice without it. The base rate is
+`UNSET`.
+
+**Status of the registered prediction: unchanged at n = 0.** One diagnostic
+failed, one is unrated, and the control that would make either a test has
+not been run.
