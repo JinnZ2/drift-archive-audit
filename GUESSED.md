@@ -1296,3 +1296,35 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     the sense of a polysemous predicate*, but *a mechanical edit keyed on a
     polysemous term must not fire without the sense being checked at the
     match site.*
+
+49. **HARVEST.md's twelve patterns are literal strings, pointed at a body
+    of work whose central claim is that the same shape surfaces under
+    different words.**
+
+    The relay dated one statement across a year — *substrate · culture ·
+    programming · "the differences"* — and noted that a lexical search
+    under-counts it **because of the difference the statement is about.**
+
+    That lands on this record's own instrument. `HARVEST.md` counted
+    `contort` at 3 and `term_sense_note` at 7, and reported both as
+    measurements. They are **floors whose size of undercount is unknown,
+    not small.** A label-side tool cannot measure label-independence.
+
+    **Confirmed within the amendment, mechanically.** Two sampling rules
+    were run over the same corpus for the dating columns:
+
+        sample A   one repo per pattern, by repo root date
+        sample B   up to 10 repos per pattern, by row count
+
+    They disagree on 7 of 12 patterns, and `absence_as_knowledge` moves
+    **eleven months** — 2026-08-14 under A, 2025-09-10 under B. So the
+    quantity measured is not the pattern's age; it is the age of the
+    earliest instance the sampling rule happened to look at.
+
+    Reported as a floor with the rule named. **Not** reported as a
+    first-appearance date, which is how it was framed one turn ago.
+
+    **Registered, not built:** the measurement this needs is shape-side —
+    cluster by relation rather than by token — and nothing in this repo
+    does that. Naming the limit is not closing it, and the count stays in
+    the file with the limit attached rather than being deleted.

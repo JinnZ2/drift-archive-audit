@@ -3303,3 +3303,213 @@ by two months.
 2026-09-19 | chain-position-detectability | work-orders/WO-6-assessor-assessed-coupling.md:249 | instrument_to_world |  | calibration check on the instrument itself.
 2026-09-20 | decision-aperture | discriminate.py:16 | instrument_to_world |  | # the instrument itself, the same posture as the move-set
 2026-09-20 | vibe-code-audit | situation_help.py:38 | absence_as_knowledge |  | "undocumented_or_phantom_tools": {
+
+---
+
+# AMENDMENT, 2026-09-23 — dating columns
+
+    WHY      first_rendered is not a weak proxy for "first held". It records
+             the FORCING EVENT: the moment an interaction made the idea
+             NEEDED while other work was active.    OBSERVED (hers)
+             What the date then carries — which model was in the loop, what
+             work was active, what the model failed to hold unstated — is
+             DERIVED and labelled as such.
+
+    FLOOR, NOT A CENSUS. Two independent samples were run and they
+    DISAGREE, which is the honest headline:
+
+        sample A   one repo per pattern, chosen by REPO ROOT DATE
+        sample B   up to 10 repos per pattern, chosen by ROW COUNT
+
+    Sample B reaches earlier dates for 7 of 12 patterns. Neither is
+    exhaustive: B dates 10 of 49 repos for the largest pattern. The
+    `first_rendered` column below is min(A,B) and is a **floor that can only
+    move earlier**.
+
+    sweep_commits: the 51 commits this session pushed all read
+    `relicense to CC0-1.0`. They are EXCLUDED from active_work.
+
+    model: read from the commit trailer, author field and file header.
+    **Under CORRECTION-001 the git author is the PUSHER, not the content
+    author**, so this column records a MODEL ATTRIBUTION THAT EXISTS IN THE
+    RECORD — not an established generating model. `UNSET` where none is
+    recorded, and never inferred.
+
+## Columns
+
+    pattern | first_rendered | repo | model | co_occurrence (±7d) | label | dated
+
+    rule1_perfection_as_rate
+      first_rendered   2025-08-28   (sample B; A=2025-09-03  B=2025-08-28)
+      repo             Keystone-Codex
+      model            UNSET
+      co_occurrence    BioGrid2.0 2025-09-03
+      label            32   lexical floor — zero would not mean absent
+      dated coverage   8 of 8 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Create SYSTEMS_ANALOGY.md
+                       - Update references.md
+                       - Create references.md
+                       - Add files via upload
+
+    author_characterization
+      first_rendered   2025-09-02   (sample B; A=2025-11-11  B=2025-09-02)
+      repo             Rosetta-Shape-Core
+      model            UNSET
+      co_occurrence    none within ±7 days of the floor
+      label            673   lexical floor — zero would not mean absent
+      dated coverage   10 of 30 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - add FILE_LIST.md
+                       - Create .fieldlink.json
+                       - add FILE_LIST.md
+                       - Update README.md
+                       - add FILE_LIST.md
+
+    absence_as_knowledge
+      first_rendered   2025-09-10   (sample B; A=2026-08-14  B=2025-09-10)
+      repo             ai-human-audit-protocol
+      model            UNSET
+      co_occurrence    none within ±7 days of the floor
+      label            245   lexical floor — zero would not mean absent
+      dated coverage   10 of 33 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Update AI_to_AI_partnership.md
+                       - Create AI_to_AI_partnership.md
+                       - Create Adaptive-framework-example.md
+                       - Create LOGIC-ETHICS-SAFETY.md
+                       - Create audit-2025-09-12.json
+
+    calibration_locus
+      first_rendered   2025-11-08   (sample A; A=2025-11-08  B=2026-03-22)
+      repo             AI-Consciousness-Sensors
+      model            anthropic,claude
+      co_occurrence    none within ±7 days of the floor
+      label            423   lexical floor — zero would not mean absent
+      dated coverage   10 of 47 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - update AI outputs
+                       - Merge pull request #7 from JinnZ2/claude/add-claude-documentation-yxzQV
+                       - Add ConstraintAgent — geometric agent for PAD constraint space
+                       - update AI outputs
+                       - Merge pull request #6 from JinnZ2/claude/add-claude-documentation-yxzQV
+
+    rule1_dXdt
+      first_rendered   2025-11-09   (sample A; A=2025-11-09  B=2026-03-21)
+      repo             CEED
+      model            anthropic,claude
+      co_occurrence    Rosetta-Shape-Core 2026-03-27
+      label            1385   lexical floor — zero would not mean absent
+      dated coverage   10 of 49 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Recalibrate model against 2010-2024 hindcast: mean R² now positive
+                       - Update observation data with better-sourced values
+                       - Add hindcast validation framework, unit bridge, and stability fixes
+                       - Add anthropogenic forcing: geological stored energy release with state-depende
+                       - Add energy conversion efficiencies and secondary couplings
+
+    should_be_like_you
+      first_rendered   2026-03-25   (sample A=B; A=2026-03-25  B=2026-03-25)
+      repo             Geometric-to-Binary-Computational-Bridge
+      model            anthropic,claude
+      co_occurrence    AI-Consciousness-Sensors 2026-04-01
+      label            116   lexical floor — zero would not mean absent
+      dated coverage   10 of 13 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Add load_all_entities() to LID adapter, gitignore .claude/
+                       - Auto-wire all 78 LID entities to bridge encoders
+                       - Add test suites for all new modules (98 tests)
+                       - Add informational/structural coupling matrix alongside energy matrix
+                       - Merge pull request #24 from JinnZ2/claude/audit-posted-files-PU9dz
+
+    instrument_to_world
+      first_rendered   2026-04-21   (sample B; A=2026-05-21  B=2026-04-21)
+      repo             metabolic-accounting
+      model            anthropic,claude
+      co_occurrence    none within ±7 days of the floor
+      label            14   lexical floor — zero would not mean absent
+      dated coverage   8 of 8 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - AUDIT_25: Mathematic-economics alignment + ComplianceScorecard
+                       - Merge pull request #11 from JinnZ2/claude/full-codebase-audit-WWyqK
+                       - AUDIT_24: bidirectional name-set consistency
+                       - AUDIT_23 Part B: counts-consistency table + tripwire
+                       - AUDIT_23 Part A: Tier 1 morphism graph (closes AUDIT_07 § C.2)
+
+    rule1_no_permanent_noun
+      first_rendered   2026-04-26   (sample A=B; A=2026-04-26  B=2026-04-26)
+      repo             JinnZ2
+      model            anthropic,claude
+      co_occurrence    AI-Consciousness-Sensors 2026-04-26
+      label            22   lexical floor — zero would not mean absent
+      dated coverage   7 of 7 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Create meta_context.py with framework insights
+                       - Add corpus_frame_recentering_detector module
+                       - Merge pull request #9 from JinnZ2/claude/confidence-calibration-auditor-EJjdH
+                       - Add environment_expression_surface and knowledge_transmission_substrate
+                       - Add confidence_calibration_auditor module
+
+    rule1_rate_not_state
+      first_rendered   2026-04-26   (sample A=B; A=2026-04-26  B=2026-04-26)
+      repo             Regenerative-intelligence-core
+      model            anthropic,claude
+      co_occurrence    AI-Consciousness-Sensors 2026-04-26
+      label            34   lexical floor — zero would not mean absent
+      dated coverage   3 of 3 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - add compressed claim format — token-minimal differential schema for AI readers
+                       - Merge pull request #11 from JinnZ2/claude/add-differential-frame-cU7jC
+                       - Add DIFFERENTIAL_FRAME.md and propagate ontology notice
+
+    rule1_verb_first
+      first_rendered   2026-04-27   (sample B; A=2026-04-29  B=2026-04-27)
+      repo             ai-human-audit-protocol
+      model            anthropic,claude
+      co_occurrence    earth-systems-physics 2026-04-27
+      label            254   lexical floor — zero would not mean absent
+      dated coverage   9 of 17 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Merge pull request #9 from JinnZ2/claude/finish-playground-biological-mismatch
+                       - Add audits/substrate_aware_audit.py + 53 tests + CI demo
+                       - Add audits/audit_runner.py + 40 tests + CI demo
+                       - Add audits/ folder + rational_actor_audit.py + 47 tests
+                       - Merge pull request #8 from JinnZ2/claude/finish-playground-biological-mismatch
+
+    contort
+      first_rendered   2026-04-30   (sample A=B; A=2026-04-30  B=2026-04-30)
+      repo             AI-Consciousness-Sensors
+      model            UNSET
+      co_occurrence    none within ±7 days of the floor
+      label            3   lexical floor — zero would not mean absent
+      dated coverage   3 of 3 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - update AI outputs
+                       - Merge pull request #14 from JinnZ2/claude/add-differential-frame-light-7v4Dr
+                       - Add validity_weighted_reweighting.py — premise-grounded reweighting
+                       - Add premise_cross_domain_audit.py — premise tracing engine
+                       - Add substrate_aware_audit_v2.py — distributed-mode audit framework
+
+    term_sense_note
+      first_rendered   2026-05-05   (sample B; A=2026-08-21  B=2026-05-05)
+      repo             thermodynamic-accountability-framework
+      model            anthropic,claude
+      co_occurrence    none within ±7 days of the floor
+      label            7   lexical floor — zero would not mean absent
+      dated coverage   2 of 2 repos carrying this pattern
+      active_work      (±7d, sweep commits excluded)
+                       - Add core/banking_thermodynamic_audit: capital as energy cost
+                       - Add banking_thermodynamic_audit raw draft to in_progress/
+                       - Add gravity_energy_note raw draft to in_progress/
+                       - Merge pull request #42 from JinnZ2/claude/fix-organize-files-L9lHe
+                       - Add eroi_real_time_audit.py raw draft to in_progress/
+
+## What the two samples disagreeing means
+
+A pattern's date moved by **eleven months** between samples
+(`absence_as_knowledge`: 2026-08-14 under A, 2025-09-10 under B). The
+quantity being measured is not the pattern's age — it is **the age of the
+earliest instance either sampling rule happened to look at.**
+
+    reported as   a floor, with the sampling rule named
+    NOT reported  as a first-appearance date
