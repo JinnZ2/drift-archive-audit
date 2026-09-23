@@ -18,6 +18,12 @@
 #
 # Answers are recorded in verify/ANSWERED.md with their provenance.
 # The operator fields below stay BLANK unless the operator marks them.
+#
+# rev 3, 2026-09-23 — THREE OPEN ITEMS NOW CARRY MARKS, and they were typed
+# by this session under operator dispatch, not by the operator directly.
+# The wording of each mark is the operator's, verbatim from that dispatch.
+# The 55 unmarked lines are untouched and stay blank by design.
+# Provenance for every mark: verify/ANSWERED.md.
 
 TARGET
 the measurand is whether a network with no central authority keeps functioning while its components are unreliable, compromised or lying | operator:
@@ -45,6 +51,6 @@ the hex encoding preserved a distinction the prose encoding collapsed into one n
 "BioGrid base tuning constant" naming ONE constant is the point where the two couplings merged | operator:
 
 OPEN
-self-healing interval: base64 says 2 minutes, both hex blobs say 20 min - which is the target? | operator:
+self-healing interval: base64 says 2 minutes, both hex blobs say 20 min - which is the target? | operator: RENDERING, capability-set, NOT_OPERATOR_SET
 data/biogrid_specs.json and data/compressed_hex_codes.txt are named in the root README and are not in the root tree - did they exist? | operator:
 the work predates the first commit (2025-07-10) by how long? | operator:

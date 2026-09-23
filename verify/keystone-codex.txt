@@ -17,6 +17,12 @@
 #
 # Answers are recorded in verify/ANSWERED.md with their provenance.
 # The operator fields below stay BLANK unless the operator marks them.
+#
+# rev 3, 2026-09-23 — THREE OPEN ITEMS NOW CARRY MARKS, and they were typed
+# by this session under operator dispatch, not by the operator directly.
+# The wording of each mark is the operator's, verbatim from that dispatch.
+# The 55 unmarked lines are untouched and stay blank by design.
+# Provenance for every mark: verify/ANSWERED.md.
 
 TARGET
 the measurand is what makes a technology survive a discontinuity, decided by a stated rule rather than by prestige | operator:
@@ -41,6 +47,6 @@ the longevity margin collapsing 38% -> 5% dropped an uncertainty signal, while k
 that margin was a status field with no status type, so nothing held it | operator:
 
 OPEN
-ethical_alignment has been populated and unscored for 13 months - intended, or dropped? | operator:
+ethical_alignment has been populated and unscored for 13 months - intended, or dropped? | operator: TARGET = record, unscored by design; label = WRONG_FRAME rendering
 haudenosaunee_council.json carrying id great_law_of_peace - deliberate (institution vs instrument) or a rename that half-landed? | operator:
 44% closure: is closing the remaining 50 dangling edges the goal, or are some meant to stay open? | operator:

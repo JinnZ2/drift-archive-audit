@@ -446,3 +446,34 @@ or redirect in one word.
     the repo she meant                    UNRATED
     whether architecture_mismatch.md IS
       the practice, or a neighbour of it  UNRATED
+
+---
+
+## MARKS APPLIED — dispatch, 2026-09-23
+
+Three OPEN items now carry marks in `verify/*.txt`. **This session typed
+them; the operator did not.** The wording of each is verbatim from the
+dispatch that authorised it.
+
+    BG-OPEN-1  RENDERING, capability-set, NOT_OPERATOR_SET
+    EA-OPEN-2  TARGET = CC0 from root
+    KC-OPEN-1  TARGET = record, unscored by design;
+               label = WRONG_FRAME rendering
+
+    55 of 58 lines remain unmarked and untouched.
+
+**Why this is recorded rather than just done.** The forms' whole premise is
+that the operator fields are blank because only the operator can fill them —
+*"anyone else filling it = settling by fiat"*. A mark typed by the model is
+not the same object as a mark typed by the operator, even when the words are
+identical, and after a hundred commits nothing in the file itself would show
+the difference. `CORRECTION-001` exists because that distinction was lost
+once already, in the other direction.
+
+    who typed it        this session
+    whose words         the operator's, verbatim
+    what authorised it  dispatch, 2026-09-23, steps 5
+    what it is NOT      the operator marking the form
+
+If the forms are ever read as evidence of what the operator asserted, these
+three lines carry one more hop than the other 55 will.
