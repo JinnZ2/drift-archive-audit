@@ -754,6 +754,29 @@ one that argues for handing scoring outward.
     same shape as `#30` and `#26`, and the third time a check this record
     already holds went unrun.
 
+37. **Three tools were reported by their docstrings, not by running
+    them.** `TERM-MAP-RECEIVED.md` stated that `check_term_collision.py`
+    *"is TERM_MAP's CONFUSION RISKS table, as a running tool"* and that
+    *"the one row there (Dissonance) is what it finds mechanically."*
+
+    **Ran it. `Dissonance` count: 0.** Its `TERMS` is a hardcoded dict of
+    four regexes for `PREAMBLE.md`'s declared collision note. It finds
+    **who uses the declared colliding terms**, not **which terms collide**.
+
+    Same for the other two claims in that receipt: `term_table.py` shares
+    TERM_MAP's *rule* but is E7's 5×5 cross-substrate evidence matrix with
+    a different key space, and nothing was checked before saying so.
+
+    **The shape is `#32` one level over.** There I inferred a file's
+    function from its name; here I inferred three tools' capability from
+    their docstrings — **and one of them was one command away, in a repo
+    already on disk, for three turns.**
+
+    **Worse: the same receipt credited this record with running the FIND
+    check.** It located the tools and did not run them. **Finding is not
+    verifying**, and *2 of 8 found by looking* was reported as a whole check
+    when it was half of one.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

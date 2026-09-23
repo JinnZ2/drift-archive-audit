@@ -684,6 +684,13 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    DISPATCH-TERM-MAP-STEP0.md
+                          the TERM_MAP dispatch, stopped at step 0. Three
+                          calls the dispatch forbids making: term_table is
+                          a different key space, check_term_collision does
+                          not surface Dissonance (run: count 0), and there
+                          is no push access. Step 2 is already built as
+                          tools/sourced.py and stricter.
     COINAGE-SEARCH-RECEIVED.md
                           relayed coinage search, filed verbatim. The FIND
                           check located Simulators/coinage-log/ with its

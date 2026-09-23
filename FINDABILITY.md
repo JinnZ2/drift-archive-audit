@@ -362,6 +362,16 @@ rather than by being told.**
     both by applying this file's own prescription, both on the turn
     a received document was about to be filed
 
+**AND BOTH WERE HALF A CHECK — `GUESSED.md` #37.** The tools were located
+and their **docstrings** were reported as their capabilities. One was run
+three turns later, on a dispatch that depended on it, and did not do what
+this file said it did.
+
+    FINDING     the instrument exists and is here
+    VERIFYING   it does what its header says
+    -> 2 of 8 was the first. The second was not done, and was
+       reported as though it were.
+
 **Eighth, 2026-09-23:** `Simulators/coinage-log/` — `COINAGE_LOG.md` plus
 `check_coinage.py` — located before filing a relayed coinage search that
 does not reference it. Its README asks **"is the absence of a word a

@@ -114,3 +114,22 @@ routing rule as a schema rather than as a sentence.
 **Whether to fold `operator_fit` onto the existing machinery, or keep
 TERM_MAP separate, is not this session's call** — it is the operator's
 index, in the operator's repo, and the audit is read-only there.
+
+
+---
+
+## PROVENANCE FLAG — added 2026-09-23, operator-issued
+
+**Every `existing_term` and `source` above rests on MODEL RECALL. Nothing
+was retrieved, nothing was checked.** Under `cooperative-substrate/term_table.py`'s
+rule — *nothing is filled from memory; a non-UNRECORDED cell needs a basis
+naming the pack items it rests on* — and under `tools/sourced.py`'s gate —
+*value, literal source text and locator, or UNRATED* — **those cells are
+`UNRECORDED`.**
+
+*"Claude said so" is not a pack item.*
+
+The table above is untouched and still reads `MATCH` / `STRONG` / `PARTIAL`.
+**Those statuses measure claimed overlap. This flag says what is under
+them: nothing yet.** Promotion to a sourced cell requires a retrieved
+source named in a basis; recall never promotes itself.
