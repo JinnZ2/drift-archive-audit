@@ -1145,3 +1145,46 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     **40 lines of reading wide**. Declaring a deficit is not the same as
     closing one, and a deficit this cheap should have been closed in the
     turn that named it.
+
+46. **The licence sweep reported a denominator it could not check, and the
+    check was 233 lines away in a file this record had already read the
+    top of.**
+
+    Last turn: *"`list_repos` returned exactly 100 with `has_more: false`
+    at both `limit=100` and `limit=200`. Whether 100 is all of them is not
+    determinable from here."* Declared honestly, and left there.
+
+    `JinnZ2/JinnZ2/META_INDEX.md` is *"a navigable map of 70+ projects"*
+    with **83 repo rows and a License column**. It names two repos with
+    repo-root URLs that `list_repos` never returned — `grounding-layers`
+    and `seed-expander`. It also indexes four sub-repo directories as
+    peers of repos.
+
+    **The denominator was checkable against a second registry, and the
+    second registry is the operator's own index.** `PARENT-FRAME.md`
+    records that `JinnZ2/JinnZ2` was read on 2026-09-22. `META_INDEX.md`
+    was not opened until a relay mentioned entry points.
+
+    **Same shape as #43, one level up.** There: a 41-file grammar inside a
+    cloned repo, never listed. Here: the ecosystem index inside the same
+    repo, read at the README and not at the index.
+
+    **What the check then paid for, immediately:**
+
+        45 of 52 declared licences agree with the measured LICENSE file
+         5 disagree because the INDEX lags repos already moved to CC0
+         2 disagree the other way - the index declares CC0 where the file
+           says MIT, and one of those two (PatternBridge) is a sweep STOP
+           flag with a deliberate code/data licence split
+
+    An org-wide sweep driven from the index would have relicensed
+    `PatternBridge` on a false CC0 reading. The sweep was driven from the
+    `LICENSE` files instead. **That was not a considered choice at the
+    time — it was the only source the method had.** It is load-bearing
+    now, and it is recorded as luck, not judgment.
+
+    **And a control fired inside the cross-check.** `Shadow-Hunting` reads
+    `index MIT / measured CC0` because this session relicensed it hours
+    earlier. A disagreement that the audit itself caused, appearing in an
+    independent record, is the cheapest available proof that the
+    cross-check is live rather than circular.
