@@ -351,6 +351,20 @@ Before the next instrument is built in this programme:
     search the corpus for an existing one, using the operator's
     vocabulary rather than the audit's.
 
+**RUN 2026-09-23, unprompted, before filing a received TERM_MAP. Three
+hits.** `tools/check_term_collision.py` is its confusion-risk table as a
+running tool; `cooperative-substrate/term_table.py` is its rule, already
+built and stricter; `term-drift-citation` is the temporal half it does not
+cover. **Seventh findability instance and the first located by looking
+rather than by being told.**
+
+    found by search, all instances to date    1 of 7
+    and the one was found by applying this file's own prescription
+
+`TERM-MAP-RECEIVED.md` carries the check and what survived it —
+`operator_fit`, a holder-only column with `UNSET` as its default, verified
+absent from the corpus by grep.
+
 That cannot be done by the audit alone — by construction, since not having
 the vocabulary is the condition being described. **It is a FIND task, and it
 is the fourth entry on a list that had none.**

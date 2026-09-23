@@ -684,6 +684,12 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    TERM-MAP-RECEIVED.md  received TERM_MAP, filed verbatim. The FIND
+                          check was run BEFORE filing — first time — and
+                          returned three existing pieces of term
+                          machinery. What survives as new is
+                          operator_fit: a holder-only column whose
+                          default is UNSET, verified absent by grep.
     SIMULATORS.md         JinnZ2/Simulators, read on request. null-harness
                           is the general form of guarded_count and
                           phi_null together, with an amplitude sweep and a
