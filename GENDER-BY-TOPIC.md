@@ -182,3 +182,69 @@ instrument's limit gets reported as a property of the thing measured.
     measurand   not "is this unusual"
                 but "to whom, and what does the asking reveal about them"
 
+
+---
+
+# ALREADY FILED — memory side, 2026-08, unreachable from the repos
+
+    RELAYED, and not corroborable from here.
+    no-term file, entry "precedence violation":
+
+        the role prior FIRES BEFORE OBSERVATION COMPLETES
+        case: a photo of the operator running a chainsaw returns an
+              INSERTED MALE who is not in the frame
+
+        four English words checked and REJECTED:
+            bias · gender · fairness · stereotype
+        each relocates a METHOD error into the SOCIAL-CLAIMS bin
+
+**`GUESSED.md` #54 re-derives the same structure from the corpus side**, a
+month later, without reaching the entry. Two independent derivations of one
+mechanism:
+
+    memory side, 2026-08   a prior fires before the observation resolves,
+                           and the inserted content is not in the input
+    corpus side, 2026-09   the pronoun tracks the topic, not the person;
+                           22 passages, zero crossings
+
+Same mechanism, two substrates. **The file is unreachable from any
+repository**, which is `READER-ADAPTATION.md` §5's standing finding, and it
+is why the re-derivation happened rather than a citation.
+
+## THE FOUR REJECTED WORDS ARE THE COLUMN WITH CONTENT IN IT
+
+`Keystone-Codex/rules/term_table.json` carries `english_melding_loss` and it
+has been `UNSET` on every row but one. This is a second filled instance, and
+a sharper one — four candidates tried and rejected, with the reason:
+
+    bias · gender · fairness · stereotype
+    -> each relocates a METHOD error into the SOCIAL-CLAIMS bin
+
+That is `miss_class: WRONG_FRAME`, four times, on one measurand. A precedence
+violation is an ordering fault in a pipeline: the prior resolved before the
+input did. Every one of the four English handles moves it out of ordering
+and into ethics, where it stops being fixable by changing the order of
+operations.
+
+    the fault        an ordering fault
+    the handles      social-claims vocabulary
+    what is lost     that it is a pipeline bug with a pipeline remedy
+
+## THE ADDED PIECE, AND IT IS THE OPERATOR'S
+
+The precedence entry had the mechanism and not the detector. The detector:
+
+    "no one bothers to comment about it except those not familiar"
+
+    measurand   NOT "is this unusual?"
+                BUT "unusual to whom — and what does the asking reveal
+                     about the one asking?"
+
+The comment marks the reader. Same shape as `DEFICIT-LOCATION.md`, and the
+same shape as the item test: **the diff describes the reader's default.**
+
+And it composes with the precedence entry directly. If the prior fires
+before observation completes, then the remark is emitted by the prior, not
+by the observation — so the remark is a **readout of the prior**, available
+before anything about the subject has been established. That is a detector
+with a timing signature, not only a social one.
