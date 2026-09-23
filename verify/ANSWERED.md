@@ -260,3 +260,189 @@ choosing between (a) and (b) is settling a question by fiat. It is the one
 place the answer to `EA-OPEN-2` does not reach.
 
     SSI scope: UNSET. Routed to the operator.
+
+---
+
+## KC-OPEN-1 — keystone-codex, `ethical_alignment` populated and unscored
+
+**The item, as the form asked it:**
+
+    ethical_alignment has been populated and unscored for 13 months -
+    intended, or dropped? | operator:
+
+**Operator:**
+
+    the field is a self-assessment record of a practice: entering another
+    culture's frame as close as possible, by thought-reasoning (not
+    feeling). NOT ethical alignment in the AI sense.
+    "meditation" and "experience" were both offered as names for it and
+    both are wrong.
+    see animal intelligence repo.
+
+    grade: operator memory, 2026-09-23. OBSERVED (hers).
+
+**Relaying session's reading, kept separate:**
+
+    unscored for 13 months -> MATCHES the aim (a record, not a score)  DERIVED
+    the field NAME -> rendering; the corpus sense was imported          DERIVED
+    miss_class of the name: WRONG_FRAME                                 DERIVED
+    target intact; the label drifted, the practice did not              DERIVED
+
+## 1. A THIRD ANSWER-SET OUTCOME, AND #39's COUNTER NEEDS THE BUCKET
+
+The offered set was `{intended, dropped}`. *Unscored matches the aim* is
+**inside** it — the binary was answerable. But the question asked about
+`ethical_alignment` **as if the name named the field**, and it does not. The
+set was fine; the referent was wrong.
+
+    BG-OPEN-1   answer outside the offered set
+    EA-OPEN-2   answer inside, question sound
+    KC-OPEN-1   answer inside, REFERENT MIS-SPECIFIED   <- new
+
+    running: 3 answered, 1 outside, 1 clean, 1 inside-but-mis-specified
+
+A form can offer a correct answer set to the wrong question. #39's remedy —
+a standing admissible answer set — does not touch this failure at all.
+
+## 2. THE NAME IS THE ONLY CARRIER OF SENSE IN THE SCHEMA — MEASURED
+
+    schema/keystone.schema.json, metrics.*  "description" present?
+        longevity_years                     NO
+        replication_regions                 NO
+        decentralization_score              NO
+        ethical_alignment                   NO
+
+**Four for four.** The schema types the field (`number`, 0–1) and says
+nothing about what it means. So when the name is a rendering, there is no
+second carrier to check it against — the import has nothing to contradict it.
+
+This is the `evidence.type` discipline's missing counterpart. That enum has a
+declared single source of truth and an H008 test that every value is used.
+**Field semantics have neither.**
+
+## 3. THREE RENDERINGS, ALL CONVERTING RECORD -> SCORE, ALL ON ONE DAY
+
+    root commit                                              2025-08-28
+
+    CLAUDE.md:128   "| metrics.ethical_alignment | float 0-1 |
+                     Optional ethical score |"               be471a3  2026-03-22
+    src/fieldlink_export.py:80
+                    "ethical_score": m.get("ethical_alignment")
+                                                             1906933  2026-03-22
+    .fieldlink.json:85
+                    "metrics.ethical_alignment":
+                        "protocol.ethical_score"             1906933  2026-03-22
+
+**206 days after root, in a single day, two of them in the same commit**
+(*"Redesign fieldlink as a substantial bridge to BioGrid2.0"*).
+
+The direction is uniform: **alignment -> score, record -> score.** Hers is
+*"NOT ethical alignment in the AI sense"* and *a record*. All three
+renderings moved the field the same way, and none of them is a measurement —
+no scorer consumes the value in any of the 13 months. `KC-10` measured that
+already; what it could not see is that the field being unscored was **the aim
+being honoured**, not a gap.
+
+## 4. THE RENDERING THAT LEAVES THE REPO IS THE ONE FURTHEST FROM THE AIM
+
+`.fieldlink.json` does not merely gloss the field — it **renames it across a
+repository boundary**, into `BioGrid2.0`'s `protocol.ethical_score`
+namespace. Downstream, the record's own name is gone.
+
+That is `Emotions-as-Sensors`' declared measurand, occurring in a third repo:
+*the CONVERSION itself — function into thing, relation into hierarchy.* Here:
+**record into score, at an export boundary.** Filed against `B2-2` (*"the
+record is a separate measurand from the thing"*) as an instance, **n = 1 for
+this direction**, not a frame.
+
+## 5. `miss_class` NEEDS A THIRD VALUE — REGISTERED, NOT ASSIGNED
+
+`LITERATURE_MAP.md` proposed the column with two values:
+
+    NARROWER_REFERENT      the term covers less of the same thing
+    REMOVES_INTENDED_USE   the term covers a different PURPOSE
+    WRONG_FRAME            <- ADDED 2026-09-23. the term is coherent and
+                              points into a DIFFERENT DOMAIN'S ontology.
+                              overlap is not partial, it is incidental.
+
+`ethical_alignment` read in the AI-alignment sense is not a narrower version
+of hers and does not merely remove the use — it lands in another field's
+vocabulary entirely and carries that field's assumptions with it.
+
+**Structure is this session's register; the assignment of this row is the
+relaying session's `DERIVED` and stays labelled as such.** Same split as
+`source_kind`.
+
+## 6. THE CANDIDATE TERMS — FIT UNRATED, AND IT IS NOT MINE TO RATE
+
+Four candidates arrived as `model_recall`, fit `UNRATED`. What this session
+can add is **structure only** — the axis each one is scoped on:
+
+    candidate                    scoped to        scoped by         verified here
+    cognitive empathy /          another mind     reasoning         CORROBORATED
+      perspective-taking                                            (not checked
+                                                                     against source)
+    Umwelt reconstruction        an organism's    description of    CORROBORATED
+      (von Uexkull)              perceptual world  sense organs
+    epoche / bracketing          your OWN frame   suspension        CORROBORATED
+      (Husserl)
+    participant observation      a culture        living there      CORROBORATED
+
+    hers needs:                  a CULTURE'S      reasoning, as a   --
+                                 frame            trained practice
+
+**No candidate is scoped on both axes.** Three match the method and miss the
+object; one matches the object and misses the method. That is a structural
+statement about the four, and it is **not** a judgment that none fits —
+whether the melding loss is acceptable is hers, per the routing rule.
+
+`CORROBORATED` throughout: these are training-knowledge readings of the
+terms, not checked against Uexkull or Husserl from here. `Halliday 1976` is
+already logged `UNREACHABLE`; the same limit applies.
+
+**Two names already rejected, recorded so they are not re-offered:**
+
+    "meditation"   flagged WRONG by the operator, 2026-09-23
+    "experience"   flagged WRONG by the operator, 2026-09-23
+
+Neither appears anywhere in this repo before now — they were offered in
+conversation and the rejection had no written home. It has one now.
+
+## 7. "SEE ANIMAL INTELLIGENCE REPO" — CANDIDATE LOCATED, FIT UNRATED
+
+No repository in the 100 returned by `list_repos` has `animal` in its name.
+The nearest match, located and read:
+
+    JinnZ2/Living-Intelligence-Database            VERIFIED present
+      schemas/animal.schema.json                   VERIFIED present
+      ontology/animal/  (bee, octopus, whale, ...) VERIFIED present
+      training/architecture_mismatch.md  153 lines VERIFIED present
+
+That document names a two-architecture distinction —
+
+    LANGUAGE-PRIMARY    language is the primary cognitive layer
+    SUBSTRATE-PRIMARY   spatial/physical/embodied cognition is primary;
+                        language is a secondary translation layer
+
+— and catalogues seven failure modes for a reader in the wrong one,
+including *"treating absence of documentation as absence of knowledge"*.
+
+It names a canonical upstream, and the upstream was checked rather than
+quoted:
+
+    JinnZ2/thermodynamic-accountability-framework/calibration/
+      architecture_mismatch.py                     VERIFIED present
+      convergent_ontology_mapper.py                VERIFIED present
+
+**Present is all that is claimed.** Whether either runs, and whether either
+does what its surrounding prose says, is NOT checked — `GUESSED.md` #37 is
+the standing reason that distinction is kept.
+
+**And whether this is the repo the operator meant is `UNRATED`.** It has
+animals and it has a frame-entry document; picking it on that resemblance is
+`GUESSED.md` #32 exactly. The candidate is named so the operator can confirm
+or redirect in one word.
+
+    the repo she meant                    UNRATED
+    whether architecture_mismatch.md IS
+      the practice, or a neighbour of it  UNRATED

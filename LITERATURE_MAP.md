@@ -673,6 +673,16 @@ axis:
     NARROWER_REFERENT     the term covers less of the same thing
     REMOVES_INTENDED_USE  the term covers a different PURPOSE --
                           the overlap is real and useless for the job
+    WRONG_FRAME           ADDED 2026-09-23. the term is coherent and points
+                          into a DIFFERENT DOMAIN'S ontology, carrying that
+                          domain's assumptions. the overlap is not partial,
+                          it is incidental.
+
+**First row it was needed for:** `Keystone-Codex`'s `ethical_alignment`, read
+in the AI-alignment sense. It is not a narrower version of the operator's
+practice and it does not merely remove the intended use — it lands in another
+field's vocabulary entirely. `verify/ANSWERED.md` KC-OPEN-1. **The value is
+registered here; the assignment of any given row is not this session's.**
 
 **Proposed as a column, not imposed:** `miss_class`, same axis-separation
 argument as `source_kind`. Structure is this session's register; which class

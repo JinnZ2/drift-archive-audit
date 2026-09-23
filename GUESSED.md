@@ -942,3 +942,42 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     `guarded_count.py` does not do that yet. **Not built in this turn** —
     and the slot is named so the absence is visible rather than assumed
     closed.
+
+41. **`KC-10` described the right fact with the wrong sign, and the form
+    inherited it.** The row read *"`ethical_alignment`: populated in every
+    entry since t=0, still scored by **nothing** ... instrumented, never a
+    measurand — 13 months"*, and the A6 form turned that into *intended, or
+    dropped?*
+
+    **The field is a record. A record is not meant to be scored.** The
+    unscored state was the aim being honoured. Every measurement in the row
+    is correct; the framing — *never promoted*, a `D3` status field that
+    failed to arrive — supplied a deficit that was not there.
+
+    **The mechanism is the one this audit keeps finding in other people's
+    work.** `schema/keystone.schema.json` carries **no `description` on any
+    of the four metrics** — measured, 4 of 4. With no second carrier of
+    sense, the field NAME is the only thing to read the field by, and the
+    name reads in the corpus sense. The audit read it the same way the three
+    in-repo glosses did.
+
+    **Not one of the three glosses is the operator's**, and all three landed
+    on one day, 206 days after root, two in the same commit:
+
+        CLAUDE.md:128           "Optional ethical score"          be471a3
+        src/fieldlink_export.py:80  -> "ethical_score"            1906933
+        .fieldlink.json:85          -> protocol.ethical_score     1906933
+
+    **This is `DEFICIT-LOCATION.md`'s operation on a field instead of a
+    term:** an instrument reporting a limit of its own reading as a property
+    of the thing measured. The limit was that the schema does not say what
+    the field means. The property reported was that the field had been
+    dropped.
+
+    **Eleventh instance of function-inferred-from-a-name** — and the first
+    where the name was inside the corpus rather than inside this repo. #32
+    was a filename, #37 was a docstring, this is a schema key. The control
+    that catches all three is the same one, and it is still not automatic:
+    **open the thing the name refers to, or record that you did not.** Here
+    there was nothing to open — which is itself the finding, and it was
+    reportable at A2 and was not reported.
