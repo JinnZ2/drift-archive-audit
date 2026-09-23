@@ -815,3 +815,47 @@ into something that returns a result the reader did not choose.*
 
 No A2 file was edited after hashing, including for CORRECTION-001 or -002. The corrections live in
 `divergence/` and `PHASE_B.md` (B1-d). The hashes still verify.
+
+## 38 — logged after the falsification block above, and it is a new turn
+
+38. **The verify forms were cited by path six times and quoted zero
+    times.** `README.md`, `PHASE_D.md`, `DECLINED.md`, `ENUM-SWEEP.md` and
+    `SHADOW-HUNTING.md` all name `verify/*.txt` and all describe it the same
+    way — *"operator forms, fields blank"*. None of them, and no relay out
+    of this session, ever rendered a line of what the forms ask.
+
+    A relayed message then derived what the forms most likely ask, marked
+    **`DERIVED from the pipeline order, not from the form`** — the
+    derivation's own basis, stated honestly, at the top.
+
+    **Read the forms. 58 line-items, not 6 questions.** The derivation
+    recovered 21 of 58 (TARGET, DIVERGENCE/UNRESOLVED — the two sections the
+    A1–A5 order actually produces) and was silent on 37 (RELATIONS,
+    ENCODING, OPEN — findings and residue, which no ordering predicts).
+    Measurements in `VERIFY-FORM-CONTENTS.md`.
+
+    **This is not #32 or #37.** Those were *function inferred from a name
+    with the artifact one command away on this session's own disk*. Here the
+    artifact was one command away **on this side**, and the inference
+    happened **on the other side of the channel** — by a party that had the
+    filename and nothing else, from this record. Same distance, opposite
+    end. The end that could have closed it is this one.
+
+    **Whether the relaying session could have opened the file itself:
+    `UNSET`.** The repo is pushed and `verify/` has been tracked since
+    `0513c6a`. Whether that path was reachable from where the derivation was
+    made is not determinable from here and is not filled by inference.
+
+    **On the registered prediction:** this catch carries a quantity
+    (21/58, 37/58, 6 citations / 0 quotations) and came from **reading a
+    file**, not from an instrument. That is the refinement described and
+    *not adopted* at the end of the block above, because it was not
+    registered before the instance. It is still not adopted. It is recorded
+    here as an observation about the catch, and the prediction stays
+    `FALSIFIED as written`.
+
+    **The relay's own closing claim is confirmed by the same read:** *the
+    AIM exists only on the operator's side; the archive holds renderings;
+    anyone else filling it is settling by fiat.* The forms encode exactly
+    that, and 10 of the 58 lines are direct factual questions with two
+    archive-supported readings apiece.

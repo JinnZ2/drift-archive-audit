@@ -19,6 +19,9 @@ The harness needs one input — the marked forms — and nothing else.
     verify/keystone-codex.txt
     verify/emotions-as-sensors.txt
 
+    20 items | 17 items | 21 items = 58 blanks total.
+    What each one asks: VERIFY-FORM-CONTENTS.md (rendered, not cited).
+
 Mark `YES` / `PARTLY` / `NO` after `operator:` on each line. Return them and
 Phase D runs against the YES lines.
 

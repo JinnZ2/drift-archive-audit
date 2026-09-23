@@ -58,7 +58,11 @@ deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
     ledger/commits.jsonl   A2 hashes, written BEFORE any history was read
     reconstruct/           A2 — target recovered from the root commit alone
     divergence/            A4/A5 — where it moved, typed and split
-    verify/                A6 — operator forms, fields blank
+    verify/                A6 — operator forms, fields blank.
+                           58 line-items across 3 forms; 10 of them are
+                           factual questions only the operator can answer.
+                           Contents rendered in VERIFY-FORM-CONTENTS.md
+                           so the citation is not a bare path.
     PHASE_B.md             cross-repo groupings and spanning frames
     PHASE_C.md             natural experiments found in the archive
     PHASE_C6.md            repeat description of a PHYSICAL referent —
