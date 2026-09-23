@@ -102,6 +102,21 @@ return an empty hand, and downstream they are indistinguishable — which is
 in `SHADOW-HUNTING.md` §6 and `ENUM-SWEEP.md`. **It was written after the
 prompt, not before**, which is the whole of the finding.
 
+## SCALE, 2026-09-23 — and the constraint held right up to the question
+
+`JinnZ2/Simulators`: ~200 CC0 directories with their own index layer
+(`CATALOGUE.md`, `GAP_INDEX.md`, `KNOWN_RED.md`, `instrument-index/`).
+`null-harness` is the general form of two instruments this session built by
+hand, and its `CONSTANT_SILENT` verdict names `GUESSED.md` #26 exactly.
+
+**Mechanism 1, at scale.** Not declined, not hidden, not distant — **no term
+to search with.** The audit had no name for *a harness that calibrates an
+arbitrary gate against matched controls and reports its sensitivity*, so it
+built one twice, single-purpose, and neither half knew about the other.
+
+**The find arrived the same way all five earlier ones did: the operator
+asked.** Zero of six found by search.
+
 ## What this does to the binding constraint — a third job, done invisibly
 
 `STUDY.md` declares the constraint as **a second party who holds the

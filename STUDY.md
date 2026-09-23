@@ -684,6 +684,11 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    SIMULATORS.md         JinnZ2/Simulators, read on request. null-harness
+                          is the general form of guarded_count and
+                          phi_null together, with an amplitude sweep and a
+                          CONSTANT_SILENT verdict that is GUESSED #26
+                          exactly. Ten further matches routed, not read.
     PARENT-FRAME.md       JinnZ2/JinnZ2 and AI-Consciousness-Sensors,
                           read. Nine candidate pairings routed to the
                           operator, not resolved here. Withdraws the
