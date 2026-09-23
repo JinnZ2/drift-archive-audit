@@ -1328,3 +1328,55 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     cluster by relation rather than by token — and nothing in this repo
     does that. Naming the limit is not closing it, and the count stays in
     the file with the limit attached rather than being deleted.
+
+50. **#48's proxy did not originate with the guard. It was in the
+    dispatch, and the guard inherited it.** `OBSERVED (hers)`, recorded
+    because the split matters to the class, not to the blame:
+
+    > my packet said "remove attribution-as-condition text". that
+    > instruction keys on the word "attribution". the guard inherited the
+    > proxy from the dispatch. same defect class, one layer earlier: mine.
+
+    **Accepted as stated, and it does not move my part.** The dispatch
+    named a word. The read-only pass **measured** that word failing on that
+    exact line, wrote it up as a false positive, and reported it before any
+    commit. Then the tool was built from the dispatch's wording instead of
+    from the record's own finding.
+
+        the instruction keyed on a word        upstream
+        the measurement said the word failed   this record
+        the tool was built from the first      this record
+
+    **The generalisation is worth more than either half.** A proxy in an
+    instruction propagates into every tool built to satisfy it, and a
+    finding that contradicts the instruction does not propagate unless
+    someone carries it. Nothing in this session's procedure carries it:
+    `GUESSED.md` records the finding, and no step checks `GUESSED.md`
+    before a tool is written.
+
+    **Registered, not built, and now twice over:** #42 registered a
+    sense-declaration guard; #48 registered that it needed a different
+    shape; #50 says neither reaches the real gap, which is that **a
+    measured false positive has no path into the next instrument.**
+
+51. **CLASS A halved on a re-read, which is the reason nothing was
+    deleted.** The first mechanical pass returned 122 author-characterization
+    rows as CLASS A. Reading them moved out every line of the form *"the
+    author is an instance of the object under measure"* — which describes
+    the WORK — plus a test fixture for the authority fallacy (*"Accept the
+    findings because the author is a Nobel laureate"*) and every
+    `[stated by Kavik]` provenance tag.
+
+        first pass    122
+        second pass    54
+        moved          A -> UNCLEAR only, never the reverse
+
+    The operator's test is **position, not the word** — *does the line
+    describe the work, or the person who made it?* A key made of person-
+    nouns answers a different question, which is the fourth proxy-for-
+    property in two turns.
+
+    **54 is a floor with a known direction of error**, and the delete list
+    is prepared and not executed. On a classification that halved once, and
+    one turn after #48 shipped from exactly this shape, running the
+    deletion would be the same move a third time.

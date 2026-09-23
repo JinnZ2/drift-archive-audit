@@ -3513,3 +3513,100 @@ earliest instance either sampling rule happened to look at.**
 
     reported as   a floor, with the sampling rule named
     NOT reported  as a first-appearance date
+
+---
+
+# AMENDMENT 2, 2026-09-23 — author_characterization CLASS filled
+
+    FIAT CALL 1 RESOLVED by the operator. The step 8 definitions were
+    written in chat as an addition to the Shadow-Hunting packet and never
+    reached a repo — a RELAY GAP, not a missing spec.
+
+    CLASS A         describes the PERSON who made the work
+                    (occupation, identity, where built from)     -> delete
+    CLASS B         domain content: the occupation as the SUBJECT
+                    (HOS, AEB, docks, freight, driver readout)   -> keep
+    CLASS PROHIBITION   a line that FORBIDS characterization is
+                    neither A nor B                              -> keep
+    UNCLEAR         -> report, don't touch
+
+    THE TEST IS POSITION, NOT THE WORD: does the line describe the work,
+    or the person who made it?
+
+## Counts
+
+    CLASS_A                54
+    CLASS_B                2
+    CLASS_PROHIBITION      52
+    CLASS_UNCLEAR          565
+    TOTAL                  673
+
+## The test could not be mechanised, and A is held to a conservative floor
+
+A first pass keyed on person-nouns plus an is/was predicate returned
+**122** CLASS A. Reading them showed the key was a proxy again:
+
+    "the author is an instance of the object under measure"   the WORK
+    "the author is a member of the assessed class"            the WORK
+    "the author is the same"  (venue tier drops out)          the WORK
+    "Accept the findings because the author is a Nobel
+      laureate."                                              a TEST FIXTURE
+                                                              for a fallacy
+    "[stated by Kavik]"  / "Kavik's rule" / "Core thesis
+      (Kavik)"                                                PROVENANCE of
+                                                              a claim
+
+None of those describe the person. They were moved out. **A is now 54** and
+is a floor: tightening moved rows only from A to UNCLEAR, never the reverse.
+
+A further 7 rows were moved to UNCLEAR with the reason recorded on the row.
+They sit inside worked examples that ANALYSE a person being mischaracterised
+— `docs/geometry/geometric-sensor.md`, `healing/possible-games.md`,
+`suppression-documentation/thoughts.md`. The line describes the person **as
+the subject of the analysis**, which is the boundary the rule sends to
+UNCLEAR.
+
+## CLASS A by repo
+
+    JinnZ2                                       11
+    Seed-physics                                 10
+    Resilience-indigenous-worldwide              6
+    metabolic-accounting                         6
+    AI-Consciousness-Sensors                     5
+    planetary-conservation-framework             4
+    thermodynamic-accountability-framework       3
+    TRDAP                                        3
+    earth-systems-physics                        2
+    Mathematic-economics                         2
+    Geometric-to-Binary-Computational-Bridge     1
+    Sovereign-Octahedral-Mandala-Substrate-SOMS- 1
+
+## CLASS A — the occupation / identity lines
+
+These are the sharpest instances: not a byline, a statement about the
+person.
+
+    JinnZ2                     legacy/political_financial_vectors_v9.py   "The Kavik case (driver, salvage partner, building "
+    metabolic-accounting       distributional/strategy.py:35              Empirical framing: when Kavik ran multiple companies, he found that
+    metabolic-accounting       tests/test_institutional.py:198            """Kavik: one neurodivergent member operating at ~3x baseline
+    metabolic-accounting       tests/test_institutional.py:234            # Kavik's realized output is roughly 4.3x the neurotypical's
+    metabolic-accounting       tests/test_institutional.py:238            print(f"\n  kavik realized output:   {kavik_realized:.2f}")
+    metabolic-accounting       tests/test_institutional.py:257            print(f"\n  IF SAME KAVIK WERE FORCED INTO STANDARD INSTITUTION:")
+    metabolic-accounting       tests/test_strategy.py:135                 """Kavik's observation: when he found neurodivergent workers and
+
+## NOT DELETED. Reported.
+
+CLASS A means delete, and nothing was deleted. Three reasons, all of them
+about this turn:
+
+    1  The positional test is not mechanisable. The first pass was 122 and
+       the second is 49; a third reading would move more. Deleting on a
+       classification that halved on one re-read is deleting on a proxy.
+    2  GUESSED.md #48 shipped, an hour ago, from exactly this: a mechanical
+       edit keyed on a word rather than a sense, in a repo that needed no
+       edit at all.
+    3  Deleting lines across 12 repositories is outward-facing and not
+       cheaply reversible.
+
+    what is ready   a per-repo, per-line delete list, 54 rows
+    what is needed  a go, or a correction to the classification
