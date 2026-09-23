@@ -29,7 +29,7 @@ not require the provenance field simply drops it.
 | **`JinnZ2/JinnZ2/gate_log.md`** | 2026-09-22, and **it stands** | **reading it burns C-7's reference gate** — the unmediated operator reference must be described and hashed *before* any old rendering is read | **DECLINED AND STAYS DECLINED.** The staged amendment in `staged-for-JinnZ2-profile-repo/` is written and unapplied for this reason |
 | **`JinnZ2/Logic-Ferret`** | — | **not declined.** Read as a control fixture when named | two counterexamples found; `LOGIC-FERRET.md` |
 | **`JinnZ2/Simulators`** | — | **not declined.** Read 2026-09-23 when the operator asked whether it helps | **~200 directories.** `null-harness` generalises two instruments this session hand-rolled and its `CONSTANT_SILENT` verdict is `GUESSED.md` #26 exactly. Ten further name-level matches, **not read**. `SIMULATORS.md` |
-| **`Simulators/CATALOGUE.md`, `GAP_INDEX.md`, `instrument-index/`** | 2026-09-23 | not opened this turn — the ~200 directories were grepped by name instead | **OPEN.** Reading the index rather than grepping names is the correct next step and is reader-side. Outcome unknown |
+| **`Simulators/CATALOGUE.md`, `GAP_INDEX.md`, `instrument-index/`** | 2026-09-23 | not opened — the 187 directories were grepped by name instead | **OPENED THE NEXT TURN. `CATALOGUE.md` is not an index** (a Range Error Catalog, 12% incidental coverage, `GUESSED.md` #32). **`instrument-index/INSTRUMENT-INDEX.tsv` is** — 205 rows, 97%, keyed on a plain-language `catches` column. Four of this session's failures are rows in it. `SIMULATORS.md` |
 
 ## TWO KINDS OF DECLINE, and the register's job is to keep them apart
 

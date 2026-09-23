@@ -634,6 +634,31 @@ one that argues for handing scoring outward.
     Same shape as #30 and found the same way — by opening something that had
     been logged as declined.
 
+32. **Function inferred from a filename, inside the paragraph declaring the
+    control against that.** `SIMULATORS.md` stated that directories had been
+    selected by name resemblance and that this made the list a floor — and in
+    the same paragraph named `CATALOGUE.md` as the repository's index and
+    recommended reading it as the next step.
+
+    **`CATALOGUE.md` is a bilingual Range Error Catalog**, a subject-matter
+    reference. It names 23 of 187 directories incidentally, and does not
+    contain `null-harness` at all.
+
+    **The actual index is `instrument-index/INSTRUMENT-INDEX.tsv`** — 205
+    rows, 97% coverage, with a spec, a generator, a coverage checker and an
+    overrides file. Its `catches` column is plain-language failure
+    description and `input_shape` types the input, which together give
+    reverse lookup: **find an instrument without knowing its name.**
+
+    Four of this session's own failures are already rows in it, including
+    #26 (*"a gate that never fires or always fires, read as a gate"*) and
+    #30 (*"a quiet failure read as a missing signal rather than a missing
+    aggregation function"*).
+
+    **Tenth instance of the class.** Caught by opening the file instead of
+    reading its name — one command, not run until the operator asked a
+    question that required it.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever
