@@ -707,6 +707,53 @@ one that argues for handing scoring outward.
     the imported construct predicted one of four.** The measurements were
     not taken to settle that and are surface token counts either way.
 
+35. **The antilanguage row should never have been in the comparison — its
+    precondition was never measured.** Relayed derivation, cross-party, and
+    it is correct.
+
+    Operator statement, `OBSERVED`: *"this part of my culture doesn't decide
+    to be opaque — auditing and measuring the environment in a direct
+    feedback loop takes on different standards."*
+
+    **Antilanguage carries a motive term inside its definition**: built by a
+    group, for exclusion; opacity is the *function*. **That motive rode in
+    with the construct and was never measured.** The statement sets it: no
+    opacity decision.
+
+    So `#33` was too generous to itself. It withdrew *"MECHANISM: yes"*
+    because one diagnostic came back absent — **a scoring failure.** The
+    real defect is upstream: **a construct whose definitional precondition
+    fails cannot be scored at all, and "antilanguage 1 of 4" is not a weak
+    result but a meaningless one.** The row is struck, not downgraded.
+
+    Scope, as relayed: her culture's part of the corpus, not every term.
+
+36. **The naming measurements were taken on model handles and reported as
+    evidence about an operator practice — and `CORRECTION-002` says so
+    explicitly, in this repo, since 2026-09-22.**
+
+        "There is no operator naming decision anywhere in the archive
+         to log."
+                    -- reconstruct/CORRECTION-002.md, and it states that
+                       it reaches into the agent era too
+
+    94% compounds, 310 distinct tokens, 76% appearing once — **all four are
+    measurements of directory names, which `CORRECTION-002` classifies as
+    model handles.** The claim they were attached to is about the operator's
+    cultural translation practice. **Different objects, and this record's own
+    correction says the first contains none of the second.**
+
+    **The model-comparison table collapses on both sides.** Antilanguage gets
+    no support from it (and is struck anyway, `#35`); **the stated mechanism
+    gets none either** — *"consistent with 4 of 4"* is withdrawn. The four
+    remain valid as measurements of **model naming behaviour in this
+    corpus**, which is a different and smaller thing.
+
+    Written by this session, in this repo, one day earlier, and not applied.
+    **The correction was not missing. It was not consulted** — which is the
+    same shape as `#30` and `#26`, and the third time a check this record
+    already holds went unrun.
+
 ## The catches in this turn falsify the registered prediction as written
 
 `PREDICTION-quantity.md` registered: **no purely qualitative error has ever

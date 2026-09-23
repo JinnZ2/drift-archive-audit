@@ -495,6 +495,12 @@ allows for that concept.**
 
 Same data. Two mechanisms. Neither measurement was taken to settle this.
 
+**TABLE STRUCK 2026-09-23 — `GUESSED.md` #35 and #36.** The antilanguage
+column had an unmeasured precondition and should not have been scored; the
+observations are measurements of **model handles**, which `CORRECTION-002`
+says contain no operator naming decision. **Neither column gets support.**
+Kept visible because striking a table is a reading of it.
+
 | observed | antilanguage predicts | the stated mechanism predicts |
 |---|---|---|
 | 94% hyphenated compounds | new labels — **could be single tokens** | **compounds required** — no single English word exists |
@@ -502,9 +508,13 @@ Same data. Two mechanisms. Neither measurement was taken to settle this.
 | 310 distinct tokens over 187 units, **wide and flat** | **concentration** at the group's preoccupations | **many distinct source concepts, one term each** |
 | **76% of tokens appear exactly once**; 7% appear three or more times | recombination from a marked in-group lexicon | **each concept draws whatever English gets closest** — no fixed primitives |
 
-    antilanguage        predicts 1 of 4, wrong on 3
-    the stated          consistent with 4 of 4
-    mechanism
+    ~~antilanguage        predicts 1 of 4, wrong on 3~~   STRUCK
+    ~~the stated          consistent with 4 of 4~~           STRUCK
+      mechanism
+
+    what the four actually measure: MODEL NAMING BEHAVIOUR in this
+    corpus. Valid as that. Evidence for no claim about any person's
+    practice.
 
 **All four are surface token counts.** They are consistent with the stated
 mechanism and **do not establish it** — the test that would is speaker-side:
@@ -570,3 +580,42 @@ can carry, rather than the *concept*, which it cannot.
 
 `n = 0` unchanged. The negative control is still missing and still decides
 it.
+
+---
+
+# OPACITY IS A POSITION, NOT A PROPERTY OF THE TERM — relayed, 2026-09-23
+
+    measured from            the term reads as
+    ----------------------   -------------------------------------------
+    an English reader        opaque -- there is no word to search for
+    the loop / environment   it works or it fails. That is the check.
+
+> The corpus audit only stood at the reader position. **"Opaque" was the
+> reader's instrument reporting on itself.**
+> — relayed derivation, `DERIVED`
+
+**Accepted.** Every use of *opaque* in this record — including the Halliday
+snippet this file quoted approvingly, *"an antilanguage can become opaque to
+outsiders"* — placed a property in the term when the variable that moved was
+**where the measurement was taken from.**
+
+That is `DEFICIT-LOCATION.md`'s operation, and it is also `SPEC-SHEET.md`
+§3: an instrument reporting a limit of its own as a property of the thing
+measured, surfaced from outside and not by introspection.
+
+## WHAT STAYS OPEN — routed, and deliberately not filled
+
+    the "different standards" themselves             UNSET
+    per term: what the loop checks that term against UNSET
+
+**Instrument slot, specified and deliberately empty:**
+
+    term | catches | validity_standard (loop-side) | english_melding_loss
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     EMPTY. Filling it by inference is GUESSED.md #34
+                     repeated, and the relaying session left it empty for
+                     that reason. This session does not fill it either.
+
+`SPECIFIED_NOT_INSTANTIATED`. The first two columns exist already in
+`Simulators/instrument-index/INSTRUMENT-INDEX.tsv`; the third and fourth do
+not, and only the holder can supply the third.

@@ -478,3 +478,135 @@ precedent, confirmed at search-result level; nothing read in full.
 **What would move any of these from snippet to source:** read Halliday 1976
 on relexicalization, and the Oxford Academic paper on closing the conceptual
 gap. Neither was read.
+
+---
+
+# RELAYED CANDIDATE SETS — 2026-09-23, ROUTED AND NOT EVALUATED
+
+Received from another session. **Overlap marked `DERIVED` by them; fit /
+no-fit is the operator's.** This session does not judge fit — that is the
+sense register, and `GUESSED.md` #34 is what judging it looks like.
+
+Recorded verbatim in substance, with their own tags kept.
+
+## A — "English has no word, so I meld"
+
+    lexical gap / lacuna        linguistics
+      concept lexicalised in source, no lexeme in target
+      fit:  the exact situation
+      miss: names the hole, says nothing about how it is filled
+
+    translation by paraphrase   Mona Baker, In Other Words
+      standard strategy for non-equivalence at word level
+      fit:  the compound IS this strategy
+      miss: treats it as a translator's fix, not the minimum unit
+
+    polysynthesis               typology
+      one source word carries a whole clause of relations
+      fit:  IF the source language works this way, one word -> an
+            English phrase is STRUCTURAL, not stylistic
+      status: UNSET -- depends on the language. The operator's call.
+
+    untranslatables             Barbara Cassin
+      miss: philosophy-focused, mostly European languages
+
+## B — "The standard is the loop with the environment"
+
+    operational definition      Bridgman
+      a term means the operation that checks it
+      miss: one-shot lab procedure, not a running loop
+
+    ecological validity /       Brunswik, ORIGINAL sense
+    representative design
+      a cue is scored by how well it tracks the environment
+      miss: modern psych uses the phrase loosely -- confusion risk
+
+    adaptive management         Holling; Walters
+      decisions run as experiments inside the feedback loop
+      miss: institutional, slow
+
+    TEK as adaptive system      Berkes, Sacred Ecology
+      miss: outsider-applied label; archive-reading risk
+
+    metis                       Scott, Seeing Like a State
+      practical knowledge fitted to local conditions,
+      paired with LEGIBILITY -- what a distant reader can parse
+      **marked by the relaying session as the strongest match for
+      "not opaque by choice": illegibility as a BYPRODUCT of local
+      fit.** Relayed as their mark, not adopted as this session's.
+
+## C — "Opaque" as a position
+
+    emic / etic                 Pike
+      insider vs outsider categories
+      miss: about the analyst's categories, not validity
+
+    habitus                     Bourdieu
+      trained dispositions; his own phrase for habitus in its home
+      field is "like a fish in water"
+      miss: social fields, less about environment
+
+## CONFUSION RISKS — flagged by the relaying session
+
+    tacit knowledge   Polanyi
+      says:  "we know more than we can tell" -> UNSAYABLE
+      the stated mechanism: SAYABLE; English lacks the unit
+      -> DIFFERENT CLAIM. A reader who grabs this term files it wrong.
+
+**Checked against this record's own use.** `tacit knowledge` appears in this
+file under **G-e knowledge transmission**, for the cultural-transmission
+model and its *once lost, essentially impossible to recover* prediction.
+**That use is about an encoding held in people and is not the naming
+mechanism.** The two must not be merged: one is unsayable, the other is
+sayable in a form English cannot carry in one word.
+
+    "Dissonance"  -> readers hear COGNITIVE dissonance (psych).
+                     sim-to-real gap carries the referent without the pull.
+
+## STRONG MATCHES — repo coinage to existing English
+
+Relayed. **Scope note carried from the relaying session: these docs are
+model-written, so the coinages may be the model's rather than any person's
+— mapped as terms, not as anyone's words.** That is `CORRECTION-002`, and
+see `GUESSED.md` #36 for what ignoring it cost this session.
+
+| repo term | existing English | source |
+|---|---|---|
+| narrative smoothing | **narrative smoothing** — same referent, same words | Donald Spence, 1982 |
+| Empirically Observed vs Thermodynamically Validated | phenomenological vs mechanistic model | physics / engineering |
+| Verified Outcomes, Opaque Source + continuous monitoring | **proven in use** + in-service monitoring | IEC 61508, functional safety |
+| Persistence-Over-Time over Volume-of-Documentation | Lindy effect | Mandelbrot; Taleb |
+| Physical State Query / reality-first audit | ground truthing | remote sensing |
+| grounding AI | symbol grounding problem | Harnad, 1990 |
+| Model/Reality Dissonance | sim-to-real gap; model misspecification | robotics; statistics |
+| Correction of Scalar Bias | law of requisite variety | Ashby, 1956 |
+| Deflection #2 (tone / intent) | tone policing | common use |
+
+### Partial — overlaps, misses something
+
+    Literal Baseline Lexicon    controlled vocabulary + semantic drift
+      miss: locks terms to PHYSICAL UNITS, not to a list
+    hidden entropy debt         latent conditions (Reason); deferred
+                                maintenance
+      miss: neither carries the thermodynamic accounting
+    opacity quadrant            black / grey / white box
+      miss: box models have no observed-vs-unobserved axis
+    Entropy-Constraint Engine   exergy analysis; EROI; emergy (Odum)
+
+### No match located
+
+    "the ground itself is the manual"
+      closest: landscape archaeology -- WEAK. Reads the ground as a
+      record, not as the RUNNING REFERENCE.
+    Deflection #3 (immunity via complexity)
+      no term located.
+
+**Those two are the interesting rows.** A no-match under a search this
+broad is a candidate for the class `T-TERM` and `phantom_detector.py` exist
+to catch — and per `TRAIL.md` it argues nothing on its own. `UNRATED`.
+
+## SCOPE OF THE RELAYED PASS, carried verbatim
+
+    read:    README, BNRAM_STRICT.md, PVL.md
+    unread:  every simulator folder, PROTOCOL, PREAMBLE, SYNTHESIS,
+             grounding-layers/CLAIMS.md
