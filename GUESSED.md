@@ -981,3 +981,67 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     **open the thing the name refers to, or record that you did not.** Here
     there was nothing to open — which is itself the finding, and it was
     reportable at A2 and was not reported.
+
+42. **A grading turned on a polysemous word, and the word ran in its corpus
+    default — against a corpus that had already declared the other sense.**
+
+    `verify/ANSWERED.md` §6 graded four candidate terms on two axes and
+    concluded *"no candidate is scoped on both."* The `Umwelt` row read
+    *scoped by description of **sense organs***. "Senses" was never
+    declared, so the English default ran: **biological receptor organs**.
+    Under that sense a crystal cannot sense and Uexkull misses.
+
+    **Measured against `Living-Intelligence-Database`, 119 entities:**
+
+        entropy_profile.archetype = "sensor"      26 of 119
+          animal 17 · plant 4 · crystal 2 · energy 1 · plasma 1 · temporal 1
+          9 of the 26 have no biological receptor organ
+
+        ontology/crystal/quartz.json
+          "Converts pressure to signal"   archetype: "sensor"
+
+    **The database types a crystal as a sensor.** It runs on the physical
+    sense — transduction of an environmental input into a change of the
+    system's own state. The grading imported an English default into a
+    judgment *about an artifact that had already answered the question in a
+    typed field*.
+
+    **Withdrawn, not re-graded.** Which sense the practice runs on is the
+    operator's; a replacement grading written by the party that voided the
+    first is the same move twice.
+
+    **The route has a second instance now, so it gets a name.** One turn
+    earlier the licence sweep read *"Changepoint detection … with
+    attribution to the interoceptive signal"* as a licence condition —
+    `attribution` in its causal sense, scored as its credit sense.
+
+        DETECTOR_BLIND    sees nothing                 guarded
+        DETECTOR_TIMEOUT  returns no reading           guarded
+        POLARITY          counts the negation as
+                          the claim                    registered, #40
+        SENSE_COLLISION   the term is present in a
+                          DIFFERENT sense and is
+                          scored as the intended one   n=2, NOT guarded
+
+    n = 2, and the substrates differ: once in a regex, once in my own
+    reasoning. Enumerating phrases does not reach the second.
+
+    **Registered requirement, not built:** a grading whose predicate is a
+    polysemous term carries the sense it used, or it returns `UNRATED` —
+    the shape of `Simulators/tools/sourced.py`, which already refuses a
+    value that arrives without its literal source and locator. Applied to a
+    word rather than a number, the same gate would have stopped §6 before
+    it was written.
+
+    **One thing held.** `Keystone-Codex`'s `rules/term_table.json` carries
+    the four candidates at `fit: UNRATED`, `operator_fit: UNSET`. No
+    grading reached the source repo, so the void is contained in this
+    record.
+
+    **And a false zero was avoided by a control, in the same turn.** A
+    key-level scan of all 119 entities found no receptor/effector field and
+    no directed relation type — every link is symmetric. Reported alone,
+    that reads *"the corpus does not encode transduction."* A positive
+    control over raw text (piezoelectricity is real in quartz) returned 33
+    hits across 20 entities. `DETECTOR_BLIND`, not absence. #26's shape,
+    caught this time before it was written down.

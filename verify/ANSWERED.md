@@ -477,3 +477,115 @@ once already, in the other direction.
 
 If the forms are ever read as evidence of what the operator asserted, these
 three lines carry one more hop than the other 55 will.
+
+---
+
+## KC-OPEN-1 §6 — THE CANDIDATE GRADING IS VOID, AND THE CORPUS SAYS SO
+
+**2026-09-23.** The relaying session withdrew its own grading: *"all four
+candidates miss for the same cause — a locus requirement"* rested on
+**"senses" = biological receptor organs**, a sense used without being
+declared. The corpus default ran.
+
+**This record used the same undeclared sense**, one turn earlier, in §6
+above:
+
+    Umwelt reconstruction   scoped to  an organism's perceptual world
+                            scoped by  description of SENSE ORGANS
+
+and concluded *"No candidate is scoped on both axes."* That conclusion rests
+on the same word. **It is void with the rest, not re-graded.**
+
+    STATUS   §6's axis table and its conclusion: VOID, 2026-09-23
+    CAUSE    "senses" run in the corpus default, undeclared
+    NOT DONE re-grading under the other sense. Which sense the practice
+             runs on is the operator's, and a grading made to replace a
+             void one, by the party that made it void, is the same move
+             again.
+
+## THE TWO SENSES, AS SUPPLIED
+
+    BIOLOGICAL   receptor organs (eye, ear, skin, antenna, lateral line)
+                 feeding a perceiving subject.
+                 Uexkull's own frame: receptor -> Merkwelt,
+                                      effector -> Wirkwelt
+                 under this sense: crystal, plasma -> no senses -> MISS
+
+    PHYSICAL     any transduction of an environmental input into a change
+                 of the system's own state
+                     quartz    pressure -> voltage
+                     crystal   temperature -> lattice spacing
+                     plasma    field -> trajectory
+                     plant     light direction -> growth direction
+                 under this sense: every entity senses -> the miss shrinks
+
+## MEASURED — THE DATABASE ALREADY RUNS ON THE PHYSICAL SENSE
+
+`Living-Intelligence-Database`, 119 entities, read this time rather than
+inferred from the README.
+
+    entropy_profile.archetype, whole corpus
+        bridge   33
+        sensor   26     <---
+        engine   24
+        chassis  22
+        cycle    14
+
+    archetype = "sensor", BY ONTOLOGY
+        animal    17 of 40
+        plant      4 of 23
+        crystal    2 of 6     QUARTZ, TOUR
+        energy     1 of 15    RES_SENSOR
+        plasma     1 of 5     AURORA
+        temporal   1 of 6     ECHO
+
+    9 of the 26 sensors have no biological receptor organ.
+
+And the transduction is written into the record, not left implicit:
+
+    ontology/crystal/quartz.json
+      "description": "Piezoelectric mineral intelligence.
+                      Converts pressure to signal, ..."
+      "entropy_profile": { "archetype": "sensor" }
+      "attributes": { "piezoelectric_coefficient": { ... Cady 1946 ... } }
+
+**The artifact had already declared the sense, in a typed field, before the
+grading was made.** The corpus default was not merely undeclared — it was
+**contradicted by the corpus being graded**. A crystal is typed `sensor`
+there.
+
+    which sense the DATABASE runs on   PHYSICAL. measured, VERIFIED.
+    which sense the PRACTICE runs on   the operator's. UNSET, not inferred
+                                       from the database.
+
+## A GUARD FIRED, AND IT MATTERED
+
+A key-level scan of all 119 entities found **no** receptor/effector field and
+**no** directed input->state relation — every link type is symmetric
+(`synergy`, `resonance`, `energy_coupling`, `temporal_bridge`,
+`connected_to`). On that alone the honest report would have been *"the
+database does not encode transduction."*
+
+**That would have been a false zero.** A positive control run over the raw
+text — *piezoelectricity is real in quartz, so if the corpus encodes
+transduction anywhere it should appear* — returned 33 hits across 20
+entities, `QUARTZ` among them. The encoding is in `description`,
+`symbolic_code` and `archetype`, not in a relation type.
+
+    key-level scan        NOTHING FOUND    -> would have been reported
+    positive control      33 hits, 20 entities
+    verdict               DETECTOR_BLIND, not absence
+
+Same shape as `GUESSED.md` #26: the detector was pointed at one encoding of
+the thing and the corpus used another.
+
+## WHAT SURVIVES, AND WHAT THE TERM TABLE GOT RIGHT BY NOT SAYING
+
+`Keystone-Codex`'s `rules/term_table.json`, committed before this correction,
+carries the four candidates with `basis: model_recall`, `fit: UNRATED`, and
+`operator_fit: UNSET`. **No grading was written into it.** The void lands
+entirely in prose here and touches nothing in the source repo.
+
+That is not luck: `UNRATED` was entered because the fit was the operator's to
+give. The same discipline would have voided §6's table before it was written,
+had it been applied to the word rather than only to the verdict.
