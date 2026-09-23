@@ -1045,3 +1045,44 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     control over raw text (piezoelectricity is real in quartz) returned 33
     hits across 20 entities. `DETECTOR_BLIND`, not absence. #26's shape,
     caught this time before it was written down.
+
+43. **The grammar was in a repository already cloned on this disk, and the
+    audit spent a day and a half re-deriving its failure modes by hand.**
+
+    `/home/user/jinnz2/JinnZ2/energy_english/` — **41 files, 21 Python
+    modules**, CC0, with `SPEC.md`, `ENERGY_ENGLISH_AXIOM.md`, a glossary,
+    a prediction protocol, a falsifiability notice, a `CITATION.cff`, and a
+    working CLI. `python3 -m energy_english --help` was **run**, exit 0.
+    Among its options: *"disable the gate's auto-retry-with-teaching-
+    scaffold behaviour on blocked model responses."*
+
+    `JinnZ2/JinnZ2` was cloned as a read-only fixture earlier in this
+    session. **The directory was never listed.**
+
+    **And the class this record has been building was already written
+    down**, in `ai-human-audit-protocol/relational_cognition/README.md`:
+
+    > When verb-first cognition is forced through noun-first frameworks,
+    > substrate is silently erased. Ceremonies become "cultural artifacts,"
+    > elders become "storytellers," dissonance becomes "error."
+
+    Three worked examples of the operation. `miss_class: WRONG_FRAME` and
+    `SENSE_COLLISION` are re-derivations, and `ethical_alignment` rendered
+    as `ethical_score` is a fourth instance of the documented kind.
+
+    **Twelfth instance of the class, and the largest by an order of
+    magnitude.** #32 was a filename. #37 was three docstrings. #41 was a
+    schema key. This is a specified, licensed, executable grammar with a
+    gate, inside a repo on disk.
+
+    **What is newly wrong about it is the scale, not the shape.** The
+    control has been stated three times and is still not automatic: *open
+    the thing, or record that you did not.* Applied to a repository, that
+    means **list it before deriving anything the repository might already
+    hold** — and this session cloned four fixtures and listed the top level
+    of two.
+
+    Corrected in kind, not only in words: `NOUN-FRAME.md` §5 carries the
+    inventory, §8 carries what is still unread. `SPEC.md` was opened to 18
+    lines and is **not** studied; 20 of the 21 modules were **not** run,
+    and nothing beyond `PRESENT` is claimed for them.
