@@ -4,6 +4,20 @@
 # Under CORRECTION-001 every item below is a FIRST-MODEL RENDERING.
 # You are marking whether it matches your aim, not whether you wrote it.
 # Nothing in this audit is scored against an unmarked line.
+#
+# rev 2, 2026-09-23 — item text UNCHANGED. What changed is the ADMISSIBLE
+# ANSWER SET. On any OPEN line, these are valid answers and are not evasions:
+#     NOT_OPERATOR_SET   the field was never an aim — no value was chosen
+#     NEITHER            both listed options are wrong
+#     BOTH               both held, at different times or in different places
+#     DON'T KNOW         asked and not recoverable from memory
+#     UNRECORDED         happened, not retained
+# 7 of the 10 OPEN items were written as a forced choice inside a set THIS
+# AUDIT picked. That is a defect in the form. The first item answered came
+# back from outside the set. See verify/ANSWERED.md.
+#
+# Answers are recorded in verify/ANSWERED.md with their provenance.
+# The operator fields below stay BLANK unless the operator marks them.
 
 TARGET
 the measurand is whether a network with no central authority keeps functioning while its components are unreliable, compromised or lying | operator:

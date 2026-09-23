@@ -77,6 +77,16 @@ Content is not fixed between the encodings, so C3 does not license an
 attribution. Recorded as an unresolved conflict, still unresolved at HEAD
 (plaintext "20 minute" in 5 files, "2 minute" in 1).
 
+**2026-09-23 — the conflict stays, the QUESTION goes.** The A6 form asked
+*which is the target?*; the operator's answer is that the interval was
+`NOT_OPERATOR_SET` — *"whatever the capabilities of the AI model at that
+time"* (`operator memory, 2026-09-23`). Neither value was an aim, so there is
+no target to pick between. The corpus conflict is untouched: 5 files vs 1, at
+HEAD, still. What is removed is the presupposition that one of them was
+right. C-2 remains **not admissible** as a channel experiment for the reason
+already given — content varied — and now also because there is no fixed aim
+for the two encodings to have rendered differently. `verify/ANSWERED.md`.
+
 ## C-3  decay_model, mapping vs string — SAME CONTENT, STRUCTURE VARIED
     root:  5 mapping  /  38 string
     HEAD:  5 mapping  /  39 string, holding 29 distinct free-text values

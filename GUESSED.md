@@ -859,3 +859,49 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     anyone else filling it is settling by fiat.* The forms encode exactly
     that, and 10 of the 58 lines are direct factual questions with two
     archive-supported readings apiece.
+
+39. **Seven of the ten OPEN items on the A6 forms are forced choices inside
+    a set this audit picked.** The first one answered came back from outside
+    the set.
+
+    `BG-OPEN-1` asked *self-healing interval: base64 says 2 minutes, both hex
+    blobs say 20 min — which is the target?* — offering `{2 min, 20 min}`.
+    Operator: *"whatever the capabilities of the AI model at that time."*
+    The interval was never a target field. The item is not answered, it is
+    **dissolved**; the false presupposition was mine.
+
+    **This is the audit's own rule, broken by an instrument the audit
+    built.** `UNSET` / `UNCLEAR` / `UNATTRIBUTABLE` are declared valid
+    explicit values everywhere in this repo — and the line that needed one
+    did not offer one. A two-valued question about a field that can be unset
+    **pressures toward filling it**, which the work order forbids outright.
+
+    **Measured, criterion stated before running** (CLOSED-FORM = the text
+    presents an explicit alternation the answer must fall inside):
+
+        closed-form OPEN items          7 of 10
+        answered so far                 1
+        answers outside the offered set 1 of 1
+
+    The criterion undercounts — *did they exist?* is a yes/no in substance
+    and does not match the alternation pattern. The number stands as run.
+
+    **It is the inverse of the acceptance criterion, not a violation of a
+    different one.** Criterion 3 is *RETURNS A SET THE READER DIDN'T PICK*.
+    These lines hand the reader a set the **author** picked. An instrument
+    that can only return values its author enumerated cannot report that the
+    enumeration was wrong — which is precisely what this item had to report.
+
+    **Remedy is structural, in the form, not in seven rewordings:** a
+    standing admissible answer set in the header — `NOT_OPERATOR_SET`,
+    `NEITHER`, `BOTH`, `DON'T KNOW`, `UNRECORDED` — valid on every OPEN line
+    without the line offering it. `verify/*.txt` rev 2, item text unchanged.
+
+    **One line already had the escape.** `keystone-codex`'s DIVERGENCE item
+    carries `YES / NO / DON'T KNOW` in its own text. 1 of 58.
+
+    **What does not get logged as a failure:** the classification itself.
+    `BG-3` has read `RENDERING conflict` since `d113f9d`, written from the
+    archive on 2026-09-22; the operator reached *not an aim at all* from
+    memory on 09-23, with no contact between them. First out-of-sample
+    confirmation of an A5 call in this audit. n = 1.
