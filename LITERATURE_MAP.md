@@ -444,3 +444,37 @@ but not, in what was found, **selection or matching at intake**.
 `UNRECORDED` whether those systems had one. That is the first thing to look
 for, and its absence in the write-ups is not evidence of its absence in the
 practice.
+
+
+## Relexicalization and uptake failure — added 2026-09-23
+
+Donor literature for `FINDABILITY.md`'s mechanism. Operator-claimed
+precedent, confirmed at search-result level; nothing read in full.
+
+    Halliday 1976, ANTILANGUAGE     relexicalization (same grammar,
+                                    different vocabulary) and
+                                    overlexicalization (many terms for
+                                    one referent, concentrated at the
+                                    group's preoccupations).
+                                    "Opaque to outsiders."
+                                    MECHANISM transfers. The anti-society
+                                    social object does NOT and is not
+                                    claimed.
+
+    Fricker, HERMENEUTICAL          a gap in COLLECTIVE interpretive
+    INJUSTICE                       resources. Partial fit only: here the
+                                    resources exist and are published.
+
+    Dotson, CONTRIBUTORY            resources exist locally; dominant
+    INJUSTICE                       group WILLFULLY REFUSES uptake.
+                                    Closest construct, wrong
+                                    specification -- this session's
+                                    failure was no query, not refusal.
+
+    THE CLAUSE THAT FITS            "a concept is only locally available
+                                    ... while that same concept fails to
+                                    gain uptake more broadly."
+
+**What would move any of these from snippet to source:** read Halliday 1976
+on relexicalization, and the Oxford Academic paper on closing the conceptual
+gap. Neither was read.

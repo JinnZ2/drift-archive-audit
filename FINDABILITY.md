@@ -117,6 +117,121 @@ built one twice, single-purpose, and neither half knew about the other.
 **The find arrived the same way all five earlier ones did: the operator
 asked.** Zero of six found by search.
 
+## THE NAMING IS NOT IDIOSYNCRATIC — it has a literature, 2026-09-23
+
+Operator claim, relayed:
+
+> When there are others that route around culture artifacts, they may
+> probably employ the same non-conventional naming — it's a known cultural
+> thing that has precedence.
+
+**The precedent claim is confirmed, and it has three named constructs.**
+`VERIFIED at search-result level` — no primary read in full. **Positive
+control satisfied incidentally:** the first query returned the literature
+directly, so the channel demonstrably sees this field; a null here would
+have meant something.
+
+| construct | what it names | fit |
+|---|---|---|
+| **Antilanguage** — Halliday 1976 | *relexicalization*: same grammar, different vocabulary. *Overlexicalization*: many terms for one referent, concentrated where the group's preoccupations are. **"An antilanguage can become opaque to outsiders."** | **MECHANISM: yes. SOCIAL OBJECT: no** — see below |
+| **Hermeneutical injustice** — Fricker | *"a gap in collective interpretive resources puts someone at an unfair disadvantage in making sense of their social experiences"* | **partial** — here the resources are not missing, they are built and published |
+| **Contributory injustice** — Dotson | the marginalized person **possesses** the hermeneutical resources; a dominant group **willfully refuses** to take them up | **closest construct, wrong specification** — see below |
+
+### THE BEST FIT IS A CLAUSE, NOT A CONSTRUCT
+
+From the hermeneutical-gap literature, describing one of the gap's forms:
+
+> a concept is **only locally available** and utilized solely among members
+> of a particular community or social group, while that same concept
+> **fails to gain uptake more broadly.**
+
+**That clause fits exactly**: 187 directories of terms, an
+`INSTRUMENT-INDEX.tsv` keyed on a `catches` column, locally available,
+unread by the party that needed them.
+
+### WHAT IS DELIBERATELY NOT IMPORTED
+
+Each construct carries a social object this record has no evidence for, and
+importing it would be `GUESSED.md` #23 in a new domain — the corpus sense of
+a term applied where the speaker's case may not carry it.
+
+    antilanguage           carries ANTI-SOCIETY, and OPACITY AS A GOAL.
+                           Nothing here indicates either. The naming looks
+                           non-conventional because the conventional term
+                           carries the frame being routed around -- not to
+                           be opaque to anyone.
+    contributory injustice carries WILLFUL REFUSAL by the dominant group.
+                           This session's failure was not refusal. It was
+                           NO QUERY. Those are different mechanisms and
+                           merging them would flatter this record, not
+                           describe it.
+
+**The mechanism transfers. The social object does not, and is not claimed.**
+
+### MEASURED — the relexicalization signature is present, at surface level
+
+    SURFACE MEASURE ONLY -- token shape, not meaning.
+
+    Simulators top-level directories    187
+      hyphenated compound               175   94%
+      three-or-more tokens               65   35%
+      single token                        12    6%
+
+The twelve single-token names are almost all infrastructure (`docs`,
+`tests`, `tools`, `notes`, `ledger`, `legacy`), one domain acronym
+(`AMOC`), and coinages in their own right (`inverseminar`,
+`uninstrumented`). **Essentially every content directory is a compound
+coinage.**
+
+This is consistent with relexicalization and **is not evidence of it** — a
+token-shape count is the surface-token operationalization this record has
+logged ten times. It corroborates; it does not establish.
+
+### REGISTERED PREDICTION, 2026-09-23, n = 0
+
+    Work that routes around a dominant frame carries dense
+    relexicalization -- compound coinages standing where a conventional
+    term exists but carries the frame being routed around.
+
+    THEREFORE such work is findable BY THAT SIGNATURE rather than by its
+    terms, and the same signature should locate OTHER parties' route-around
+    work, not only this operator's.
+
+    FALSIFIERS, either one:
+      (a) a body of route-around work that uses conventional terminology
+          throughout;
+      (b) a search by relexicalization signature that returns
+          predominantly non-route-around work.
+
+**Population check, run at registration rather than after a falsification**
+(`GUESSED.md` #19's lesson, applied forward):
+
+    stated over   parties who route around a dominant frame, generally
+    test set      ONE corpus, ONE author
+    therefore     the 94% above is one author agreeing with themselves.
+                  It is not evidence of generality and is not counted as
+                  any.
+    what would    the signature locating a second party's work, found by
+    move it       nobody who already knew where it was.
+
+### WHY THIS MATTERS MORE THAN THE FIX
+
+`DECLINED.md` and the index make *this* corpus reachable. The prediction
+says something larger: **searching for route-around work by conventional
+terms is structurally guaranteed to fail**, for everyone doing it, not as
+an accident of one vocabulary.
+
+If it holds, the searchable property is the relexicalization itself — and
+that is a property a searcher can detect **without knowing any of the
+terms**, which is the exact condition this file describes.
+
+Sources, `UNVERIFIED` at snippet level, nothing read in full:
+[Anti-society / antilanguage](https://en.wikipedia.org/wiki/Anti-society) ·
+[Revisiting antilanguage: cryptolects, the underworld and resistance identity](https://www.researchgate.net/publication/370158773_Revisiting_antilanguage_cryptolects_the_underworld_and_resistance_identity) ·
+[Epistemic Injustice (IEP)](https://iep.utm.edu/epistemic-injustice/) ·
+[Closing the Conceptual Gap in Epistemic Injustice](https://academic.oup.com/pq/article/74/1/229/7080901) ·
+[Whose Hermeneutical Marginalization?](https://www.cambridge.org/core/journals/episteme/article/whose-hermeneutical-marginalization/89E34AFBE4EDAD39A4234E956D87F062)
+
 ## What this does to the binding constraint — a third job, done invisibly
 
 `STUDY.md` declares the constraint as **a second party who holds the
