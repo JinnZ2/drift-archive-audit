@@ -358,8 +358,16 @@ built and stricter; `term-drift-citation` is the temporal half it does not
 cover. **Seventh findability instance and the first located by looking
 rather than by being told.**
 
-    found by search, all instances to date    1 of 7
-    and the one was found by applying this file's own prescription
+    found by search, all instances to date    2 of 8
+    both by applying this file's own prescription, both on the turn
+    a received document was about to be filed
+
+**Eighth, 2026-09-23:** `Simulators/coinage-log/` — `COINAGE_LOG.md` plus
+`check_coinage.py` — located before filing a relayed coinage search that
+does not reference it. Its README asks **"is the absence of a word a
+finding, or only an unfinished search?"**, which is `TRAIL.md`'s rule
+applied to naming gaps, written in the corpus. See
+`COINAGE-SEARCH-RECEIVED.md`.
 
 `TERM-MAP-RECEIVED.md` carries the check and what survived it —
 `operator_fit`, a holder-only column with `UNSET` as its default, verified

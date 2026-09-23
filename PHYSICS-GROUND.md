@@ -444,6 +444,20 @@ after all.
 
 **Not filled in by inference. The definitions are the operator's to supply.**
 
+**CANDIDATES ARRIVED 2026-09-23 — and they are not the supply.**
+`COINAGE-SEARCH-RECEIVED.md` maps five of the six to existing terms:
+`coherence` → phase coherence (physics, MATCH-candidate); `reciprocity` →
+Lorentz/Rayleigh reciprocity (PARTIAL, unconfirmed); `embodied experience` →
+ecological validity in Brunswik's original sense (PARTIAL); `sufficiency` →
+nothing found; `experienced operator` → nothing new. **`dialogue` is not in
+the relay and remains the outstanding member.**
+
+**Group (b) stays `UNRATED`.** Those are a model's candidates *for* the
+operator's senses, not the operator stipulating them, and this sentence is
+why the distinction is kept. **What the relay does change is where the
+candidates come from: outside the corpus, which is where this addendum said
+they would have to come from.** The corpus evidence below is unaffected.
+
 ## The corpus does NOT rescue this — checked
 
 Definitional-position search across 11 repos:

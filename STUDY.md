@@ -684,6 +684,14 @@ are distinguishable from inference. Keep them distinguishable.
                           applied, with its measured cost: 37 of 42
                           entries move PASS -> NOT_EVALUABLE, none to
                           FAIL. Runnable read-only against the corpus.
+    COINAGE-SEARCH-RECEIVED.md
+                          relayed coinage search, filed verbatim. The FIND
+                          check located Simulators/coinage-log/ with its
+                          own checker, which the relay does not reference.
+                          Candidates arrived for 5 of PHYSICS-GROUND's 6
+                          group (b) terms; dialogue outstanding; group (b)
+                          stays UNRATED because candidates are not the
+                          operator's supply.
     TERM-MAP-RECEIVED.md  received TERM_MAP, filed verbatim. The FIND
                           check was run BEFORE filing — first time — and
                           returned three existing pieces of term
