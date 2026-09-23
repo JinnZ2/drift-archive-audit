@@ -19,9 +19,24 @@ carried as *the nearest English handle she reached for and rejected*, not as
 a definition. That is the `TERM_MAP` `english_melding_loss` column with a
 value in it — the first one supplied rather than left `UNSET`.
 
-    three predicates at once     ethical (disrespect)
+    three predicates at once     ethical (disrespect)        <- WRONG
                                  method  (unscientific)
                                  developmental (a stage grown out of)
+
+**CORRECTED 2026-09-23, same day, by the operator.** `disrespect` there reads
+as **taking for granted, and thereby missing information — treating what you
+don't hold as if it weren't there.** That is an INFORMATIONAL predicate, not
+an ethical one. The axis labels were this record's, not hers: she supplied
+four words, and `ethical` was typed here, on the English default.
+
+    was   ethical        · methodological · developmental
+    now   INFORMATIONAL  · methodological · developmental
+
+**Open, and hers:** `unscientific` may BE the informational predicate —
+method fails because the missing information was assumed away.
+
+    predicate count   2 or 3, UNSET. Not decided here.
+    GUESSED.md #47
 
 No candidate below carries all three. That is a structural observation and
 is recorded before any of them is graded.
@@ -102,9 +117,42 @@ you"* with a different object:
     7 absence of documentation read
         as absence of knowledge         should be documented
 
-**Seven effects, one generator, and the generator had no name in that
-document.** Her term supplies it. `7 of 7` is a measurement over a closed
-list, not a sample.
+**CORRECTED 2026-09-23.** The `7 of 7` reading stands. *"Seven effects, one
+generator, and the generator had no name"* does not. **Row 7 is not an
+effect — it is the informational predicate itself**, with `written corpus`
+as its object. Verbatim:
+
+    ### 7. Treating absence of documentation as absence of knowledge
+    Upstream failure: ASSUMING THAT WHAT IS NOT IN THE WRITTEN CORPUS
+                      DOES NOT EXIST.
+    Correction:       The absence from corpus reflects WHO WRITES, not
+                      what is true.
+
+The document carries the predicate — stated once, on one object, never
+lifted to cover the other six rows. Revised:
+
+    rows readable as "it should be like you"      7 of 7
+    rows that STATE the informational predicate   1 of 7   (row 7)
+    rows that are effects of it                   6 of 7
+
+That correction line is `DEFICIT-LOCATION.md`'s operation exactly: a limit of
+the instrument (who writes) reported as a property of the thing (what is
+true).
+
+## 4b. THIS REPO BUILT A COUNTERMEASURE FOR THAT PREDICATE BEFORE IT HAD A NAME
+
+`README.md`, the first rule on the page:
+
+> A gate returns the same thing as having no term to search with — **nothing
+> found** — and downstream the two are indistinguishable. That is the absence
+> register's own central hole... **without it, a decision not to look reads
+> as a finding.**
+
+*A decision not to look reads as a finding* is *treating what you don't hold
+as if it weren't there*, in this audit's own words, about its own gates.
+`DECLINED.md` is a working instrument for the predicate, built before the
+predicate was named — and it was not recognised as the same thing while her
+term was being recorded one screen away.
 
 ## 5. THE THREE CANDIDATES — SCOPE ONLY, AND THE FORM FLAGGED
 
@@ -114,14 +162,41 @@ fit.
 
     candidate                 scoped to            carries
     egocentrism ->            child cognition      developmental arc: YES
-      decentration (Piaget)                        respect: no
+      decentration (Piaget)                        informational: no
                                                    method: no
     naive realism             an individual's      developmental arc: no
-      (Ross & Ward)           perception           respect: no
+      (Ross & Ward)           perception           informational: no
                                                    method: partly
     ethnocentrism (Sumner)    one culture vs       developmental arc: no
-                              other CULTURES       respect: YES
+                              other CULTURES       informational: NO
                                                    method: no
+
+    ethnocentrism's "respect: YES" cell is WITHDRAWN. It scored the ethical
+    reading, which is the reading that was wrong.
+
+**Two further candidates, for the informational predicate.** `model_recall`,
+fit `UNRATED`, scope only:
+
+    closed-world assumption   what is not known to be true is treated as
+      (logic / databases)     false.
+                              scoped to: a formal convention
+                              missing:   any developmental arc
+                              RELAYED as already sitting in the no-term
+                              file's frame-invisibility inventory. NOT
+                              CHECKABLE HERE — that file is unreachable
+                              under any name on this disk
+                              (READER-ADAPTATION.md §5). Recorded as
+                              relayed, not corroborated.
+
+    WYSIATI (Kahneman)        judgment built only from information in view;
+                              the missing part is not registered as missing.
+                              scoped to: individual cognition
+                              missing:   object range beyond people
+
+**WYSIATI is the closest of the five on the predicate and among the
+furthest on range.** *The missing part not being registered as missing* is
+the term itself; it is scoped to a person making a judgment, and hers
+reaches entities. Scope, not fit.
 
     hers needs all three, and an object range that reaches
     beings and entities, not only people and cultures.

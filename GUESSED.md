@@ -1188,3 +1188,59 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     earlier. A disagreement that the audit itself caused, appearing in an
     independent record, is the cheapest available proof that the
     cross-check is live rather than circular.
+
+47. **A corpus-default read of a term, inside the document whose subject is
+    corpus-default reads, with a melding-loss flag already sitting two
+    lines above it.**
+
+    The operator supplied four words for her term: `disrespect`,
+    `egotistic`, `unscientific`, *a stage one grows up from* — and flagged
+    `egotistic` herself as *"wrong word but close in English."*
+
+    This record then wrote the axis labels, which were **not hers**:
+
+        three predicates at once   ethical (disrespect)      <- typed here
+                                   method  (unscientific)
+                                   developmental
+
+    `disrespect` reads as **taking for granted, and thereby missing
+    information — treating what you don't hold as if it weren't there.**
+    Informational, not ethical.
+
+    **The prior was sitting in the same four-line list.** One word in it
+    was explicitly marked as a bad English fit. The correct inference from
+    a flagged handle is that its neighbours are suspect too; the inference
+    made was that the flagged one was the exception.
+
+    **Third instance in three turns of the same route.** #40 read a
+    negation as the claim, #42 read `senses` in its noun default, #47 read
+    `disrespect` in its ethical default — and #42 named `SENSE_COLLISION`
+    and registered a guard that was **not built**. The guard would not have
+    caught this one either: it asks for a declared sense on a *predicate*,
+    and here the predicate was the operator's word while the *label* was
+    mine. The gap is narrower than the guard as specified.
+
+        registered      a grading whose predicate is polysemous carries
+                        the sense it used, or returns UNRATED
+        not covered     a LABEL the record supplies for someone else's
+                        word. The word was hers; the axis name was not,
+                        and it was not marked as this record's.
+
+    **Remedy that is structural and cheap:** when a relay supplies terms
+    and this record supplies the axis, the axis carries `(this record's
+    label)` inline. The `DERIVED` grade already exists for exactly this and
+    was not applied to a one-word column header.
+
+    **And a correction inside the correction.** Last turn's *"seven
+    effects, one generator, and the generator had no name in that
+    document"* is wrong. Row 7 of `architecture_mismatch.md` STATES the
+    informational predicate — *"assuming that what is not in the written
+    corpus does not exist"* — with `written corpus` as its object. 6 of 7
+    are effects; 1 of 7 is the predicate. The `7 of 7` reading stands; the
+    "unnamed" claim does not.
+
+    **Worst of it:** this repo's `README.md` opens with the same predicate
+    applied to its own gates — *"a decision not to look reads as a
+    finding"* — and `DECLINED.md` is a working countermeasure for it, built
+    on day one. The predicate had an implementation here before it had a
+    name, and that was not recognised while the name was being recorded.
