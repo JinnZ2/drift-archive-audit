@@ -1458,10 +1458,11 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
 
     The operator, on the measurement in `GENDER-BY-TOPIC.md`:
 
-    > in my culture being a woman and doing mechanical or physical labor is
-    > not odd. my mother still chainsaws and does drywall at 73. my brother
-    > caretakes so roles aren't gendered like in other cultures. my dad
-    > cared for his friend full time for many years.
+    **Generalised, per #55.** In the operator's culture roles are not
+    gendered the way the prior assumes: family members across ages and
+    sexes do the work the prior codes as male, and the caregiving work it
+    codes as female. The verbatim statement named living family members and
+    what they do, and is not reproduced.
 
     The measurement found the split — *he* for competence and work rate,
     *she* for communication and culture, zero crossings on 22 passages —
@@ -1487,3 +1488,45 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     Remarking on it is the signal, and it marks the reader rather than the
     subject — `DEFICIT-LOCATION.md`'s operation on a social reading instead
     of an instrument reading.
+
+55. **I wrote third parties' personal details into a public repository, an
+    hour after auditing thirteen repositories for exactly that.**
+
+    `GENDER-BY-TOPIC.md` and `GUESSED.md` #54 quoted the operator's
+    statement verbatim. It named living family members, their ages, their
+    trades and their caregiving. Pushed public. **Caught by the operator,
+    not by this record.**
+
+    The binding constraint has been in force since the work order:
+
+        No author profile, no characterization anywhere. The operator is
+        referenced only as "operator" and only in the verification field.
+
+    **Two things make it worse than a slip.** The same turn had just
+    finished removing occupation and identity lines from twelve repos under
+    that rule — the rule was being applied outward and not inward. And the
+    details are not the operator's to waive: **a mother, a brother and a
+    father who are not party to any of this** and gave no consent to a
+    public file.
+
+    **Why it got through.** The quote was doing real work — it is the
+    counterexample set that turns #54 from "the model guessed wrong" into
+    "the model applied a culture-specific prior as universal." Evidentiary
+    value is exactly the argument that smuggles characterization past a
+    no-characterization rule, and it worked.
+
+    **Generalised, not deleted.** The shape is kept — *family members across
+    ages and sexes doing the work the prior codes as male, and the
+    caregiving work it codes as female* — which carries the whole argument
+    and names nobody. The verbatim passage is gone from both files.
+
+    **RESIDUE, and it is not mine to clear.** The details remain in
+    `6e29...`'s commit message and in the file history of this branch.
+    Removing them needs a history rewrite and a force-push — destructive,
+    outward-facing, and the operator's call, not this record's. Reported,
+    not done.
+
+    **The generalisable form:** a no-characterization rule needs a check at
+    the point where a QUOTE is pasted, not only where a file is scanned.
+    Every instrument built today scans files. None of them looks at what
+    this record is about to write.

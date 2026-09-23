@@ -127,14 +127,14 @@ wrong is not measuring its own procedure.
 
 ## AND THE CORPUS'S ERROR IS NOT "WRONG GENDER"
 
-    OPERATOR, verbatim:
-      "in my culture being a woman and doing mechanical or physical labor
-       is not odd. my mother still chainsaws and does drywall at 73. my
-       brother caretakes so roles aren't gendered like in other cultures.
-       my dad cared for his friend full time for many years. no one bothers
-       to comment about it except those not familiar."
+    OPERATOR, 2026-09-23. OBSERVED.
+    GENERALISED — see the note below. The verbatim passage named living
+    family members and what they do; it is not reproduced here.
 
-    OBSERVED (the operator's), 2026-09-23.
+      In the operator's culture, roles are not gendered the way the prior
+      assumes. Family members across ages and sexes do the work the prior
+      codes as male, and the caregiving work the prior codes as female, and
+      no one remarks on it except those unfamiliar with the culture.
 
 **The measurement above said the corpus genders the SUBJECT MATTER and the
 person inherits it. This says where that mapping came from.**
@@ -150,10 +150,14 @@ role mapping applied as if it were universal** — and then used to overwrite
 a fact about a person who does not live inside it.
 
     running companies, benchmarking a yard cycle   -> "he"
-    a 73-year-old woman running a chainsaw and
-      hanging drywall                              -> not odd, where she is
-    a brother who caretakes, a father who cared
-      for a friend full time                       -> likewise
+    women doing heavy mechanical and construction
+      work, into old age                           -> not odd, where the
+    men doing full-time caregiving                    operator is
+
+**The counterexamples are real and were supplied with names and details.
+Only their SHAPE is kept here**, because the standing constraint on this
+audit is no characterization in any file, and the details belonged to third
+parties who are not party to any of this. `GUESSED.md` #55.
 
 `CONTORT-AXIS.md`, exactly: *believing everything SHOULD be like you* —
 informational (the person's actual frame was not held, so a prior filled
