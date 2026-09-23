@@ -905,3 +905,40 @@ No A2 file was edited after hashing, including for CORRECTION-001 or -002. The c
     archive on 2026-09-22; the operator reached *not an aim at all* from
     memory on 09-23, with no contact between them. First out-of-sample
     confirmation of an A5 call in this audit. n = 1.
+
+40. **A count with no polarity control, run in the session that built
+    `guarded_count.py` for exactly that.** Measuring how the licence
+    renderings moved in `Emotions-as-Sensors`, the first pass counted files
+    matching `with attribution|attribution required`: **1 at root, 5 at
+    HEAD**, and was one step from being written up as *the contradicting
+    rendering grew*.
+
+    **Three of the five say "No attribution required."** They agree with the
+    CC0 target. The pattern matched the negation as if it were the claim.
+
+    Correct figures: contradiction **4 → 4** (never removed, 14 months),
+    agreement **1 → 6**. The growth was entirely on the target's side, and
+    the uncorrected first count had the finding **backwards** — accretion
+    around a stationary aim read as drift away from it.
+
+    **The guard exists and was not used.** `guarded_count.py` takes a
+    positive control; it has no negation control, because every earlier
+    false zero in this audit came from a detector seeing *nothing*. This one
+    came from a detector seeing the **opposite** and scoring it as the thing.
+
+        DETECTOR_BLIND      sees nothing            -> already guarded
+        DETECTOR_TIMEOUT    returns no reading      -> already guarded
+        POLARITY            sees the negation and
+                            counts it as the claim  -> NOT guarded
+
+    **Fourth route to a false reading, and the first that is not a false
+    ZERO.** It is a false POSITIVE, which is why none of the three existing
+    guards was pointed at it: they all ask *did the detector fire?*, and
+    this detector fired correctly on text that meant the reverse.
+
+    Caught by printing the matched lines instead of the match count.
+    Registered as a requirement, not a resolution: a count over a claim that
+    has a negated form needs the negated form counted separately, and
+    `guarded_count.py` does not do that yet. **Not built in this turn** —
+    and the slot is named so the absence is visible rather than assumed
+    closed.

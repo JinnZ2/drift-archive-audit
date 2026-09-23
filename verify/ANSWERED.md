@@ -133,3 +133,130 @@ other side.
 Two sources, no contact between them, same result. That is the first
 out-of-sample confirmation of an A5 classification in this audit. **n = 1**,
 and it is one line, not a rate.
+
+---
+
+## EA-OPEN-2 — emotions-as-sensors, three licences in the root tree
+
+**The item, as the form asked it:**
+
+    three licences in the root tree (MIT-with-attribution /
+    attribution-required / CC0-without-attribution) - which one is real?
+    | operator:
+
+**Operator:**
+
+    aim at root = CC0
+
+    grade: operator memory, 2026-09-23. OBSERVED (hers).
+
+**Relaying session's reading, kept separate:**
+
+    CC0 is TARGET; the other two are renderings that didn't match it   DERIVED
+    target held from root through today's "all CC0" — the aim never
+    moved, the renderings drifted around it                            DERIVED
+
+**Answer-set note:** this one landed **inside** the offered set. `BG-OPEN-1`
+did not. Running count: **2 answered, 1 outside the set.** The form defect in
+`GUESSED.md` #39 stands; it is not universal, and the rate is n = 2.
+
+## 1. INDEPENDENTLY CORROBORATED — the canonical slot never moved
+
+    Emotions-as-Sensors  LICENSE  blob at root  66b468e1f97e98096a7ce7103206990a39cd0c86
+                         LICENSE  blob at HEAD  66b468e1f97e98096a7ce7103206990a39cd0c86
+                         first line, both:      CC0 1.0 Universal Public Domain Dedication
+
+**Byte-identical across 123 commits.** `VERIFIED` by this session against the
+archive, and it was not asked for — it is the second `BG-7` shape in the
+pilot: the slot that carries the target is the one nothing touched.
+
+The operator's answer and the archive agree, and were produced without
+contact. **Second out-of-sample confirmation** (after `BG-3`). n = 2.
+
+## 2. THE DRIFT IS NOT AWAY FROM THE AIM — IT IS ACCRETION AROUND A STATIONARY ONE
+
+    site class                          root    HEAD    delta
+    canonical LICENSE = CC0              yes     yes    byte-identical
+    files carrying "CC0"                   9      48    +39
+    "no attribution required" /
+      "without attribution" statements     1       6     +5
+    bare-MIT project claims                4       4      0
+    "attribution required" /
+      "with attribution" claims            4       4      0
+
+    bare-MIT sites, root AND HEAD, same text, 14 months apart:
+        README.md:152   "released under the MIT License ... with attribution"
+        README.md:300   "Released under the MIT License."
+        sensors/README.md:100  "MIT License. Open-source, symbolic..."
+        src/ucm_monitor.py:14  "License: MIT (belongs to the commons)"
+                               (at root: ucm_monitor.py:14 — file moved, text did not)
+
+    attribution-required sites, all four in README.md, root AND HEAD:
+        :138 / :294  "Attribution required: Developed by JinnZ2 and
+                      Claude and ChatGPT"   (":281/:136" at root)
+        :152 / :301  "Free to use, adapt, and distribute with attribution."
+
+**The aim spread 5x. The contradicting renderings were never removed — not
+one, in 14 months.** The correction propagated by *addition*: 39 new files
+saying CC0, alongside four original sites still saying MIT, untouched.
+
+That is `BG-8`'s shape in a second repo — *"root files still byte-identical
+and still carrying a withdrawn figure with no marker in-file."* **D3-adjacent:
+a status field that was never applied to the original site.** Two repos, two
+domains, same mechanism. Recorded as a Phase B candidate, **not** a confirmed
+spanning frame: n = 2 and both were found by looking for them.
+
+## 3. THE CORPUS'S OWN REVIEW FOUND 2 OF 3 AND AIMED THE FIX AT A FILE WITH NOTHING IN IT
+
+`REVIEW.md` §1.2 is titled *"License contradiction — MIT vs CC0"*. It is
+already in the tree. Measured against the four sites:
+
+    REVIEW.md:40  names README.md and src/ucm_monitor.py       2 of 3 files
+    sensors/README.md:100                                      NOT NAMED
+    REVIEW.md:66  "Audit src/emotions_playground.py header
+                   for similar MIT strings"                    that file has
+                                                               NO MIT string
+
+So the conflict was found, written up, given a remedy — and the remedy has
+not been applied to any of the four sites, while one named target is empty
+and one real target is missing. **A correction can be present in the tree and
+still not reach the site.** Findability, inside the corpus, not this audit's.
+
+## 4. MY OWN COUNT WAS WRONG FIRST, AND THE CONTROL CAUGHT IT
+
+First pass counted files matching `with attribution|attribution required`:
+**1 at root, 5 at HEAD**, and was about to be reported as *"the contradicting
+rendering grew."*
+
+Three of those five say **"No attribution required"** — they AGREE with CC0.
+The regex counted agreement as contradiction. Correct figures are in §2:
+contradiction 4 → 4, agreement 1 → 6. The growth was on the target's side.
+
+    a count with no polarity control, run in the session that built
+    guarded_count.py for exactly this.
+
+Caught by reading the matched lines instead of the match count — which is the
+one habit the timeout finding turned into procedure. Logged: `GUESSED.md` #40.
+
+## 5. WHAT IS NOT SETTLED, AND IS NOT SETTLED HERE
+
+    Symbolic-Swarm-Index's own licence     ROUTED, NOT DECIDED
+
+`Symbolic-Swarm-Index/LICENSE.md` is a deliberate **MIT + CC0 "Gift
+Protocol"** with its own FAQ arguing the pairing on the merits; `CLAUDE.md`
+describes the directory as a self-contained subsystem with its own schemas,
+demos and docs. Eight of the twelve HEAD files mentioning MIT are describing
+*that* licence accurately.
+
+Two readings, both supported by the archive:
+
+    (a) "all CC0" covers the whole tree -> SSI's dual licence is a
+        rendering that does not match
+    (b) SSI is a separately-licensed subsystem, deliberately -> its
+        licence is its own target, and the tree has two aims, not one
+
+**Nothing here picks one.** This audit commits nothing to source repos, and
+choosing between (a) and (b) is settling a question by fiat. It is the one
+place the answer to `EA-OPEN-2` does not reach.
+
+    SSI scope: UNSET. Routed to the operator.
