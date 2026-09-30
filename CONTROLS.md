@@ -351,3 +351,142 @@ the match aborts. A caveat that was not true was one line from the record.
 Standing procedure applied to an engineering assumption rather than a search.
 
 **Naming prevented 0 of 8.**
+
+---
+
+## AMENDMENT 2026-09-29 — the three audiometry terms, re-run on a stated corpus
+
+### SCOPE OF THIS AMENDMENT -- read before the findings
+
+**TT-4 asked for presence/absence only.** One question, one answer shape:
+is the thread present (path) or absent. Everything in this amendment past
+the RESULT table is **beyond what the order asked for**, was added by the
+session that ran the re-run, and is marked as such at the point it appears.
+
+    WITHIN TT-4's SCOPE      the corpus, the query form, the controls,
+                             the three-row RESULT table, and the
+                             resolution of this file's internal
+                             contradiction -- because the contradiction
+                             is about whether the presence/absence check
+                             was run at all
+
+    BEYOND TT-4's SCOPE      item 1  the narrowing (display convention)
+                             item 2  the private-repository scope limit
+                             item 3  the psychophysics count mismatch
+                             item 4  the paste seam at lines 135-137
+
+**None of items 1-4 was requested. None of them changes the TT-4 answer.**
+They are recorded so they are not lost and so a later reader can see they
+were volunteered rather than asked for. A reader who wants only TT-4's
+answer can stop after the RESULT table.
+
+---
+
+**Occasion:** this file states two things about the same three terms, 65 lines
+apart. The RESULT table at lines 73-74 rates `audiogram` / `audiometric` /
+`audiometry` **RATED absent** with the word-class control named. The
+paragraph at line 139 says **"Three audiometry terms remain NOT RUN."**
+Both cannot hold.
+
+**Resolution: the table at 73-74 stands. The line-139 sentence is REFUTED**
+-- it is the pre-revision statement, and it survived the revision that
+replaced the rows at 73-74. Retained, per the no-silent-overwrite rule, with its error named.
+
+### The null, stated
+
+    CORPUS      95 public JinnZ2 repositories at default-branch HEAD,
+                shallow-cloned 2026-09-24, PLUS the Simulators working tree
+                at claude/revision-survival-frame-d8sjfm.  96 searched.
+
+    NOT SEARCHED, and named:
+                experiments, gap-quantification-protocol,
+                geometric-to-binary          private; anonymous read does
+                                             not serve them
+                gods-eye-view-fork           a fork, not authored material
+
+    QUERY FORM  one term per pass. grep -rIiE "\bTERM\b", .git excluded,
+                binary excluded. NO OR CHAIN -- the form that manufactured
+                the original zeros.
+
+    HELD APART  drift-archive-audit's own files. This document contains
+                every term it searches for, so counting itself is the
+                self-reference loop, not a measurement.
+
+### Controls
+
+    vibrotactile     positive, technical word class      4 lines   FIRES
+    psychophysics    positive, technical word class      7 lines   FIRES
+    zqxjkvwmetry     negative, coined, same word shape   0 lines   SILENT
+
+The negative control establishes the detector's floor is a real zero. The
+first report had no such floor; that is what "a form known to manufacture
+zeros" meant, and it is now closed from the other side.
+
+### RESULT — this is TT-4's answer, net of the measuring document
+
+    audiogram      1 line   AI-Consciousness-Sensors, a noise-propagation
+                            model in a hypothetical municipal-law case study
+    audiometric    0 lines
+    audiometry     0 lines
+
+**The table's reading is CONFIRMED by independent re-run.** The three terms
+were run, rated, and are now run twice, by a different method, on a corpus
+that is named rather than account-wide.
+
+**TT-4's scope ends here.** What follows was not asked for.
+
+---
+
+### ITEM 1 — BEYOND TT-4's SCOPE. One narrowing, running toward the thread
+
+*Volunteered. Not requested by TT-4. Does not change the result above.*
+
+The single hit outside this repository is not only incidental. It reads:
+
+    Hearing sensitivity (audiogram or scalar)
+    SPL^{perc}_i(t) = SPL_{in,i}(t) - HS_i
+    HS_i in dB: positive means reduced sensitivity
+
+That is a **per-individual deviation from a reference**, used as an
+instrument offset -- which is exactly this programme's own AUDITORY
+finding in `CALIBRATION.md`: *"a per-individual frequency-response curve,
+but displayed as deviation from a population median (ISO 7029)"*, over an
+absolute zero that `ISO 389-1` standardizes.
+
+    the STANDARDS VOCABULARY          absent, 96 repositories, controlled
+    the DISPLAY CONVENTION it
+    turns on                          PRESENT, arrived at independently,
+                                      in a repository with no connection
+                                      to this thread
+
+So "absent" narrows by one notch. It does not move the empty cell, which is
+about the human channel AS METROLOGY FOR AN EXTERNAL SYSTEM and not about
+how a threshold is displayed.
+
+### ITEM 2 — BEYOND TT-4's SCOPE. A limit that bounds this null and did not bound the first
+
+*Volunteered. Not requested by TT-4. Does not change the result above.*
+
+Three private repositories were not searched. **A private repository is
+exactly where an unpublished standards thread would sit**, so this null is
+bounded to public material plus Simulators, and says nothing about the
+other three. Cheap to close by whoever holds them.
+
+### ITEM 3 — BEYOND TT-4's SCOPE. Two counts that do not match, and neither is wrong
+
+*Volunteered. Not requested by TT-4. Does not change the result above.*
+
+The table reports `psychophysics` at **9 -- tool-off-metrology x3,
+Simulators x6**. This run gives **7 -- tool-off-metrology x3, Simulators
+x4**. The tool-off-metrology half reproduces exactly. The Simulators half
+moved because **Simulators moved**: its memory-export files were condensed
+and rewritten between the two runs. A corpus that changes under a repeated
+measurement is a property of the corpus, recorded rather than reconciled.
+
+### ITEM 4 — BEYOND TT-4's SCOPE. Unrepaired, reported
+
+*Volunteered. Not requested by TT-4. Does not change the result above.*
+
+Lines 135-137 carry a paste seam: a table row runs directly into the
+sentence `Three verified-to-search-level findings ...` with no break. Left
+as delivered.
