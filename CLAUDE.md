@@ -1,3 +1,9 @@
+# drift-archive-audit
+
+> Treats a repository archive as a dated capability record: recover the aimed-at target from the earliest commits, locate where the work drifted, and separate TOOL limits from AGENT shaping where the archive allows it.
+
+Source: README.md
+
 <!-- clone-refspec-note v1.1 -->
 ## Cloning and pushing
 Shallow clones are single-branch by default.
