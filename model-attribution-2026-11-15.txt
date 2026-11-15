@@ -1,0 +1,48 @@
+REPO ARCHAEOLOGY -- model attribution (DERIVED; PROPOSED instrument; readings, no verdict)
+INTEREST: written by a Claude model; Claude models are candidates here.
+units 9909  reference 8046  target 1813  ambiguous (kept out) 50
+repos (shallow?): {"Bio-Grid-American-Manufacturing-": false, "Noise-as-Information-Sensor": false, "Polyhedral-Intelligence": false, "chain-position-detectability": false, "decision-aperture": false, "differential-frame-core": false, "drift-archive-audit": false, "explorative-math": false, "hands-lie-detector": false, "method-layer": false, "orbital-phycom": false, "simulators": false, "study-aperture": false}
+interface prior: UNDECLARED (UNDECLARED. Which interfaces (chat web app, mobile app, Claude Code, Manus, Perplexity, other) the operator used in which period is operator knowledge. It is not authored here: a plausible schedule written from inside the repo would manufacture the prior it is meant to supply. Fill `periods` as [{"from": "YYYY-MM-DD", "to": "YYYY-MM-DD", "interfaces": [...], "source": "[stated]"}].)
+reference labels are trailer self-reports (transport evidence), not content facts
+choices: [1] unit = (commit, file) added lines; merges skipped; [2] units compared only within one file kind: py / md / json / other; [3] MIN_LINES = 8 added non-blank lines for a unit to be scored; [4] classifier = nearest centroid on z-scored features, L1 mean distance; [5] MIN_UNITS = 10 units per (label, kind) for a label to enter the reference; [6] probabilities = softmax(-distance / T), T = 0.5; [7] UNATTRIBUTABLE if the nearest centroid distance exceeds the 95th percentile of reference units' distances to their own centroid; [8] calibration = leave-one-COMMIT-out and leave-one-REPO-out; statistic = mean probability given to the true label; null = labels shuffled across commits, R = 40, seeded; SEPARATES if observed > null 95th percentile; [9] gate = leave-one-REPO-out must SEPARATE for a kind before any unlabeled unit of that kind is attributed (repo and topic are confounded with label); [10] date prior = labels whose FIRST SEEN date in this corpus is on or before the unit's date; first-seen is an observed UPPER bound on availability, not a release date, so the prior excludes on absence of evidence; [11] interface prior = interfaces.json; UNDECLARED unless the operator fills it; [12] control = commit dates shuffled across reference commits, R = 40; the date-prior calibration statistic should fall. In calibration, first-seen dates are recomputed WITHOUT the held commit, so a commit cannot vouch for its own label's availability
+
+== kind py
+  reference counts: {"Claude Fable 5": 38, "Claude Fable 5.1": 284, "Claude Fable 5.2": 194, "Claude Opus 4.7 (1M context)": 194, "Claude Opus 4.8": 118, "Claude Opus 5": 723, "Claude Opus 5.5": 575, "Claude Sonnet 5": 17, "Claude Sonnet 5.5": 1, "Manus": 26, "Perplexity": 97}
+  label sources: {"TRAILER": 2267}
+  labels with >= MIN_UNITS: ["Claude Fable 5", "Claude Fable 5.1", "Claude Fable 5.2", "Claude Opus 4.7 (1M context)", "Claude Opus 4.8", "Claude Opus 5", "Claude Opus 5.5", "Claude Sonnet 5", "Manus", "Perplexity"]
+  first seen (observed upper bound): {"Claude Sonnet 5": "2026-07-02", "Claude Opus 4.7 (1M context)": "2026-07-04", "Claude Opus 4.8": "2026-07-12", "Claude Opus 5": "2026-08-11", "Claude Fable 5": "2026-08-30", "Claude Fable 5.1": "2026-09-01", "Claude Opus 5.5": "2026-09-24", "Claude Fable 5.2": "2026-11-10", "Manus": "2026-11-11", "Perplexity": "2026-11-11"}
+  calibration_commit_out: {"chance": 0.1, "null_draws": 40, "null_median": 0.1111, "null_q95": 0.1231, "state": "DOES_NOT_SEPARATE", "statistic": 0.1175, "units": 2266}
+  calibration_repo_out: {"chance": 0.1, "null_draws": 40, "null_median": 0.1378, "null_q95": 0.1577, "state": "DOES_NOT_SEPARATE", "statistic": 0.1476, "units": 1802}
+  date_control: {"dates_only_no_marks": 0.1796, "no_prior": 0.1175, "prior_shuffled_median": 0.1219, "prior_true_dates": 0.2143, "shuffles": 40, "state": "DEGRADES", "units": 2266}
+  target states: {"NOT_ATTRIBUTED": 522}
+
+== kind md
+  reference counts: {"Claude Fable 5": 64, "Claude Fable 5.1": 339, "Claude Fable 5.2": 69, "Claude Opus 4.7 (1M context)": 122, "Claude Opus 4.8": 140, "Claude Opus 5": 1431, "Claude Opus 5.5": 638, "Claude Sonnet 5": 7, "Claude Sonnet 5.5": 1, "Manus": 26, "Perplexity": 36}
+  label sources: {"MANUS_BRANCH": 12, "TRAILER": 2861}
+  labels with >= MIN_UNITS: ["Claude Fable 5", "Claude Fable 5.1", "Claude Fable 5.2", "Claude Opus 4.7 (1M context)", "Claude Opus 4.8", "Claude Opus 5", "Claude Opus 5.5", "Manus", "Perplexity"]
+  first seen (observed upper bound): {"Claude Opus 4.7 (1M context)": "2026-07-08", "Claude Opus 4.8": "2026-07-12", "Claude Opus 5": "2026-08-11", "Claude Fable 5": "2026-08-30", "Claude Fable 5.1": "2026-09-01", "Claude Opus 5.5": "2026-09-24", "Manus": "2026-10-14", "Claude Fable 5.2": "2026-11-10", "Perplexity": "2026-11-11"}
+  calibration_commit_out: {"chance": 0.1111, "null_draws": 40, "null_median": 0.1013, "null_q95": 0.1128, "state": "SEPARATES", "statistic": 0.1276, "units": 2865}
+  calibration_repo_out: {"chance": 0.1111, "null_draws": 40, "null_median": 0.1347, "null_q95": 0.1589, "state": "SEPARATES", "statistic": 0.1711, "units": 2503}
+  date_control: {"dates_only_no_marks": 0.238, "no_prior": 0.1276, "prior_shuffled_median": 0.1648, "prior_true_dates": 0.2582, "shuffles": 40, "state": "DEGRADES", "units": 2865}
+  target states: {"ATTRIBUTED_AS_DISTRIBUTION": 318, "UNATTRIBUTABLE": 476}
+
+== kind json
+  reference counts: {"Claude Fable 5.1": 88, "Claude Fable 5.2": 50, "Claude Opus 4.7 (1M context)": 44, "Claude Opus 4.8": 11, "Claude Opus 5": 195, "Claude Opus 5.5": 194, "Claude Sonnet 5": 5, "Claude Sonnet 5.5": 1, "Manus": 15, "Perplexity": 5}
+  label sources: {"TRAILER": 608}
+  labels with >= MIN_UNITS: ["Claude Fable 5.1", "Claude Fable 5.2", "Claude Opus 4.7 (1M context)", "Claude Opus 4.8", "Claude Opus 5", "Claude Opus 5.5", "Manus"]
+  first seen (observed upper bound): {"Claude Opus 4.7 (1M context)": "2026-07-12", "Claude Opus 5": "2026-08-11", "Claude Fable 5.1": "2026-09-01", "Claude Opus 4.8": "2026-09-06", "Claude Opus 5.5": "2026-09-24", "Claude Fable 5.2": "2026-11-10", "Manus": "2026-11-11"}
+  calibration_commit_out: {"chance": 0.1429, "null_draws": 40, "null_median": 0.1724, "null_q95": 0.2055, "state": "DOES_NOT_SEPARATE", "statistic": 0.1547, "units": 574}
+  calibration_repo_out: {"chance": 0.1429, "null_draws": 40, "null_median": 0.2014, "null_q95": 0.2907, "state": "DOES_NOT_SEPARATE", "statistic": 0.2692, "units": 254}
+  date_control: {"dates_only_no_marks": 0.3169, "no_prior": 0.1547, "prior_shuffled_median": 0.1595, "prior_true_dates": 0.3081, "shuffles": 40, "state": "DEGRADES", "units": 574}
+  target states: {"NOT_ATTRIBUTED": 328}
+
+== kind other
+  reference counts: {"Claude Fable 5": 18, "Claude Fable 5.1": 163, "Claude Fable 5.2": 72, "Claude Opus 4.7 (1M context)": 121, "Claude Opus 4.8": 40, "Claude Opus 5": 510, "Claude Opus 5.5": 1359, "Manus": 5, "Perplexity": 10}
+  label sources: {"MANUS_BRANCH": 1, "TRAILER": 2297}
+  labels with >= MIN_UNITS: ["Claude Fable 5", "Claude Fable 5.1", "Claude Fable 5.2", "Claude Opus 4.7 (1M context)", "Claude Opus 4.8", "Claude Opus 5", "Claude Opus 5.5", "Perplexity"]
+  first seen (observed upper bound): {"Claude Opus 4.7 (1M context)": "2026-07-04", "Claude Opus 4.8": "2026-07-12", "Claude Opus 5": "2026-08-11", "Claude Fable 5": "2026-08-30", "Claude Fable 5.1": "2026-09-01", "Claude Opus 5.5": "2026-09-24", "Claude Fable 5.2": "2026-11-10", "Perplexity": "2026-11-11"}
+  calibration_commit_out: {"chance": 0.125, "null_draws": 40, "null_median": 0.1321, "null_q95": 0.1712, "state": "DOES_NOT_SEPARATE", "statistic": 0.1298, "units": 2283}
+  calibration_repo_out: {"chance": 0.125, "null_draws": 40, "null_median": 0.2332, "null_q95": 0.2922, "state": "DOES_NOT_SEPARATE", "statistic": 0.204, "units": 1869}
+  date_control: {"dates_only_no_marks": 0.2166, "no_prior": 0.1298, "prior_shuffled_median": 0.0965, "prior_true_dates": 0.2506, "shuffles": 40, "state": "DEGRADES", "units": 2283}
+  target states: {"NOT_ATTRIBUTED": 169}
+

@@ -1,0 +1,4 @@
+{
+ "_note": "UNDECLARED. Which interfaces (chat web app, mobile app, Claude Code, Manus, Perplexity, other) the operator used in which period is operator knowledge. It is not authored here: a plausible schedule written from inside the repo would manufacture the prior it is meant to supply. Fill `periods` as [{\"from\": \"YYYY-MM-DD\", \"to\": \"YYYY-MM-DD\", \"interfaces\": [...], \"source\": \"[stated]\"}].",
+ "periods": []
+}

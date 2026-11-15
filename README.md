@@ -71,6 +71,9 @@ deliberately NOT added: see `PHASE_C7.md`, the reference-first gate.
     PHASE_C6.md            repeat description of a PHYSICAL referent —
                            the only arm with an outside reference.
                            BLOCKED on one operator answer.
+    MODEL-ATTRIBUTION.md   model attribution from tool marks (PROPOSED,
+                           DERIVED); instrument/model_attribution.py,
+                           interfaces.json UNDECLARED
     STUDY.md               work order for OUTSIDE researchers. Neither
                            the operator nor the model can score this
                            corpus; both are authors. 8 avenues, none run.
