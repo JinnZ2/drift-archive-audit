@@ -1,0 +1,25 @@
+TRAINING-ERA MARKS (DERIVED; PROPOSED; every table date CARRIED, unverified)
+INTEREST: written by a Claude model; labeled models are mostly Claude.
+py units 2793  reference 2268 (with a mark: 162)  target 522
+choices: [1] Python units only; units, labels and reading are model_attribution's; [2] comments, single-line strings and complete triple-quoted blocks inside the added text are stripped before matching; [3] a mark is present or absent per unit (no counts); [4] lower bound = latest INTRODUCED date present; upper candidate = earliest REMOVED / DEPRECATED date present; [5] a label's cutoff lower bound = latest INTRODUCED date over all its units (contradicting units excluded); [6] lower bounds only if the table is consistent on labeled commits; an upper candidate only from a removed/deprecated mark that some label REACHED (its own lower bound is on or after the change) with no counterexample; unreached marks are NOT_TESTED and withheld
+
+mark counts, reference: {"builtin_generics": 153, "openai_chatcompletion": 1, "union_pipe": 59, "utcnow": 3, "walrus": 3}
+mark counts, target:    {"builtin_generics": 16, "union_pipe": 9, "utcnow": 10}
+
+GATE lower bounds: TABLE_CONSISTENT  contradictions 0
+GATE upper bounds, per removed/deprecated mark:
+  collections_abc_alias (gone 2021-10-04): NO_COUNTEREXAMPLE  uses in reference 0  reached by ['Claude Opus 4.7 (1M context)', 'Claude Opus 5', 'Claude Opus 5.5', 'Manus', 'Perplexity']
+  numpy_scalar_alias (gone 2022-12-18): NOT_TESTED  uses in reference 0  reached by []
+  distutils (gone 2023-10-02): NOT_TESTED  uses in reference 0  reached by []
+  imp_module (gone 2023-10-02): NOT_TESTED  uses in reference 0  reached by []
+  asyncore (gone 2023-10-02): NOT_TESTED  uses in reference 0  reached by []
+  openai_chatcompletion (gone 2023-11-06): NOT_TESTED  uses in reference 1  reached by []
+  cgi (gone 2024-10-07): NOT_TESTED  uses in reference 0  reached by []
+  utcnow (gone 2023-10-02): NOT_TESTED  uses in reference 3  reached by []
+label cutoff lower bounds (from own INTRODUCED marks): {"Claude Fable 5.1": {"date": "2020-10-05", "via": "builtin_generics"}, "Claude Opus 4.7 (1M context)": {"date": "2021-10-04", "via": "union_pipe"}, "Claude Opus 4.8": {"date": "2019-10-14", "via": "walrus"}, "Claude Opus 5": {"date": "2021-10-04", "via": "union_pipe"}, "Claude Opus 5.5": {"date": "2021-10-04", "via": "union_pipe"}, "Claude Sonnet 5": {"date": "2020-10-05", "via": "builtin_generics"}, "Manus": {"date": "2021-10-04", "via": "union_pipe"}, "Perplexity": {"date": "2021-10-04", "via": "union_pipe"}}
+label separation on era marks, repo-out: {"chance": 0.25, "null_draws": 40, "null_median": 0.3251, "null_q95": 0.49, "state": "DOES_NOT_SEPARATE", "statistic": 0.3439, "units": 58}
+label separation on era marks, commit-out: {"chance": 0.25, "null_draws": 40, "null_median": 0.2341, "null_q95": 0.3419, "state": "DOES_NOT_SEPARATE", "statistic": 0.2816, "units": 132}
+
+target upper marks withheld: {"utcnow:NOT_TESTED": 10}
+target states: {"MARKED": 27, "NO_ERA_MARK": 495}  lower bound after own commit date: 0
+target lower bounds by commit year: {"2026": {"marked_units": 17, "latest_lower_bound": "2021-10-04", "earliest": "2020-10-05"}}

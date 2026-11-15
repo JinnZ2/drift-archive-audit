@@ -242,8 +242,11 @@ def manus_branch_commits(repo):
     return out
 
 
-def read_units(repo, min_lines=MIN_LINES):
-    """Yield one record per (commit, file) with >= min_lines added non-blank lines."""
+def read_units(repo, min_lines=MIN_LINES, featurizer=None):
+    """Yield one record per (commit, file) with >= min_lines added non-blank lines.
+
+    featurizer(text, kind) -> dict; defaults to `features` (tool marks)."""
+    featurizer = featurizer or features
     name = os.path.basename(os.path.abspath(repo).rstrip("/"))
     shallow = _git(repo, "rev-parse", "--is-shallow-repository").strip() == "true"
     manus = manus_branch_commits(repo)
@@ -277,7 +280,7 @@ def read_units(repo, min_lines=MIN_LINES):
             kind = file_kind(path)
             units.append({"repo": name, "sha": sha, "date": date, "path": path,
                           "kind": kind, "label": label, "label_source": how,
-                          "f": features(text, kind)})
+                          "f": featurizer(text, kind)})
     return units, shallow
 
 

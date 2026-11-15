@@ -1,0 +1,28 @@
+{
+ "_note": "Every date and version below is CARRIED from Claude's memory and UNVERIFIED: release notes were not read (egress allowlist). A wrong date moves every bound that rests on it. Replace a row's source with the release-notes URL once checked. Patterns are matched on Python code with comments and single-line string literals stripped.",
+ "source_default": "CARRIED (Claude memory, unverified)",
+ "marks": [
+  {"id": "walrus", "kind": "INTRODUCED", "what": "assignment expression :=", "version": "Python 3.8", "date": "2019-10-14", "pattern": ":="},
+  {"id": "builtin_generics", "kind": "INTRODUCED", "what": "list[int] / dict[...] in annotations (PEP 585)", "version": "Python 3.9", "date": "2020-10-05", "pattern": "(?:->|:)\\s*(?:list|dict|tuple|set|frozenset|type)\\["},
+  {"id": "removeprefix", "kind": "INTRODUCED", "what": "str.removeprefix / removesuffix", "version": "Python 3.9", "date": "2020-10-05", "pattern": "\\.remove(?:prefix|suffix)\\("},
+  {"id": "functools_cache", "kind": "INTRODUCED", "what": "functools.cache", "version": "Python 3.9", "date": "2020-10-05", "pattern": "(?:functools\\.cache\\b|from functools import [^\\n]*\\bcache\\b)"},
+  {"id": "zoneinfo", "kind": "INTRODUCED", "what": "zoneinfo module", "version": "Python 3.9", "date": "2020-10-05", "pattern": "\\bzoneinfo\\b"},
+  {"id": "match_case", "kind": "INTRODUCED", "what": "match / case statement", "version": "Python 3.10", "date": "2021-10-04", "pattern": "^\\s*match\\s+[^=\\n]+:\\s*$"},
+  {"id": "union_pipe", "kind": "INTRODUCED", "what": "X | None in annotations (PEP 604)", "version": "Python 3.10", "date": "2021-10-04", "pattern": "(?:->|:)\\s*[A-Za-z_][\\w\\[\\], .]*\\s\\|\\s*None\\b"},
+  {"id": "except_star", "kind": "INTRODUCED", "what": "except* (exception groups)", "version": "Python 3.11", "date": "2022-10-24", "pattern": "^\\s*except\\*"},
+  {"id": "tomllib", "kind": "INTRODUCED", "what": "tomllib module", "version": "Python 3.11", "date": "2022-10-24", "pattern": "\\btomllib\\b"},
+  {"id": "typing_self", "kind": "INTRODUCED", "what": "typing.Self", "version": "Python 3.11", "date": "2022-10-24", "pattern": "(?:typing\\.Self\\b|from typing import [^\\n]*\\bSelf\\b)"},
+  {"id": "type_statement", "kind": "INTRODUCED", "what": "type X = ... statement (PEP 695)", "version": "Python 3.12", "date": "2023-10-02", "pattern": "^\\s*type\\s+[A-Za-z_]\\w*\\s*(?:\\[[^\\]]*\\])?\\s*="},
+  {"id": "pep695_generics", "kind": "INTRODUCED", "what": "def f[T](...) / class C[T]: (PEP 695)", "version": "Python 3.12", "date": "2023-10-02", "pattern": "^\\s*(?:def|class)\\s+\\w+\\[[A-Za-z_]"},
+  {"id": "typing_override", "kind": "INTRODUCED", "what": "typing.override", "version": "Python 3.12", "date": "2023-10-02", "pattern": "(?:typing\\.override\\b|from typing import [^\\n]*\\boverride\\b)"},
+  {"id": "itertools_batched", "kind": "INTRODUCED", "what": "itertools.batched", "version": "Python 3.12", "date": "2023-10-02", "pattern": "\\bbatched\\("},
+  {"id": "collections_abc_alias", "kind": "REMOVED", "what": "collections.Mapping etc. (abc aliases)", "version": "Python 3.10", "date": "2021-10-04", "pattern": "\\bcollections\\.(?:Mapping|MutableMapping|Sequence|MutableSequence|Iterable|Callable|Set)\\b"},
+  {"id": "numpy_scalar_alias", "kind": "REMOVED", "what": "np.float / np.int / np.bool / np.object aliases", "version": "NumPy 1.24", "date": "2022-12-18", "pattern": "\\bnp\\.(?:float|int|bool|object|complex|str)\\b(?!\\d|_)"},
+  {"id": "distutils", "kind": "REMOVED", "what": "distutils module", "version": "Python 3.12", "date": "2023-10-02", "pattern": "^\\s*(?:import|from)\\s+distutils\\b"},
+  {"id": "imp_module", "kind": "REMOVED", "what": "imp module", "version": "Python 3.12", "date": "2023-10-02", "pattern": "^\\s*import\\s+imp\\b|^\\s*from\\s+imp\\s+import\\b"},
+  {"id": "asyncore", "kind": "REMOVED", "what": "asyncore / asynchat / smtpd", "version": "Python 3.12", "date": "2023-10-02", "pattern": "^\\s*(?:import|from)\\s+(?:asyncore|asynchat|smtpd)\\b"},
+  {"id": "openai_chatcompletion", "kind": "REMOVED", "what": "openai.ChatCompletion.create (pre-1.0 SDK)", "version": "openai-python 1.0", "date": "2023-11-06", "pattern": "\\bopenai\\.(?:ChatCompletion|Completion)\\.create\\("},
+  {"id": "cgi", "kind": "REMOVED", "what": "cgi / cgitb modules", "version": "Python 3.13", "date": "2024-10-07", "pattern": "^\\s*(?:import|from)\\s+(?:cgi|cgitb)\\b"},
+  {"id": "utcnow", "kind": "DEPRECATED", "what": "datetime.utcnow()", "version": "Python 3.12", "date": "2023-10-02", "pattern": "\\.utcnow\\("}
+ ]
+}

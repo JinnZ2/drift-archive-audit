@@ -115,3 +115,102 @@ and 54 fall outside every label's envelope. Per-unit records are in the
 - **Paste-era content** (`CORRECTION-001`: model output pasted from chat) is
   the material the specification is aimed at, and the reference set has no
   label covering it.
+
+---
+
+# Training-era marks
+
+Status: **PROPOSED**, co-authored; outputs **DERIVED**. Run once, 2026-11-15,
+on the same 13 clones. What is established: on this corpus the marks give
+only weak lower bounds (2019-2021) on any writer's cutoff, the removed-API
+inference is testable for one mark of eight, and no Python unit before
+2026 carries a mark. Every date in the table is CARRIED from Claude's memory
+and unverified.
+
+Code: `instrument/era_marks.py` (imports `model_attribution` for units and
+labels); table: `instrument/era_marks.json`; selftest
+`python3 instrument/era_marks.py --self-test`; output
+`era-marks-2026-11-15.txt`.
+
+## Delivered specification
+
+```
+TRAINING-ERA MARKS (PROPOSED)
+  library versions, API calls, deprecated functions,
+  syntax features a model used → bounds its knowledge
+  cutoff, independent of commit date
+  e.g. code calling a function removed in 2024 → written
+  by a model trained before that change
+  calibrate on labeled commits first (same gate)
+```
+
+## What was built
+
+- **Table** (`era_marks.json`): 22 marks. 14 INTRODUCED (Python 3.8–3.12
+  syntax and stdlib: `:=`, `list[int]`, `removeprefix`, `functools.cache`,
+  `zoneinfo`, `match`, `X | None`, `except*`, `tomllib`, `typing.Self`,
+  `type X =`, PEP 695 generics, `typing.override`, `itertools.batched`).
+  7 REMOVED (`collections.Mapping` aliases, NumPy scalar aliases,
+  `distutils`, `imp`, `asyncore`, `openai.ChatCompletion.create`, `cgi`) and
+  1 DEPRECATED (`datetime.utcnow`). Each row carries version and date,
+  source CARRIED.
+- **Matching:** Python units only, with comments, single-line strings and
+  complete triple-quoted blocks stripped first, so a file that names a
+  pattern does not fire (the table and this module are tested for that).
+- **Two kinds, not symmetric.** INTRODUCED(D) puts the writer's cutoff on or
+  after D (lower bound; can still be copied from context). REMOVED(D) is the
+  specification's example: cutoff before D. That inference fails if models
+  trained after the change still emit the old API, so it is tested first.
+- **Gates, on labeled commits first:**
+  - lower bounds: TABLE_CONSISTENT if no labeled unit uses an INTRODUCED mark
+    dated after its own commit;
+  - upper bounds, per mark: a label REACHES a removed mark when its own
+    INTRODUCED marks put its cutoff on or after the removal date. A reaching
+    label that still uses the mark is a COUNTEREXAMPLE. Reached and unused
+    is NO_COUNTEREXAMPLE. Reached by no label is NOT_TESTED, and the mark
+    gives no upper bound, because the test could not have failed on it;
+  - label separation on era marks (the same repo-out calibration as the tool
+    marks): reported. This module emits no label probabilities, so it gates
+    nothing here.
+- **Output per unlabeled unit:** marks present, `cutoff_at_least`,
+  `cutoff_before_candidate` (only from NO_COUNTEREXAMPLE marks), withheld
+  upper marks with their state, and whether the lower bound falls after the
+  unit's own commit date. No label. Status DERIVED.
+
+## Run, 2026-11-15
+
+Python units 2793: reference 2268 (162 with any mark), target 522.
+
+| check | result |
+|---|---|
+| marks in reference | `list[int]` 153, `X \| None` 59, `utcnow` 3, `:=` 3, `openai.ChatCompletion` 1 |
+| marks in target | `list[int]` 16, `X \| None` 9, `utcnow` 10 |
+| lower-bound gate | TABLE_CONSISTENT, 0 contradictions |
+| label lower bounds | latest is 2021-10-04 (`X \| None`), for Opus 4.7, Opus 5, Opus 5.5, Manus, Perplexity; no labeled unit uses any 3.11 or 3.12 mark |
+| upper-bound gate | `collections.Mapping` aliases NO_COUNTEREXAMPLE (reached by 5 labels, 0 uses); the other 7 NOT_TESTED, since no label's lower bound reaches 2022-12 or later. `openai.ChatCompletion` (1 use) and `utcnow` (3 uses) appear in labeled 2026 code, but no label's own marks place its cutoff after those dates, so they are not counterexamples |
+| label separation on era marks | DOES_NOT_SEPARATE (repo-out 0.3439 vs null q95 0.49; commit-out 0.2816 vs 0.3419) |
+| target | 27 MARKED, 495 NO_ERA_MARK. All 27 pre-2026 Python units (2025) carry no mark. The 17 units with a lower bound are dated 2026, bounds 2020-10-05 to 2021-10-04, none after its own commit date. The 10 `utcnow` units have their upper candidate withheld (NOT_TESTED) |
+
+## Readings stated, not interpreted
+
+- The marks that appear are all 2021 or older; none of the 3.11 / 3.12
+  marks occur anywhere in this corpus, labeled or not. So lower bounds stop
+  at 2021-10-04 for every writer.
+- The removed-API inference was testable on one mark and not falsified
+  there. On the other seven it was not testable here.
+- `openai.ChatCompletion.create` and `datetime.utcnow` appear in labeled
+  2026 commits. Whether that falsifies "removed → trained before" depends
+  on those models' cutoffs, which this corpus does not bound late enough.
+
+## Limits
+
+- **Table dates are CARRIED, unverified** (release notes not reachable). A
+  wrong date moves every bound that rests on it.
+- **A mark can be copied** from code the writer was given; INTRODUCED is a
+  lower bound on what reached the output, not proof of training data.
+- **Absence is not a bound.** NO_ERA_MARK says nothing about cutoff.
+- **Project constraints suppress marks.** Several of these repositories
+  require Python 3.8 or 3.9 compatibility, which forbids exactly the newer
+  syntax the lower bounds would need.
+- **Patterns are regexes** over stripped text; multi-line strings that open
+  outside the added lines are not stripped.
