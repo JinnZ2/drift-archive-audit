@@ -69,14 +69,24 @@ def render(r):
     D = r["delta_a_to_c"]
     a(f"## 5 Delta A to C, {D['status']}")
     a("")
-    a(f"Reading by {D['reading_by']}.")
+    a(f"Reading by {D['reading_by']}. Holder review (record): {D['holder_review']}; "
+      f"{D['holder_review_note']}.")
     a("")
-    a("| correction | effect | Stage C | basis |")
-    a("|---|---|---|---|")
+    a("| correction | effect | Stage C | basis | holder review |")
+    a("|---|---|---|---|---|")
     for p in D["per_correction"]:
         sc = p["stage_c"]
         sc = "--" if sc is None else (", ".join(sc) if isinstance(sc, list) else sc)
-        a(f"| {p['id']} | {p['effect']} | {sc} | {p['basis']} |")
+        a(f"| {p['id']} | {p['effect']} | {sc} | {p['basis']} | {p['holder_review']} |")
+    a("")
+    for p in D["per_correction"]:
+        if "link" in p:
+            L = p["link"]
+            a(f"- {p['id']} link to gap `{L['gap']}` ({L['status']}): {L['note']}. Effect stays {p['effect']}.")
+        if "feasibility_ref" in p:
+            F = p["feasibility_ref"]
+            a(f"- {p['id']} feasibility ref ({F['status']}, read depth {F['read_depth']}): {F['cite']}, "
+              f"{F['topic']}. Scope: {F['scope']}. \"better\": {p['better']}.")
     a("")
     a("Stage A elements:")
     a("")
@@ -87,7 +97,7 @@ def render(r):
     a("")
     for g in D["gaps"]:
         det = g["detail"] if g["detail"] is not None else "(not filled)"
-        a(f"- {g['id']} {g['state']}: {g['what']}. {det}")
+        a(f"- {g['id']} `{g['key']}` {g['state']}: {g['what']}. {det}")
     a("")
     a(f"Rule: {D['lost_rule']}.")
     a("")
@@ -142,6 +152,17 @@ def problems(r):
     mapped = {x["id"] for x in r["delta_a_to_c"]["per_correction"]}
     if ids != mapped:
         p.append(f"delta does not cover every correction: {sorted(ids ^ mapped)}")
+    D = r["delta_a_to_c"]
+    if D.get("holder_review") != "VOID":
+        p.append("record-level holder_review set; only the holder fills it")
+    keys = {g["key"] for g in D["gaps"]}
+    for x in D["per_correction"]:
+        if x.get("holder_review") != "VOID":
+            p.append(f"{x['id']}: holder_review set; only the holder fills it")
+        if "link" in x and x["link"]["gap"] not in keys:
+            p.append(f"{x['id']}: link to unknown gap {x['link']['gap']!r}")
+        if "feasibility_ref" in x and x["feasibility_ref"].get("read_depth") != "CARRIED":
+            p.append(f"{x['id']}: feasibility_ref read depth above what was read")
     for k, v in r["open"]["bench_test"]["outcome"].items():
         if v not in ("VOID", None):
             p.append(f"bench outcome {k} filled before any run")
@@ -168,6 +189,11 @@ def selftest():
         ("lost", lambda r: r["delta_a_to_c"]["gaps"][1].__setitem__("detail", "a route")),
         ("cover", lambda r: r["delta_a_to_c"]["per_correction"].pop()),
         ("bench", lambda r: r["open"]["bench_test"]["outcome"].__setitem__("ordering_selected", "3")),
+        ("review_row", lambda r: r["delta_a_to_c"]["per_correction"][2].__setitem__("holder_review", "agrees")),
+        ("review_rec", lambda r: r["delta_a_to_c"].__setitem__("holder_review", "agrees")),
+        ("review_missing", lambda r: r["delta_a_to_c"]["per_correction"][0].pop("holder_review")),
+        ("link", lambda r: r["delta_a_to_c"]["per_correction"][0]["link"].__setitem__("gap", "nowhere")),
+        ("depth", lambda r: r["delta_a_to_c"]["per_correction"][4]["feasibility_ref"].__setitem__("read_depth", "FULL_TEXT")),
         ("disc", lambda r: r["discriminator_row"]["columns"].__setitem__("multi_generation", "maybe")),
     ]
     n = 1

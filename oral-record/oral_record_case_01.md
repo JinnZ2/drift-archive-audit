@@ -47,16 +47,19 @@ holder-relayed corrections after elder consent. Origin per item (holder / elders
 
 ## 5 Delta A to C, DERIVED
 
-Reading by this render; the holder has not read it.
+Reading by this render; the holder has not read it. Holder review (record): VOID; VOID until filled by the holder, per row and for the whole record; never set here.
 
-| correction | effect | Stage C | basis |
-|---|---|---|---|
-| B1 | NOT_MAPPED | -- | no Stage C element follows from who carries the stone; a protocol item, physics effect not stated |
-| B2 | CHANGED | C5 | Stage A had no fixed reference body; C5 adds one whose cleavage axes are reproducible in fragments |
-| B3 | CHANGED | C1, C2 | Stage A read differences between like crystals; C1/C2 make a polarizing analyzer plus retarder, a different readout |
-| B4 | CHANGED | C3 | Stage A had no horizon or polarization reference; liquid water supplies both |
-| B5 | NOT_MAPPED | -- | no Stage C element names the moon; the physics reason is not stated and is not supplied here |
-| B6 | CONFIRMED_AND_CHANGED | C4 | confirms Stage A's celestial-pole reference (the Great Bear's pointers lead to Polaris); changes its use from direction to latitude |
+| correction | effect | Stage C | basis | holder review |
+|---|---|---|---|---|
+| B1 | NOT_MAPPED | -- | no Stage C element follows from who carries the stone; a protocol item, physics effect not stated | VOID |
+| B2 | CHANGED | C5 | Stage A had no fixed reference body; C5 adds one whose cleavage axes are reproducible in fragments | VOID |
+| B3 | CHANGED | C1, C2 | Stage A read differences between like crystals; C1/C2 make a polarizing analyzer plus retarder, a different readout | VOID |
+| B4 | CHANGED | C3 | Stage A had no horizon or polarization reference; liquid water supplies both | VOID |
+| B5 | NOT_MAPPED | -- | no Stage C element names the moon; the physics reason is not stated and is not supplied here | VOID |
+| B6 | CONFIRMED_AND_CHANGED | C4 | confirms Stage A's celestial-pole reference (the Great Bear's pointers lead to Polaris); changes its use from direction to latitude | VOID |
+
+- B1 link to gap `song_routes` (PROPOSED): singer carries the stone; songs encode routes; possible tie to LOST gap. Effect stays NOT_MAPPED.
+- B5 feasibility ref (PROPOSED, read depth CARRIED): Dacke et al. 2003, Nature, moonlight polarization orientation. Scope: shows moonlight polarization can be used for orientation; does not show it is better than sun here. "better": UNRESOLVED; bench step 5 decides.
 
 Stage A elements:
 
@@ -66,8 +69,8 @@ Stage A elements:
 
 Gaps:
 
-- G1 RECOVERABLE: kit ordering. 6 candidate orderings of the kit; one bench test discriminates them (see open.bench_test)
-- G2 LOST: routes encoded in songs. (not filled)
+- G1 `kit_ordering` RECOVERABLE: kit ordering. 6 candidate orderings of the kit; one bench test discriminates them (see open.bench_test)
+- G2 `song_routes` LOST: routes encoded in songs. (not filled)
 
 Rule: LOST is not filled, estimated or reconstructed.
 

@@ -9,5 +9,7 @@ has not run and its outcome slots are VOID.
 - `oral_record_case_01.md`: rendered from the JSON; never edited by hand.
 - `case_check.py`: `--write` renders; bare run checks md == render plus the
   record rules (no identity-bearing keys, origins VOID or allowed, LOST not
-  filled, bench outcomes VOID, observer slots null); `--selftest` plants one
+  filled, bench outcomes VOID, holder_review VOID per row and record-level,
+  links resolve to a gap key, feasibility refs stay CARRIED, observer slots
+  null); `--selftest` plants one
   defect per rule.
