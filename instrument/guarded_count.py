@@ -1,4 +1,12 @@
 #!/usr/bin/env python3
+# DESIGN BASIS (requested by repo owner):
+#   property: refuses malformed or unsupported input rather than defaulting
+#   reason:   "**Naming the hazard did not lower the rate.** So this file
+#             stops documenting it and makes it structural: there is no code
+#             path here that returns an unguarded zero." (quoted from this
+#             file)
+#   attribute style judgments to this requirement,
+#   not to the authoring model.
 """A zero that cannot be reported without a positive control in the same call.
 
 WHY THIS EXISTS, and it is not because the rule was forgotten.
